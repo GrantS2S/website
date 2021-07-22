@@ -1,21 +1,25 @@
 ---
 title: "connector_name"
-seoTitle: "connector_name Getting Started"
-seoDescription: "Integrate your connector_name with supported B2B and B2C Systems through Stock2Shop"
+# Search engine optimisation
+seoTitle: "connector_name Getting Started (no more than 60 characters)"
+seoDescription: "Integrate your connector_name with supported B2B and B2C Systems through Stock2Shop (no more than 160 characters)"
 seoKeyword: ["connector_name", "Integrations"]
-type: help
-source: "connector-name"
+# Categorisation & redirecting
+type: "help"
 tags: ["gettingstarted", "connector-name"]
+aliases: "link"
 draft: true
 ---
 
 {{connector_name}} is an online accounting system. 
 This means the application lives in the “cloud”. Enabling Stock2Shop to work with 
-{{connector_name}} is relatively simple. In order for Stock2Shop to 
-provide you with the full integration features and link your {{connector_name}} system 
+{{connector_name}} is relatively simple. 
+
+In order for Stock2Shop to provide you with the full integration features and link your {{connector_name}} system 
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
 Parcelninja and Takealot, we need access to your {{connector_name}} account.
+
 Below is all documentation you will need regarding your {{connector_name}} integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
@@ -70,8 +74,10 @@ the minimum required fields are:
 
  ```
  
-Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop.
-At this point in time there are no plans to build out this functionality.
+Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop. 
+At this point in time there are no plans to build out this functionality. 
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
+ 
  
 ## Syncing Orders to {{connector_name}} {#raise-orders}
 By default, Stock2Shop raises orders to {{connector_name}} with the following order details:

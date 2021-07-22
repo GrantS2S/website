@@ -52,6 +52,7 @@ s
 |name|Unique name for menu item when different to title|
 
 ## Connector Naming & Tagging Conventions
+A list of all connectors and how they should be named and tagged on Hugo.
 
 | Connector Type | Connector Name                 | Tag                            |
 | -------------- | ------------------------------ | ------------------------------ |
@@ -82,7 +83,88 @@ s
 | Fulfilment     | Parcelninja                    | parcelninja                    |
 | Fulfilment     | On The Dot                     | on-the-dot                     |
 
-## How-it-works Naming & Tagging Conventions
+
+## Help section (suggested structure)
+Structure of the help section menu:
+
+```
+Menu
+  |
+  |- Getting Started
+  |- Platforms
+  |- How Stock2Shop Works
+  |- Developer API Docs
+```
+
+#### Getting started
+Add a generic getting started page for Stock2shop.
+This should just be hard coded into the menu as the first item.
+This page details the process of getting setup with Stock2Shop:
+
+ - Signing up 
+ - Costs 
+ - Install
+ - Handover
+ - Training
+
+#### Platforms
+Loop through all Platforms and display on left menu. 
+Note: need to confirm how best to do this. 
+Naming conventions should not be a factor, as long as it is grouped under the platform.
+There should however be at least the following 3 .md files for each platform:
+
+- getting-started.md
+- features.md
+- solutions.md
+
+```
+Platform_1
+  |
+  |- platform_1-getting-started.md
+  |- platform_1-features.md
+  |- platform_1-example-order-payload.md
+  |- platform_1-user-defined-fields.md
+  |- platform_1-solutions.md
+  |- any-other-page-relating-to-platform_1.md
+  
+Platform_2
+  |
+  |- platform_2-getting-started.md
+  |- platform_2-features.md
+  |- platform_2-example-order-payload.md
+  |- platform_2-user-defined-fields.md
+  |- platform_2-solutions.md
+  |- any-other-page-relating-to-platform_2.md
+
+  And so on for all platforms.
+``` 
+  
+#### How Stock2Shop Works
+How it works should remain as in it's current structure.
+Broken up into all the important concepts of stock2shop.
+Naming convention is not a factor as long as it is grouped into the correct "section".
+
+```
+How Stock2Shop works
+  |
+  |- Console
+        |- console-notifications.md
+        |- console-users.md
+  |- Sources
+          |- linked-source.md
+          |- primary-source.md
+  |- Channels
+          |- channel-flags.md
+          |- channel-rules.md
+  |- Products
+  |- Customers
+  |- Ordering
+  |- Fulfillments
+  |- Queue
+  |- Business Models
+```
+
+Tags have already been defined for this section:
 
 | Section         | tag         |
 | --------------- | ----------- |
@@ -95,3 +177,7 @@ s
 | Fulfilment      | fulfillment |
 | Queue           | queue       |
 | Business Models | model       |
+
+  
+#### Developer Docs
+Link to the developer section of the website (tbc)

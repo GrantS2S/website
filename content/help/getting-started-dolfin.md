@@ -10,12 +10,16 @@ draft: true
 ---
 
 Dolfin is an online accounting system. 
-This means the application lives in the “cloud”. Enabling Stock2Shop to work with 
-Dolfin is relatively simple. In order for Stock2Shop to 
+This means the application lives in the “cloud”. 
+Enabling Stock2Shop to work with 
+Dolfin is relatively simple. 
+
+In order for Stock2Shop to 
 provide you with the full integration features and link your Dolfin system 
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
 Parcelninja and Takealot, we need access to your Dolfin account.
+
 Below is all documentation you will need regarding your Dolfin integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
@@ -56,8 +60,8 @@ the minimum required fields are:
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from Dolfin to Stock2Shop.
-At this point in time there are no plans to build out this functionality. If customers are a requiremnt,
-please read up on how to import customers manually in to your client consle, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
+At this point in time there are no plans to build out this functionality. 
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
 ## Syncing Orders to Dolfin {#raise-orders}
 By default, Stock2Shop raises orders to Dolfin with the following order details:

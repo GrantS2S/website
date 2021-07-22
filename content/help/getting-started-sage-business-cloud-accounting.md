@@ -11,11 +11,13 @@ draft: true
 
 Sage Business Cloud Accounting is an online accounting system. 
 This means the application lives in the “cloud”. Enabling Stock2Shop to work with 
-Sage Business Cloud Accounting is relatively simple. In order for Stock2Shop to 
-provide you with the full integration features and link your Sage Business Cloud Accounting system 
+Sage Business Cloud Accounting is relatively simple. 
+
+In order for Stock2Shop to provide you with the full integration features and link your Sage Business Cloud Accounting system 
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
 Parcelninja and Takealot, we need access to your Sage Business Cloud Accounting account.
+
 Below is all documentation you will need regarding your Sage Business Cloud Accounting integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
@@ -23,18 +25,9 @@ Although this is a guide, Stock2Shop can facilitate complex integrations, howeve
 In order for Stock2Shop to communicate with Sage Business Cloud Accounting accounting system, 
 we require the following information:
 
-```
-| Sage Business Cloud Accounting | Type          | Description                                                                    |
-| ------------------------------ | ------------- | ------------------------------------------------------------------------------ |
-| Username/Email                 | Product/Order | SageOne Owner account used for fetching Product data                           |
-| Password                       | Product/Order | Password for Owner account                                                     |
-| Company ID                     | Product/Order | The ID for the Company where the product data is contained                     |
-| Sales Rep ID                   | Order         | The Sales rep to raise Orders against (Common for Sales Reps for Online Sales) |
-| param_tax_code                 | Order         | Tax Code to used for Orders marked as Taxed                                    |
-| param_tax_exempt_code          | Order         | Tax Code to used for Orders marked as Tax Exempt                               |
-| param_default_shipping_code    | Order         | Fixed code for processing Shipping Line Items against                          |
-| param_quote_enabled            | Order         | Create Quote instead of Sales Invoice                                          |
-```
+- Sage Business Cloud Accounting accounting Username/Email
+- Sage Business Cloud Accounting accounting Password
+- Sage Business Cloud Accounting accounting Company ID
 
 With these credentials, Stock2Shop will be able to integrate with 
 Sage Business Cloud Accounting and perform the following:
@@ -61,20 +54,25 @@ the minimum required fields are:
 ```
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
-Stock2Shop currently does not support the syncing of customers from Sage Business Cloud Accounting to Stock2Shop.
-At this point in time there are no plans to build out this functionality.
+Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop. 
+At this point in time there are no plans to build out this functionality. 
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
 ## Syncing Orders to Sage Business Cloud Accounting {#raise-orders}
 By default, Stock2Shop raises orders to Sage Business Cloud Accounting with the following order details:
 
 ```
-| Sage Business Cloud Accounting | Stock2Shop                                   | Description                         |
-| ------------------------------ | -------------------------------------------- | ----------------------------------- |
-| Date                           | created_at                                   | Customer Name                       |
-| CustomerId                     | system_order_default_address.customer_id     | Customer ID to send to SageOne      |
-| DueDate                        | createdDate                                  | Due Date for Tax Invoice on SageOne |
-|                                | line_item.sku                                |                                     |
-|                                | line_item.qty                                |
+| Sage Business Cloud Accounting | Stock2Shop                                   | Description                                           |
+| ------------------------------ | -------------------------------------------- | ----------------------------------------------------- |
+| Date                           | created_at                                   | Customer Name                                         |
+| CustomerId                     | system_order_default_address.customer_id     | Customer ID to send to SageOne                        |
+| DueDate                        | createdDate                                  | Due Date for Tax Invoice on SageOne                   |
+| Item                           | line_item.sku                                | Products being Ordered                                |
+| Qty                            | line_item.qty                                | Total Qty for each line item being ordered            |
+| Tax Code                       | param_tax_code                               | Tax Code to used for Orders marked as Taxed           |
+| Tax Exempt Code                | param_tax_exempt_code                        | Tax Code to used for Orders marked as Tax Exempt      |
+| Quote/Tax Invoice              | Order                                        | Create Quote instead of Sales Invoice                 |
+| Delivery Charge                | Order                                        | Fixed code for processing Shipping Line Items against |
 ```
 
 ## Features specific to Sage Business Cloud Accounting
