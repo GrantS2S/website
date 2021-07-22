@@ -1,2 +1,0 @@
-source_customer_code,first_name,last_name,email,accepts_marketing,note,send_email_invite,password,password_confirmation,address1.address1,address1.address2,address1.city,address1.company,address1.first_name,address1.last_name,address1.phone,address1.province,address1.country,address1.zip,address1.country_code,address1.province_code
-456,Joe,Soap,joe@example.com,FALSE,Example note,TRUE,secret,secret,No 4,Happy Str,Cape Town,Gomedia,Joe,Soap,12312345678,Western Cape,South Africa,8005,RSA,WC
