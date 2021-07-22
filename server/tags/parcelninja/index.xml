@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parcelninja on Stock2Shop</title>
+    <link>/tags/parcelninja/</link>
+    <description>Recent content in parcelninja on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/parcelninja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parcelninja</title>
+      <link>/help/features-parcelninja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-parcelninja/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Parcel Ninja Inventory, we can set an hourly time to check for changes. This can be set for which ever minute on the hour best suits your workflow.
+Map Product data into Stock2Shop You can decide on which fields you want to pull into Stock2Shop that are available on Parcel Ninja. There is very little product data with Parcel Ninja, so additional data will need to be added at a later point.</description>
+    </item>
+    
+  </channel>
+</rss>

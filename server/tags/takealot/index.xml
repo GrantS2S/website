@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>takealot on Stock2Shop</title>
+    <link>/tags/takealot/</link>
+    <description>Recent content in takealot on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/takealot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Takealot</title>
+      <link>/help/features-takealot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-takealot/</guid>
+      <description>Synchronize Product data With Takealot being used as a Webstore, we can sync the following fields from Stock2Shop:
+ Price (RRP/Selling Price) Lead Time Days Lead Time Stock GTIN (Barcode)  Stock2Shop will link to your Offer and keep the above fields up to date. (See the API Docs)
+Process Orders on Sales When Sales are made, Stock2Shop will receive the Order, and process it to your ERP. Orders will be fulfilled automatically by Takealot if there is stock at their warehouse, or a Lead Time Order will be created.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ecommerce on Stock2Shop</title>
+    <link>/tags/ecommerce/</link>
+    <description>Recent content in ecommerce on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Woocommerce</title>
+      <link>/integrations/woocommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/integrations/woocommerce/</guid>
+      <description>An open-source e-commerce plug-in for WordPress that’s customisable and streamlined for retail.</description>
+    </item>
+    
+    <item>
+      <title>Magento</title>
+      <link>/integrations/magento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/integrations/magento/</guid>
+      <description>A powerful open-source e-commerce platform with B2B features scaled for complex data.</description>
+    </item>
+    
+    <item>
+      <title>shopify</title>
+      <link>/integrations/shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/integrations/shopify/</guid>
+      <description>Start selling today with a purpose-built and fast growing e-commerce platform that’s quick to launch and easy to use.</description>
+    </item>
+    
+  </channel>
+</rss>

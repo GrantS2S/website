@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="Why is both product and variant channel IDs in Stock2Shop 0" />
+<meta property="og:description" content="Introduction Why is this product got a zero value in both channel ID&rsquo;s?
+This occurs when the channel settings in S2S are set to not create the product on WooCommerce, this is normally decided during the setup of your integration, meaning that our system must only update existing products on WooCommerce.
+When a product is then made active to sync from your ERP/Accounting system and cannot find that sku in WooCommerce the system will assign the ID&rsquo;s of zero to prevent the product from creating queue blocking errors." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/uncategorised/woocommerce/questions/why-is-both-product-and-variant-channel-ids-in-stock2shop-0/" /><meta property="article:section" content="uncategorised" />
+
+
+
+<meta itemprop="name" content="Why is both product and variant channel IDs in Stock2Shop 0">
+<meta itemprop="description" content="Introduction Why is this product got a zero value in both channel ID&rsquo;s?
+This occurs when the channel settings in S2S are set to not create the product on WooCommerce, this is normally decided during the setup of your integration, meaning that our system must only update existing products on WooCommerce.
+When a product is then made active to sync from your ERP/Accounting system and cannot find that sku in WooCommerce the system will assign the ID&rsquo;s of zero to prevent the product from creating queue blocking errors.">
+
+<meta itemprop="wordCount" content="515">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Why Is Both Product and Variant Channel IDs in Stock2Shop 0 | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="row">
+    <aside class="col-md-3">
+        <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
+            
+            
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/general/">General</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/general/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/b2b-trade-store/">B2B Trade Store</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/shopify/">Shopify</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/feature/">Feature</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/woocommerce/">Woocommerce</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/uncategorised/woocommerce/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/parcelninja/">ParcelNinja</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                
+            
+        </ul>
+    </aside>
+    <div class="col-md-9">
+        <h1>Why Is Both Product and Variant Channel IDs in Stock2Shop 0?</h1>
+        
+        <h4 id="toc">Contents</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#confirm-workflow">Confirm workflow</a></li>
+    <li><a href="#how-to-resolve">How to resolve</a></li>
+  </ul>
+</nav>
+        <h2 id="introduction">Introduction</h2>
+<p>Why is this product got a zero value in both channel ID&rsquo;s?</p>
+<p>This occurs when the channel settings in S2S are set to not create the product on WooCommerce, this is normally decided during the setup of your integration, meaning that our system must only update existing products on WooCommerce.</p>
+<p>When a product is then made active to sync from your ERP/Accounting system and cannot find that sku in WooCommerce the system will assign the ID&rsquo;s of zero to prevent the product from creating queue blocking errors. See below screenshot of a product and the area of the product to check the ID&rsquo;s:</p>
+<p><img src="/uploads/woocommerce-product-variant-channel-ids-Stock2Shop-zero.png" alt="woocommerce product variant channel ids"></p>
+<p>To understand more about the purpose of the ID&rsquo;s of the product in S2S click here</p>
+<h2 id="confirm-workflow">Confirm workflow</h2>
+<p>Ensuring you understand your workflow and all persons involved will ensure that no products are un-linked and or cause <a href="/understanding-your-queue">queue blocking errors</a>, you confirm your workflow by referring to your Handover document, should you not have your handover doc, please request it from <a href="mailto:Support@stock2shop.com">Support@stock2shop.com</a>.</p>
+<p>If your workflow is to first create the product in WooCommerce then mark the product as active from your ERP/Accounting system and this was perhaps missed for a few sku&rsquo;s see below solution to re-link the products accordingly.</p>
+<p>Should your workflow be to mark the product as active to sync from your ERP/Accounting system and S2S to create the product in WooCommerce and then for you to enrich the product there after and you are still finding the above ID&rsquo;s then please contact <a href="mailto:Support@stock2shop.com">Support@stock2shop.com</a> for assistance as this may be a miss-configuration on the channel settings</p>
+<h2 id="how-to-resolve">How to resolve</h2>
+<p>Please follow the below steps to have the sku link to WooCommerce accordingly:</p>
+<p>Please follow the below steps to have the sku link to WooCommerce accordingly:</p>
+<ol>
+<li>Create sku in WooCommerce with all the relevant information - ensuring the sku&rsquo;s are the same across all platforms</li>
+<li>Once the product has been created on Woo, open the product in S2S &gt; CHANNELS tab</li>
+<li>Click &ldquo;Remove all&rdquo; for the WooCommerce Channel that has the &ldquo;0&rdquo;</li>
+<li>Click SAVE in the GENERAL tab of the product</li>
+<li>Click SAVE in the VARIANT tab of the product</li>
+</ol>
+<p>Once the above steps have been taken you will see an &ldquo;add_product&rdquo; instruction in your queue, once complete you can reopen the product in S2S and confirm if the channel ID&rsquo;s are now populated accordingly</p>
+<p>Should the above steps not relink the product please contact <a href="mailto:Supoort@stock2Shop.com">Supoort@stock2Shop.com</a> for assistance</p>
+<ol>
+<li>Create sku in WooCommerce with all the relevant information - ensuring the sku&rsquo;s are the same across all platforms</li>
+<li>Once the product has been created on Woo, open the product in S2S &gt; CHANNELS tab</li>
+<li>Click &ldquo;Remove all&rdquo; for the WooCommerce Channel that has the &ldquo;0&rdquo;</li>
+<li>Click SAVE in the GENERAL tab of the product</li>
+<li>Click SAVE in the VARIANT tab of the product</li>
+</ol>
+<p>Once the above steps have been taken you will see an &ldquo;add_product&rdquo; instruction in your queue, once complete you can reopen the product in S2S and confirm if the channel ID&rsquo;s are now populated accordingly</p>
+<p>Should the above steps not relink the product please contact <a href="mailto:Supoort@stock2Shop.com">Supoort@stock2Shop.com</a> for assistance</p>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

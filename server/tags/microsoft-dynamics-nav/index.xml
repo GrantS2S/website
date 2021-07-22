@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microsoft-dynamics-nav on Stock2Shop</title>
+    <link>/tags/microsoft-dynamics-nav/</link>
+    <description>Recent content in microsoft-dynamics-nav on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/microsoft-dynamics-nav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Dynamics NAV</title>
+      <link>/help/features-microsoft-dynamics-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-microsoft-dynamics-nav/</guid>
+      <description>Create orders on Sage Evolution This allows Stock2Shop to create an order on Sage Evolution when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Sage Evolution, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Sage Evolution in 3 minute intervals.</description>
+    </item>
+    
+  </channel>
+</rss>

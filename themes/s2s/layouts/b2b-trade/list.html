@@ -1,0 +1,252 @@
+{{ define "main" }}
+<div class="wrapper">
+	{{- partial "header.html" . -}}
+
+	<div class="hero hero--size1">
+		<div class="container">
+			<article class="article article--quaternary">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="article__content">
+							<h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+							
+							<p>{{ .Params.Lead }}</p>
+
+							<div class="article__actions">
+								<a href="#" class="btn btn--big btn--hover-alt js-popup" data-target="#popup-form">Schedule A Demo</a>
+							</div><!-- /.article__actions -->
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-lg-6">
+						<div class="article__image">
+							<img src="/images/a3.png" title="{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}" alt="{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}">
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</article><!-- /.article -->
+		</div><!-- /.container -->
+	</div><!-- /.hero -->
+
+	<article class="article article--senary">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="article__image">
+						<img src="/images/a31.png" title="Inventory & Pricing" alt="Inventory & Pricing">
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+
+				<div class="col-lg-6">
+					<div class="article__content">
+						<h2>Inventory & Pricing</h2>
+				
+						<p>
+							Assign your customers to any of the price lists in your accounting system, and allocate them to different warehouses if required. This means that Peter might see better pricing to Paul when he logs in, and possibly different stock availability too. And when a product is sold out, you can allow customers to continue buying it on back order.
+						</p>
+				
+						<a href="#" class="btn btn--medium">Contact us</a>
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</article><!-- /.article -->
+
+	<section class="section section--gray section--checks">
+		<div class="container">
+			<header class="section__head">
+				<h2>Enhanced Checkout</h2>
+
+				<p>
+					Tailor your checkout cart to suit your business needs, including how the shipping rate is calculated and customer information is captured. And when it comes time to confirm the order, customers can pay on account or pay upfront using a supported credit card gateway.
+				</p>
+			</header><!-- /.section__head -->
+
+			<div class="section__body">
+				<div class="widget-checks">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="widget__item">
+								<i class="ico-check-red"></i>
+
+								<p>
+									Apply a flat shipping rate to all orders or calculate a shipping rate for each order based on the amount spent.
+								</p>
+							</div><!-- /.widget__item -->
+
+							<div class="widget__item">
+								<i class="ico-check-red"></i>
+
+								<p>
+									Create programmatic rules that trigger automatic responses. For example, a mandatory checkbox could pop up when a certain product is added to the cart.
+								</p>
+							</div><!-- /.widget__item -->
+						</div><!-- /.col-md- offset-md- -->
+
+						<div class="col-lg-6">
+							<div class="widget__item">
+								<i class="ico-check-red"></i>
+
+								<p>
+									Add custom forms like text boxes, dropdowns, checkboxes or date fields to capture important customer information at checkout.
+								</p>
+							</div><!-- /.widget__item -->
+
+							<div class="widget__item">
+								<i class="ico-check-red"></i>
+
+								<p>
+									Give customers the option to place orders on account or pay upfront by credit card.
+								</p>
+							</div><!-- /.widget__item -->
+						</div><!-- /.col-md- offset-md- -->
+					</div><!-- /.row -->
+				</div><!-- /.widget-checks -->
+			</div><!-- /.section__body -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<article class="article article--senary article--senary-alt">
+		<div class="container">
+			<div class="row align-items-center flex-row-reverse">
+				<div class="col-lg-7">
+					<div class="article__image">
+						<img src="/images/a32.png" title="Orders & Fulfillment" alt="Orders & Fulfillment" class="hidden-mobile">
+
+						<img src="/images/a321.png" title="Orders & Fulfillment" alt="Orders & Fulfillment" class="visible-mobile">
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+
+				<div class="col-lg-5">
+					<div class="article__content">
+						<h2>Orders & Fulfillment</h2>
+				
+						<p>
+							Your ERP will decide whether an order is valid or not. If the customer is in good standing, the order will be raised successfully and Stock2Shop can then fire an outbound fulfillment to your warehousing solution to pick, pack and deliver.
+						</p>
+				
+						<a href="#" class="btn btn--medium">Schedule a demo</a>
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</article><!-- /.article -->
+
+	<article class="article article--gray article--senary article--senary-size1">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="article__image">
+						<img src="/images/a33.png" title="Design & Navigation" alt="Design & Navigation">
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+
+				<div class="col-lg-6">
+					<div class="article__content">
+						<h2>Design & Navigation</h2>
+				
+						<p>
+							Your dashboard is where you get to present your logo and other brand-related messaging, while your product menu provides a place to segment your items to make them easy to find. Customers can filter the product listing by category, brand or any attribute you require in order to narrow their search. They can also use the powerful elastic search or Quick Order functions if they prefer.
+						</p>
+				
+						<a href="#" class="btn btn--medium">Schedule a demo</a>
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</article><!-- /.article -->
+
+	<article class="article article--senary article--senary-size2">
+		<div class="container">
+			<div class="row flex-row-reverse">
+				<div class="col-lg-6">
+					<div class="article__image">
+						<img src="/images/a34.png" title="Customer Account Information" alt="Customer Account Information">
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+
+				<div class="col-lg-6">
+					<div class="article__content">
+						<h2>Customer Account Information</h2>
+				
+						<p>
+							Decide what customer information is displayed on your B2B Trade Store. Tell your technician during setup which fields on your ERP you’d like to sync, and these will become visible to the customer.
+						</p>
+
+						<h6>
+							Your customers might find it useful to view the following:
+						</h6>
+					</div><!-- /.article__content -->
+
+					<div class="widget-checks widget-checks--primary">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="widget__item">
+									<i class="ico-check-red"></i>
+
+									<p>Credit limit</p>
+								</div><!-- /.widget__item -->
+
+								<div class="widget__item">
+									<i class="ico-check-red"></i>
+
+									<p>Current balance</p>
+								</div><!-- /.widget__item -->
+							</div><!-- /.col-md- offset-md- -->
+
+							<div class="col-lg-6">
+								<div class="widget__item">
+									<i class="ico-check-red"></i>
+
+									<p>Name of their sales rep</p>
+								</div><!-- /.widget__item -->
+
+								<div class="widget__item">
+									<i class="ico-check-red"></i>
+
+									<p>Last 5 orders</p>
+								</div><!-- /.widget__item -->
+							</div><!-- /.col-md- offset-md- -->
+						</div><!-- /.row -->
+					</div><!-- /.widget-checks -->
+				</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</article><!-- /.article -->
+
+	<section class="section section--gray section--size3">
+		<div class="container">
+			<header class="section__head">
+				<h2>Integrations</h2>
+			</header><!-- /.section__head -->
+
+			<div class="widget-primary">
+				<div class="widget__body">
+					{{ range where .Site.RegularPages "Type" "b2b-trade" }}
+						<div class="widget__item {{ .Params.category }}" data-category="{{ .Params.category }}">
+							<div class="feature">
+								<div class="feature__body">
+									<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
+
+									<h4>{{ title .Page.Title }}</h4>
+								</div><!-- /.feature__body -->
+
+								<div class="feature__aside">
+									<p>{{ .Params.Summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.feature__aside -->
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }}
+				</div><!-- /.widget__body -->
+			</div><!-- /.widget-primary -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	{{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
+
+{{ end }}
+
+

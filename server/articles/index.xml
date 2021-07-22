@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Stock2Shop</title>
+    <link>/articles/</link>
+    <description>Recent content in Articles on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>product attribute templates</title>
+      <link>/articles/stock2shop-console-product-attribute-templates/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/stock2shop-console-product-attribute-templates/</guid>
+      <description>Create attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields.</description>
+    </item>
+    
+    <item>
+      <title>B2B trade store bulk ordering</title>
+      <link>/articles/b2b-trade-store-bulk-ordering/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/b2b-trade-store-bulk-ordering/</guid>
+      <description>If one of your customers wishes to order a large number of products, they can now do so easily by uploading a spreadsheet to the Stock2Shop B2B Trade Store.</description>
+    </item>
+    
+    <item>
+      <title>b2b trade store promotions feature</title>
+      <link>/articles/b2b-trade-store-promotions-feature/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/b2b-trade-store-promotions-feature/</guid>
+      <description>Create promotions and generate coupons that your customers can redeem at checkout on your B2B Trade Store.</description>
+    </item>
+    
+    <item>
+      <title>retailers - are you ready for black friday</title>
+      <link>/articles/retailers-are-you-ready-for-black-friday/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/retailers-are-you-ready-for-black-friday/</guid>
+      <description>With Black Friday nearly upon us, retailers have a great opportunity to boost revenue. Sales such as these can be used to move old stock, grow your customer base or increase brand awareness, but you have to be ready.</description>
+    </item>
+    
+    <item>
+      <title>Stock2Shop b2b tradestore multiple payment options</title>
+      <link>/articles/stock2shop-b2b-tradestore-multiple-payment-options/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/stock2shop-b2b-tradestore-multiple-payment-options/</guid>
+      <description>It’s one thing to have a long list of debtors, it’s quite another to get the money in the bank. That’s why when a customer shows a willingness to pay upfront, it’s wise to take their money.</description>
+    </item>
+    
+    <item>
+      <title>Track recent product changes with the Stock2Shop Audit feature</title>
+      <link>/articles/track-recent-product-changes-with-the-stock2shop-audit-feature/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/track-recent-product-changes-with-the-stock2shop-audit-feature/</guid>
+      <description>It is a dark and stormy night. You log on to your website and notice that the title of one of your products has changed! How did this happen, and when? Who was the perpetrator?</description>
+    </item>
+    
+    <item>
+      <title>automatically mark your shopify orders as fulfilled once completed in parcelninja</title>
+      <link>/articles/automatically-mark-your-shopify-orders-as-fulfilled-once-completed-in-parcelninja/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/automatically-mark-your-shopify-orders-as-fulfilled-once-completed-in-parcelninja/</guid>
+      <description>Stock2Shop has brought the Parcelninja integration full circle by automatically updating order statuses to “Fulfilled” in Shopify.</description>
+    </item>
+    
+    <item>
+      <title>wholesalers send products to multiple online retailers with ease</title>
+      <link>/articles/wholesalers-send-products-to-multiple-online-retailers-with-ease/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/wholesalers-send-products-to-multiple-online-retailers-with-ease/</guid>
+      <description>You’ve sourced your products, you’ve developed relationships with online resellers and you’re ready to do business. Now what?</description>
+    </item>
+    
+    <item>
+      <title>guest article the 5 shortcomings of dropshipping in SA</title>
+      <link>/articles/guest-article-the-5-shortcomings-of-drop-shipping-in-sa/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/guest-article-the-5-shortcomings-of-drop-shipping-in-sa/</guid>
+      <description>When reading international websites it seems that the drop shipping business model is the best and easiest way to start a business these days. But why then are there so few successful drop shippers in South Africa?</description>
+    </item>
+    
+    <item>
+      <title>names for sage accounting system</title>
+      <link>/articles/names-for-sage-accounting-system/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/names-for-sage-accounting-system/</guid>
+      <description>The main purpose behind the rebranding of the various Sage accounting products is to consolidate them into suites. This will make it much easier to identify the software best suited to your needs.</description>
+    </item>
+    
+    <item>
+      <title>sell on the takealot marketplace with ease</title>
+      <link>/articles/sell-on-the-takealot-marketplace-with-ease/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/sell-on-the-takealot-marketplace-with-ease/</guid>
+      <description>Automatically update your important product information on the Takealot marketplace with Stock2Shop. No more sending manual csv files with with updated pricing and stock levels.</description>
+    </item>
+    
+    <item>
+      <title>spreadsheets a useful tool for managing your product data</title>
+      <link>/articles/spreadsheets-a-useful-tool-for-managing-your-product-data/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/spreadsheets-a-useful-tool-for-managing-your-product-data/</guid>
+      <description>Running a successful online store is not as simple as ‘build it and they’ll come’. View our six steps to building a spreadsheet with meaningful data.</description>
+    </item>
+    
+    <item>
+      <title>understanding online order fulfillment</title>
+      <link>/articles/understanding-online-order-fulfillment/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/understanding-online-order-fulfillment/</guid>
+      <description>Seamless order fulfillment will make your business – and your life – much easier. Here’s what you need to know, and how to think through order fulfillment.</description>
+    </item>
+    
+    <item>
+      <title>building a b2b b2c e commerce platform for your wholesale business</title>
+      <link>/articles/building-a-b2b-b2c-e-commerce-platform-for-your-wholesale-business/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/building-a-b2b-b2c-e-commerce-platform-for-your-wholesale-business/</guid>
+      <description>Everyone knows that a website is as essential as a business card – if not more so. But what does your website do for you? It could be an e-commerce solution for wholesale.</description>
+    </item>
+    
+    <item>
+      <title>should wholesalers sell direct to consumer pros and cons</title>
+      <link>/articles/should-wholesalers-sell-direct-to-consumer-pros-and-cons/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/should-wholesalers-sell-direct-to-consumer-pros-and-cons/</guid>
+      <description>If you’re a wholesaler, one of the most difficult decisions you’ll have to make in the future is whether to sell directly to the consumer or not. We outline the Pros and Cons.</description>
+    </item>
+    
+    <item>
+      <title>online supply chain integration 101</title>
+      <link>/articles/online-supply-chain-integration-101/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/online-supply-chain-integration-101/</guid>
+      <description>So you have an ERP and you have a website to display your products… But something is missing. That something is online supply chain integration. Here’s the what, who and why.</description>
+    </item>
+    
+    <item>
+      <title>how to categorise products: layered navigation</title>
+      <link>/articles/how-to-categorise-products/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/how-to-categorise-products/</guid>
+      <description>Categorising products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it</description>
+    </item>
+    
+    <item>
+      <title>product data: what you need to know</title>
+      <link>/articles/product-data-what-you-need-to-know/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/product-data-what-you-need-to-know/</guid>
+      <description>Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand.</description>
+    </item>
+    
+  </channel>
+</rss>

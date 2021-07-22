@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Stock2Shop</title>
+    <link>/user-docs/configuration/</link>
+    <description>Recent content in Configuration on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/user-docs/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sage pastel partner configuration</title>
+      <link>/user-docs/configuration/sage-pastel-partner-configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/configuration/sage-pastel-partner-configuration/</guid>
+      <description>Sage Pastel Partner is a flexible system. Over the years, Stock2Shop has added configuration options to this platform and continues to do so. These configuration options help to simplify the process of pulling inventory data out of Sage Pastel Partner and sending this to sales channels. There are also many configuration options for how sales orders get handled inside of Pastel Partner.
+“Out of the box” inventory functionality that ships with Pastel Partner includes:</description>
+    </item>
+    
+  </channel>
+</rss>

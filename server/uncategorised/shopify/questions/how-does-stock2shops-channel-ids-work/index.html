@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="How does Stock2Shop&#39;s channel ids work" />
+<meta property="og:description" content="Introduction This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channels product ids.
+Any data storage system ie, Shopify, will have an internal ID to store data against and possibly use as a reference for other systems within the platform ie, Shopify API.
+The S2S system, when adding a product (This can be creating or linking) to a Shopify product, will search for the product by SKU code on Shopify, find the Shopify product ID and then save that ID in the S2S system in order to update the product at a later stage more efficiently." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/uncategorised/shopify/questions/how-does-stock2shops-channel-ids-work/" /><meta property="article:section" content="uncategorised" />
+
+
+
+<meta itemprop="name" content="How does Stock2Shop&#39;s channel ids work">
+<meta itemprop="description" content="Introduction This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channels product ids.
+Any data storage system ie, Shopify, will have an internal ID to store data against and possibly use as a reference for other systems within the platform ie, Shopify API.
+The S2S system, when adding a product (This can be creating or linking) to a Shopify product, will search for the product by SKU code on Shopify, find the Shopify product ID and then save that ID in the S2S system in order to update the product at a later stage more efficiently.">
+
+<meta itemprop="wordCount" content="396">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        How Does Stock2Shop&#39;s Channel Ids Work | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="row">
+    <aside class="col-md-3">
+        <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
+            
+            
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/general/">General</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/general/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/b2b-trade-store/">B2B Trade Store</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/shopify/">Shopify</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/feature/">Feature</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/uncategorised/shopify/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/woocommerce/">Woocommerce</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/parcelninja/">ParcelNinja</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                
+            
+        </ul>
+    </aside>
+    <div class="col-md-9">
+        <h1>How Does Stock2Shop&#39;s Channel Ids Work?</h1>
+        
+        <h4 id="toc">Contents</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#navigatingreading-channel-ids">Navigating/reading Channel IDs</a></li>
+    <li><a href="#key-points">Key Points</a></li>
+  </ul>
+</nav>
+        <h2 id="introduction">Introduction</h2>
+<p>This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channels product ids.</p>
+<p>Any data storage system ie, Shopify, will have an internal ID to store data against and possibly use as a reference for other systems within the platform ie, Shopify API.</p>
+<p>The S2S system, when adding a product (This can be creating or linking) to a Shopify product, will search for the product by SKU code on Shopify, find the Shopify product ID and then save that ID in the S2S system in order to update the product at a later stage more efficiently.</p>
+<h2 id="navigatingreading-channel-ids">Navigating/reading Channel IDs</h2>
+<p>To find the product ids in Shopify:</p>
+<ol>
+<li>Sign onto the Admin of your website</li>
+<li>On the left panel navigate to &ldquo;Products&rdquo;</li>
+<li>Search for a SKU that you will test with</li>
+<li>Click on the product to open the edit page</li>
+<li>If the product is a simple product skip the next step</li>
+<li>If the product is a variable product &gt; scroll down to the variants and click &ldquo;EDIT&rdquo; on the sku you will test with</li>
+<li>Once you have the product editing page open on the sku, shift your attention to the URL</li>
+<li>Write down the Products ID and the Variants ID (If the product is a variable)</li>
+</ol>
+<p><img src="/uploads/shopify-how-does-stock2shop-channel-ids-work-1.png" alt="how does stock2shop channel ids work"></p>
+<p>To find the product IDs in S2S:</p>
+<ol>
+<li>Sign in to the S2S console</li>
+<li>Hover over &ldquo;Products&rdquo; &gt; Click &ldquo;View&rdquo;</li>
+<li>Search for the SKU that you are testing with</li>
+<li>Click on the three dots on the right-hand side of the SKU &gt; Click &ldquo;Edit&rdquo;</li>
+<li>Click on the &ldquo;CHANNELS&rdquo; tab</li>
+<li>View the &ldquo;Channel Product Code&rdquo; and &ldquo;Channel Variant Code&rdquo; of the Channel/Website in question - These are the ID&rsquo;s received from Shopify</li>
+</ol>
+<p><img src="/uploads/shopify-how-does-stock2shop-channel-ids-work-2.png" alt="how does stock2shop channel ids work">
+<img src="/uploads/shopify-how-does-stock2shop-channel-ids-work-3.png" alt="how does stock2shop channel ids work"></p>
+<p>Notice that the IDs that are written down from the URL of your Shopify site are the same as the IDs saved within the S2S console.</p>
+<h2 id="key-points">Key Points</h2>
+<p>When syncing to Shopify there are a range of workflows and processes that a client has set up, for example, the SKUs are created on Shopify first before updating from Stock2Shop/ Accounting System If Stock2Shop has not been set up to Auto Sync then the ids would be incorrect and updates would be sent to the incorrect product.</p>
+<p>Should you find that your product are not linked accordingly or appear to be incorrect please see below documentation:</p>
+<p><a href="https://stock2shop.freshdesk.com/support/solutions/articles/19000107169-shopify-question-how-to-re-link-your-products">How do I re-link my products on Shopify?</a></p>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

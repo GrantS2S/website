@@ -1,11 +1,92 @@
 {{ define "main" }}
-    <h1>{{ if .Params.seoTitle }}{{ title .Params.seoTitle }}{{ else }}{{ title .Title }}{{ end }}</h1>
-    <p class="lead">{{ .Params.Lead }}</p>
-    <hr>
-    {{ .Content }}
-    <h2>Success Stories</h2>
-    {{ partial "case_studies.html" . }}
-    <hr>
-    <h2>More Happy Clients</h2>
-    {{ partial "happy_clients.html" . }}
+<div class="wrapper">
+	{{- partial "header.html" . -}}
+
+	<div class="hero hero--size3">
+	    <div class="container">
+	        <article class="article">
+	            <div class="row align-items-center">
+	                <div class="col-lg-12">
+	                    <div class="article__content article__content--primary">
+	                        <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+	                        
+	                        <p>{{ .Params.Lead }}</p>
+	                    </div><!-- /.article__content -->
+	                </div><!-- /.col-md- offset-md- -->
+	            </div><!-- /.row -->
+	        </article><!-- /.article -->
+
+	        <div class="widget-brands">
+	        	<ul class="js-slider-tablet" data-slides-tablet="3" data-slides-mobile="2">
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-usn.png" title="logo-usn" alt="logo-usn" width="104">
+	        			</a>
+	        		</li>
+
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-hp.svg" title="logo-hp" alt="logo-hp" width="58">
+	        			</a>
+	        		</li>
+
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-nb.svg" title="logo-nb" alt="logo-nb" width="104">
+	        			</a>
+	        		</li>
+
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-virgin.svg" title="logo-virgin" alt="logo-virgin" width="116">
+	        			</a>
+	        		</li>
+
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-hamles.svg" title="logo-hamles" alt="logo-hamles" width="103">
+	        			</a>
+	        		</li>
+
+	        		<li>
+	        			<a href="#">
+	        				<img src="/images/logo-nintendo.svg" title="logo-nintendo" alt="logo-nintendo" width="110">
+	        			</a>
+	        		</li>
+	        	</ul>
+	        </div><!-- /.widget-brands -->
+	    </div><!-- /.container -->
+	</div><!-- /.hero -->
+
+	<section class="section section--features">
+		<div class="container">
+			<div class="features-alt-primary">
+				<div class="row">
+					{{ range .Pages }}
+						<div class="col-md-4 col-lg-3">
+							<div class="feature-alt feature-alt--primary">
+								<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" alt="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
+
+								<h4>{{ title .Page.Title }}</h4>
+
+								<p>{{ .Params.seoDescription }}</p>
+
+								<a href="{{ .Page.RelPermalink }}" class="link">
+									Read their Story
+
+									<i class="ico-arrow-right"></i>
+								</a>
+							</div><!-- /.feature-alt -->
+						</div><!-- /.col-md- offset-md- -->
+					{{ end }}
+				</div><!-- /.row -->
+			</div><!-- /.features-alt -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+
+	
+
+	{{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
 {{ end }}

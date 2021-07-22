@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on Stock2Shop</title>
+    <link>/developers/</link>
+    <description>Recent content in Developers on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/developers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>/developers/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developers/api/</guid>
+      <description>To view the full interactive API documentation click here.
+For further information about the API or building your own feature, please contact us.</description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>/developers/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developers/authentication/</guid>
+      <description>Stock2Shop uses a token based system for accessing our API. Each request sent to our API needs a valid token.
+Authentication is the process of providing a valid username and password to Stock2Shop and receiving a token in return. This token is then used on subsequent requests to our API.
+Tokens should be treated as ephemeral. If you are developing an application you need to automate your authentication process in the case your token becomes invalid.</description>
+    </item>
+    
+    <item>
+      <title>How to Manually Post an Order to Stock2Shop</title>
+      <link>/developers/posting-orders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developers/posting-orders/</guid>
+      <description>Scenario You would like to replay or re-post an order to Stock2Shop on behalf of a channel. Perhaps you are wanting to test changes or test a channel without having to reproduce the order manually.
+ Solution You are going to POST a valid JSON payload to the sales channel. Depending on the sales channel, the payload will look different. For example, a Shopify order will follow the format of the shopify webhook and a Woocommerce order will follow the Woocommerce format.</description>
+    </item>
+    
+    <item>
+      <title>API product feed from a Stock2Shop account</title>
+      <link>/developers/consuming-api-product-feed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developers/consuming-api-product-feed/</guid>
+      <description>Scenario: A Stock2Shop account wants to share their product feed with you to consume.
+ Solution: Authenticate to the accounts “channel” and page through the product data.
+ Step 1: Authenticate The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id. https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1
+The above endpoint will return a token and channels that you have access to.</description>
+    </item>
+    
+    <item>
+      <title>Push products to Stock2Shop via the API</title>
+      <link>/developers/pushing-product-data-to-the-stock2shop-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developers/pushing-product-data-to-the-stock2shop-api/</guid>
+      <description>Scenario: You have a Stock2Shop account and want to update products on your account automatically via our API. Once product data is processed it can be enriched or automatically sent to multiple channels for updating.
+ Solution: Post product data to Stock2Shops queueing system and monitor the progress. Note: You are billed for the amount of products that are synced across the Stock2Shop network.
+ Step 1: Authenticate You will need an active Stock2Shop account and a valid console username and password.</description>
+    </item>
+    
+  </channel>
+</rss>

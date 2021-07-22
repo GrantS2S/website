@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="API product feed from a Stock2Shop account" />
+<meta property="og:description" content="Scenario: A Stock2Shop account wants to share their product feed with you to consume.
+ Solution: Authenticate to the accounts “channel” and page through the product data.
+ Step 1: Authenticate The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id. https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1
+The above endpoint will return a token and channels that you have access to." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/developers/consuming-api-product-feed/" /><meta property="article:section" content="developers" />
+
+
+
+<meta itemprop="name" content="API product feed from a Stock2Shop account">
+<meta itemprop="description" content="Scenario: A Stock2Shop account wants to share their product feed with you to consume.
+ Solution: Authenticate to the accounts “channel” and page through the product data.
+ Step 1: Authenticate The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id. https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1
+The above endpoint will return a token and channels that you have access to.">
+
+<meta itemprop="wordCount" content="324">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        API Product Feed From a Stock2Shop Account | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="wrapper"><header class="header">
+	<div class="header__bar">
+		<div class="container">
+			<ul class="header__links">
+				<li>
+					<a href="#">Help Centre</a>
+				</li>
+
+				<li>
+					<a href="#">Login</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="header__body">
+		<div class="container">
+			<a href="#" class="logo"></a>
+
+			<a href="#" class="btn-burger">
+				<span></span>
+				
+				<span></span>
+				
+				<span></span>
+			</a>
+
+			<div class="header__aside">
+				<nav class="navbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">How it Works</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#" class="nav-link">Integrations <i class="ico-angle-down"></i></a>
+
+							<div class="dropdown">
+								<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Integrations</a>
+
+								<div class="dropdown__body">
+									<div class="dropdown__cols">
+										<div class="dropdown__col dropdown__col--size1">
+											<h4>ERP/Accounting system</h4>
+
+											<div class="dropdown__nav dropdown__nav--primary">
+												<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> ERP/Accounting system</a>
+
+												<ul>
+													<li>
+														<a href="#">Sage Business Cloud Accounting (Sage One)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage Business Cloud Financials (Sage Live)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 50cloud Pastel Partner (Pastel Partner)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 50cloud Pastel Xpress (Partner Xpress)</a>
+													</li>
+													
+													<li>
+														<a href="#">iSync Solutions</a>
+													</li>
+													
+													<li>
+														<a href="#">Omni Accounts</a>
+													</li>
+													
+													<li>
+														<a href="#">iQ Retail</a>
+													</li>
+												</ul>
+												
+												<ul>
+													<li>
+														<a href="#">Sage 100 Evolution (Evolution Standard)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 200 Evolution (Evolution Premium)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 300cloud (formerly Sage Accpac)</a>
+													</li>
+													
+													<li>
+														<a href="#">SAP Business One</a>
+													</li>
+													
+													<li>
+														<a href="#">Microsoft Dynamics NAV</a>
+													</li>
+													
+													<li>
+														<a href="#">SYSPRO</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="dropdown__col dropdown__col--size2">
+											<h4>E-commerce</h4>
+
+											<div class="dropdown__nav">
+												<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> E-commerce</a>
+
+												<ul>
+													<li>
+														<a href="#">Shopify</a>
+													</li>
+													
+													<li>
+														<a href="#">WooCommerce</a>
+													</li>
+													
+													<li>
+														<a href="#">Magento</a>
+													</li>
+													
+													<li>
+														<a href="#">B2B Trade Store</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="dropdown__col dropdown__col--size3">
+											<div class="dropdown__col dropdown__col--alt">
+												<h4>Fulfillment</h4>
+
+												<div class="dropdown__nav">
+													<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Fulfillment</a>
+
+													<ul>
+														<li>
+															<a href="#">ParcelNinja</a>
+														</li>
+														
+														<li>
+															<a href="#">On the Dot</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="dropdown__col dropdown__col--alt">
+												<h4>Marketplace</h4>
+
+												<div class="dropdown__nav">
+													<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Marketplace</a>
+
+													<ul>
+														<li>
+															<a href="#">Takealot</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="dropdown__aside">
+									<div class="dropdown__col dropdown__col--alt">
+										<h4>Side Panel Heading</h4>
+
+										<div class="dropdown__nav">
+											<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Side Panel Heading</a>
+
+											<ul>
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="dropdown__col dropdown__col--alt">
+										<h4>Side Panel Heading</h4>
+
+										<div class="dropdown__nav">
+											<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Side Panel Heading</a>
+											
+											<ul>
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Features</a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">B2B Trade Store</a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Resources <i class="ico-angle-down"></i></a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Pricing</a>
+						</li>
+
+						<li class="nav-item visible-tablet">
+							<a href="#" class="nav-link">Help Center</a>
+						</li>
+
+						<li class="nav-item visible-tablet">
+							<a href="#" class="nav-link">Watch Video</a>
+						</li>
+					</ul>
+				</nav>
+
+				<ul class="header__actions">
+					<li>
+						<a href="#" class="btn btn-outline">Login</a>
+					</li>
+
+					<li>
+						<a href="#" class="btn btn--hover-alt">Schedule A Demo</a>
+					</li>
+				</ul>
+
+				<a href="#" class="header__link">+27 (0)21 813 5866</a>
+			</div>
+		</div>
+	</div>
+</header><div class="hero hero--size5">
+	    <div class="container">
+	        <article class="article">
+	            <div class="row align-items-center">
+	                <div class="col-lg-12">
+	                    <div class="article__content article__content--primary">
+	                        <h1>API Product Feed From a Stock2Shop Account</h1>
+	                        
+	                        <p>
+	                        	This document outlines steps to consume a JSON feed of product data from a Stock2Shop account.
+	                        </p>
+	                    </div>
+	                </div>
+	            </div>
+	        </article>
+	    </div>
+	</div>
+
+	<section class="section section--secondary">
+		<div class="container">
+			<div class="section__image-alt">
+				<img src="" alt="">
+			</div>
+
+			<div class="section__inner">
+				<div class="section__content">
+					<h2 id="scenario">Scenario:</h2>
+<p>A Stock2Shop account wants to share their product feed with you to consume.</p>
+<hr>
+<h2 id="solution">Solution:</h2>
+<p>Authenticate to the accounts “channel” and page through the product data.</p>
+<hr>
+<h2 id="step-1-authenticate">Step 1: Authenticate</h2>
+<p>The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id. <br>
+<a href="https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1">https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1</a><br>
+The above endpoint will return a token and channels that you have access to. <br>
+Use the token as the “token” query parameter for all future requests.<br>
+You can paste the token in our interactive documentation (at the top of the page) for testing. <br>
+This will automatically add in the token for each request.</p>
+<h2 id="step-2-perform-search">Step 2: Perform Search</h2>
+<p>To search through products use this end point:<br>
+<a href="https://app.stock2shop.com/docs/#!/products/elasticSearchProducts_post_2">https://app.stock2shop.com/docs/#!/products/elasticSearchProducts_post_2</a><br>
+Use the “channel_id” from the authentication response.<br>
+The body JSON payload should look like this:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
+<span style="color:#c30">&#34;size&#34;</span>:<span style="color:#f60">50</span>,
+<span style="color:#c30">&#34;from&#34;</span>:<span style="color:#f60">0</span>
+}</code></pre></div>
+<p>Size being the results returned and from the starting point.</p>
+<p><strong>The results will have the following structure:</strong>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
+  <span style="color:#c30">&#34;took&#34;</span>: <span style="color:#f60">8</span>,
+  <span style="color:#c30">&#34;timed_out&#34;</span>: <span style="color:#069;font-weight:bold">false</span>,
+  <span style="color:#c30">&#34;_shards&#34;</span>: {},
+  <span style="color:#c30">&#34;hits&#34;</span>: {},
+  <span style="color:#c30">&#34;request&#34;</span>: {},
+  <span style="color:#c30">&#34;system_products&#34;</span>: [],
+  <span style="color:#c30">&#34;took_s2s&#34;</span>: <span style="color:#f60">9</span>
+}</code></pre></div></p>
+<p>Use the data inside of the <strong>&ldquo;system_products&rdquo;</strong> property for a complete list of product information.</p>
+<p>If you plan on continually updating product information on a schedule, one approach to use is to return only the products which have changed since the last check.</p>
+<p>Below is a complete Elastic Search request which returns all products which have been modified since “2018-07-16 08:23:04″, the results are ordered by modified date ascending.</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
+  <span style="color:#c30">&#34;query&#34;</span>: {
+    <span style="color:#c30">&#34;bool&#34;</span>: {
+      <span style="color:#c30">&#34;filter&#34;</span>: [
+        {
+          <span style="color:#c30">&#34;range&#34;</span>: {
+            <span style="color:#c30">&#34;modified&#34;</span>: {
+              <span style="color:#c30">&#34;gt&#34;</span>: <span style="color:#c30">&#34;2018-07-16 08:23:04&#34;</span>
+            }
+          }
+        }
+      ]
+    }
+  },
+  <span style="color:#c30">&#34;size&#34;</span>: <span style="color:#f60">50</span>,
+  <span style="color:#c30">&#34;from&#34;</span>: <span style="color:#f60">0</span>,
+  <span style="color:#c30">&#34;sort&#34;</span>: {
+    <span style="color:#c30">&#34;modified&#34;</span>: {
+      <span style="color:#c30">&#34;unmapped_type&#34;</span>:<span style="color:#c30">&#34;date&#34;</span>,
+      <span style="color:#c30">&#34;order&#34;</span>: <span style="color:#c30">&#34;desc&#34;</span>
+    }
+  }
+}</code></pre></div>
+<p>Your application could page through products using the above request and save a “last modified” date after it has updated each product. On subsequent requests you would pass in the “last modified” date to get the latest records.</p>
+<p>Any questions? <a href="/contact-us">Contact us</a> – we’re happy to help.</p>
+
+				</div>
+
+				<section class="section section--red section--contact-alt">
+				    <div class="section__content">
+				        <p>
+				        	Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+				        </p>
+				    
+				        <a href="#" class="btn btn--medium-alt btn--dark">Let’s Talk</a>
+				    </div>
+				</section>
+			</div>
+		</div>
+	</section><footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<div class="row">
+				<div class="col-md-8 col-lg-4">
+					<h4>Sources</h4>
+					
+					<div class="footer__nav footer__nav--primary">
+						<ul>
+							<li>
+								<a href="#">Sage Business Cloud Accounting (Sage One)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage Business Cloud Financials (Sage Live)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 50cloud Pastel Partner (Pastel Partner)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 50cloud Pastel Xpress (Partner Xpress)</a>
+							</li>
+							
+							<li>
+								<a href="#">iSync Solutions</a>
+							</li>
+							
+							<li>
+								<a href="#">Omni Accounts</a>
+							</li>
+							
+							<li>
+								<a href="#">iQ Retail</a>
+							</li>
+						</ul>
+						
+						<ul>
+							<li>
+								<a href="#">Sage 100 Evolution (Evolution Standard)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 200 Evolution (Evolution Premium)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 300cloud (formerly Sage Accpac)</a>
+							</li>
+							
+							<li>
+								<a href="#">SAP Business One</a>
+							</li>
+							
+							<li>
+								<a href="#">Microsoft Dynamics NAV</a>
+							</li>
+							
+							<li>
+								<a href="#">SYSPRO</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Channels</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Shopify</a>
+							</li>
+							
+							<li>
+								<a href="#">WooCommerce</a>
+							</li>
+							
+							<li>
+								<a href="#">Magento</a>
+							</li>
+							
+							<li>
+								<a href="#">B2B Trade Store</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-6">
+					<h4>Fulfillment</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">ParcelNinja</a>
+							</li>
+							
+							<li>
+								<a href="#">On the Dot</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Marketplace</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Takealot</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>How it Works</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Overview</a>
+							</li>
+
+							<li>
+								<a href="#">Features</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-7">
+					<h4>Company</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">About</a>
+							</li>
+
+							<li>
+								<a href="#">Careers</a>
+							</li>
+
+							<li>
+								<a href="#">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Resources</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Articles</a>
+							</li>
+
+							<li>
+								<a href="#">Success Stories</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Support</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Help Centre</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Pricing</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__aside">
+			<a href="#" class="logo footer__logo"></a>
+
+			<p>
+				@ Copyright 2021 Stock2Shop.<br> All Rights Reserved.
+			</p>
+
+			<p><a href="#">Privacy Policy</a> <span class="separator">|</span> <a href="#">Terms & Conditions</a></p>
+		</div>
+	</div>
+</footer></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

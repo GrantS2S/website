@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dolfin on Stock2Shop</title>
+    <link>/tags/dolfin/</link>
+    <description>Recent content in dolfin on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/dolfin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dolfin</title>
+      <link>/help/features-dolfin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-dolfin/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Dolfin system, we can set an hourly time to check for Product updates. This can be set for which ever minute on the hour that best suits your workflow.
+Create orders on Dolfin Stock2Shop can create an order on Dolfin when it has been received from your sales channel(s).
+Raise Orders against Customers in Dolfin When Orders process to Dolfin, they can either:</description>
+    </item>
+    
+  </channel>
+</rss>

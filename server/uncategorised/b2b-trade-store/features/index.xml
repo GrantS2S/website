@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>features on Stock2Shop</title>
+    <link>/uncategorised/b2b-trade-store/features/</link>
+    <description>Recent content in features on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/b2b-trade-store/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B2B Trade Store Welcome Page Template</title>
+      <link>/uncategorised/b2b-trade-store/features/b2b-trade-store-welcome-page-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/features/b2b-trade-store-welcome-page-template/</guid>
+      <description>Purpose The Stock2Shop B2B store can be assigned a customizable welcome page, configurable with HTML. Stock2Shop also offers templates to quickly and simply create a functional, aesthetically pleasing welcome page.
+Requirements Requirements for the &amp;ldquo;Computech&amp;rdquo; template are as follows:
+ Image Category Blocks (With text overlayed) - 640 px × 400px Header Image - 1920px × 540px (Banner height can be adjusted to preference) Logo - 184px x 30px  Process Once the required images are created, please pass along to the support agent assigned to your install, and they will be applied to the template for your B2B welcome page.</description>
+    </item>
+    
+    <item>
+      <title>How does the B2B Trade Store display variable products</title>
+      <link>/uncategorised/b2b-trade-store/features/how-does-the-b2b-trade-store-display-variable-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/features/how-does-the-b2b-trade-store-display-variable-products/</guid>
+      <description>What is a variable product A variable product is one product that has different variations relating to a specific SKU code. To read more about variable products then please read this article - Products and Variants
+How are the options/SKUs displayed This refers to the way the Option/SKU displays on the B2B site when choosing a product to buy. The article gives details of what is/is not possible to change with regards to options and SKU codes once the products have been synced through to S2S.</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/uncategorised/b2b-trade-store/features/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/features/terms/</guid>
+      <description>Overview With any selling or buying of products there is generally terms and conditions relating the the transaction that is about to take place, like any ecommerce platform, S2S B2B Trade Store has this in place at checkout.
+These terms can be sent to us or the standard S2S terms will be used, below is an example of the standard S2S Terms and Conditions.
+Standard S2S Terms Below is the current S2S standard terms and conditions, they are displayed in standard text:</description>
+    </item>
+    
+    <item>
+      <title>Wirecard payment gateway</title>
+      <link>/uncategorised/b2b-trade-store/features/wirecard-payment-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/features/wirecard-payment-gateway/</guid>
+      <description>Introduction Stock2Shop B2B Trade Store can integrate with WireCard (formally known as Mygate). You will need to sign up with WireCard first before integrating with Stock2Shop
+What S2S requires Stock2Shop can only setup the Wirecard payment gateway on the clients B2B Trade Store once the client has below:
+ merchant_id application_id  Testing Once you have sent your merchant ID and application Id to Stock2Shop, a support agent will set the configuration up for you and ask you to run some tests</description>
+    </item>
+    
+  </channel>
+</rss>

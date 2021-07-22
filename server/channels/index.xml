@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Channels on Stock2Shop</title>
+    <link>/channels/</link>
+    <description>Recent content in Channels on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/channels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>b2b-trade-store</title>
+      <link>/channels/b2b-trade-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/b2b-trade-store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magento-1</title>
+      <link>/channels/magento-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/magento-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magento-2</title>
+      <link>/channels/magento-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/magento-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shopify</title>
+      <link>/channels/shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/shopify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>takealot</title>
+      <link>/channels/takealot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/takealot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>woocommerce</title>
+      <link>/channels/woocommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/channels/woocommerce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

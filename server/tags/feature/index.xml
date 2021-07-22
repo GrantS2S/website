@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feature on Stock2Shop</title>
+    <link>/tags/feature/</link>
+    <description>Recent content in feature on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B2B Trade Store</title>
+      <link>/help/features-b2b-trade-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-b2b-trade-store/</guid>
+      <description>Custom HTML Welcome Page Create your own Custom HTML Welcome page for your Trade store or use the available Templates provided by Stock2Shop. Add a custom logo to the footer of your Navigation panel.
+State the Terms of your Store in the checkout The checkout field can contain custom Terms that need to be agreed upon by the customer to proceed with the Order.
+Show units available Display how much quantity is left of a specific product.</description>
+    </item>
+    
+    <item>
+      <title>Custom Database</title>
+      <link>/help/features-custom-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-custom-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dolfin</title>
+      <link>/help/features-dolfin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-dolfin/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Dolfin system, we can set an hourly time to check for Product updates. This can be set for which ever minute on the hour that best suits your workflow.
+Create orders on Dolfin Stock2Shop can create an order on Dolfin when it has been received from your sales channel(s).
+Raise Orders against Customers in Dolfin When Orders process to Dolfin, they can either:</description>
+    </item>
+    
+    <item>
+      <title>Efinity</title>
+      <link>/help/features-efinity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-efinity/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Efinity system, we can set an hourly time to check for Product updates. This can be set for which ever minute on the hour that best suits your workflow.
+Create orders on your Efinity ERP This allows Stock2Shop to create an order on Efinity when an order has been received from your sales channel(s).
+Sync specific Product data All Product data sent from Efinity can be filtered as needed.</description>
+    </item>
+    
+    <item>
+      <title>Flat File</title>
+      <link>/help/features-flat-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-flat-file/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Flat File, we can set an hourly time to check for changes. This can be set for which ever minute on the hour best suits your workflow.
+Process Orders from Webstore If you are using an FTP server to Host your Spreadsheet field, we can setup your integration to process Orders to your FTP server.
+Sync Images with Product data If you have Image URLs they can be included in your Flat File setup to Sync once the Products are in Stock2Shop.</description>
+    </item>
+    
+    <item>
+      <title>iQ Retail</title>
+      <link>/help/features-iq-retail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-iq-retail/</guid>
+      <description>Create orders on iQ Retail This allows Stock2Shop to create an order on iQ Retail when an order has been received from your sales channel(s).
+Sync Product Images When integrating with iQ Retail, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from iQ Retail in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>iSync</title>
+      <link>/help/features-isync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-isync/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your iSync system, we can set an hourly time to check for Product updates. This can be set for which ever minute on the hour best suits your workflow.
+Sync specific Product data All Product data sent from iSync can be filtered as needed. We might not require a certain amount of details to be sent through with the needed Product data.</description>
+    </item>
+    
+    <item>
+      <title>Magento 1.x</title>
+      <link>/help/features-magento-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-magento-1/</guid>
+      <description>Attribute Sets Sync to specific attribute sets on Magento. This is useful for managing the attributes controlled by Stock2Shop.
+Root Categories Set the root category for the store you will be integrating with.
+(See Categories)
+Email Customers Send customers an email when Orders are processed.
+Store view Assign the relevant store view for you integration. Store views are most commonly used for different languages or regions. (See Store Views)
+Website ID association Select which Website ID Stock2Shop must integrate with.</description>
+    </item>
+    
+    <item>
+      <title>Magento 2.x</title>
+      <link>/help/features-magento-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-magento-2/</guid>
+      <description>Attribute Sets Sync your Product data to specific attributes on Magento 2. The attribute data will be sent from Stock2Shop based on the data that has come from your ERP.
+Create Simple and Configurable Products Stock2Shop can create Products on your Magento 2 Store as either Simple products with no options or configurable products with variations.
+Manage and control Categories Stock2Shop can control the Magento 2 categories as well as the hierarchy.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Dynamics NAV</title>
+      <link>/help/features-microsoft-dynamics-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-microsoft-dynamics-nav/</guid>
+      <description>Create orders on Sage Evolution This allows Stock2Shop to create an order on Sage Evolution when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Sage Evolution, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Sage Evolution in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>Omni Accounts</title>
+      <link>/help/features-omni-accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-omni-accounts/</guid>
+      <description>Create orders on Omni Accounts This allows Stock2Shop to create an order on Omni Accounts when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Omni Accounts, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Omni Accounts in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>On The Dot</title>
+      <link>/help/features-on-the-dot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-on-the-dot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parcelninja</title>
+      <link>/help/features-parcelninja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-parcelninja/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Parcel Ninja Inventory, we can set an hourly time to check for changes. This can be set for which ever minute on the hour best suits your workflow.
+Map Product data into Stock2Shop You can decide on which fields you want to pull into Stock2Shop that are available on Parcel Ninja. There is very little product data with Parcel Ninja, so additional data will need to be added at a later point.</description>
+    </item>
+    
+    <item>
+      <title>Sage 100 Evolution</title>
+      <link>/help/features-sage-100-evolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-100-evolution/</guid>
+      <description>Create orders on Sage Evolution This allows Stock2Shop to create an order on Sage Evolution when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Sage Evolution, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Sage Evolution in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>Sage 200 Evolution</title>
+      <link>/help/features-sage-200-evolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-200-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sage 300cloud</title>
+      <link>/help/features-sage-300cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-300cloud/</guid>
+      <description>Create orders on Sage 300 This allows Stock2Shop to create an order on Sage 300 when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Sage 300, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Sage 300 in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>Sage 50cloud Pastel Partner</title>
+      <link>/help/features-sage-50cloud-pastel-partner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-50cloud-pastel-partner/</guid>
+      <description>Create orders on Sage 50cloud Pastel Partner This allows Stock2Shop to create an order on Sage 50cloud Pastel Partner when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Sage 50cloud Pastel Partner, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.</description>
+    </item>
+    
+    <item>
+      <title>Sage 50cloud Pastel Xpress</title>
+      <link>/help/features-sage-50cloud-pastel-xpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-50cloud-pastel-xpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sage Business Cloud Accounting</title>
+      <link>/help/features-sage-business-cloud-accounting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-business-cloud-accounting/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Dolfin system, we can set an hourly time to check for Product updates. This can be set for which ever minute on the hour that best suits your workflow.
+Sage Business Cloud Accounting Company ID We can Sync data from specific Companies listed on your Sage Business Cloud Accounting. This allows you to have separate integrations for each Company on your system.</description>
+    </item>
+    
+    <item>
+      <title>Sage Business Cloud Financials</title>
+      <link>/help/features-sage-business-cloud-financials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-business-cloud-financials/</guid>
+      <description>NOT IN USE</description>
+    </item>
+    
+    <item>
+      <title>Sage X3</title>
+      <link>/help/features-sage-x3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sage-x3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAP Business One</title>
+      <link>/help/features-sap-business-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-sap-business-one/</guid>
+      <description>Create orders on SAP Business One This allows Stock2Shop to create an order on SAP Business One when an order has been received from your sales channel(s).
+Sync Product Images When integrating with SAP Business One, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from SAP Business One in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>Shopify</title>
+      <link>/help/features-shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-shopify/</guid>
+      <description>Track Stock Levels Stock2Shop can track stock quantities on Shopify and prevent Overselling of Products. Product quantity values will be sent from your ERP to Shopify and quantity deductions will process from your ERP after Orders are raised.
+Fixed Fulfillment Orders When Orders come from Shopify to Stock2Shop, we can fulfill all orders sent, or certain Orders based on Shipping options selected on Shopify.
+Limit Sellable Quantity You have the option of limiting the amount of stock that gets sent to your Shopify store which in turn limits the amount that can be Ordered.</description>
+    </item>
+    
+    <item>
+      <title>Syspro</title>
+      <link>/help/features-syspro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-syspro/</guid>
+      <description>Create orders on Syspro This allows Stock2Shop to create an order on Syspro when an order has been received from your sales channel(s).
+Sync Product Images When integrating with Syspro, we can pull Images associated with the relevant Products into Stock2shop. These Images will be applied to the Products and will be added to the Webstore when the Product is synced through.
+Push Products We can update your Product data from Syspro in 3 minute intervals.</description>
+    </item>
+    
+    <item>
+      <title>Takealot</title>
+      <link>/help/features-takealot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-takealot/</guid>
+      <description>Synchronize Product data With Takealot being used as a Webstore, we can sync the following fields from Stock2Shop:
+ Price (RRP/Selling Price) Lead Time Days Lead Time Stock GTIN (Barcode)  Stock2Shop will link to your Offer and keep the above fields up to date. (See the API Docs)
+Process Orders on Sales When Sales are made, Stock2Shop will receive the Order, and process it to your ERP. Orders will be fulfilled automatically by Takealot if there is stock at their warehouse, or a Lead Time Order will be created.</description>
+    </item>
+    
+    <item>
+      <title>Woocommerce</title>
+      <link>/help/features-woocommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-woocommerce/</guid>
+      <description>Choose when Orders process to your ERP Orders can be sent to your ERP based on the last status sent from Woocommerce. Once your Order has a status of &amp;lsquo;Processing&amp;rsquo; it means the payment has completed and the Order is now complete, we use this status by default.
+Sync specific Product data All Product data sent from Stock2Shop can be filtered as needed. You might not require a certain amount of details to be sent through with the Product data.</description>
+    </item>
+    
+  </channel>
+</rss>

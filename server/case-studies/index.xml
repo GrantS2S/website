@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Success Stories on Stock2Shop</title>
+    <link>/case-studies/</link>
+    <description>Recent content in Success Stories on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Omnico</title>
+      <link>/case-studies/omnico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/omnico/</guid>
+      <description>Imports leading lifestyle and cycle brands in South Africa.</description>
+    </item>
+    
+    <item>
+      <title>AL &amp; CD Ashley</title>
+      <link>/case-studies/al-cd-ashley/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/al-cd-ashley/</guid>
+      <description>Imports and distributes high quality cookware.</description>
+    </item>
+    
+    <item>
+      <title>Falke</title>
+      <link>/case-studies/falke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/falke/</guid>
+      <description>Develops stylish fashion for modern people: men’s and women’s fashion and sport socks and underwear.</description>
+    </item>
+    
+    <item>
+      <title>Virgin Active</title>
+      <link>/case-studies/virgin-active/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/virgin-active/</guid>
+      <description>Enriches people&amp;rsquo;s lives through physical activity.</description>
+    </item>
+    
+    <item>
+      <title>Calasca</title>
+      <link>/case-studies/calasca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/calasca/</guid>
+      <description>Calasca supplies a wide variety of high quality products to the wholesale and retail markets, including homeware, kitchenware, kids &amp;amp; toys.</description>
+    </item>
+    
+    <item>
+      <title>Silveray</title>
+      <link>/case-studies/silveray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/silveray/</guid>
+      <description>Manufacturer and distributor of leading stationery brands, including Croxley, Parker, Sellotape, Sharpie, Stabilo and more.</description>
+    </item>
+    
+    <item>
+      <title>PJ Marketing</title>
+      <link>/case-studies/pj-marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/case-studies/pj-marketing/</guid>
+      <description>PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. They needed to be able to give their customers a way to upload a CSV file for bulk orders.</description>
+    </item>
+    
+  </channel>
+</rss>

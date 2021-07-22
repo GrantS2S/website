@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on Stock2Shop</title>
+    <link>/uncategorised/woocommerce/questions/</link>
+    <description>Recent content in questions on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/woocommerce/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do I re-add product to WooCommerce</title>
+      <link>/uncategorised/woocommerce/questions/how-do-i-re-add-product-to-woocommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/woocommerce/questions/how-do-i-re-add-product-to-woocommerce/</guid>
+      <description>What it means? S2S creates a &amp;ldquo;link&amp;rdquo; between the product in S2S and the product in the sales channel(s) (In this case Woocommerce) in order to update the product information such as qty, pricing, etc
+The link is the internal ID of the product from Woocommerce that is pulled into S2S to ensure S2S is updating the correct sku. This can be found in the channel section of the product in S2S</description>
+    </item>
+    
+    <item>
+      <title>How does Stock2Shop channel ids work?</title>
+      <link>/uncategorised/woocommerce/questions/how-does-stock2shop-channel-ids-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/woocommerce/questions/how-does-stock2shop-channel-ids-work/</guid>
+      <description>Introduction This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channels product ID&amp;rsquo;s.
+Any data storage system ie, WooCommerce, will have an internal ID to store data against and possibly use as a reference for other systems within the platform ie, WooCommerce API.
+The S2S system when adding a product(this can be creating or linking to) to WooCommerce, will search for the product by sku code on WooCommerce, find the WooCommerce product ID and then save that ID in the S2S system in order to update the product at a later stage more efficiently.</description>
+    </item>
+    
+    <item>
+      <title>Why is both product and variant channel IDs in Stock2Shop 0</title>
+      <link>/uncategorised/woocommerce/questions/why-is-both-product-and-variant-channel-ids-in-stock2shop-0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/woocommerce/questions/why-is-both-product-and-variant-channel-ids-in-stock2shop-0/</guid>
+      <description>Introduction Why is this product got a zero value in both channel ID&amp;rsquo;s?
+This occurs when the channel settings in S2S are set to not create the product on WooCommerce, this is normally decided during the setup of your integration, meaning that our system must only update existing products on WooCommerce.
+When a product is then made active to sync from your ERP/Accounting system and cannot find that sku in WooCommerce the system will assign the ID&amp;rsquo;s of zero to prevent the product from creating queue blocking errors.</description>
+    </item>
+    
+  </channel>
+</rss>

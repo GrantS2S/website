@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on Stock2Shop</title>
+    <link>/uncategorised/parcelninja/questions/</link>
+    <description>Recent content in questions on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/parcelninja/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Do I Setup Parcel Ninja for integration</title>
+      <link>/uncategorised/parcelninja/questions/how-do-i-setup-parcel-ninja-for-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/parcelninja/questions/how-do-i-setup-parcel-ninja-for-integration/</guid>
+      <description>Introduction Your Parcel Ninja console is set up and you’ve done an ‘inbound’ of products. Now you are ready to move forward with integrating Parcel Ninja with S2S.
+The steps below will guide you to get the required settings for S2S/Parcel Ninja configuration. The username and password needs to be generated from the Parcel Ninja store via User management, API key, Add API Key and Select Roles to everything except for view Billing, Update users and View users</description>
+    </item>
+    
+  </channel>
+</rss>

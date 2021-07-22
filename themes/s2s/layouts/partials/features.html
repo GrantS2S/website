@@ -1,0 +1,17 @@
+{{ range where .Site.RegularPages "Type" "features" }}
+	<div class="widget__item {{ .Params.category }}" data-category="{{ .Params.category }}">
+		<div class="feature">
+			<div class="feature__body">
+				<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
+
+				<h4>{{ title .Page.Title }}</h4>
+			</div><!-- /.feature__body -->
+
+			<div class="feature__aside">
+				<p>{{ .Params.Summary }}</p>
+
+				<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+			</div><!-- /.feature__aside -->
+		</div><!-- /.feature -->
+	</div><!-- /.widget__item -->
+{{ end }}

@@ -1,8 +1,0 @@
-{{ define "main" }}
-    {{ range .RegularPages }}
-    <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
-    {{ end }}
-    <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
-    <p class="lead">{{ .Params.Lead }}</p>
-    {{ .Content }}
-{{ end }}

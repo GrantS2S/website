@@ -1,72 +1,246 @@
 {{ define "main" }}
-{{$sourceTitle := .Title}}
-<h1>{{ title .Title }} Integration</h1>
-<p class="lead">{{ .Params.Lead }}</p>
+<div class="wrapper">
+    {{- partial "header-alt.html" . -}}
 
-<h1>TODO: workflows for source-channel's</h1>
+    <div class="hero-alt hero-alt--primary">
+        <div class="container">
+            <div class="hero__content">
+                <img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
 
-<div class="row">
-    <ul>
+                <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
+                
+                <p>{{ .Params.Lead }}</p>
+            </div><!-- /.hero__content -->
+        </div><!-- /.container -->
+    </div><!-- /.hero-alt -->
 
-    {{ range where .Site.Pages "Type" "workflow" }}
-        <li><a href="{{.Permalink}}"> {{ title .Title }}</a></li>
-    {{ end }}
-    </ul>
-</div>
+    <section class="section section--size2">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleProduct }}</h2>
 
+                <p>{{ .Params.subtitleProduct }}</p>
+            </header><!-- /.section__head -->
 
-{{ .Content }}
+            <div class="section__image-alt hidden-mobile">
+                <img src="{{ .Params.imageDestopProduct }}" alt="{{ .Params.titleProduct }}" width="{{ .Params.imageDestopWidthProduct }}">
+            </div><!-- /.section__image -->
 
+            <div class="section__container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleProductCol11 }}</h2>
 
+                            <h4>{{ .Params.subtitleProductCol11 }}</h4>
 
-<h3>Available integrations for {{ .Title }}</h3>
+                            <p>{{ .Params.textCol11 }}</p>
 
-<div class="row">
-    {{ range where .Site.Pages "Type" "channel" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
-                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-    {{ range where .Site.Pages "Type" "fulfillment" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
-                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-    {{ range where .Site.Pages "Type" "marketplace" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
-                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
+                            <p>{{ .Params.textCol12 }}</p>
+
+                            <p>{{ .Params.textCol13 }}</p>
+
+                            <p>{{ .Params.textCol14 }}</p>
+
+                            <p>{{ .Params.textCol15 }}</p>
+
+                            <p>{{ .Params.textCol16 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleProductCol21 }}</h2>
+
+                            <h4>{{ .Params.subtitleProductCol21 }}</h4>
+
+                            <p>{{ .Params.textCol21 }}</p>
+
+                            <p>{{ .Params.textCol22 }}</p>
+
+                            <p>{{ .Params.textCol23 }}</p>
+                            
+                            <a href="{{ .Params.buttonHrefProduct }}" class="btn btn--medium">{{ .Params.buttonTextProduct }}</a>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.section__container -->
+
+            <i class="ico-circle-big section__ico-size1"></i>
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--gray section section--size2">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleInformation }}</h2>
+
+                <p>{{ .Params.subtitleInformation }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt hidden-mobile">
+                <img src="{{ .Params.imageDestopInformation }}" alt="{{ .Params.titleInformation }}" width="{{ .Params.imageDestopWidthInformation }}">
+            </div><!-- /.section__image -->
+
+            <div class="section__container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleInformationCol11 }}</h2>
+
+                            <h4>{{ .Params.subtitleInformationCol11 }}</h4>
+
+                            <p>{{ .Params.textInformationCol11 }}</p>
+
+                            <p>{{ .Params.textInformationCol12 }}</p>
+
+                            <p>{{ .Params.textInformationCol13 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleInformationCol21 }}</h2>
+
+                            <h4>{{ .Params.subtitleInformationCol21 }}</h4>
+
+                            <p>{{ .Params.textInformationCol21 }}</p>
+
+                            <p>{{ .Params.textInformationCol22 }}</p>
+
+                            <p>{{ .Params.textInformationCol23 }}</p>
+
+                            <p>{{ .Params.textInformationCol24 }}</p>
+
+                            <p>{{ .Params.textInformationCol25 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.section__container -->
+
+            <div class="section__actions">
+                <a href="{{ .Params.buttonInformationHrefProduct }}" class="btn btn--medium">{{ .Params.buttonInformationTextProduct }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section section--size2">
+        <div class="container">
+            <header class="section__head">
+               <h2>{{ .Params.titleOrders }}</h2>
+
+                <p>{{ .Params.subtitleOrders }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt hidden-mobile">
+                <img src="{{ .Params.imageDestopOrders }}" alt="{{ .Params.titleOrders }}" width="{{ .Params.imageDestopWidthInformation }}">
+            </div><!-- /.section__image -->
+
+            <div class="section__container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleOrdersCol11 }}</h2>
+
+                            <h4>{{ .Params.subtitleOrdersCol11 }}</h4>
+
+                            <p>{{ .Params.textOrdersCol11 }}</p>
+
+                            <p>{{ .Params.textOrdersCol12 }}</p>
+
+                            <p>{{ .Params.textOrdersCol13 }}</p>
+                            
+                            <p>{{ .Params.textOrdersCol14 }}</p>
+                            
+                            <p>{{ .Params.textOrdersCol15 }}</p>
+                            
+                            <p>{{ .Params.textOrdersCol16 }}</p>
+                            
+                            <p>{{ .Params.textOrdersCol17 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleOrdersCol21 }}</h2>
+
+                            <h4>{{ .Params.subtitleOrdersCol21 }}</h4>
+
+                            <p>{{ .Params.textOrdersCol11 }}</p>
+
+                            <p>{{ .Params.textOrdersCol12 }}</p>
+
+                            <p>{{ .Params.textOrdersCol13 }}</p>
+                            
+                            <p>{{ .Params.textOrdersCol14 }}</p>
+                            
+                            <a href="{{ .Params.buttonOrdersHrefProduct }}" class="btn btn--medium">{{ .Params.buttonOrdersTextProduct }}</a>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.section__container -->
+
+            <i class="ico-circle-big section__ico-size1"></i>
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--gray section section--size2">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleFulfillments }}</h2>
+
+                 <p>{{ .Params.subtitleFulfillments }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt hidden-mobile">
+                <img src="{{ .Params.imageDestopFulfillments }}" alt="{{ .Params.titleFulfillments }}" width="{{ .Params.imageDestopWidthInformation }}">
+            </div><!-- /.section__image -->
+
+            <div class="section__container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            <h2>{{ .Params.titleFulfillmentsCol11 }}</h2>
+
+                            <h4>{{ .Params.subtitleFulfillmentsCol11 }}</h4>
+
+                            <p>{{ .Params.textFulfillmentsCol11 }}</p>
+
+                            <p>{{ .Params.textFulfillmentsCol12 }}</p>
+
+                            <p>{{ .Params.textFulfillmentsCol13 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="section__content">
+                           <h2>{{ .Params.titleFulfillmentsCol21 }}</h2>
+
+                            <h4>{{ .Params.subtitleFulfillmentsCol22 }}</h4>
+
+                            <p>{{ .Params.textFulfillmentsCol21 }}</p>
+
+                            <p>{{ .Params.textFulfillmentsCol22 }}</p>
+
+                            <p>{{ .Params.textFulfillmentsCol23 }}</p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.section__container -->
+
+            <div class="section__actions">
+                <a href="{{ .Params.buttonFulfillmentsHrefProduct }}" class="btn btn--medium">{{ .Params.buttonFulfillmentsTextProduct }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "support-information.html" . -}}
+    
+    {{- partial "contact.html" . -}}
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
 
 {{ end }}
+
+

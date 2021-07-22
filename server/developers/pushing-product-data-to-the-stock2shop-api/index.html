@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="Push products to Stock2Shop via the API" />
+<meta property="og:description" content="Scenario: You have a Stock2Shop account and want to update products on your account automatically via our API. Once product data is processed it can be enriched or automatically sent to multiple channels for updating.
+ Solution: Post product data to Stock2Shops queueing system and monitor the progress. Note: You are billed for the amount of products that are synced across the Stock2Shop network.
+ Step 1: Authenticate You will need an active Stock2Shop account and a valid console username and password." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/developers/pushing-product-data-to-the-stock2shop-api/" /><meta property="article:section" content="developers" />
+
+
+
+<meta itemprop="name" content="Push products to Stock2Shop via the API">
+<meta itemprop="description" content="Scenario: You have a Stock2Shop account and want to update products on your account automatically via our API. Once product data is processed it can be enriched or automatically sent to multiple channels for updating.
+ Solution: Post product data to Stock2Shops queueing system and monitor the progress. Note: You are billed for the amount of products that are synced across the Stock2Shop network.
+ Step 1: Authenticate You will need an active Stock2Shop account and a valid console username and password.">
+
+<meta itemprop="wordCount" content="467">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Push Products to Stock2Shop via the API | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="wrapper"><header class="header">
+	<div class="header__bar">
+		<div class="container">
+			<ul class="header__links">
+				<li>
+					<a href="#">Help Centre</a>
+				</li>
+
+				<li>
+					<a href="#">Login</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="header__body">
+		<div class="container">
+			<a href="#" class="logo"></a>
+
+			<a href="#" class="btn-burger">
+				<span></span>
+				
+				<span></span>
+				
+				<span></span>
+			</a>
+
+			<div class="header__aside">
+				<nav class="navbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">How it Works</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#" class="nav-link">Integrations <i class="ico-angle-down"></i></a>
+
+							<div class="dropdown">
+								<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Integrations</a>
+
+								<div class="dropdown__body">
+									<div class="dropdown__cols">
+										<div class="dropdown__col dropdown__col--size1">
+											<h4>ERP/Accounting system</h4>
+
+											<div class="dropdown__nav dropdown__nav--primary">
+												<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> ERP/Accounting system</a>
+
+												<ul>
+													<li>
+														<a href="#">Sage Business Cloud Accounting (Sage One)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage Business Cloud Financials (Sage Live)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 50cloud Pastel Partner (Pastel Partner)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 50cloud Pastel Xpress (Partner Xpress)</a>
+													</li>
+													
+													<li>
+														<a href="#">iSync Solutions</a>
+													</li>
+													
+													<li>
+														<a href="#">Omni Accounts</a>
+													</li>
+													
+													<li>
+														<a href="#">iQ Retail</a>
+													</li>
+												</ul>
+												
+												<ul>
+													<li>
+														<a href="#">Sage 100 Evolution (Evolution Standard)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 200 Evolution (Evolution Premium)</a>
+													</li>
+													
+													<li>
+														<a href="#">Sage 300cloud (formerly Sage Accpac)</a>
+													</li>
+													
+													<li>
+														<a href="#">SAP Business One</a>
+													</li>
+													
+													<li>
+														<a href="#">Microsoft Dynamics NAV</a>
+													</li>
+													
+													<li>
+														<a href="#">SYSPRO</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="dropdown__col dropdown__col--size2">
+											<h4>E-commerce</h4>
+
+											<div class="dropdown__nav">
+												<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> E-commerce</a>
+
+												<ul>
+													<li>
+														<a href="#">Shopify</a>
+													</li>
+													
+													<li>
+														<a href="#">WooCommerce</a>
+													</li>
+													
+													<li>
+														<a href="#">Magento</a>
+													</li>
+													
+													<li>
+														<a href="#">B2B Trade Store</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="dropdown__col dropdown__col--size3">
+											<div class="dropdown__col dropdown__col--alt">
+												<h4>Fulfillment</h4>
+
+												<div class="dropdown__nav">
+													<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Fulfillment</a>
+
+													<ul>
+														<li>
+															<a href="#">ParcelNinja</a>
+														</li>
+														
+														<li>
+															<a href="#">On the Dot</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="dropdown__col dropdown__col--alt">
+												<h4>Marketplace</h4>
+
+												<div class="dropdown__nav">
+													<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Marketplace</a>
+
+													<ul>
+														<li>
+															<a href="#">Takealot</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="dropdown__aside">
+									<div class="dropdown__col dropdown__col--alt">
+										<h4>Side Panel Heading</h4>
+
+										<div class="dropdown__nav">
+											<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Side Panel Heading</a>
+
+											<ul>
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="dropdown__col dropdown__col--alt">
+										<h4>Side Panel Heading</h4>
+
+										<div class="dropdown__nav">
+											<a href="#" class="dropdown__link"><i class="ico-angle-left"></i> Side Panel Heading</a>
+											
+											<ul>
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+
+												<li>
+													<a href="#">Menu Item Link</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Features</a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">B2B Trade Store</a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Resources <i class="ico-angle-down"></i></a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#" class="nav-link">Pricing</a>
+						</li>
+
+						<li class="nav-item visible-tablet">
+							<a href="#" class="nav-link">Help Center</a>
+						</li>
+
+						<li class="nav-item visible-tablet">
+							<a href="#" class="nav-link">Watch Video</a>
+						</li>
+					</ul>
+				</nav>
+
+				<ul class="header__actions">
+					<li>
+						<a href="#" class="btn btn-outline">Login</a>
+					</li>
+
+					<li>
+						<a href="#" class="btn btn--hover-alt">Schedule A Demo</a>
+					</li>
+				</ul>
+
+				<a href="#" class="header__link">+27 (0)21 813 5866</a>
+			</div>
+		</div>
+	</div>
+</header><div class="hero hero--size5">
+	    <div class="container">
+	        <article class="article">
+	            <div class="row align-items-center">
+	                <div class="col-lg-12">
+	                    <div class="article__content article__content--primary">
+	                        <h1>Push Products to Stock2Shop via the API</h1>
+	                        
+	                        <p>
+	                        	This document outlines steps to send a JSON payload of products to Stock2Shop for processing.
+	                        </p>
+	                    </div>
+	                </div>
+	            </div>
+	        </article>
+	    </div>
+	</div>
+
+	<section class="section section--secondary">
+		<div class="container">
+			<div class="section__image-alt">
+				<img src="" alt="">
+			</div>
+
+			<div class="section__inner">
+				<div class="section__content">
+					<h2 id="scenario">Scenario:</h2>
+<p>You have a Stock2Shop account and want to update products on your account automatically via our API. Once product data is processed it can be enriched or automatically sent to multiple channels for updating.</p>
+<hr>
+<h2 id="solution">Solution:</h2>
+<p>Post product data to Stock2Shops queueing system and monitor the progress.
+Note: You are billed for the amount of products that are synced across the Stock2Shop network.</p>
+<hr>
+<h3 id="step-1-authenticate">Step 1: Authenticate</h3>
+<p>You will need an active Stock2Shop account and a valid console username and password.</p>
+<p>Authenticate using the following endpoint.<br>
+<a href="https://app.stock2shop.com/docs/#!/users/authenticateUser_post_2">POST /users/authenticate</a></p>
+<p>Use the token as the “token” query parameter for all future requests.
+You can paste the token in our interactive documentation (at the top of the page) for testing.
+This will automatically add in the token for each request.
+Any token’s previously issued prior to authentication for a user will be invalidated.</p>
+<h3 id="step-2-fetch-sources">Step 2: Fetch Sources</h3>
+<p>Get a list of available sources to push data to.<br>
+<a href="https://app.stock2shop.com/docs/#!/sources/getSources_get_0">GET /sources</a><br>
+Take note of the “source_id” you want to use.</p>
+<h3 id="step-3-post-products-to-queue">Step 3: Post Products to Queue</h3>
+<p><a href="https://app.stock2shop.com/docs/#!/products/addProductsToQueue_post_6">POST /products/queue</a><br>
+It is recommended to batch many products per request, instead of individually.<br>
+Each product must contain only one variant, in the future we will allow multiple variants.
+To understand the relationship between products, variants and their options <a href="https://www.stock2shop.com/documentation/key-concepts/products-variants/">read this</a>.
+If the relationship between the product and variant is not correctly configure, these products will be ignored.</p>
+<p>The full model for the post payload is:-</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">    {
+      <span style="color:#c30">&#34;system_products&#34;</span>: [
+        {
+          <span style="color:#c30">&#34;source&#34;</span>: {
+            <span style="color:#c30">&#34;source_id&#34;</span>: <span style="color:#c30">&#34;{source_id}&#34;</span>,
+            <span style="color:#c30">&#34;product_active&#34;</span>: <span style="color:#c30">&#34;true&#34;</span>,
+            <span style="color:#c30">&#34;source_product_code&#34;</span>: <span style="color:#c30">&#34;ABC&#34;</span>,
+            <span style="color:#c30">&#34;sync_token&#34;</span>: <span style="color:#c30">&#34;0&#34;</span>,
+            <span style="color:#c30">&#34;fetch_token&#34;</span>: <span style="color:#c30">&#34;0&#34;</span>
+          },
+          <span style="color:#c30">&#34;product&#34;</span>: {
+            <span style="color:#c30">&#34;options&#34;</span>: [
+              {
+                <span style="color:#c30">&#34;name&#34;</span>: <span style="color:#c30">&#34;Size&#34;</span>,
+                <span style="color:#c30">&#34;position&#34;</span>: <span style="color:#c30">&#34;1&#34;</span>
+              }
+            ],
+            <span style="color:#c30">&#34;body_html&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+            <span style="color:#c30">&#34;collection&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+            <span style="color:#c30">&#34;product_type&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+            <span style="color:#c30">&#34;tags&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+            <span style="color:#c30">&#34;title&#34;</span>: <span style="color:#c30">&#34;Example&#34;</span>,
+            <span style="color:#c30">&#34;vendor&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+            <span style="color:#c30">&#34;variants&#34;</span>: {
+              <span style="color:#c30">&#34;source_variant_code&#34;</span>: <span style="color:#c30">&#34;ABC-XXL&#34;</span>,
+              <span style="color:#c30">&#34;sku&#34;</span>: <span style="color:#c30">&#34;ABC-XXL&#34;</span>,
+              <span style="color:#c30">&#34;barcode&#34;</span>: <span style="color:#c30">&#34;&#34;</span>,
+              <span style="color:#c30">&#34;qty&#34;</span>: <span style="color:#f60">9</span>,
+              <span style="color:#c30">&#34;qty_availability&#34;</span>: [
+                {
+                  <span style="color:#c30">&#34;description&#34;</span>: <span style="color:#c30">&#34;Warehouse X&#34;</span>,
+                  <span style="color:#c30">&#34;qty&#34;</span>: <span style="color:#f60">10</span>
+                }
+              ],
+              <span style="color:#c30">&#34;price&#34;</span>: <span style="color:#f60">100.00</span>,
+              <span style="color:#c30">&#34;price_tiers&#34;</span>: [
+                {
+                  <span style="color:#c30">&#34;tier&#34;</span>: <span style="color:#c30">&#34;Price List X&#34;</span>,
+                  <span style="color:#c30">&#34;price&#34;</span>: <span style="color:#f60">80.00</span>
+                }
+              ],
+              <span style="color:#c30">&#34;inventory_management&#34;</span>: <span style="color:#c30">&#34;true&#34;</span>,
+              <span style="color:#c30">&#34;grams&#34;</span>: <span style="color:#f60">0</span>,
+              <span style="color:#c30">&#34;option1&#34;</span>: <span style="color:#c30">&#34;XXL&#34;</span>,
+              <span style="color:#c30">&#34;option2&#34;</span>: null,
+              <span style="color:#c30">&#34;option3&#34;</span>: null
+            },
+            <span style="color:#c30">&#34;meta&#34;</span>: [
+              {
+                <span style="color:#c30">&#34;key&#34;</span>: <span style="color:#c30">&#34;foo&#34;</span>,
+                <span style="color:#c30">&#34;value&#34;</span>: <span style="color:#c30">&#34;bar&#34;</span>
+              }
+            ]
+          }
+        }
+      ]
+    }</code></pre></div>
+<p>The minimum required fields are:-</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">    {
+      <span style="color:#c30">&#34;system_products&#34;</span>: [
+        {
+          <span style="color:#c30">&#34;source&#34;</span>: {
+            <span style="color:#c30">&#34;source_id&#34;</span>: <span style="color:#c30">&#34;{source_id}&#34;</span>,
+            <span style="color:#c30">&#34;product_active&#34;</span>: <span style="color:#c30">&#34;true&#34;</span>,
+            <span style="color:#c30">&#34;source_product_code&#34;</span>: <span style="color:#c30">&#34;ABC&#34;</span>,
+            <span style="color:#c30">&#34;sync_token&#34;</span>: <span style="color:#c30">&#34;0&#34;</span>,
+            <span style="color:#c30">&#34;fetch_token&#34;</span>: <span style="color:#c30">&#34;0&#34;</span>
+          },
+          <span style="color:#c30">&#34;product&#34;</span>: {
+            <span style="color:#c30">&#34;title&#34;</span>: <span style="color:#c30">&#34;Example&#34;</span>,
+            <span style="color:#c30">&#34;variants&#34;</span>: {
+              <span style="color:#c30">&#34;source_variant_code&#34;</span>: <span style="color:#c30">&#34;ABC&#34;</span>,
+              <span style="color:#c30">&#34;sku&#34;</span>: <span style="color:#c30">&#34;ABC&#34;</span>
+            }
+          }
+        }
+      ]
+    }
+    
+</code></pre></div>
+<p>The results of the post tell you how many products have been queued to process.
+The rate at which the queue will process depends on how busy the workers are and several other factors.</p>
+<h3 id="step-4-monitor">Step 4: Monitor</h3>
+<p>Fetch a summary of unprocessed queue items.<br>
+<a href="https://app.stock2shop.com/docs/#!/queue/summary_get_4">GET /queue/summary</a><br>
+Once the queue is complete you should see the products in your console.</p>
+<p>Note: There may be a delay in viewing the product data in our console due to our Elastic Search indexing process. This should not take longer than 60 seconds.</p>
+<p>Any questions? <a href="/contact-us">Contact us</a> – we’re happy to help.</p>
+
+				</div>
+
+				<section class="section section--red section--contact-alt">
+				    <div class="section__content">
+				        <p>
+				        	Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+				        </p>
+				    
+				        <a href="#" class="btn btn--medium-alt btn--dark">Let’s Talk</a>
+				    </div>
+				</section>
+			</div>
+		</div>
+	</section><footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<div class="row">
+				<div class="col-md-8 col-lg-4">
+					<h4>Sources</h4>
+					
+					<div class="footer__nav footer__nav--primary">
+						<ul>
+							<li>
+								<a href="#">Sage Business Cloud Accounting (Sage One)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage Business Cloud Financials (Sage Live)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 50cloud Pastel Partner (Pastel Partner)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 50cloud Pastel Xpress (Partner Xpress)</a>
+							</li>
+							
+							<li>
+								<a href="#">iSync Solutions</a>
+							</li>
+							
+							<li>
+								<a href="#">Omni Accounts</a>
+							</li>
+							
+							<li>
+								<a href="#">iQ Retail</a>
+							</li>
+						</ul>
+						
+						<ul>
+							<li>
+								<a href="#">Sage 100 Evolution (Evolution Standard)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 200 Evolution (Evolution Premium)</a>
+							</li>
+							
+							<li>
+								<a href="#">Sage 300cloud (formerly Sage Accpac)</a>
+							</li>
+							
+							<li>
+								<a href="#">SAP Business One</a>
+							</li>
+							
+							<li>
+								<a href="#">Microsoft Dynamics NAV</a>
+							</li>
+							
+							<li>
+								<a href="#">SYSPRO</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Channels</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Shopify</a>
+							</li>
+							
+							<li>
+								<a href="#">WooCommerce</a>
+							</li>
+							
+							<li>
+								<a href="#">Magento</a>
+							</li>
+							
+							<li>
+								<a href="#">B2B Trade Store</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-6">
+					<h4>Fulfillment</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">ParcelNinja</a>
+							</li>
+							
+							<li>
+								<a href="#">On the Dot</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Marketplace</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Takealot</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>How it Works</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Overview</a>
+							</li>
+
+							<li>
+								<a href="#">Features</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-7">
+					<h4>Company</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">About</a>
+							</li>
+
+							<li>
+								<a href="#">Careers</a>
+							</li>
+
+							<li>
+								<a href="#">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Resources</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Articles</a>
+							</li>
+
+							<li>
+								<a href="#">Success Stories</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Support</h4>
+
+					<nav class="footer__nav">
+						<ul>
+							<li>
+								<a href="#">Help Centre</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-md-4 col-lg-2">
+					<h4>Pricing</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__aside">
+			<a href="#" class="logo footer__logo"></a>
+
+			<p>
+				@ Copyright 2021 Stock2Shop.<br> All Rights Reserved.
+			</p>
+
+			<p><a href="#">Privacy Policy</a> <span class="separator">|</span> <a href="#">Terms & Conditions</a></p>
+		</div>
+	</div>
+</footer></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

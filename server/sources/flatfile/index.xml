@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flatfile on Stock2Shop</title>
+    <link>/sources/flatfile/</link>
+    <description>Recent content in flatfile on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/sources/flatfile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flat File</title>
+      <link>/help/features-flat-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-flat-file/</guid>
+      <description>Update Stock2Shop hourly with Product data changes When changes are made to your Flat File, we can set an hourly time to check for changes. This can be set for which ever minute on the hour best suits your workflow.
+Process Orders from Webstore If you are using an FTP server to Host your Spreadsheet field, we can setup your integration to process Orders to your FTP server.
+Sync Images with Product data If you have Image URLs they can be included in your Flat File setup to Sync once the Products are in Stock2Shop.</description>
+    </item>
+    
+  </channel>
+</rss>

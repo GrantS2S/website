@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feature on Stock2Shop</title>
+    <link>/uncategorised/shopify/feature/</link>
+    <description>Recent content in feature on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/shopify/feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compare at price</title>
+      <link>/uncategorised/shopify/feature/compare-at-price/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/shopify/feature/compare-at-price/</guid>
+      <description>Introduction This is a feature on Shopify that allows clients to add an additional price lists that can be used as their compare at price
+Configuration S2S requires two price lists:
+ Now Price: This is the price of the product that the products must sell for NOW Was Price: This is the price of the product that the product WAS selling for  Below are the rules of how it works:</description>
+    </item>
+    
+  </channel>
+</rss>

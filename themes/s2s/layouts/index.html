@@ -1,155 +1,301 @@
 {{ define "main" }}
-<section class="text-center fullwidth bg-dark py-5">
-    <div class="container" style="color:#e2e1e1">
-        <h2>It’s business as usual, just better</h2>
-        <h4>Work smarter, not harder. See your online business flourish as you run your Inventory Control, Order Management and Shipping right from your existing ERP or accounting system.</h4>
-    </div>
-</section>
-<section class="text-center py-5" id>
-    <h2 id="s2s_video_anchor">How it works</h2>
-    <h4>Watch our short video</h4><br><br>
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://www.youtube.com/embed/eszMk_JArl4?" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Stock2Shop: ERP/eCommerce Integration"></iframe>
-    </div>
-</section>
+<div class="wrapper">
+	{{- partial "header.html" . -}}
 
-<section class="row">
-    <div class="col-sm-3">
-        <article class="">
-            <h2>Sync Products</h2>
-            <p>
-                From your existing ERP or accounting system to your online sales channels.
-                Keep stock levels and pricing in sync, and avoid over-selling.
-            </p>
-        </article>
-    </div>
-    <div class="col-sm-3">
-        <article class="">
-            <h2>Sync Orders</h2>
-            <p>
-                From your online sales channels back to your ERP or accounting system.
-                No more double entries, less admin and no mistakes.
-            </p>
-        </article>
-    </div>
-    <div class="col-sm-3">
-        <article class="">
-            <h2>Fulfill Orders</h2>
-            <p>
-                From online sales channels to order fulfilment.
-                Ensure fast and efficient distribution.
-            </p>
-        </article>
-    </div>
-    <div class="col-sm-3">
-        <article class="">
-            <h2>B2B Orders</h2>
-            <p>
-                Via our mobile-friendly business-to-business platform.
-                Perfect for sales reps on the road and existing customers.
-            </p>
-        </article>
-    </div>
-</section>
+	<div class="hero">
+		<div class="container">
+			<article class="article">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="article__content">
+							<h1>
+								Put your ERP system in control 
+								of your online business
+							</h1>
 
-<section id="s2s_info">
-    <div class="container">
-        <div class="row pt-3 pb-1">
-            <div class="col-md-6">
-                <img src="/uploads/home-erp-list.png" title="Sage, SAP, Syspro integration" alt="erp integration" class="img-responsive">
-            </div>
-            <div class="col-md-6">
-                <h2>It’s business as usual, just better</h2>
-                <p>
-                    Want to open up <strong>new online</strong> sales channels without changing how you currently work? No problem. We’ll give your <strong>existing systems</strong> an extra boost. You carry on using your ERP or accounting system, we’ll do the heavy lifting.
-                </p>
-                <p>
-                    Take your existing Sage, SYSPRO, iSync or SAP system online by integrating into Shopify, Magento, WooCommerce and B2B trade stores. <strong>Simply does it</strong>.
-                </p>
-                <p class="pb-1">
-                    We’ll <strong>sync your online orders</strong> to your existing ERP or accounting system and automatically update your inventory levels, so you’ll never sell something you can’t deliver. Happy customers guaranteed.
-                </p>
+							<p>
+								Stock2Shop connects ERP or accounting systems to e-commerce websites, automatically balancing inventory, managing pricing and automating your back-office workflows.
+							</p>
 
-                <h2>Do less. Sell more</h2>
-                <p>
-                    With Stock2Shop you automate tasks so you can <strong>sell as efficiently as possible</strong>. No more manual order entries or piles of paper – just clean, reliable information about what’s where. Instantly. Online orders are automatically added to your ERP or accounting system, so there’s no need for double-capture, and less chance of human error.
-                </p>
+							<div class="article__actions">
+								<a href="#" class="btn btn--big btn--hover-alt">Schedule A Demo</a>
+								
+								<a href="#" class="btn-alt">
+									<i class="ico-play"></i>
 
-            </div>
+									Watch Video
+								</a>
+							</div><!-- /.article__actions -->
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
 
-        </div>
-        <hr>
-        <div class="row pb-3 pt-1">
-            <div class="col-md-6">
-                <h2>Sell everywhere. Painlessly</h2>
-                <p class="pb-1">
-                    Stock2Shop keeps <strong>all your channels synchronised</strong>. The stock levels in your physical shops, online shops,
-                    B2B trade stores and marketplaces are all aligned because they’re all managed from the same single
-                    source: your ERP or accounting system.
-                </p>
-                <h2>B2B Trade store
-                </h2>
-                <p>Whether you sell to businesses, end-consumers or both, our B2B trade store <strong>makes admin easy</strong>.</p>
-                <p>
-                    Some of our clients don’t sell to the public. They use Stock2Shop to develop sophisticated customer
-                    portals (B2B trade stores). With our <strong>customisable B2B trade stores</strong>, you can sell your products to
-                    different customers at different prices.
-                </p>
-                <p>
-                    Let your customers or sales reps see up-to-date inventory and order directly into your ERP or
-                    accounting system, straight from their mobile. The perfect solution for wholesale and distribution.
-                </p>
-            </div>
-            <div class="col-md-6">
-                <img src="/uploads/home-connector-list.png" title="B2B, woocommerce, shopify, magento integration" alt="ecommerce integration" class="img-responsive">
-            </div>
-        </div>
-    </div>
-</section>
+					<div class="col-lg-6 hidden-tablet">
+						<div class="article__image">
+							<img src="/images/a1.png" title="Put your ERP system in control of your online business" alt="Put your ERP system in control of your online business" width="636">
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</article><!-- /.article -->
 
-<section>
-    <h2 class="text-center">You’re in good company</h2>
-    <h4 class="text-center">Success Stories</h4><br>
-    {{ partial "case_studies.html" . }}
-</section><br>
-<section class="text-center">
-    <h2>More Happy Clients</h2><br>
-    {{ partial "happy_clients.html" . }}
-</section>
+			<div class="widget-brands">
+				<h5>Leading global companies use Stock2Shop</h5>
 
+				<ul class="js-slider-tablet" data-slides-tablet="3" data-slides-mobile="2">
+					<li>
+						<a href="#">
+							<img src="/images/logo-usn.png" title="logo-usn" alt="logo-usn" width="104">
+						</a>
+					</li>
 
-<!--{{ if .Site.IsServer }}-->
-<!--<p>The site is served by hugo server</p></br>-->
-<!--{{ else }}-->
-<!--<p>The site is running as published</p></br>-->
-<!--{{ end }}-->
+					<li>
+						<a href="#">
+							<img src="/images/logo-hp.svg" title="logo-hp" alt="logo-hp" width="58">
+						</a>
+					</li>
 
-<!--{{ $taxo := "tags" }}-->
-<!--<ul class="{{ $taxo }}">-->
-<!--    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}-->
-<!--    {{ range .Pages }}-->
-<!--    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>-->
-<!--    {{ end }}-->
-<!--    {{ end }}-->
-<!--</ul>-->
+					<li>
+						<a href="#">
+							<img src="/images/logo-nb.svg" title="logo-nb" alt="logo-nb" width="104">
+						</a>
+					</li>
 
-<!--<section>-->
-<!--    <ul>-->
-<!--        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}-->
-<!--        <li><a href="{{ '/' | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>-->
-<!--            <ul>-->
-<!--                {{ range $key, $value := $taxonomy }}-->
-<!--                <li> {{ $key }} </li>-->
-<!--                <ul>-->
-<!--                    {{ range $value.Pages }}-->
-<!--                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>-->
-<!--                    {{ end }}-->
-<!--                </ul>-->
-<!--                {{ end }}-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        {{ end }}-->
-<!--    </ul>-->
-<!--</section>-->
+					<li>
+						<a href="#">
+							<img src="/images/logo-virgin.svg" title="logo-virgin" alt="logo-virgin" width="116">
+						</a>
+					</li>
 
+					<li>
+						<a href="#">
+							<img src="/images/logo-hamles.svg" title="logo-hamles" alt="logo-hamles" width="103">
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="/images/logo-nintendo.svg" title="logo-nintendo" alt="logo-nintendo" width="110">
+						</a>
+					</li>
+				</ul>
+			</div><!-- /.widget-brands -->
+		</div><!-- /.container -->
+	</div><!-- /.hero -->
+
+	<section class="section">
+		<div class="container">
+			<div class="widget-video hidden-tablet">
+				<img src="/images/img1.png" title="ERP" alt="ERP">
+
+				<a href="#" class="btn-alt btn-alt--primary">
+					<i class="ico-play"></i>
+
+					Watch Video
+				</a>
+			</div><!-- /.widget-video -->
+
+			<div class="section__group">
+				<header class="section__head">
+					<h2>Manage your stock, everywhere</h2>
+
+					<p>
+						Syncronise stock levels, price information and product details from your ERP or accounting system across B2C e-commerce sales channels, marketplaces and B2B ordering systems.
+					</p>
+				</header><!-- /.section__head -->
+
+				<div class="section__image">
+					<img src="/images/img2.png" title="Manage your stock, everywhere" alt="Manage your stock, everywhere" class="hidden-mobile">
+
+					<img src="/images/img22.png" title="Manage your stock, everywhere" alt="Manage your stock, everywhere" class="visible-mobile">
+				</div><!-- /.section__image -->
+
+				<div class="section__actions">
+					<a href="#" class="btn btn--medium">See how it works</a>
+				</div><!-- /.section__actions -->
+			</div><!-- /.section__group -->
+
+			<div class="section__group">
+				<header class="section__head">
+					<h2>Tame your back-office with<br> customised work flows</h2>
+
+					<p>
+						Define workflows that track orders from start to end. Stock2Shop integrates financial system, warehouses and fulfillment services to ecommerce carts for B2B and B2C websites.
+					</p>
+				</header><!-- /.section__head -->
+
+				<div class="section__image section__image--primary">
+					<img src="/images/img3.png" title="Tame your back-office with customised work flows" alt="Tame your back-office with customised work flows" class="hidden-mobile">
+					<img src="/images/img33.png" title="Tame your back-office with customised work flows" alt="Tame your back-office with customised work flows" class="visible-mobile">
+				</div><!-- /.section__image -->
+
+				<div class="section__actions">
+					<a href="#" class="btn btn--medium">Explore features</a>
+				</div><!-- /.section__actions -->
+			</div><!-- /.section__group -->
+
+			<article class="article article--primary">
+				<div class="row align-items-center flex-row-reverse">
+					<div class="col-lg-7">
+						<div class="article__image">
+							<img src="/images/img4.png" title="Make your B2B experience better" alt="Make your B2B experience better">
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-lg-5">
+						<div class="article__content">
+							<h2>Make your B2B experience better</h2>
+					
+							<p>
+								Stock2Shop’s mobile-friendly business-to-business platform is perfect for both sales reps and existing customers. With a dedicated customer portal, your customers will be able to place orders, check account balances and more.
+							</p>
+					
+							<a href="#" class="btn btn--medium">Learn more</a>
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</article><!-- /.article -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--dark">
+		<div class="container">
+			<header class="section__head">
+				<h2>Connect systems and platforms</h2>
+
+				<p>
+					We integrate top ERP and accounting systems with top ecommerce platforms. As technology evolves, so do we - if your systems or platforms are not listed here, <a href="#">let us know.</a>
+				</p>
+			</header><!-- /.section__head -->
+
+			<div class="form">
+				<form action="?" method="post">
+					<div class="form__body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">	
+									<label for="field-select1">I’d like to integrate:</label>
+										
+									<div class="select">
+										<select class="form-control" id="field-select1">
+											<option>Sage Business Cloud Accounting</option>
+
+											<option>Sage Business Cloud Accounting</option>
+										</select>
+									</div><!-- /.select -->
+								 </div><!-- /.form-group -->
+							</div><!-- /.col-md- offset-md- -->
+
+							<div class="col-md-6">
+								<div class="form-group">	
+									<label for="field-select2">With:</label>
+										
+									<div class="select">
+										<select class="form-control" id="field-select2">
+											<option>Shopify</option>
+
+											<option>Shopify</option>
+										</select>
+									</div><!-- /.select -->
+								 </div><!-- /.form-group -->
+							</div><!-- /.col-md- offset-md- -->
+						</div><!-- /.row -->
+
+						<button class="btn btn--alt btn--hover-alt form__btn">Show Me</button>
+					</div><!-- /.form__body -->
+				</form>
+			</div><!-- /.form -->
+
+			<div class="widget-primary">
+				<nav class="widget__nav">
+					<ul>
+						<li>
+							<a href="widget__item">View All</a>
+						</li>
+
+						<li>
+							<a href="erp">ERP / Accounting</a>
+						</li>
+
+						<li>
+							<a href="ecommerce">E-commerce</a>
+						</li>
+
+						<li>
+							<a href="b2b">B2b</a>
+						</li>
+
+						<li>
+							<a href="marketplace">Marketplace</a>
+						</li>
+
+						<li>
+							<a href="warehouse">Fulfillment / Logistics</a>
+						</li>
+					</ul>
+				</nav><!-- /.widget__nav -->
+
+				<div class="widget__body js-slider-filter"> 
+					{{ range (where .Site.RegularPages "Params.type" "in" (slice "source" "channel" "fulfillment")) }}
+						<div class='widget__item {{ with .Params.tags }}{{ delimit . " "}}{{ end }}' data-category='{{ with .Params.tags }}{{ delimit . " "}}{{ end }}'>
+							<div class="feature">
+								<div class="feature__body">
+									<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}" style="max-width: 100px;">
+
+									<h4>{{ title .Page.Title }}</h4>
+								</div><!-- /.feature__body -->
+
+								<div class="feature__aside">
+									<p>{{ .Params.Summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.feature__aside -->
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }}
+				</div><!-- /.widget__body -->
+			</div><!-- /.widget-primary -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<article class="article article--secondary">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="article__content">
+						<h2>You are in good company</h2>
+
+						<p>
+							Top companies around the globe use Stock2Shop to integrate their ERP systems and ecommerce platforms. Here are some noteworthy case studies.
+						</p>
+
+						<a href="#" class="btn btn--medium-alt">Read all the Stories</a>
+					</div><!-- /.article__content -->
+				</div><!-- /.col-md- offset-md- -->
+
+				<div class="col-lg-6">
+					<div class="article__aside"> 
+						{{- partial "features-alt.html" . -}}
+					</div><!-- /.article__aside -->
+				</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</article><!-- /.article -->
+
+	<section class="section section--primary">
+		<div class="container">
+			<header class="section__head">
+				<h2>Articles and opinions</h2>
+
+				<p>
+					We live, eat and breathe supply chain automation. And sometimes we write about it. Here is a collection of articles about B2B and B2C e-commerce in general, and Stock2Shop. We hope you enjoy them.
+				</p>
+			</header><!-- /.section__head -->
+
+			<div class="section__body">
+				{{- partial "cards.html" . -}}
+			</div><!-- /.section__body -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	{{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
 {{ end }}

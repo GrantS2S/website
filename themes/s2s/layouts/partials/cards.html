@@ -1,0 +1,21 @@
+<div class="cards slider-alt">
+	<div class="row js-slider-tablet" data-slides-tablet="2" data-slides-mobile="1">
+		{{ range ( first 3 ( where .Site.Pages "Type" "articles" ).ByDate ) }}
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-image" style="background-image: url({{ .Params.image }})"></div><!-- /.card-image -->
+					
+					<div class="card-body">
+						<h6>{{ .Params.date.Format "2 January 2006" }}</h6> 
+
+						<h3>{{ title .Page.Title }}</h3>
+						
+						<p>{{ .Params.summary }}</p>
+						
+						<a href="{{ .Page.RelPermalink }}" class="link">Read More <i class="ico-arrow-right"></i></a>
+					</div><!-- /.card-body -->
+				</div>
+			</div><!-- /.col-md- offset-md- -->
+		{{ end }}
+	</div><!-- /.row -->
+</div><!-- /.cards -->

@@ -1,8 +1,8 @@
 <head>
-    {{ $css1 := resources.Get "bootstrap-5.0.0/css/bootstrap.css" }}
-    {{ $css2 := resources.Get "bootstrap-5.0.0/css/bootstrap-grid.css" }}
-    {{ $css3 := resources.Get "bootstrap-5.0.0/css/bootstrap-reboot.css" }}
-    {{ $scss := resources.Get "custom.scss" | resources.ToCSS }}
+    {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.css" }}
+    {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.css" }}
+    {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.css" }}
+    {{ $scss := resources.Get "scss/custom.scss" | resources.ToCSS }}
     <!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
     {{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "bundle.css" }}
 

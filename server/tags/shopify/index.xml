@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shopify on Stock2Shop</title>
+    <link>/tags/shopify/</link>
+    <description>Recent content in shopify on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/shopify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shopify</title>
+      <link>/help/features-shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-shopify/</guid>
+      <description>Track Stock Levels Stock2Shop can track stock quantities on Shopify and prevent Overselling of Products. Product quantity values will be sent from your ERP to Shopify and quantity deductions will process from your ERP after Orders are raised.
+Fixed Fulfillment Orders When Orders come from Shopify to Stock2Shop, we can fulfill all orders sent, or certain Orders based on Shipping options selected on Shopify.
+Limit Sellable Quantity You have the option of limiting the amount of stock that gets sent to your Shopify store which in turn limits the amount that can be Ordered.</description>
+    </item>
+    
+  </channel>
+</rss>

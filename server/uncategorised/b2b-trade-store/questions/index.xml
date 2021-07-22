@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Questions on Stock2Shop</title>
+    <link>/uncategorised/b2b-trade-store/questions/</link>
+    <description>Recent content in Questions on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/b2b-trade-store/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do I manage my customer details and logins</title>
+      <link>/uncategorised/b2b-trade-store/questions/how-do-i-manage-my-customer-details-and-logins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/questions/how-do-i-manage-my-customer-details-and-logins/</guid>
+      <description>Overview This B2B Trade store guide should assist in understanding the S2S trade platform, how to navigate the admin console, manage customer details and provide your customers with a guide to setting up their own password.
+The S2S Trade platform is built to work directly with the S2S console, in this way the customers loaded into S2S are the only persons that would have logins to the trade store, and each customer would have their own pricing and qty available.</description>
+    </item>
+    
+    <item>
+      <title>Why does the Trade Store log you out if you click on the customer account</title>
+      <link>/uncategorised/b2b-trade-store/questions/why-does-the-trade-store-log-you-out-if-you-click-on-the-customer-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/b2b-trade-store/questions/why-does-the-trade-store-log-you-out-if-you-click-on-the-customer-account/</guid>
+      <description>Overview The B2B trade Store logs you out when you click the account page menu item
+We suspect this is because the customer details were saved incorrectly on the original sync from Accounting System
+Steps to reproduce  Login to the customers B2B Trade Store Navigate to My account top left corner menu item Logs you out instead of showing the customers&#39; account details  How to resolve Admin team must save the customer&amp;rsquo;s details in the backend of Stock2Shop</description>
+    </item>
+    
+  </channel>
+</rss>

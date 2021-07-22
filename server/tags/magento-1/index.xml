@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>magento-1 on Stock2Shop</title>
+    <link>/tags/magento-1/</link>
+    <description>Recent content in magento-1 on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/magento-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magento 1.x</title>
+      <link>/help/features-magento-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/features-magento-1/</guid>
+      <description>Attribute Sets Sync to specific attribute sets on Magento. This is useful for managing the attributes controlled by Stock2Shop.
+Root Categories Set the root category for the store you will be integrating with.
+(See Categories)
+Email Customers Send customers an email when Orders are processed.
+Store view Assign the relevant store view for you integration. Store views are most commonly used for different languages or regions. (See Store Views)
+Website ID association Select which Website ID Stock2Shop must integrate with.</description>
+    </item>
+    
+  </channel>
+</rss>

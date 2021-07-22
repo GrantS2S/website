@@ -1,28 +1,83 @@
 {{ define "main" }}
-<div class="row">
-    <aside class="col-md-3">
-        <!-- Navigation by section only works on top level section -->
-        <nav class="nav flex-column">
-            <a class="nav-link" href="/articles">Articles</a>
-        {{ range where .Site.RegularPages "Section" "articles" }}
-            <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
-        {{ end }}
-        </nav>
-    </aside>
-    <div class="col-md-9">
-        <h1>{{ if .Params.seoTitle }}{{ title .Params.seoTitle }}{{ else }}{{ title .Title }}{{ end }}</h1>
-        {{ if .Params.Author }}<p>Written by {{ .Params.Author }}</p>{{ end }}
-        <p class="lead">{{ .Params.lead }}</p>
-        {{ .Content }}
-        <hr>
-        <div class="row">
-            <div class="col-md-8">
-                <h6>Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?</h6>
-            </div>
-            <div class="col-md-4">
-                <input type="button" class="btn-sm ml-3" onclick="location.href='/contact-us'" value="Contact Us">
-            </div>
-        </div>
-    </div>
-</div>
+<div class="wrapper">
+    {{- partial "header-alt.html" . -}}
+
+    <section class="section-blog">
+        <div class="container">
+            <div class="section__content">
+                <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
+
+                <h6 class="section__date">{{ .Params.date.Format "January 2 2006" }}</h6> 
+
+                {{ .Content }}
+            </div><!-- /.section__content -->
+
+            <div class="article article--small">
+                <div class="article__image">
+                    <img src="/images/a71.png" alt="Be first to know">
+                </div><!-- /.article__image -->
+
+                <div class="article__content">
+                    <h2>Be first to know</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
+                    </p>
+
+                    <a href="#" class="btn btn--medium">Sign up today</a>
+                </div><!-- /.article__content -->
+
+                <i class="ico-circle-big"></i>
+            </div><!-- /.article-small -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--gray section--size4">
+        <div class="container">
+            <header class="section__head">
+                <h2>Related Articles</h2>
+            </header><!-- /.section__head -->
+
+            <div class="section__body">
+                <div class="cards">
+                    <div class="row">
+                        {{ range ( first 3 ( where .Site.Pages "Type" "articles" ).ByDate ) }}
+                            <div class="col-md-4">
+                                <div class="card card--primary">
+                                    <div class="card-image" style="background-image: url({{ .Params.image }})"></div><!-- /.card-image -->
+                                    
+                                    <div class="card-body">
+                                        <h6>{{ .Params.date.Format "2 January 2006" }}</h6> 
+
+                                        <h3>{{ title .Page.Title }}</h3>
+                                        
+                                        <p>{{ .Params.summary }}</p>
+                                        
+                                        <a href="{{ .Page.RelPermalink }}" class="link">Read More <i class="ico-arrow-right"></i></a>
+                                    </div><!-- /.card-body -->
+                                </div>
+                            </div><!-- /.col-md- offset-md- -->
+                        {{ end }}
+                    </div><!-- /.row -->
+                </div><!-- /.cards -->
+            </div><!-- /.section__body -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--red section--contact">
+        <div class="container">
+            <div class="section__content">
+                <h2>Contact Us</h2>
+
+                <p>
+                    Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+                </p>
+
+                <a href="#" class="btn btn--medium-alt btn--dark">Contact Us</a>
+            </div><!-- /.section__content -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
 {{ end }}

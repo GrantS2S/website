@@ -1,32 +1,62 @@
 {{ define "main" }}
-<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-</svg>&nbsp;<a href="tel:+27 21 813 5866">+27 21 813 5866</a></p></br>
-<form action="https://formspree.io/f/xknppyng" method="post">
-    <div class="row">
-        <div class="col">
-            <div class="form-group">
-                <label for="InputName">Name</label>
-                <input type="text" required placeholder="Enter Name" class="form-control" id="InputName" name="name">
-            </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-                <label for="InputEmail">Email</label>
-                <input type="email" required class="form-control" id="InputEmail" aria-describedby="emailHelp" name="email" placeholder="Enter Email">
-            </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-                <label for="InputPhone">Phone</label>
-                <input type="phone" class="form-control" id="InputPhone" placeholder="Enter Phone" name="phone">
-            </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="InputComment">Comment</label>
-        <textarea type="comment" name="comment" class="form-control" id="InputComment" rows="6" placeholder="Enter your message..."></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-{{end}}
+<div class="wrapper">
+    {{- partial "header.html" . -}}
+
+    <div class="hero hero--size4">
+        <div class="container">
+            <article class="article">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="article__content article__content--primary">
+                            <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+                            
+                            <p>
+                                Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            </p>
+                        </div><!-- /.article__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </article><!-- /.article -->
+        </div><!-- /.container -->
+    </div><!-- /.hero -->
+
+    <section class="section section--form">
+        <div class="container container--medium">
+            <div class="form-contact">
+                <form action="https://formspree.io/f/xknppyng" method="post">
+                    <div class="form-group">
+                        <label for="InputName">Full Name*</label>
+                    
+                        <input type="text" required placeholder="Full Name*" class="form-control" id="InputName" name="name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="InputEmail">Your Email*</label>
+                    
+                        <input type="email" required class="form-control" id="InputEmail" aria-describedby="emailHelp" name="email" placeholder="Your Email*">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="InputPhone">Phone</label>
+                        <input type="phone" class="form-control" id="InputPhone" placeholder="Phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputComment">How can we help you?</label>
+
+                        <textarea type="comment" name="comment" class="form-control" id="InputComment" placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <p class="form__hint">
+                        Stock2Shop needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at anytime. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our <a href="#">Privacy Policy.</a>
+                    </p><!-- /.form__hint -->
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div><!-- /.form -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
+{{ end }}

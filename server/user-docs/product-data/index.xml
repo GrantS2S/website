@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Useful tips when handling large product data sets on Stock2Shop</title>
+    <link>/user-docs/product-data/</link>
+    <description>Recent content in Useful tips when handling large product data sets on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/user-docs/product-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing product images on Stock2Shop</title>
+      <link>/user-docs/product-data/product-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/product-data/product-images/</guid>
+      <description>Below are some recommendations on how to capture and optimise images for use on Stock2Shop. These images will then be sent to WooCommerce, Magento, Shopify and our B2B trade store, depending on what has been configured.
+ Preparing for Bulk Updating The first task most companies face when taking their inventory online is saving their imagery and ensuring these files can be correctly linked to the corresponding products from their system.</description>
+    </item>
+    
+    <item>
+      <title>simple product catalog export</title>
+      <link>/user-docs/product-data/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/product-data/export/</guid>
+      <description>Stock2Shop provides a way to export complex product catalog data into a flat file spreadsheet. The format we support is CSV (comma separated value). The exported file can be opened in any spreadsheet application, like Excel for example.
+ To export product data, login to the Stock2Shop console and go to the “Products” section. You will find an “Export products” link. You can select the product fields you want to include in the export.</description>
+    </item>
+    
+  </channel>
+</rss>

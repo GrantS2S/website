@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="Why is tax not raised correctly on the order document in ERP/Accounting System?" />
+<meta property="og:description" content="What does this error mean? Stock2Shop sends ex vat prices of orders to ERP/Accounting System with a specific tax code which calculates the inclusive tax on the system. This means if Tax is set up incorrectly on Shopify, or if the tax code configured is not the same rate as the website tax the calculation won&rsquo;t be correct on the ERP/Accounting side What issue(s) does this cause? This issue causes a mismatch of order totals in the ERP vs S2S/Shopify" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/uncategorised/shopify/questions/h_why-is-tax-not-raised-correctly-on-the-order-document-in-erp-accounting-system/" /><meta property="article:section" content="uncategorised" />
+
+
+
+<meta itemprop="name" content="Why is tax not raised correctly on the order document in ERP/Accounting System?">
+<meta itemprop="description" content="What does this error mean? Stock2Shop sends ex vat prices of orders to ERP/Accounting System with a specific tax code which calculates the inclusive tax on the system. This means if Tax is set up incorrectly on Shopify, or if the tax code configured is not the same rate as the website tax the calculation won&rsquo;t be correct on the ERP/Accounting side What issue(s) does this cause? This issue causes a mismatch of order totals in the ERP vs S2S/Shopify">
+
+<meta itemprop="wordCount" content="300">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Why Is Tax Not Raised Correctly on the Order Document in ERP/Accounting System? | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="row">
+    <aside class="col-md-3">
+        <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
+            
+            
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/general/">General</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/general/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/b2b-trade-store/">B2B Trade Store</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/shopify/">Shopify</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/feature/">Feature</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/uncategorised/shopify/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/woocommerce/">Woocommerce</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/parcelninja/">ParcelNinja</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                
+            
+        </ul>
+    </aside>
+    <div class="col-md-9">
+        <h1>Why Is Tax Not Raised Correctly on the Order Document in ERP/Accounting System?</h1>
+        
+        <h4 id="toc">Contents</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-does-this-error-mean">What does this error mean?</a></li>
+    <li><a href="#what-issues-does-this-cause">What issue(s) does this cause?</a></li>
+    <li><a href="#how-to-confirm-the-source-of-the-issue">How to confirm the source of the issue?</a></li>
+    <li><a href="#how-to-resolve-the-issue">How to resolve the issue</a></li>
+    <li><a href="#to-note">To note</a></li>
+  </ul>
+</nav>
+        <h2 id="what-does-this-error-mean">What does this error mean?</h2>
+<p>Stock2Shop sends ex vat prices of orders to ERP/Accounting System with a specific tax code which calculates the inclusive tax on the system. This means if Tax is set up incorrectly on Shopify, or if the tax code configured is not the same rate as the website tax the calculation won&rsquo;t be correct on the ERP/Accounting side </p>
+<h2 id="what-issues-does-this-cause">What issue(s) does this cause?</h2>
+<p>This issue causes a mismatch of order totals in the ERP vs S2S/Shopify</p>
+<h2 id="how-to-confirm-the-source-of-the-issue">How to confirm the source of the issue?</h2>
+<ol>
+<li>Click on the three dots of an affected order &gt; view</li>
+<li>Click on &ldquo;History&rdquo; tab</li>
+<li>Search for the &ldquo;Sync Order&rdquo; instruction &gt; click &ldquo;View Data&rdquo;</li>
+<li>Search the payload for &ldquo;shipping_lines&rdquo;</li>
+<li>Within &ldquo;shipping_lines&quot;search for &ldquo;tax_lines&rdquo;</li>
+<li>If the array is empty &gt; tax for shipping has not been set on Shopify.</li>
+<li>Search the payload for &ldquo;line_items&rdquo;</li>
+<li>Within &ldquo;line_items&quot;search for &ldquo;tax_lines&rdquo;</li>
+<li>If &ldquo;Price&rdquo; does not match what the rate should calculate to &gt; Tax has been set incorrectly on Shopify.</li>
+</ol>
+<h2 id="how-to-resolve-the-issue">How to resolve the issue</h2>
+<ol>
+<li>Navigate to Shopify tax settings (Settings &gt; Taxes)</li>
+<li>Edit the appropriate &ldquo;Tax Region&rdquo; (e.g. South Africa)</li>
+<li>Confirm that either the &ldquo;Country Tax&rdquo; or &ldquo;Region&rdquo; is set. Not Both</li>
+<li>In tax settings &gt; Confirm that &ldquo;Charge tax on shipping rates&rdquo; is ticked (If you charge tax on Shipping and depending if the price for shipping includes your tax)</li>
+<li>In tax settings &gt; Show all prices with tax included (tick if the price sent from ERP/Accounting System is inclusive and keep unticked if the price assigned to Shopify is Ex Vat price from ERP/Accounting System)</li>
+<li>Make sure &ldquo;Charge tax on this product&rdquo; is ticked on each product if you charge tax</li>
+<li>Create test order and check ERP/Accounting System to see if tax is correct and totals match</li>
+</ol>
+<h2 id="to-note">To note</h2>
+<p><a href="https://help.shopify.com/en/manual/taxes">Shopify tax documentation</a></p>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

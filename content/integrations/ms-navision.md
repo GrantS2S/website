@@ -13,8 +13,12 @@ aliases: "/integrations/ms-navision-integration/"
 type: "source"
 ---
 
+
 ## E-commerce websites
 
+<div class="section">
+	asd
+</div><!-- /.section -->
 {{< thumbnail src="/uploads/logo-platform-s2s.png" link="/integrations/b2b-shopping-cart" alt="stock2shop logo" style="display:inline">}}
 {{< thumbnail src="/uploads/logo-platform-shopify.png" link="/integrations/shopify" alt="shopify logo" style="display:inline">}}
 {{< thumbnail src="/uploads/logo-platform-magento.png" link="/integrations/magento" alt="magento logo" style="display:inline">}}
@@ -30,12 +34,14 @@ type: "source"
 ---
 
 ## Find out more about Microsoft Dynamics NAV integrations:
+<div class="section123">
+	asd
 
-*   #### Sync inventory data
+   #### Sync inventory data
     
     Syncing inventory data is simple once you’ve integrated with Stock2Shop.
+</div><!-- /.section -->
 *   #### Enrich data
-    
     There are several workflows for enriching product data so it is ready to sell. These workflows depend on your requirements.
 *   #### Customise product workflow
     

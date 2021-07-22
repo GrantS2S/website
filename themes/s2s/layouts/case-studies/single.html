@@ -1,18 +1,109 @@
 {{ define "main" }}
-<div class="row">
-    <aside class="col-md-3">
-        <!-- This only works on top level section -->
-        <nav class="nav flex-column">
-            <a class="nav-link" href="/case-studies">Case Studies</a>
-        {{ range where .Site.RegularPages "Section" "case-studies" }}
-            <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
-        {{ end }}
-        </nav>
-    </aside>
-    <div class="col-md-9">
-        <h1>{{ if .Params.seoTitle }}{{ title .Params.seoTitle }}{{ else }}{{ title .Title }}{{ end }}</h1>
-        <p class="lead">{{ .Params.Lead }}</p>
-        {{ .Content }}
-    </div>
-</div>
+    <div class="wrapper">
+        {{- partial "header-alt.html" . -}}
+
+        <section class="section-blog-alt">
+            <div class="container">
+                <div class="section__image">
+                    <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
+
+                    <span class="section__label">Case Study</span>
+                </div><!-- /.section__image -->
+
+                <header class="section__head">
+                    <h1>{{ title .Title }}</h1>
+
+                    <p>{{ .Params.Lead }}</p>
+                </header><!-- /.section__head -->
+
+                <div class="section__inner">
+                    <aside class="section__aside">
+                        <div class="widget-data">
+                            <h3 class="widget__title">The Company</h3><!-- /.widget__title -->
+
+                            <ul class="widget__items">
+                                <li>
+                                    <strong>Industry:</strong>
+
+                                    {{ .Params.industry }}
+                                </li>
+
+                                <li>
+                                    <strong>Supply chain:</strong>
+
+                                    {{ .Params.supply }}
+                                </li>
+
+                                <li>
+                                    <strong>Founded:</strong>
+
+                                    {{ .Params.founded }}
+                                </li>
+
+                                <li>
+                                    <strong>Website:</strong>
+
+                                    <a href="{{ .Params.website }}">{{ .Params.website }}</a>
+                                </li>
+                            </ul><!-- /.widget__items -->
+                        </div><!-- /.widget -->
+                        
+                    </aside><!-- /.section__aside -->
+
+                    <div class="section__body">
+                        {{ .Content }}
+                    </div><!-- /.section__body -->
+                </div><!-- /.section__inner -->
+
+                <section class="section section--red section--contact-alt">
+                    <div class="section__content">
+                        <p>
+                            Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+                        </p>
+                    
+                        <a href="#" class="btn btn--medium-alt btn--dark">Contact Us</a>
+                    </div><!-- /.section__content -->
+                </section><!-- /.section -->
+            </div><!-- /.container -->
+        </section><!-- /.section -->
+
+        <section class="section section--gray section--size5">
+            <div class="container">
+                <header class="section__head">
+                    <h2>Related Case Studies</h2>
+                </header><!-- /.section__head -->
+
+                <div class="section__body">
+                    <div class="features-alt-primary slider-def">
+                        <div class="row js-slider-mobile">
+                            {{ range ( first 4 ( where .Site.RegularPages "Type" "case-studies" ) ) }}
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="feature-alt feature-alt--primary">
+                                        <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" alt="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
+
+                                        <h4>{{ title .Page.Title }}</h4>
+
+                                        <p>{{ .Params.seoDescription }}</p>
+
+                                        <a href="{{ .Page.RelPermalink }}" class="link">
+                                            Read their Story
+
+                                            <i class="ico-arrow-right"></i>
+                                        </a>
+                                    </div><!-- /.feature-alt -->
+                                </div><!-- /.col-md- offset-md- -->
+                            {{ end }}
+                        </div><!-- /.row -->
+                    </div><!-- /.features-alt -->
+                </div><!-- /.section__body -->
+            </div><!-- /.container -->
+        </section><!-- /.section -->
+
+
+        {{- partial "footer.html" . -}}
+    </div><!-- /.wrapper -->
+
+
+
+
 {{ end }}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Key Concepts on Stock2Shop</title>
+    <link>/user-docs/key-concepts/</link>
+    <description>Recent content in Key Concepts on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/user-docs/key-concepts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Channel Rules</title>
+      <link>/user-docs/key-concepts/channel-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/channel-rules/</guid>
+      <description>Channel Rules can determine which items sync to your channel / web store.
+ What are channel rules? Channel rules give you the ability to determine which products are displayed on a specific sales channel as well as when they should be displayed.
+ Why are channel rules importnant? This is extremely useful for managing which data will be available to your relevant Site. For example, we can use a Rule to prevent a product from syncing to the selected channel if it does not contain any images, this prevents items showing up on your Website without an image associated.</description>
+    </item>
+    
+    <item>
+      <title>Handling products and variants: system integration</title>
+      <link>/user-docs/key-concepts/products-variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/products-variants/</guid>
+      <description>Here’s all you need to know about the relationship between products, options and variants on Stock2Shop.
+ What is a product? A product contains information such as title, collection, description, vendor, product type and images.
+Each product must contain at least one or more variants.
+For example, if you sell shoes, your product may have the following properties:
+Title: Pegasus 2
+Collection: Sports Shoes
+Vendor: Athletics Co Ltd
+Type: Running Shoe</description>
+    </item>
+    
+    <item>
+      <title>How StockShop flags work</title>
+      <link>/user-docs/key-concepts/flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/flags/</guid>
+      <description>Decide which fields to use on sources and channels: all you need to know about Stock2Shop flags.
+ What are Stock2Shop flags? Stock2Shop flags are linked to product fields in Stock2Shop.
+Each product field has a flag which tells us if the field should be used or ignored from the “source” (for example, the ERP or accounting system) or if it should be omitted when sending data to a “channel” (for example, the e-commerce website).</description>
+    </item>
+    
+    <item>
+      <title>Linked product and inventory data sources</title>
+      <link>/user-docs/key-concepts/linked-sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/linked-sources/</guid>
+      <description>A linked source is an additional source of product and inventory information that can sync to your sales channels (e-commerce websites).
+ To understand what a linked source is, you must first understand what a primary source is.
+ What is a linked source? A linked source is a source that can only be used to update product and inventory information to your sales channels. Linked sources do not offer functionality that allow you to raise orders.</description>
+    </item>
+    
+    <item>
+      <title>multi-chanel sales platform</title>
+      <link>/user-docs/key-concepts/channels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/channels/</guid>
+      <description>What do we mean when we say channels? Places to display and sell your goods. Here’s all you need to know about Stock2Shop sales channels.
+ What is a sales channel? A Stock2Shop sales channel is an application or platform which can display your product and inventory data. Channels usually allow customers to put your products into a basket and checkout with them (order them). The information from the sale is then returned to Stock2Shop as a sales order.</description>
+    </item>
+    
+    <item>
+      <title>Multiple warehouse concept | Stock2Shop system integration</title>
+      <link>/user-docs/key-concepts/multiple-warehouses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/multiple-warehouses/</guid>
+      <description>Here’s all you need to know about multiple warehouses on Stock2Shop.
+Your ERP or accounting system may have a multiple warehouse function which allows you to keep track of stock that sits in multiple warehouses around the country. It is important to note that not all ERP and accounting systems provide for this functionality.
+We calculate stock availability as “stock on hand” less “stock on sales order”. We can then handle the available stock quantity in various forms to meet your business requirement.</description>
+    </item>
+    
+    <item>
+      <title>product and inventory data sources for system integration</title>
+      <link>/user-docs/key-concepts/sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/sources/</guid>
+      <description>What do we mean when we say sources? The source of information. Here’s all you need to know about Stock2Shop sources.
+ What is a source? A Stock2Shop source is where we get product / inventory information from or push sales orders to. There are two different types of sources on Stock2Shop: “primary sources” and “linked sources“.
+ What sources are available? Stock2Shop provides connections to various different sources. Some of these sources allow sales orders to be raised, others do not.</description>
+    </item>
+    
+    <item>
+      <title>System integration using the Stock2Shop queue</title>
+      <link>/user-docs/key-concepts/queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/user-docs/key-concepts/queue/</guid>
+      <description>The queue is the backbone of Stock2Shop.
+The key function of the queue is to help transfer data between your various applications. It connects your ERP or accounting system (Sage, SYSPRO, iSync or SAP) and your e-commerce platform (Shopify, WooCommerce, Magento or B2B trade store).
+ What is the queue? The queue is simply a list of instructions for the Stock2Shop system to perform. Each instruction is called a “queue item” and can perform very different tasks, such as:</description>
+    </item>
+    
+  </channel>
+</rss>

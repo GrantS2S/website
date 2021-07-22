@@ -1,0 +1,21 @@
+<div class="features-alt slider-alt">
+	<div class="row js-slider-tablet" data-slides-tablet="2" data-slides-mobile="1">
+		{{ range ( first 3 ( where .Site.Pages "Type" "case-studies" ) ) }}
+			<div class="col-md-6">
+				<div class="feature-alt">
+					<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" alt="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
+
+					<h4>{{ title .Page.Title }}</h4>
+
+					<p>{{ .Params.seoDescription }}</p>
+
+					<a href="{{ .Page.RelPermalink }}" class="link">
+						Read their Story
+
+						<i class="ico-arrow-right"></i>
+					</a>
+				</div><!-- /.feature-alt -->
+			</div><!-- /.col-md-6 -->
+		{{ end }}
+	</div><!-- /.row -->
+</div><!-- /.features-alt -->

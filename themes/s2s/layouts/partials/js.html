@@ -1,2 +1,10 @@
-{{ $jsBoostrap := resources.Get     "/bootstrap-5.0.0/js/bootstrap.js" }}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+{{ $jsBoostrap := resources.Get     "scss/bootstrap-5.0.0/js/bootstrap.js" }}
 <script src='{{ $jsBoostrap.RelPermalink }}'></script>
+
+{{ $slick := resources.Get     "js/slick.js" }}
+<script src='{{ $slick.RelPermalink }}'></script>
+
+{{ $jsCustom := resources.Get     "js/functions.js" }}
+<script src='{{ $jsCustom.RelPermalink }}'></script>

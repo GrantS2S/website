@@ -1,157 +1,413 @@
 {{ define "main" }}
-<div class="row" id="helpCentre">
-    <div class="col-md-12">
-        <h2>Help Search</h2>
-        <p class="lead">Search issues</p>
-        <hr>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-        <input class="form-control form-control-lg" placeholder="Search Documentation">
-        <hr>
-    </div>
-</div>
+<div class="wrapper">
+    {{- partial "header.html" . -}}
+    
+    <div class="hero hero--teritary">
+        <div class="container">
+            <h1 class="hero__title">Help Center</h1><!-- /.hero__title -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-3">
+            <div class="search">
+                <form action="?" method="get">
+                    <label for="q" class="hidden">Search</label>
+                    
+                    <input type="search" class="search__field" name="q" id="q" placeholder="Search issues…" />
+                    
+                    <button class="search__btn">
+                        <i class="ico-search"></i>
+                    </button>
+                </form>
+            </div><!-- /.search -->
+        </div><!-- /.container -->
+    </div><!-- /.hero -->
 
-            <ul>
-                <li>Getting Started</li>
-                <li>
-                    <ul>
-                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "gettingstarted") }}
-                        <li>
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        </li>
+    <section class="section-alt" id="section-alt">
+        <div class="container">
+            {{- partial "breadcrumb.html" . -}}
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="btn-def js-popup" data-target="#section-alt">
+                        <i class="ico-list"></i>
+
+                        Contents
+
+                        <i class="ico-angle-down-alt"></i>
+                    </a>
+
+                    <aside class="section__aside">
+                        <div class="section__head-alt">
+                            <h3>Contents</h3>
+
+                            <a href="#" class="js-popup" data-target="#section-alt">
+                                <i class="ico-x"></i>
+                            </a>
+
+                            <div class="search search--primary">
+                                <form action="?" method="get">
+                                    <label for="field-search" class="hidden">Search</label>
+                                    
+                                    <input type="search" class="search__field" name="field-search" id="field-search" placeholder="Filter by topics" />
+                                    
+                                    <button class="search__btn">
+                                        <i class="ico-search"></i>
+                                    </button>
+                                </form>
+                            </div><!-- /.search -->
+                        </div><!-- /.section__head-alt -->
+
+                        <div class="accordions">
+                            <div class="accordion is-active">
+                                <div class="accordion__head">
+                                    <h4>Getting Started</h4>
+                                </div><!-- /.accordion__head -->
+
+                                <div class="accordion__body" style="display: block;">
+                                    <ul>
+                                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "gettingstarted") }}
+                                        <li>
+                                            <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                        </li>
+                                        {{ end }}
+                                    </ul>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion -->
+
+                            <div class="accordion">
+                                <div class="accordion__head">
+                                    <h4>Features</h4>
+                                </div><!-- /.accordion__head -->
+
+                                <div class="accordion__body">
+                                    <ul>
+                                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "feature") }}
+                                        <li>
+                                            <a href="{{ .Permalink }}">{{ .Title }} Features <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                        </li>
+                                        {{ end }}
+                                    </ul>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion -->
+
+                            <div class="accordion">
+                                <div class="accordion__head">
+                                    <h4>How It Works</h4>
+                                </div><!-- /.accordion__head -->
+
+                                <div class="accordion__body">
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Console</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "console") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Sources</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "source") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Channels</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "channel") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Products</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "product") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Customers</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "customer") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Ordering</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "order") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Fulfillments</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "fulfillment") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Queue</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+
+                                    <div class="accordion">
+                                        <div class="accordion__head">
+                                            <h4>Business Models</h4>
+                                        </div><!-- /.accordion__head -->
+
+                                        <div class="accordion__body">
+                                            <ul>
+                                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "model") }}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                                                </li>
+                                                {{ end }}
+                                            </ul>
+                                        </div><!-- /.accordion__body -->
+                                    </div><!-- /.accordion -->
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion -->
+                        </div><!-- /.accordions -->
+                    </aside><!-- /.section__aside -->
+                </div><!-- /.col-md- offset-md- -->
+
+                <div class="col-lg-9">
+                    <div class="section__inner">
+                        {{ if .Content }}
+                            <div class="section__content">
+                              {{ .Content }}
+                            </div><!-- /.section__content -->
+                        {{ else }}
+                            <header class="section__head">
+                                <h1>{{.Title}}</h1>
+
+                                <h2>{{.Params.lead}}</h2>
+                            </header><!-- /.section__head -->
+                        
+                            <div class="section__body">
+                                <div class="widget-alt">
+                                    <div class="widget__head">
+                                        <h3>Products</h3>
+                                    </div><!-- /.widget__head -->
+
+                                    <div class="widget__body">
+                                        <div class="widget__item widget__item--alt">
+                                            <div class="widget__col widget__col--1of3">
+                                                <h4>Features</h4>
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <h4>Descriptions</h4>
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+
+                                        <div class="widget__item">
+                                            <div class="widget__col widget__col--1of3">
+                                                <div class="widget__content widget__content--alt">
+                                                    <p>{{.Params.productsTitle1}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <div class="widget__content">
+                                                    <p>{{.Params.productsText1}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+
+                                        <div class="widget__item">
+                                            <div class="widget__col widget__col--1of3">
+                                                <div class="widget__content widget__content--alt">
+                                                    <p>{{.Params.productsTitle2}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <div class="widget__content">
+                                                    <p>{{.Params.productsText2}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+
+                                        <div class="widget__item">
+                                            <div class="widget__col widget__col--1of3">
+                                                <div class="widget__content widget__content--alt">
+                                                    <p>{{.Params.productsTitle3}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <div class="widget__content">
+                                                    <p>{{.Params.productsText3}}</p>
+
+                                                    <ul>
+                                                        <li>{{.Params.productsFeature31}}</li>
+                                                        
+                                                        <li>{{.Params.productsFeature32}}</li>
+                                                    </ul>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+                                    </div><!-- /.widget__body -->
+                                </div><!-- /.widget-alt -->
+
+                                <div class="widget-alt">
+                                    <div class="widget__head">
+                                        <h3>Orders</h3>
+                                    </div><!-- /.widget__head -->
+
+                                    <div class="widget__body">
+                                        <div class="widget__item widget__item--alt">
+                                            <div class="widget__col widget__col--1of3">
+                                                <h4>Features</h4>
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <h4>Descriptions</h4>
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+
+                                        <div class="widget__item">
+                                            <div class="widget__col widget__col--1of3">
+                                                <div class="widget__content widget__content--alt">
+                                                    <p>{{.Params.ordersTitle1}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <div class="widget__content">
+                                                    <p>{{.Params.ordersText1}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+
+                                        <div class="widget__item">
+                                            <div class="widget__col widget__col--1of3">
+                                                <div class="widget__content widget__content--alt">
+                                                    <p>{{.Params.ordersTitle2}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+
+                                            <div class="widget__col widget__col--2of3">
+                                                <div class="widget__content">
+                                                    <p>{{.Params.ordersText2}}</p>
+                                                </div><!-- /.widget__content -->
+                                            </div><!-- /.widget__col -->
+                                        </div><!-- /.widget__item -->
+                                    </div><!-- /.widget__body -->
+                                </div><!-- /.widget-alt -->
+
+                                <div class="widget-alt widget-alt--primary">
+                                    <div class="widget__item">
+                                        <div class="widget__col widget__col--1of3">
+                                            <div class="widget__content">
+                                                <h3>{{.Params.featureTitle1}}</h3>
+
+                                                <p>{{.Params.featureText1}}</p>
+                                            </div><!-- /.widget__content -->
+                                        </div><!-- /.widget__col -->
+
+                                        <div class="widget__col widget__col--1of3">
+                                            <div class="widget__content">
+                                                <h3>{{.Params.featureTitle2}}</h3>
+
+                                                <p>{{.Params.featureText2}}</p>
+                                            </div><!-- /.widget__content -->
+                                        </div><!-- /.widget__col -->
+
+                                        <div class="widget__col widget__col--1of3">
+                                            <div class="widget__content">
+                                                <h3>{{.Params.featureTitle3}}</h3>
+
+                                                <p>{{.Params.featureText3}}</p>
+                                            </div><!-- /.widget__content -->
+                                        </div><!-- /.widget__col -->
+                                    </div><!-- /.widget__item -->
+                                </div><!-- /.widget-alt -->
+                            </div><!-- /.section__body -->
                         {{ end }}
-                    </ul>
-                </li>
-                <li>Features</li>
-                <li>
-                    <ul>
-                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "feature") }}
-                        <li>
-                            <a href="{{ .Permalink }}">{{ .Title }} Features</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </li>
-                <li>How It Works</li>
-                <li>
-                    <ul>
+                    </div><!-- /.section__inner -->
+                </div><!-- /.col-md- offset-md- -->
+            </div><!-- /.row -->
+            
+        </div><!-- /.container -->
+    </section><!-- /.section -->
 
-                        <li>Console</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "console") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
 
-                        <li>Sources</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "source") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Channels</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "channel") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Products</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "product") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Customers</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "customer") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Ordering</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "order") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Fulfillments</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "fulfillment") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Queue</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-
-                        <li>Business Models</li>
-                        <li>
-                            <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "model") }}
-                                <li>
-                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="/api">Developer API Docs</a></li>
-            </ul>
-
-        </div>
-        <div class="col-9">
-            <h1>{{.Title}}</h1>
-            {{ .Content }}
-        </div>
-    </div>
-</div>
 
 
 <!--<h3>How To's</h3>-->

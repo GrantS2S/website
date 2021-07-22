@@ -1,58 +1,135 @@
 {{ define "main" }}
-<div class="row" id="helpCentre">
-    <div class="col-md-12">
-        <h2>Help Search</h2>
-        <p class="lead">Search issues</p>
-        <hr>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-        <input class="form-control form-control-lg" placeholder="Search Documentation">
-        <hr>
-    </div>
-</div>
-<div class="row">
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><a href="/help/getting-started">Manage and configure</a></h5>
-                <p class="card-text">
-                    Manage and configure your setup
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><a href="/help/solutions">Solutions</a></h5>
-                <p class="card-text">
-                    The place to go if you need help or are stuck
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><a href="/help/how-it-works">How It Works</a></h5>
-                <p class="card-text">
-                    Learn about key concepts
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><a href="/api">Developer Docs</a></h5>
-                <p class="card-text">
-                    Guides and documentation for developers to get started
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+<div class="wrapper">
+    {{- partial "header.html" . -}}
 
+    <div class="hero hero--secondary">
+        <div class="container">
+            <article class="article">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="article__content article__content--primary">
+                            <h1>Help Centre</h1>
+                            
+                            <p>
+                                How can we help you? We’ve put together all the helpful resources and information we think you’ll need to streamline your workflow. Still have questions? Please contact us, we’d love to answer them.
+                            </p>
+                        </div><!-- /.article__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </article><!-- /.article -->
+
+            <div class="search">
+                <form action="?" method="get">
+                    <label for="q" class="hidden">Search</label>
+                    
+                    <input type="search" class="form__field search__field" name="q" id="q" value="" placeholder="Search issues…" />
+                    
+                    <button class="search__btn">
+                        <i class="ico-search"></i>
+                    </button>
+                </form>
+            </div><!-- /.search -->
+        </div><!-- /.container -->
+    </div><!-- /.hero -->
+
+    <section class="section section--services-def">
+        <div class="container">
+            <div class="services">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="service service--secondary">
+                            <i class="ico-manage service__ico"></i>
+
+                            <h4>
+                                <a href="/help/getting-started">Manage and configure</a>
+                            </h4>
+
+                            <p>
+                                All the documentation to help manage and configure your setup with Stock2Shop
+                            </p>
+
+                            <a href="/help/getting-started" class="link">
+                                Learn More <i class="ico-arrow-right"></i>
+                            </a>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="service service--secondary">
+                            <i class="ico-solutions service__ico"></i>
+
+                            <h4>
+                                <a href="/help/solutions">Solutions</a>
+                            </h4>
+
+                            <p>
+                                The place to go if you need help or are stuck, or to learn something new.
+                            </p>
+
+                            <a href="/help/solutions" class="link">
+                                Learn More <i class="ico-arrow-right"></i>
+                            </a>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="service service--secondary">
+                            <i class="ico-works service__ico"></i>
+
+                            <h4>
+                                <a href="/help/how-it-works">How It Works</a>
+                            </h4>
+
+                            <p>
+                                Learn about Stock2Shop’s key concepts. 
+                            </p>
+
+                            <a href="/help/how-it-works" class="link">
+                                Learn More <i class="ico-arrow-right"></i>
+                            </a>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="service service--secondary">
+                            <i class="ico-docs service__ico"></i>
+
+                            <h4>
+                                <a href="/help/api">Developer Docs</a>
+                            </h4>
+
+                            <p>
+                                Guides and documentation for developers to get started
+                            </p>
+
+                            <a href="/help/api" class="link">
+                                Learn More <i class="ico-arrow-right"></i>
+                            </a>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.services -->    
+
+            <div class="article article--small article--small-alt">
+                <div class="article__image">
+                    <img src="/images/a81.png" alt="Be first to know">
+                </div><!-- /.article__image -->
+
+                <div class="article__content">
+                    <h2>Contact Support</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo 
+                    </p>
+
+                    <a href="#" class="btn btn--medium">Contact Us</a>
+                </div><!-- /.article__content -->
+
+                <i class="ico-circle-big"></i>
+            </div><!-- /.article -->            
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
 {{ end }}

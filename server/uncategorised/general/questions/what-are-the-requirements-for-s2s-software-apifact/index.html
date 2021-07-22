@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    
+    
+    
+    
+
+    
+    <link rel="stylesheet" href='bundle.css'>
+    <meta property="og:title" content="What are the requirements for Stock2Shop Software (APIFACT)?" />
+<meta property="og:description" content="Introduction These are the requirements of the ERP / accounting system server configurations in order to allow our Apifact services to communicate with the server
+General Access  S2S will never modify the Database table unless it&rsquo;s through the official Pastel SDK, to write orders back. Our system continually runs the following query (every 3 minutes). It calculates the changes for each product and only sends that to our service. It pages through a 1000 products each time and sends us chunks of 500 at a time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/uncategorised/general/questions/what-are-the-requirements-for-s2s-software-apifact/" /><meta property="article:section" content="uncategorised" />
+
+
+
+<meta itemprop="name" content="What are the requirements for Stock2Shop Software (APIFACT)?">
+<meta itemprop="description" content="Introduction These are the requirements of the ERP / accounting system server configurations in order to allow our Apifact services to communicate with the server
+General Access  S2S will never modify the Database table unless it&rsquo;s through the official Pastel SDK, to write orders back. Our system continually runs the following query (every 3 minutes). It calculates the changes for each product and only sends that to our service. It pages through a 1000 products each time and sends us chunks of 500 at a time.">
+
+<meta itemprop="wordCount" content="211">
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        What Are the Requirements for Stock2Shop Software (APIFACT)? | Stock2Shop
+    </title>
+    <meta name="description" content="">
+
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+</head><body>
+		
+<div class="row">
+    <aside class="col-md-3">
+        <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
+            
+            
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/general/">General</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/uncategorised/general/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/b2b-trade-store/">B2B Trade Store</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/b2b-trade-store/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/shopify/">Shopify</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/feature/">Feature</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/shopify/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/woocommerce/">Woocommerce</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/how-to/">How To</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/woocommerce/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/uncategorised/parcelninja/">ParcelNinja</a>
+                    <ul>
+                        
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/features/">Features</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/uncategorised/parcelninja/questions/">Questions</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+                
+                
+            
+        </ul>
+    </aside>
+    <div class="col-md-9">
+        <h1>What Are the Requirements for Stock2Shop Software (APIFACT)?</h1>
+        
+        <h4 id="toc">Contents</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#general-access">General Access</a></li>
+  </ul>
+</nav>
+        <h2 id="introduction">Introduction</h2>
+<p>These are the requirements of the ERP / accounting system server configurations in order to allow our Apifact services to communicate with the server</p>
+<h2 id="general-access">General Access</h2>
+<ol>
+<li>S2S will never modify the Database table unless it&rsquo;s through the official Pastel SDK, to write orders back.</li>
+<li>Our system continually runs the following query (every 3 minutes). It calculates the changes for each product and only sends that to our service.</li>
+<li>It pages through a 1000 products each time and sends us chunks of 500 at a time.</li>
+<li>The above are all variables which can be configured depending on your requirements/server specifications.
+Again, these are:
+Schedule: 3 mins
+Page size: 1000
+Max products returned: 500</li>
+<li>S2S uses a secure SSL tunnel to communicate with the server running on the clients machine. This means we do not have issues with firewalls.
+If this is against your policy, then Stock2Shop will not be able to assist.
+Requirements</li>
+<li>&ldquo;Read-only&rdquo; database user for accessing data</li>
+<li>&ldquo;Read-write&rdquo; database user for the SDK</li>
+<li>Outgoing port 8080 must be open (this is outgoing so should pose no security violation)
+Example basic SQL that gets executed</li>
+</ol>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#069;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#555">*</span><span style="color:#bbb"> 
+</span><span style="color:#bbb"></span><span style="color:#069;font-weight:bold">FROM</span><span style="color:#bbb">   </span>(<span style="color:#069;font-weight:bold">SELECT</span><span style="color:#bbb"> </span>Row_number()<span style="color:#bbb"> 
+</span><span style="color:#bbb">                 </span>OVER<span style="color:#bbb"> </span>(<span style="color:#bbb"> 
+</span><span style="color:#bbb">                   </span><span style="color:#069;font-weight:bold">ORDER</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">BY</span><span style="color:#bbb"> </span>Ltrim(Rtrim(st.code)))<span style="color:#bbb">              </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span>n,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span>st.stocklink<span style="color:#bbb">                                     </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;source_product_code&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span>st.stocklink<span style="color:#bbb">                                     </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;source_variant_code&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span>Rtrim(Ltrim(st.code))<span style="color:#bbb">                            </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.sku&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(st.description_1,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>)<span style="color:#bbb">                     </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;title&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;collection&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(grp.description,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>)<span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;product_type&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;vendor&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.option1&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.option2&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.option3&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;body_html&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span>st.uiiiweight<span style="color:#bbb">                                    </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.weight&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(st.bar_code,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>)<span style="color:#bbb">                          </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.barcode&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Cast</span>(<span style="color:#069;font-weight:bold">Isnull</span>(st.qty_on_hand,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#366">INTEGER</span>)<span style="color:#bbb">       </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;variants.qty&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Cast</span>(<span style="color:#069;font-weight:bold">Isnull</span>(st.qty_on_hand,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#366">INTEGER</span>)<span style="color:#bbb">       </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;qty_on_hand&#34;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Cast</span>(<span style="color:#069;font-weight:bold">Isnull</span>(st.qtyonso,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#366">INTEGER</span>)<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;qty_on_sales_order&#34;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(retail.fexclprice,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb">                     </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;variants.retail_price&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(trade.fexclprice,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;variants.trade_price&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(distributor.fexclprice,<span style="color:#bbb"> </span><span style="color:#f60">0</span>)<span style="color:#bbb">                </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;variants.distributor_price&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;false&#39;</span><span style="color:#bbb">                                          </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#34;variants.inventory_management&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">CASE</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                 </span><span style="color:#069;font-weight:bold">WHEN</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">Lower</span>(Ltrim(Rtrim(<span style="color:#069;font-weight:bold">Isnull</span>(st.uliionline,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>))))<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#c30">&#39;active\publish&#39;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">THEN</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                 </span><span style="color:#c30">&#39;true&#39;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                 </span><span style="color:#069;font-weight:bold">ELSE</span><span style="color:#bbb"> </span><span style="color:#c30">&#39;false&#39;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">END</span><span style="color:#bbb">                                              </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;product_active&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;&#39;</span><span style="color:#bbb">                                               </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#c30">&#34;tags&#34;</span>,<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#09f;font-style:italic">-- List of images for this product 
+</span><span style="color:#09f;font-style:italic"></span><span style="color:#bbb">               </span><span style="color:#09f;font-style:italic">-- Enables automatic pulling of new images when image is added 
+</span><span style="color:#09f;font-style:italic"></span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">Isnull</span>(Stuff((<span style="color:#069;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#c30">&#39;,&#39;</span><span style="color:#bbb"> </span><span style="color:#555">+</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">CONVERT</span>(<span style="color:#366">VARCHAR</span>,<span style="color:#bbb"> </span>i.idinvimage)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                             </span><span style="color:#069;font-weight:bold">FROM</span><span style="color:#bbb">   </span>_etblinvimages<span style="color:#bbb"> </span>i<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                             </span><span style="color:#069;font-weight:bold">WHERE</span><span style="color:#bbb">  </span>st.stocklink<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span>i.istocklink<span style="color:#bbb"> 
+</span><span style="color:#bbb">                             </span><span style="color:#069;font-weight:bold">ORDER</span><span style="color:#bbb">  </span><span style="color:#069;font-weight:bold">BY</span><span style="color:#bbb"> </span>i.idinvimage<span style="color:#bbb"> 
+</span><span style="color:#bbb">                             </span><span style="color:#069;font-weight:bold">FOR</span><span style="color:#bbb"> </span>xml<span style="color:#bbb"> </span>path<span style="color:#bbb"> </span>(<span style="color:#c30">&#39;&#39;</span>)),<span style="color:#bbb"> </span><span style="color:#f60">1</span>,<span style="color:#bbb"> </span><span style="color:#f60">1</span>,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>),<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>)<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#34;meta_image_id_csv&#34;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">        </span><span style="color:#069;font-weight:bold">FROM</span><span style="color:#bbb">   </span>stkitem<span style="color:#bbb"> </span>st<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#09f;font-style:italic">-- General info 
+</span><span style="color:#09f;font-style:italic"></span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">LEFT</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">JOIN</span><span style="color:#bbb"> </span>grptbl<span style="color:#bbb"> </span>grp<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">ON</span><span style="color:#bbb"> </span>grp.stgroup<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span>st.itemgroup<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#09f;font-style:italic">-- price lists 
+</span><span style="color:#09f;font-style:italic"></span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">LEFT</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">JOIN</span><span style="color:#bbb"> </span>dbo._etblpricelistprices<span style="color:#bbb"> </span>trade<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">ON</span><span style="color:#bbb"> </span>trade.istockid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span>st.stocklink<span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>trade.ipricelistnameid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">1</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>trade.iwarehouseid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">0</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">LEFT</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">JOIN</span><span style="color:#bbb"> </span>dbo._etblpricelistprices<span style="color:#bbb"> </span>distributor<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">ON</span><span style="color:#bbb"> </span>distributor.istockid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span>st.stocklink<span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>distributor.ipricelistnameid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">2</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>distributor.iwarehouseid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">0</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#069;font-weight:bold">LEFT</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">JOIN</span><span style="color:#bbb"> </span>dbo._etblpricelistprices<span style="color:#bbb"> </span>retail<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">WITH</span><span style="color:#bbb"> </span>(nolock)<span style="color:#bbb"> 
+</span><span style="color:#bbb">                      </span><span style="color:#069;font-weight:bold">ON</span><span style="color:#bbb"> </span>retail.istockid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span>st.stocklink<span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>retail.ipricelistnameid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">3</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">                         </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>retail.iwarehouseid<span style="color:#bbb"> </span><span style="color:#555">=</span><span style="color:#bbb"> </span><span style="color:#f60">0</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">        </span><span style="color:#069;font-weight:bold">WHERE</span><span style="color:#bbb">  </span><span style="color:#069;font-weight:bold">Lower</span>(Ltrim(Rtrim(<span style="color:#069;font-weight:bold">Isnull</span>(st.uliionline,<span style="color:#bbb"> </span><span style="color:#c30">&#39;&#39;</span>))))<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">IN</span><span style="color:#bbb"> </span>(<span style="color:#bbb"> 
+</span><span style="color:#bbb">               </span><span style="color:#c30">&#39;active\publish&#39;</span>,<span style="color:#bbb"> </span><span style="color:#c30">&#39;delete\unpublish&#39;</span><span style="color:#bbb"> </span>))<span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">AS</span><span style="color:#bbb"> </span><span style="color:#069;font-weight:bold">rows</span><span style="color:#bbb"> 
+</span><span style="color:#bbb"></span><span style="color:#069;font-weight:bold">WHERE</span><span style="color:#bbb">  </span>n<span style="color:#bbb"> </span><span style="color:#555">&gt;</span><span style="color:#bbb"> </span><span style="color:#c30">&#39;%(audit_lower_limit)n&#39;</span><span style="color:#bbb"> 
+</span><span style="color:#bbb">       </span><span style="color:#069;font-weight:bold">AND</span><span style="color:#bbb"> </span>n<span style="color:#bbb"> </span><span style="color:#555">&lt;=</span><span style="color:#bbb"> </span><span style="color:#c30">&#39;%(audit_upper_limit)n&#39;</span><span style="color:#bbb">
+</span><span style="color:#bbb">       </span></code></pre></div>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src='/scss/bootstrap-5.0.0/js/bootstrap.js'></script>
+
+
+<script src='/js/slick.js'></script>
+
+
+<script src='/js/functions.js'></script></body>
+</html>

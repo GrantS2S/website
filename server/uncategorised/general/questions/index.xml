@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on Stock2Shop</title>
+    <link>/uncategorised/general/questions/</link>
+    <description>Recent content in questions on Stock2Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/uncategorised/general/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are the requirements for Stock2Shop Software (APIFACT)?</title>
+      <link>/uncategorised/general/questions/what-are-the-requirements-for-s2s-software-apifact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/general/questions/what-are-the-requirements-for-s2s-software-apifact/</guid>
+      <description>Introduction These are the requirements of the ERP / accounting system server configurations in order to allow our Apifact services to communicate with the server
+General Access  S2S will never modify the Database table unless it&amp;rsquo;s through the official Pastel SDK, to write orders back. Our system continually runs the following query (every 3 minutes). It calculates the changes for each product and only sends that to our service. It pages through a 1000 products each time and sends us chunks of 500 at a time.</description>
+    </item>
+    
+    <item>
+      <title>Why Is There a Console or B2B Interface Error</title>
+      <link>/uncategorised/general/questions/why-is-there-a-console-or-b2b-interface-error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uncategorised/general/questions/why-is-there-a-console-or-b2b-interface-error/</guid>
+      <description>Introduction Should you as a user/customer of Stock2Shop&amp;rsquo;s console or trade store run into an error during the use of the system that does not appear to be an error given by the Stock2Shop system, please provide Stock2Shop the below information to support@stock2shop.com, the team will then investigate and assist if possible in resolving the error.
+Replication requirements In order for Stock2Shop to thoroughly investigate and assist in resolving the error we require the following information:</description>
+    </item>
+    
+  </channel>
+</rss>

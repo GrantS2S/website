@@ -1,123 +1,139 @@
 {{ define "main" }}
-<h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
-<p class="lead">{{ .Params.Lead }}</p>
-<hr>
+<div class="wrapper">
+	{{- partial "header.html" . -}}
 
-<h3>ERPs</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "source" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}" title="{{ title .Title }} integration">
-                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-<h3>Channels</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "channel" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-<h3>Fulfillment Services</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "fulfillment" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-<h3>Market Places</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "marketplace" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
+	<div class="hero hero--primary">
+		<div class="container">
+			<article class="article article--teritary">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="article__content">
+							<h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
+							
+							<p>{{ .Params.Lead }}</p>
 
-<div class="container pt-5 pb-5">
-    <div class="row">
-        <div class="col-md-8"><img src="/uploads/SYSTEM-INTEGRATION.jpg" alt="System Integration" class="img-responsive"></div>
-        <div class="col-md-4">
-            <h2 id="system-integration">
-                System integration
-            </h2>
-            <p class="text-justify">
-                We help you find the <strong>ideal system integration</strong>. We understand your supply chain needs, figure out where things need to be automated, and advise you how to run the best possible system, with minimum disruption, at minimum cost. And we <strong>support you throughout the process</strong>: available on phone or email to assist with any queries. We set up the processes and then empower you to run it yourself.
-            </p></div>
-    </div>
-</div>
+							<div class="article__actions">
+								<a href="#" class="btn btn--big btn--hover-alt js-popup" data-target="#popup-form">Schedule A Demo</a>
+							</div><!-- /.article__actions -->
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
 
-<section class="pt-5 pb-5 bg-light fullwidth">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h2 id="sync-inventory">
-                    Automatically sync inventory
-                </h2>
-                <p class="text-justify">
-                    We <strong>integrate <a href="/integrations/" title="Integrations">your applications</a></strong>: between Sage, SYSPRO, iSync or SAP, and Shopify, Magento, WooCommerce and B2B trade stores. And then we sync your inventory data – multiple price lists, descriptions, warehousing information and more – near real time. This means a far more efficient system, far less risk of human error, and far more time to spend doing what you do best: growing your business.
-                </p>
-            </div>
-            <div class="col-md-8"><img src="/uploads/AUTOMATICALLY-SYNC-INVENTORY.jpg" alt="Automatically sync inventory" class="img-responsive"></div>
-        </div>
-    </div>
-</section>
+					<div class="col-lg-6 hidden-tablet">
+						<div class="article__image">
+							<img src="/images/a2.png" title="Put your ERP system in control of your online business" alt="Put your ERP system in control of your online business">
+						</div><!-- /.article__content -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</article><!-- /.article -->
+		</div><!-- /.container -->
+	</div><!-- /.hero -->
 
-<div class="container pt-5 pb-5">
-    <div class="row">
-        <div class="col-md-8"><img src="/uploads/ORDER-MANAGEMENT.jpg" alt="Order management" class="img-responsive"></div>
-        <div class="col-md-4">
-            <h2 id="order-management">
-                Order management
-            </h2>
-            <p class="text-justify">
-                We let you receive orders from multiple sales channels and push orders to your ERP or accounting system in
-                real time. We’ve got your orders sorted from your customer’s first click to delivery: with <strong>custom workflows
-                suited to your ordering needs</strong>, and the option to set up specific customer accounts or integrate with
-                fulfillment services for picking, packing and delivery. We can also automate drop shipping for you.
-            </p>
-        </div>
-    </div>
-</div>
+	<section class="section section--gray">
+		<div class="container">
+			<div class="widget-primary widget-primary--alt">
+				<nav class="widget__nav">
+					<ul>
+						<li>
+							<a href="widget__item">View All</a>
+						</li>
+
+						<li>
+							<a href="erp">ERP / Accounting</a>
+						</li>
+
+						<li>
+							<a href="ecommerce">E-commerce</a>
+						</li>
+
+						<li>
+							<a href="b2b">B2b</a>
+						</li>
+
+						<li>
+							<a href="marketplace">Marketplace</a>
+						</li>
+
+						<li>
+							<a href="logistics">Fulfillment / Logistics</a>
+						</li>
+					</ul>
+				</nav><!-- /.widget__nav -->
+
+				<div class="widget__body js-slider-filter"> 
+					{{ range (where .Site.RegularPages "Params.type" "in" (slice "source" "channel" "fulfillment")) }}
+						<div class='widget__item {{ with .Params.tags }}{{ delimit . " "}}{{ end }}' data-category='{{ with .Params.tags }}{{ delimit . " "}}{{ end }}'>
+							<div class="feature feature--primary">
+								<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}" style="max-width: 100px;"> 
+								
+								<h4>{{ title .Page.Title }}</h4>
+
+								<p>{{ .Params.Summary }}</p>
+								
+								<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }} 
+				</div><!-- /.widget__body -->
+			</div><!-- /.widget-primary -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	{{- partial "footer.html" . -}}
+
+	<div class="popup" id="popup-form">
+		<div class="popup__inner">
+			<a href="#" class="popup__btn js-popup" data-target="#popup-form">
+				<i class="ico-x"></i>
+			</a>
+
+			<div class="form form--primary">
+				<form action="?" method="post">
+					<div class="form__head">
+						<h2>Schedule a Demo</h2>
+
+						<p>
+							Some blurb about how the user can contact Stock2Shop in order to schedule a demo.
+						</p>
+					</div><!-- /.form__head -->
+					
+					<div class="form__body">
+						<div class="form-group">
+							<label for="f-name" class="hidden">Full Name*</label>
+
+							<input type="text" class="form-control" id="f-name" name="f-name" aria-describedby="nameHelp" placeholder="Full Name*">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-email" class="hidden">Your Email*</label>
+
+							<input type="email" class="form-control" id="f-email" name="f-email" aria-describedby="emailHelp" placeholder="Your Email*">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-phone" class="hidden">Phone</label>
+
+							<input type="text" class="form-control" id="f-phone" name="f-phone" aria-describedby="phoneHelp" placeholder="Phone">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-message" class="hidden">How can we help you?</label>
+
+							<textarea type="text" class="form-control" id="f-message" name="f-message" aria-describedby="messageHelp" placeholder="How can we help you?"></textarea>
+						</div><!-- /.form-group -->
+					</div><!-- /.form__body -->
+					
+					<div class="form__foot">
+						<p>
+							Stock2Shop needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at anytime. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our <a href="#">Privacy Policy.</a>
+						</p>
+
+						<button class="btn btn--size1">Submit</button>
+					</div><!-- /.form__foot -->
+				</form>
+			</div><!-- /.form -->
+		</div><!-- /.popup__inner -->
+	</div><!-- /.popup -->
+</div><!-- /.wrapper --> 
 
 {{ end }}
 
