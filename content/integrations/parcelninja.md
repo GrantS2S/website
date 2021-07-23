@@ -1,14 +1,46 @@
 ---
-title: "Parcelninja"
-seoTitle: "Parcelninja"
-seoDescription: "Omnico had a common challenge: how to integrate SYSPRO into multiple sales channels. Our solution? A Magento B2B and B2C e-commerce website integrated with Stock2Shop. We worked closely with Omnico to create the perfect solution to suit their needs. Read more!"
-lead: "Omnico is a major importer of lifestyle, cycle and electronic brands, including GoPro, Canondale, Giro, Stages, Ryder and Red-e."
-summary: "Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution."
-image: "/images/percelninja.png"
-imageAlt: "Parcelninja"
-imageTitle: "Parcelninja"
-imageWidth: "80"
-category: "ecommerce"
-aliases: "/parcelninja/parcelninja/"
-weight: 19
+title: "Parcelninja Integration"
+titleList: "Parcelninja"
+seoTitle: "Parcelninja Integration"
+seoDescription: "Here’s how SAP Business One works with your applications to streamline your workflow."
+summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
+lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
+type: "fulfillment"
+fulfillment: "parcelninja"
+tags: ['fulfillment']
+image: "/uploads/logo-platform-sap.png"
+imageAlt: sap logo
+
+titleProduct: "Sync Product & Inventory data"
+subtitleProduct: "Sync products and inventory data from SAP Business One to your sales channel"
+imageDestopProduct: "/images/a01.png"
+imageDestopWidthProduct: "1006"
+imageMobileProduct: "/images/a001.png"
+buttonTextProduct: "Schedule a demo"
+buttonHrefProduct: "/"
+
+titleCustomer: "Sync Customer & Account information"
+subtitleCustomer: "Sync your customer account information from SAP Business One to our B2B trade store"
+imageDestopCustomer: "/images/a02.png"
+imageDestopWidthCustomer: "849"
+imageMobileCustomer: "/images/a002.png"
+buttonTextCustomer: "Schedule a demo"
+buttonHrefCustomer: "/"
+ 
+titleOrders: "Raise orders"
+subtitleOrders: "Sync orders from your ecommerce sales channel to connector_name"
+imageDestopOrders: "/images/a03.png"
+imageDestopWidthOrders: "1007"
+imageMobileOrders: "/images/a003.png"
+buttonTextOrders: "See how it works"
+buttonHrefOrders: "/" 
+
+titleFullfilments: "Raise Fulfillments"
+subtitleFullfilments: "Once an order has been raised in your connector_name, fulfill your order with one of fulfillment partners, Parcelninja"
+imageDestopFullfilments: "/images/a04.png"
+imageDestopWidthFullfilments: "1007"
+imageMobileFullfilments: "/images/a004.png"
+buttonTextFullfilments: "See how it works"
+buttonHrefFullfilments: "/" 
+
 ---
