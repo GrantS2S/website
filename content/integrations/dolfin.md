@@ -17,46 +17,53 @@ provides the centralised environment to consolidate and distribute data to and f
 Stock2Shop will sync vital product data to your ecommerce sales channels to ensure they are all up to date, 
 and online orders can be processed directly into Dolfin as sales orders or invoices.
 
-## Sync Product & Inventory Data
-Sync information such as pricing, stock levels and attribute data from Dolfin to your online sales channels. 
+-----------
 
+---
+title: "Dolfin integration"
+titleList: "Dolfin"
+seoTitle: "Dolfin"
+seoDescription: "Here’s how Dolfin works with your applications to streamline your workflow."
+summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
+lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
+type: "source"
 
-## Raise Orders
-Sync orders from your online sales channels into Dolfin.
+source: "sap"
+tags: ["erp"]
+image: "/uploads/logo-platform-sap.png"
+imageAlt: sap logo
 
-## Automate Fulfilments 
-Once an order has been successfully created in Dolfin, automatically send fulfilment notifications to your 3rd-party logistics service provider. 
+titleProduct: "Sync Product & Inventory data"
+subtitleProduct: "Sync products and inventory data from SAP Business One to your sales channel"
+imageDestopProduct: "/images/a01.png"
+imageDestopWidthProduct: "1006"
+imageMobileProduct: "/images/a001.png"
+buttonTextProduct: "Schedule a demo"
+buttonHrefProduct: "/"
 
-## See the full set of integrations
-In order to get the most out of your Dolfin integration, view a full list of features and configuration settings.
+titleCustomer: "Sync Customer & Account information"
+subtitleCustomer: "Sync your customer account information from SAP Business One to our B2B trade store"
+imageDestopCustomer: "/images/a02.png"
+imageDestopWidthCustomer: "849"
+imageMobileCustomer: "/images/a002.png"
+buttonTextCustomer: "Schedule a demo"
+buttonHrefCustomer: "/"
+ 
+titleOrders: "Raise orders"
+subtitleOrders: "Sync orders from your ecommerce sales channel to connector_name"
+imageDestopOrders: "/images/a03.png"
+imageDestopWidthOrders: "1007"
+imageMobileOrders: "/images/a003.png"
+buttonTextOrders: "See how it works"
+buttonHrefOrders: "/" 
 
-### Ecommerce integrations for Dolfin: 
-- [Dolfin Shopify Integration](/integrations/dolfin-shopify)
-- [Dolfin WooCommerce Integration](/integrations/dolfin-woocommerce)
-- [Dolfin Magento 1.x Integration](/integrations/dolfin-magento)
-- [Dolfin Magento 2.x Integration](/integrations/dolfin-)
+titleFullfilments: "Raise Fulfillments"
+subtitleFullfilments: "Once an order has been raised in your connector_name, fulfill your order with one of fulfillment partners, Parcelninja"
+imageDestopFullfilments: "/images/a04.png"
+imageDestopWidthFullfilments: "1007"
+imageMobileFullfilments: "/images/a004.png"
+buttonTextFullfilments: "See how it works"
+buttonHrefFullfilments: "/" 
 
-### Fulfilment Integrations: 
-- [Dolfin Parcelninja Integartion](/integrations/dolfin-parcelninja)
-
-### B2B Trade store for Dolfin:  
-- [Dolfin B2B Trade Store Integration](/integrations/dolfin-b2b-trade-store)
-
-### Marketplace Integrations for Dolfin: 
-- [Dolfin Takealot Integration](/integrations/dolfin-takealot)
-
-
-## See supporting documentation
-
-### Features
-Stock2Shop is an efficient way to seamlessly integrate your ERP or accounting system with your sales channels. 
-Take a look at all the features that our integrations can provide. 
-
-### Technical Documentation
-All the concepts and technical information you need to start integrating the Stock2Shop system. 
-Our highly skilled team is available for support from sales through set-up and beyond, and we’ll 
-happily answer any questions you may have. 
-
-
-
+---
 
