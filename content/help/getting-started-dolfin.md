@@ -44,7 +44,7 @@ Dolfin and perform the following:
 In order to sync products from Dolfin to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
+
 | Dolfin                                  | Stock2Shop                     | Description                                                                                                                                                                                                                                                                 |
 | --------------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <Prod>                                  | source_product_code            | The "group code" that associates a group of unique skus as variations of a single product.<br>All products must have a product code, and that code must be the same across each variation.<br>All variations must also have an option to differentiate them from each other |
@@ -56,7 +56,7 @@ the minimum required fields are:
 | <SKU>                                   | variants.sku                   | The unique sku code for each variation.                                                                                                                                                                                                                                     |
 | true                                    | variants.inventory_management  | Indicates that Stock2Shop will manage and update inventory to the website                                                                                                                                                                                                   |
 
- ```
+
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from Dolfin to Stock2Shop.
@@ -66,7 +66,6 @@ If customers are a requirement, please read up on how to import customers manual
 ## Syncing Orders to Dolfin {#raise-orders}
 By default, Stock2Shop raises orders to Dolfin with the following order details:
 
-```
 | Dolfin              | Stock2Shop            | Description                                                                                      |
 | ------------------- | --------------------- | ------------------------------------------------------------------------------------------------ |
 | <TransactionNumber> | id                    | The transaction number generated for orders posted to Dollfin                                    |
@@ -79,7 +78,7 @@ By default, Stock2Shop raises orders to Dolfin with the following order details:
 | <NetAmtStoreInc>    | line_item.price       | Price of the line item as it appears on the website                                              |
 | <TaxAmtStore>       | line_item.tax_lines   | Tax applied to the line item                                                                     |
 | <SKUCode>           | shipping_code         | Shipping charge applied to the order, processed against a single, pre-defined, service line item |
- ```
+
 
 ## Features specific to Dolfin
 To get the most out of your Dolfin integration with Stock2shop, 

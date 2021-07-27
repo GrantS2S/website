@@ -1,53 +1,40 @@
 ---
-title: "isync integration"
-seoTitle: "Integrate iSync with your e-commerce platform"
-seoDescription: "An iSync integration can dramatically improve your workflow."
-titleList: isync
+title: "iSync integration"
+titleList: "iSync"
+seoTitle: "iSync"
+seoDescription: "Here’s how iSync works with your applications to streamline your workflow."
 summary: "iSync is the comprehensive ERP & PLM software solution designed specifically for the apparel industry."
-lead: "An iSync integration can dramatically improve your workflow. See how iSync works with your applications."
+lead: "Here’s how iSync works with your applications to streamline your workflow."
 type: "source"
+
+source: "iSync"
 tags: ["erp"]
 image: "/uploads/logo-platform-isync.png"
-imageAlt: isync logo
+imageAlt: iSync logo
+
+titleProduct: "Sync Product & Inventory data"
+subtitleProduct: "Sync products and inventory data from iSync to your sales channel(s)"
+imageDestopProduct: "/images/a01.png"
+imageDestopWidthProduct: "1006"
+imageMobileProduct: "/images/a001.png"
+buttonTextProduct: "Schedule a demo"
+buttonHrefProduct: "/"
+ 
+titleOrders: "Raise orders"
+subtitleOrders: "Sync orders from your ecommerce sales channel(s) to iSync"
+imageDestopOrders: "/images/a03.png"
+imageDestopWidthOrders: "1007"
+imageMobileOrders: "/images/a003.png"
+buttonTextOrders: "See how it works"
+buttonHrefOrders: "/" 
+
+titleFullfilments: "Raise Fulfillments"
+subtitleFullfilments: "Once an order has been raised in iSync, fulfill your order with one of fulfillment partners, such as Parcelninja"
+imageDestopFullfilments: "/images/a04.png"
+imageDestopWidthFullfilments: "1007"
+imageMobileFullfilments: "/images/a004.png"
+buttonTextFullfilments: "See how it works"
+buttonHrefFullfilments: "/" 
+
 ---
 
-## E-commerce websites
-
-{{< thumbnail src="/uploads/logo-platform-s2s.png" link="/integrations/b2b-shopping-cart" alt="stock2shop logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-shopify.png" link="/integrations/shopify" alt="shopify logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-magento.png" link="/integrations/magento" alt="magento logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-woocommerce.png" link="/integrations/woocommerce" alt="woocommerce logo" style="display:inline">}}
-
-### Find out more about iSync integrations:
-
-- [iSync Shopify Integration](/integrations/isync-shopify/ "iSync Shopify Integration")
-- [iSync Magento Integration](/integrations/isync-magento/ "iSync Magento Integration")
-- [iSync WooCommerce Integration](/integrations/isync-woocommerce/ "iSync WooCommerce Integration")
-- [iSync B2B Trade Store Integration](/integrations/isync-b2b-trade-store/ "iSync B2B Trade Store Integration")
-
-## When you integrate iSync and your e-commerce website, you can:
-
-*   #### Sync inventory data
-    
-    Syncing inventory data is simple once you’ve integrated with Stock2Shop.
-*   #### Enrich data
-    
-    There are several workflows for enriching product data so it is ready to sell. These workflows depend on your requirements.
-*   #### Customise product workflow
-    
-    Once you’ve enriched your data, you can decide exactly how to set up your product workflow.
-*   #### Simplify ordering
-    
-    There are a number of choices you can make to customise the ordering process so it suits your workflow perfectly.
-*   #### Streamline ordering
-    
-    The ordering process is simple once you’ve integrated iSync with Stock2Shop.
-*   #### Automate order fulfillment
-    
-    Dispatch orders from iSync to one of our supported fulfillment services.
-*   #### Customise notifications
-    
-    Once you’ve integrated iSync with Stock2Shop, you’ll be able to customise notifications.
-*   #### Streamline workflow
-    
-    Integrating iSync makes your workflow simple and more effective.

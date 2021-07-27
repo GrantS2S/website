@@ -1,54 +1,47 @@
 ---
-title: "sage 200 evolution (formerly sage evolution premium)"
-titleList: sage 200 evolution
-seoTitle: "Sage 2000 Evolution (formerly Sage Evolution Premium) integration with Stock2Shop"
-seoDescription: "A Sage 200 Evolution integration with Stock2Shop streamlines your workflow."
+title: "Sage 200 Evolution integration"
+titleList: "Sage 200 Evolution"
+seoTitle: "Sage 200 Evolution"
+seoDescription: "Here’s how Sage 200 Evolution works with your applications to streamline your workflow."
 summary: "Formerly Sage Evolution Premium: Get back to basics with smart, cost-effective software for big businesses."
-lead: "Here’s how to integrate Sage 200 Evolution with your applications for a streamlined workflow."
+lead: "Here’s how Sage 200 Evolution works with your applications to streamline your workflow."
 type: "source"
+
+source: "Sage 200 Evolution"
 tags: ["erp"]
 image: "/uploads/logo-platform-sage-200-evolution.png"
-imageAlt: sage 200 evolution logo
-aliases: "/integrations/sage-200-evolution-formerly-sage-evolution-premium/"
+imageAlt: Sage 200 Evolution logo
+
+titleProduct: "Sync Product & Inventory data"
+subtitleProduct: "Sync products and inventory data from Sage 200 Evolution to your sales channel(s)"
+imageDestopProduct: "/images/a01.png"
+imageDestopWidthProduct: "1006"
+imageMobileProduct: "/images/a001.png"
+buttonTextProduct: "Schedule a demo"
+buttonHrefProduct: "/"
+
+titleCustomer: "Sync Customer & Account information"
+subtitleCustomer: "Sync your customer account information from Sage 200 Evolution to our B2B trade store"
+imageDestopCustomer: "/images/a02.png"
+imageDestopWidthCustomer: "849"
+imageMobileCustomer: "/images/a002.png"
+buttonTextCustomer: "Schedule a demo"
+buttonHrefCustomer: "/"
+ 
+titleOrders: "Raise orders"
+subtitleOrders: "Sync orders from your ecommerce sales channel(s) to Sage 200 Evolution"
+imageDestopOrders: "/images/a03.png"
+imageDestopWidthOrders: "1007"
+imageMobileOrders: "/images/a003.png"
+buttonTextOrders: "See how it works"
+buttonHrefOrders: "/" 
+
+titleFullfilments: "Raise Fulfillments"
+subtitleFullfilments: "Once an order has been raised in Sage 200 Evolution, fulfill your order with one of fulfillment partners, such as Parcelninja"
+imageDestopFullfilments: "/images/a04.png"
+imageDestopWidthFullfilments: "1007"
+imageMobileFullfilments: "/images/a004.png"
+buttonTextFullfilments: "See how it works"
+buttonHrefFullfilments: "/" 
+
 ---
-
-## E-commerce websites
-
-{{< thumbnail src="/uploads/logo-platform-s2s.png" link="/integrations/b2b-shopping-cart" alt="stock2shop logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-shopify.png" link="/integrations/shopify" alt="shopify logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-magento.png" link="/integrations/magento" alt="magento logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-woocommerce.png" link="/integrations/woocommerce" alt="woocommerce logo" style="display:inline">}}
-
-### Find out more about Sage 200 Evolution integrations:
-
-- [Sage 200 Evolution Shopify Integration](/integrations/Sage-200-Evolution-shopify/ "Sage 200 Evolution Shopify Integration")
-- [Sage 200 Evolution Magento Integration](/integrations/Sage-200-Evolution-magento/ "Sage 200 Evolution Magento Integration")
-- [Sage 200 Evolution WooCommerce Integration](/integrations/Sage-200-Evolution-woocommerce/ "Sage 200 Evolution WooCommerce Integration")
-- [Sage 200 Evolution B2B Trade Store Integration](/integrations/Sage-200-Evolution-b2b-trade-store/ "Sage 200 Evolution B2B Trade Store Integration")
-
-## Once you’ve integrated Sage 200 Evolution and your e-commerce website, you’ll be able to:
-
-*   #### Sync inventory data
-    
-    Syncing inventory data is simple once you’ve integrated with Stock2Shop.
-*   #### Enrich data
-    
-    There are several workflows for enriching product data so it is ready to sell. These workflows depend on your requirements.
-*   #### Customise product workflow
-    
-    Once you’ve enriched your data, you can decide exactly how to set up your product workflow.
-*   #### Simplify ordering
-    
-    There are a number of choices you can make to customise the ordering process so it suits your workflow perfectly.
-*   #### Streamline ordering
-    
-    Sage 200 Evolution integration makes the ordering process simple.
-*   #### Automate order fulfillment
-    
-    Dispatch orders from your ERP to one of our supported fulfilment services.
-*   #### Customise notifications
-    
-    Once you’ve integrated Stock2Shop, you’ll be able to customise notifications.
-*   #### Streamline workflow
-    
-    Integrating Sage 200 Evolution makes your workflow simple and more effective.
