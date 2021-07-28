@@ -24,3 +24,7 @@ Update the postal code in the fulfillment tab of the order on S2S
 4. Click fulfill order
 
 Go back to the queue and skip the fulfillment queue error as you manually processed the fulfillment
+
+## Support
+For more assistance regarding our technical support, please log a ticket
+directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com
