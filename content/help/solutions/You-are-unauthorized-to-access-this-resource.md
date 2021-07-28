@@ -11,7 +11,7 @@ date: 2020-12-30T12:04:00+02:00
 ---
 <!-- Action: fulfill_order -->
 #### Error description
-S2S attempted to create a fulfillment but was rejected by ParcelNinja.
+S2S attempted to create a fulfillment but was rejected by Parcelninja.
 
 #### Error solution
 This error results from S2S being provided with the incorrect API keys to sync to ParcelNinja. Correct keys would need to be provided to S2S or created by: 

@@ -4,6 +4,7 @@ type: help
 tags: []
 ---
 
+## Getting Started
 How to get set up on Stock2Shop so that you can streamline your workflow.
 Stock2Shop is a flexible system integration solution that can be tailored to your company’s specific needs.
 

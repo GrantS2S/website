@@ -9,7 +9,7 @@ tags: ["gettingstarted", "sap-business-one"]
 draft: true
 ---
 
-
+## SAP Business One
 SAP Business One is a client-side ERP system. 
 This means that the SAP Business One application is installed on a 
 server at your office, on your actual work computer or on a 
@@ -50,7 +50,6 @@ SAP Business One and perform the following:
 In order to sync products from SAP Business One to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | SAP Business One        | Stock2Shop                     | Description                                                                                                                                           |
 | ----------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ItemCode                | source_product_code            | This is used to group variable products                                                                                                               |
@@ -62,13 +61,10 @@ the minimum required fields are:
 | ItemCode                | variants.sku                   | Unique code for a product syncing to the channel                                                                                                      |
 | true                    | variants.inventory_management  | Shows that S2S is managing and updating inventory                                                                                                     |
 
- ```
-
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 In order to sync customers from SAP Business One to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | SAP Business One | Stock2Shop             | Description                                                                                                                                                           |
 | ---------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | U_S2SActive      | customer_active        | Create a user-defined field (UDF) that indicates whether the customer should sync or not sync to the website. The indicator has 3 options; active, ignore and delete. |
@@ -80,8 +76,6 @@ the minimum required fields are:
 | City             | City                   | City Name                                                                                                                                                             |
 | Country          | Country                | Country name                                                                                                                                                          |
 | Zipcode          | Zip                    | Postal code                                                                                                                                                           |
-
- ```
  
 ## Syncing Orders to SAP Business One {#raise-orders}
 For processing orders from Stock2Shop back into SAP Business One, we require access to the DI-Server. 
@@ -89,30 +83,20 @@ Please discuss this with your SAP consultant to ensure this is setup correctly.
 
 By default, Stock2Shop raises orders to SAP Business One with the following order details:
 
-```
 | SAP Business One | Stock2Shop              | Description                                                                        |
 | ---------------- | ----------------------- | ---------------------------------------------------------------------------------- |
-| Card_name        | customer.first_name     | First name of the customer                                                         |
-| Card_name        | customer.last_name      | Last name of the customer                                                          |
-| Card_name        | customer.email          | Customer's email address                                                           |
 | CardCode         | default_customer_code   | The SAP B1 account code                                                            |
 | ItemCode         | line_item.sku           | Unique code for a product syncing from the website.                                |
-| n/a              | line_item.title         | Product title of a product from the website (Note: set by SAP B1 based on the SKU) |
 | Quantity         | line_item.qty           | Qty ordered by the customer                                                        |
 | Price/Unit Price | line_item.price         | Price of the product on the website                                                |
-| n/a              | tax_line.rate           | Tax applied to the order (Note: Based on SAP B1 customer account tax rate)         |
-| Shipping Code    | Order                   | Inventory code for shipping line items                                             |
-| Customer Code    | Order                   | Used to process orders for cash customers                                          |
-| Warehouse Code   | Order                   | Orders raised into this warehouse                                                  |
-
- ```
+| Warehousecode    | Warehouse Code          | Orders raised into this warehouse                                                  |
 
 ## Features specific to SAP Business One
 To get the most out of your SAP Business One integration with Stock2shop, 
 head over to our [SAP Business One](/help/features-sap-business-one "SAP Business One features") documentation.
 
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
+## How It Works
+It is important to understand how Stock2Shop works 
 along with the terminology we use. Added to that, there are certain concepts that you 
 the client have the ability to manage in your own capacity. We have prepared 
 documentation that describes all our concepts, [here](/help/how-it-works "How it works")

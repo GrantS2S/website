@@ -14,7 +14,7 @@ date: 2020-12-30T11:57:00+02:00
 A postal code field included in the order from the channel has incorrect information.
 
 #### Error solution
-ParcelNinja cannot process this order as it does not recognize that postal code. Check for extra digits or characters.
+Parcelninja cannot process this order as it does not recognize that postal code. Check for extra digits or characters.
 
 Update the postal code in the fulfillment tab of the order on S2S
 

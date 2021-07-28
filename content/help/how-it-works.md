@@ -3,9 +3,9 @@ title: How it works
 tags: []
 ---
 
-## How To
-There are a few core components that make up Stock2Shop. Here are explanations of these key concepts, 
-so you can better understand how we make your business work better.
+## How It Works
+There are a few core components that make up Stock2Shop. 
+Here are explanations of these key concepts, so you can better understand how we make your business work better.
 
 Stock2Shop offers system integration between many different applications: ERP / Accounting systems (Sage, SYSPRO, iSync or SAP) 
 and e-commerce websites ([WooCommerce](/integrations/woocommerce "woocommerce Stock2Shop integration"), 
@@ -17,11 +17,6 @@ Using the Stock2Shop software efficiently and getting the maximum benefit
 from the platform requires an understanding of the key concepts. In this section of the documentation, 
 we outline some of these key concepts.
 
-- [Products](/help/how-to/products "Understanding products and variants")
-- [Sources](/help/how-to/sources "Understanding sources")
-- [Channels](/help/how-to/channels "Understanding channels")
-- [Fulfillments](/help/how-to/fulfillments "Understanding fulfillments")
-- [Models](/help/how-to/models "Understanding models")
 
 
     
