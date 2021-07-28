@@ -1,0 +1,199 @@
+{{ define "main" }}
+
+<div class="wrapper">
+    {{- partial "header-alt.html" . -}}
+
+    <div class="hero-alt">
+        <div class="container">
+            <div class="hero__content">
+                <img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
+
+                <h1>{{ title .Title }}</h1>
+                
+                <p>{{ .Params.Lead }}</p>
+            </div><!-- /.hero__content -->
+        </div><!-- /.container -->
+    </div><!-- /.hero-alt -->
+
+    <section class="section section--size1">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleProduct }}</h2>
+
+                <p>{{ .Params.subtitleProduct }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt">
+                <img src="{{ .Params.imageDestopProduct }}" alt="{{ .Params.titleProduct }}" width="{{ .Params.imageDestopWidthProduct }}" class="hidden-mobile">
+
+                <img src="{{ .Params.imageMobileProduct }}" alt="{{ .Params.titleProduct }}" class="visible-mobile">
+            </div><!-- /.section__image -->
+
+            <div class="section__actions visible-mobile">
+                <a href="{{ .Params.buttonHrefProduct }}" class="btn btn--medium">{{ .Params.buttonTextProduct }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--gray section section--size1">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleCustomer }}</h2>
+ 
+                <p>{{ .Params.subtitleCustomer }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt">
+                <img src="{{ .Params.imageDestopCustomer }}" alt="{{ .Params.titleCustomer }}" width="{{ .Params.imageDestopWidthCustomer }}" class="hidden-mobile">
+
+                <img src="{{ .Params.imageMobileCustomer }}" alt="{{ .Params.titleCustomer }}" class="visible-mobile">
+            </div><!-- /.section__image -->
+
+            <div class="section__actions visible-mobile">
+                <a href="{{ .Params.buttonHrefCustomer }}" class="btn btn--medium">{{ .Params.buttonTextCustomer }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section section--size1">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleOrders }}</h2>
+
+                <p>{{ .Params.subtitleOrders }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt">
+                <img src="{{ .Params.imageDestopOrders }}" alt="{{ .Params.titleOrders }}" width="{{ .Params.imageDestopWidthOrders }}" class="hidden-mobile">
+
+                <img src="{{ .Params.imageMobileOrders }}" alt="{{ .Params.titleOrders }}" class="visible-mobile">
+            </div><!-- /.section__image -->
+
+            <div class="section__actions visible-mobile">
+                <a href="{{ .Params.buttonHrefOrders }}" class="btn btn--medium">{{ .Params.buttonTextOrders }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--gray section section--size1">
+        <div class="container">
+            <header class="section__head">
+                <h2>{{ .Params.titleFullfilments }}</h2>
+ 
+                <p>{{ .Params.subtitleFullfilments }}</p>
+            </header><!-- /.section__head -->
+
+            <div class="section__image-alt">
+                <img src="{{ .Params.imageDestopFullfilments }}" alt="{{ .Params.titleFullfilments }}" width="{{ .Params.imageDestopWidthFullfilments }}" class="hidden-mobile">
+
+                <img src="{{ .Params.imageMobileFullfilments }}" alt="{{ .Params.titleFullfilments }}" class="visible-mobile">
+            </div><!-- /.section__image -->
+
+            <div class="section__actions visible-mobile">
+                <a href="{{ .Params.buttonHrefFullfilments }}" class="btn btn--medium">{{ .Params.buttonTextFullfilments }}</a>
+            </div><!-- /.section__actions -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <section class="section section--services">
+        <div class="container">
+            <header class="section__head">
+                <h2>See full set of integrations</h2>
+                
+                <p>In order to get the most out of your {{ .Params.seoTitle }}, view a full list of features and configuration settings here.</p>
+            </header><!-- /.section__head -->
+
+            <div class="services">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service">
+                            <i class="ico-card service__ico"></i>
+
+                            <h4>eCommerce integrations for {{ .Params.seoTitle }}:</h4>
+
+                            <p>List all connections like home page, keyword focus e.g:-</p>
+
+                            <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-channel" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
+                                <li>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="service">
+                            <i class="ico-mobile service__ico"></i>
+
+                            <h4>B2B trade store for {{ .Params.seoTitle }}:</h4>
+
+                            <p>Blurb and link to b2b</p>
+
+                            <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-b2b" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
+                                <li>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="service">
+                            <i class="ico-settings service__ico"></i>
+
+                            <h4>Fulfilment Integrations</h4>
+
+                            <p>Blurb and link to b2b</p>
+
+                            <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-fulfillment" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
+                                <li>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+
+                    <div class="col-md-6">
+                        <div class="service">
+                            <i class="ico-market service__ico"></i>
+
+                            <h4>Marketplace integrations for {{ .Params.seoTitle }}:</h4>
+
+                            <p>Blurb and link to b2b</p>
+
+                            <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-marketplace" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
+                                <li>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div><!-- /.service -->
+                    </div><!-- /.col-md- offset-md- -->
+                </div><!-- /.row -->
+            </div><!-- /.services -->   
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "support-information.html" . -}}
+    
+    {{- partial "contact.html" . -}}
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
+
+{{ end }}
