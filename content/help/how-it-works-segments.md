@@ -111,9 +111,8 @@ Note: link to console user doc [here]()
 ## Limitations
 The only limitation for segments to be aware of is that you are not able to add more than one segment field.
 For example, if you are tyring to segment by Brand, you can't add two brand segments. 
-If you try doing this, you will overwrite the first brand segment.
+If you try doing this, you will overwrite the first brand segment. A practical exmaple of this would be:
 
-A practical exmaple of this would be:
 
 ```
 - field: "Price Tier Name"
