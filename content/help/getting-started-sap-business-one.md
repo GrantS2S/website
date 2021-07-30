@@ -93,7 +93,7 @@ By default, Stock2Shop raises orders to SAP Business One with the following orde
 
 ## Features specific to SAP Business One
 To get the most out of your SAP Business One integration with Stock2shop, 
-head over to our [SAP Business One](/help/features-sap-business-one "SAP Business One features") documentation.
+head over to our [SAP Business One](/help/features-sap-business-one "SAP Business One features") features section.
 
 ## How It Works
 It is important to understand how Stock2Shop works 
