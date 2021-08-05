@@ -14,196 +14,72 @@
         </div><!-- /.container -->
     </div><!-- /.hero-alt -->
 
-    {{ $headless := .Site.GetPage "/integrations/test/shopify-inventory" }}
-    <section class="section section--size2">
+
+    {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-channel-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}
+    <section class="section {{if not (modBool $i 2)}}section--gray{{end}} section--size2">
         <div class="container">
-            <header class="section__head">
-                <h2>{{ $headless.Params.title }}</h2>
 
-                <p>{{ $headless.Params.subtitle }}</p>
-            </header><!-- /.section__head -->
 
-            <div class="section__image-alt hidden-mobile">
-                <img src="{{ $headless.Params.imageDestop }}" alt="{{ $headless.Params.title }}" width="{{ $headless.Params.imageDestopWidth }}">
-            </div><!-- /.section__image -->
+
 
             <div class="section__container">
                 <div class="row">
-                    <div class="col-md-8 offset-3">
+                    <div class="col-md-6">
                         <div class="section__content">
-                            {{ $headless.Content }}
+                            <header class="section__head">
+                                <h2>{{ .Params.title }}</h2>
+
+                                <p>{{ .Params.subtitle }}</p>
+                            </header><!-- /.section__head -->
+                            <div class="section__image-alt hidden-mobile">
+                                <img src="{{ .Params.imageMobile }}" alt="{{ .Params.title }}" class="img-fluid">
+                            </div><!-- /.section__image -->
+                        </div><!-- /.section__content -->
+                    </div><!-- /.col-md- offset-md- -->
+                    <div class="col-md-6">
+                        <div class="section__content">
+                            {{ .Content }}
                         </div><!-- /.section__content -->
                     </div><!-- /.col-md- offset-md- -->
                 </div><!-- /.row -->
             </div><!-- /.section__container -->
 
+            {{if (modBool $i 2)}}
             <i class="ico-circle-big section__ico-size1"></i>
+            {{ end }}
         </div><!-- /.container -->
     </section><!-- /.section -->
+    {{ end }}
 
-    <section class="section section--gray section section--size2">
-        <div class="container">
-            <header class="section__head">
-                <h2>{{ .Params.titleInformation }}</h2>
+<!--    {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-channel-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}-->
+<!--        <section class="section {{if not (modBool $i 2)}}section&#45;&#45;gray{{end}} section&#45;&#45;size2">-->
+<!--            <div class="container">-->
+<!--                <header class="section__head">-->
+<!--                    <h2>{{ .Params.title }}</h2>-->
 
-                <p>{{ .Params.subtitleInformation }}</p>
-            </header><!-- /.section__head -->
+<!--                    <p>{{ .Params.subtitle }}</p>-->
+<!--                </header>&lt;!&ndash; /.section__head &ndash;&gt;-->
 
-            <div class="section__image-alt hidden-mobile">
-                <img src="{{ .Params.imageDestopInformation }}" alt="{{ .Params.titleInformation }}" width="{{ .Params.imageDestopWidthInformation }}">
-            </div><!-- /.section__image -->
+<!--                <div class="section__image-alt hidden-mobile">-->
+<!--                    <img src="{{ .Params.imageDestop }}" alt="{{ .Params.title }}" width="{{ .Params.imageDestopWidth }}">-->
+<!--                </div>&lt;!&ndash; /.section__image &ndash;&gt;-->
 
-            <div class="section__container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <h2>{{ .Params.titleInformationCol11 }}</h2>
+<!--                <div class="section__container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <div class="section__content">-->
+<!--                                {{ .Content }}-->
+<!--                            </div>&lt;!&ndash; /.section__content &ndash;&gt;-->
+<!--                        </div>&lt;!&ndash; /.col-md- offset-md- &ndash;&gt;-->
+<!--                    </div>&lt;!&ndash; /.row &ndash;&gt;-->
+<!--                </div>&lt;!&ndash; /.section__container &ndash;&gt;-->
 
-                            <h4>{{ .Params.subtitleInformationCol11 }}</h4>
-
-                            <p>{{ .Params.textInformationCol11 }}</p>
-
-                            <p>{{ .Params.textInformationCol12 }}</p>
-
-                            <p>{{ .Params.textInformationCol13 }}</p>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <h2>{{ .Params.titleInformationCol21 }}</h2>
-
-                            <h4>{{ .Params.subtitleInformationCol21 }}</h4>
-
-                            <p>{{ .Params.textInformationCol21 }}</p>
-
-                            <p>{{ .Params.textInformationCol22 }}</p>
-
-                            <p>{{ .Params.textInformationCol23 }}</p>
-
-                            <p>{{ .Params.textInformationCol24 }}</p>
-
-                            <p>{{ .Params.textInformationCol25 }}</p>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-                </div><!-- /.row -->
-            </div><!-- /.section__container -->
-
-            <div class="section__actions">
-                <a href="{{ .Params.buttonInformationHrefProduct }}" class="btn btn--medium">{{ .Params.buttonInformationTextProduct }}</a>
-            </div><!-- /.section__actions -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
-
-    <section class="section section section--size2">
-        <div class="container">
-            <header class="section__head">
-               <h2>{{ .Params.titleOrders }}</h2>
-
-                <p>{{ .Params.subtitleOrders }}</p>
-            </header><!-- /.section__head -->
-
-            <div class="section__image-alt hidden-mobile">
-                <img src="{{ .Params.imageDestopOrders }}" alt="{{ .Params.titleOrders }}" width="{{ .Params.imageDestopWidthInformation }}">
-            </div><!-- /.section__image -->
-
-            <div class="section__container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <h2>{{ .Params.titleOrdersCol11 }}</h2>
-
-                            <h4>{{ .Params.subtitleOrdersCol11 }}</h4>
-
-                            <p>{{ .Params.textOrdersCol11 }}</p>
-
-                            <p>{{ .Params.textOrdersCol12 }}</p>
-
-                            <p>{{ .Params.textOrdersCol13 }}</p>
-                            
-                            <p>{{ .Params.textOrdersCol14 }}</p>
-                            
-                            <p>{{ .Params.textOrdersCol15 }}</p>
-                            
-                            <p>{{ .Params.textOrdersCol16 }}</p>
-                            
-                            <p>{{ .Params.textOrdersCol17 }}</p>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <h2>{{ .Params.titleOrdersCol21 }}</h2>
-
-                            <h4>{{ .Params.subtitleOrdersCol21 }}</h4>
-
-                            <p>{{ .Params.textOrdersCol11 }}</p>
-
-                            <p>{{ .Params.textOrdersCol12 }}</p>
-
-                            <p>{{ .Params.textOrdersCol13 }}</p>
-                            
-                            <p>{{ .Params.textOrdersCol14 }}</p>
-                            
-                            <a href="{{ .Params.buttonOrdersHrefProduct }}" class="btn btn--medium">{{ .Params.buttonOrdersTextProduct }}</a>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-                </div><!-- /.row -->
-            </div><!-- /.section__container -->
-
-            <i class="ico-circle-big section__ico-size1"></i>
-        </div><!-- /.container -->
-    </section><!-- /.section -->
-
-    <section class="section section--gray section section--size2">
-        <div class="container">
-            <header class="section__head">
-                <h2>{{ .Params.titleFulfillments }}</h2>
-
-                 <p>{{ .Params.subtitleFulfillments }}</p>
-            </header><!-- /.section__head -->
-
-            <div class="section__image-alt hidden-mobile">
-                <img src="{{ .Params.imageDestopFulfillments }}" alt="{{ .Params.titleFulfillments }}" width="{{ .Params.imageDestopWidthInformation }}">
-            </div><!-- /.section__image -->
-
-            <div class="section__container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <h2>{{ .Params.titleFulfillmentsCol11 }}</h2>
-
-                            <h4>{{ .Params.subtitleFulfillmentsCol11 }}</h4>
-
-                            <p>{{ .Params.textFulfillmentsCol11 }}</p>
-
-                            <p>{{ .Params.textFulfillmentsCol12 }}</p>
-
-                            <p>{{ .Params.textFulfillmentsCol13 }}</p>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-
-                    <div class="col-md-6">
-                        <div class="section__content">
-                           <h2>{{ .Params.titleFulfillmentsCol21 }}</h2>
-
-                            <h4>{{ .Params.subtitleFulfillmentsCol22 }}</h4>
-
-                            <p>{{ .Params.textFulfillmentsCol21 }}</p>
-
-                            <p>{{ .Params.textFulfillmentsCol22 }}</p>
-
-                            <p>{{ .Params.textFulfillmentsCol23 }}</p>
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-                </div><!-- /.row -->
-            </div><!-- /.section__container -->
-
-            <div class="section__actions">
-                <a href="{{ .Params.buttonFulfillmentsHrefProduct }}" class="btn btn--medium">{{ .Params.buttonFulfillmentsTextProduct }}</a>
-            </div><!-- /.section__actions -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
+<!--                {{if (modBool $i 2)}}-->
+<!--                <i class="ico-circle-big section__ico-size1"></i>-->
+<!--                {{ end }}-->
+<!--            </div>&lt;!&ndash; /.container &ndash;&gt;-->
+<!--        </section>&lt;!&ndash; /.section &ndash;&gt;-->
+<!--    {{ end }}-->
 
     {{- partial "support-information.html" . -}}
     

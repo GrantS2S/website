@@ -15,92 +15,37 @@
         </div><!-- /.container -->
     </div><!-- /.hero-alt -->
 
-    <section class="section section--size1">
+
+    {{ range $i,$p := where (where .Site.RegularPages "Type" "source-content") ".Params.source" .Params.source }}
+    <section class="section {{ if not (modBool $i 2) }}section--gray{{ end }} section--size1">
         <div class="container">
             <header class="section__head">
-                <h2>{{ .Params.titleProduct }}</h2>
+                <h2>{{ .Params.title }}</h2>
 
-                <p>{{ .Params.subtitleProduct }}</p>
+                <p>{{ .Params.subtitle }}</p>
             </header><!-- /.section__head -->
 
+            {{ if .Params.imageDestop }}
             <div class="section__image-alt">
-                <img src="{{ .Params.imageDestopProduct }}" alt="{{ .Params.titleProduct }}" width="{{ .Params.imageDestopWidthProduct }}" class="hidden-mobile">
+                <img src="{{ .Params.imageDestop }}" alt="{{ .Params.title }}" width="{{ .Params.imageDestopWidth }}" class="hidden-mobile">
 
-                <img src="{{ .Params.imageMobileProduct }}" alt="{{ .Params.titleProduct }}" class="visible-mobile">
+                <img src="{{ .Params.imageMobile }}" alt="{{ .Params.title }}" class="visible-mobile">
             </div><!-- /.section__image -->
+            {{ end }}
 
             <div class="section__actions visible-mobile">
-                <a href="{{ .Params.buttonHrefProduct }}" class="btn btn--medium">{{ .Params.buttonTextProduct }}</a>
+                <a href="{{ .Params.buttonHrefMobile }}" class="btn btn--medium">{{ .Params.buttonTextMobile }}</a>
             </div><!-- /.section__actions -->
         </div><!-- /.container -->
     </section><!-- /.section -->
-
-    <section class="section section--gray section section--size1">
-        <div class="container">
-            <header class="section__head">
-                <h2>{{ .Params.titleCustomer }}</h2>
- 
-                <p>{{ .Params.subtitleCustomer }}</p>
-            </header><!-- /.section__head -->
-
-            <div class="section__image-alt">
-                <img src="{{ .Params.imageDestopCustomer }}" alt="{{ .Params.titleCustomer }}" width="{{ .Params.imageDestopWidthCustomer }}" class="hidden-mobile">
-
-                <img src="{{ .Params.imageMobileCustomer }}" alt="{{ .Params.titleCustomer }}" class="visible-mobile">
-            </div><!-- /.section__image -->
-
-            <div class="section__actions visible-mobile">
-                <a href="{{ .Params.buttonHrefCustomer }}" class="btn btn--medium">{{ .Params.buttonTextCustomer }}</a>
-            </div><!-- /.section__actions -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
-
-    <section class="section section section--size1">
-        <div class="container">
-            <header class="section__head">
-                <h2>{{ .Params.titleOrders }}</h2>
-
-                <p>{{ .Params.subtitleOrders }}</p>
-            </header><!-- /.section__head -->
-
-            <div class="section__image-alt">
-                <img src="{{ .Params.imageDestopOrders }}" alt="{{ .Params.titleOrders }}" width="{{ .Params.imageDestopWidthOrders }}" class="hidden-mobile">
-
-                <img src="{{ .Params.imageMobileOrders }}" alt="{{ .Params.titleOrders }}" class="visible-mobile">
-            </div><!-- /.section__image -->
-
-            <div class="section__actions visible-mobile">
-                <a href="{{ .Params.buttonHrefOrders }}" class="btn btn--medium">{{ .Params.buttonTextOrders }}</a>
-            </div><!-- /.section__actions -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
-
-    <section class="section section--gray section section--size1">
-        <div class="container">
-            <header class="section__head">
-                <h2>{{ .Params.titleFullfilments }}</h2>
- 
-                <p>{{ .Params.subtitleFullfilments }}</p>
-            </header><!-- /.section__head -->
-
-            <div class="section__image-alt">
-                <img src="{{ .Params.imageDestopFullfilments }}" alt="{{ .Params.titleFullfilments }}" width="{{ .Params.imageDestopWidthFullfilments }}" class="hidden-mobile">
-
-                <img src="{{ .Params.imageMobileFullfilments }}" alt="{{ .Params.titleFullfilments }}" class="visible-mobile">
-            </div><!-- /.section__image -->
-
-            <div class="section__actions visible-mobile">
-                <a href="{{ .Params.buttonHrefFullfilments }}" class="btn btn--medium">{{ .Params.buttonTextFullfilments }}</a>
-            </div><!-- /.section__actions -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
+    {{ end }}
 
     <section class="section section--services">
         <div class="container">
             <header class="section__head">
                 <h2>See full set of integrations</h2>
                 
-                <p>In order to get the most out of your {{ .Params.seoTitle }}, view a full list of features and configuration settings here.</p>
+                <p>In order to get the most out of your {{ .Title }}, view a full list of features and configuration settings here.</p>
             </header><!-- /.section__head -->
 
             <div class="services">
@@ -109,12 +54,12 @@
                         <div class="service">
                             <i class="ico-card service__ico"></i>
 
-                            <h4>eCommerce integrations for {{ .Params.seoTitle }}:</h4>
+                            <h4>eCommerce integrations for {{ .Title }}:</h4>
 
-                            <p>List all connections like home page, keyword focus e.g:-</p>
+                            <p>Shopping carts which integrate with {{ .Title}}</p>
 
                             <ul>
-                                {{ $q1 := where .Site.Pages "Type" "source-channel" }}
+                                {{ $q1 := where .Site.Pages "Type" "source-channel-test" }}
                                 {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
                                 {{ range $q1 | intersect $q2 }}
                                 <li>
