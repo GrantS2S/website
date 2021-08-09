@@ -1,9 +1,12 @@
 ---
-title: "B2B Trade Store For Sap Business One"
+title: "SAP Business One B2B Trade Store Integration"
 seoTitle: "B2B Shopping Cart For Sap Business One"
-seoDescription: "A SAP Business One B2B trade store integration will help your business run better. Let Stock2Shop work with you to set up the ideal workflow to suit your business. We'll integrate SAP Business One and your B2B trade store to simplify order, streamline your workflow and more."
-type: "source-b2b"
+seoDescription: "Integrate SAP Business One Stock2Shop's B2B Trade Store, and you'll be able to streamline your workflow, simplify the ordering process and save time - and money. Find out more about how a SAP Business One and Stock2Shop's B2B Trade Store Integration can help your business."
+lead: "Your ERP software contains vital product data such as pricing and stock levels, as well as customer data such as payment terms and credit limit. Present this information to your wholesale customers with our B2B Trade Store, enabling them to place orders directly into their account with just a few clicks."
+type: "source-channel-test"
 source: "test"
-channel: "b2b"
+channel: "b2b trade store"
+image: "/images/sap-shopify.png"
+imageAlt: shopify logo
 tags: []
 ---

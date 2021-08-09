@@ -1,29 +1,32 @@
 ---
-title: "This is my heading"
-subtitle: "This is sub title"
+title: "Raise Orders"
+subtitle: "Orders received from Shopify can be raised in SAP Business One as an invoice, sales order or quote."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
+imageMobile: "/images/a001.png"
 headless: true
 source: "test"
 channel: "shopify"
 type: "source-channel-content"
-weight: 4
+weight: 2
 ---
 
+## Automate Ordering
+Orders received from Shopify can be raised in SAP Business One as an invoice, sales order or quote.
 
-## Manage orders
+- Send Shopify orders into SAP Business One automatically.
+- Automatically raise Shopify orders into SAP Business One as invoices, sales orders or quotes. 
+- Shipping costs added to an order can be created as a line item (service item) on the SAP Business One document. 
+- You can choose to allow negative stock, if required. 
+- The Shopify order number can be added to the SAP Business One order as a reference.
+- You can decide whether orders go into one customer account in SAP Business One, or whether they go into individual accounts. Customer accounts can be created on the fly in SAP Business One if required. 
+- You can choose which admin staff members receive notifications for order sync activities, such as when orders are received, when orders are processed successfully or when orders fail. 
+- You can decide whether you want all orders to be raised into SAP Business One, or only those that have reached “paid” status.
 
-You’ll be able to sync inventory data with ease once you’ve integrated with Stock2Shop.
+## Customise Order Field Mapping
+You can map any of the data received on the Shopify order payload to be inserted into relevant fields on the SAP Business One sales document e.g. the Shopify order number can be mapped to the customer reference field. 
 
-Sync your product information from SAP Business One to Shopify. This includes the SKU, price, stock availability and product title, and can be updated on schedule (up to every 30 minutes).
-
-You can also easily sync your images between SAP Business One and Shopify, and you can upload or remove images automatically.
-
-Once you’ve configured products correctly on SAP Business One (we can help), fields from SAP Business One can be “mapped” to any attribute on Shopify. You can choose the categories, sub-categories and brand tags that suit you. We’ll work with you to create a flexible system that suits your needs.
-
-If you have variations in your products (e.g. one shoe that comes in multiple sizes), we can create one product with multiple variants in Shopify automatically.
-
-It’s up to you to decide which price list will sync to Shopify, and which warehouses (or which combination of warehouses) on SAP Business One will sync to Shopify. We’ll help you to create a custom workflow that works for you.
-
-Because SAP Business One is so flexible and customisable, we understand that each business has a custom structure that works for them. As long as it’s structured correctly, we can adapt to your ERP and bring in whatever combinations and structures you’ve put in place. We understand that your ERP is the brain of your business. Once we’ve integrated it with your Shopify e-commerce website, you can be sure that all the necessary data is in the right place, without the risk of human error.
-r way, enriching product information is not only simple but consistent – whatever changes you make on Stock2Shop are synced with SAP Business One and Shopify.
+- Orders can be assigned to a specific sales rep.
+- You can add customer generated references to each order.
+- It’s up to you to decide whether SAP Business One creates the order code, or you use the Shopify order code.
+- You can also decide whether the customer’s address from the order comes from Shopify or the existing customer details in SAP Business One. (You can use the customer’s details on the order to populate the billing/shipping address). 
