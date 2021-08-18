@@ -1,16 +1,17 @@
 ---
 title: "Raise Orders"
-subtitle: "Sync orders from the B2B Trade Store to be raised in SAP Business One."
+subtitle: "Orders received from WooCommerce can be raised in SAP Business One as an invoice, sales order or quote."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a001.png"
 headless: true
 source: "test"
-channel: "b2b trade store"
+channel: "woocommerce"
 type: "source-channel-content"
-weight: 3
+weight: 2
 ---
 
 ## Automate Ordering
+
 
 ## Customise Order Field Mapping

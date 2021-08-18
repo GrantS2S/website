@@ -1,8 +1,8 @@
 ---
-title: "Shopify SAP Business One Integration"
-seoTitle: "Shopify SAP Business One Integration"
+title: "SAP Business One Shopify Integration"
+seoTitle: "SAP Business One Shopify Integration"
 seoDescription: "Integrate SAP Business One and Shopify, and you'll be able to streamline your workflow, simplify the ordering process and save time - and money. Find out more about how a SAP Business One Shopify Integration can help your business."
-lead: "If you use SAP Business One as your current ERP and Shopify as your e-commerce website, it’s important that they can communicate with each other, with ease. That’s where Stock2Shop comes in: a SAP Business One Shopify integration will make your business run smoother. Here’s what you’ll be able to do:"
+lead: "If you’re using SAP Business One as your ERP system and Shopify as your ecommerce platform, you’ll want to keep them in sync to ensure that your customers see accurate stock availability and pricing. Let Stock2Shop integrate SAP Business One and Shopify for a more efficient workflow. Here’s what you’ll be able to do."
 type: "source-channel-test"
 source: "test"
 channel: "shopify"
