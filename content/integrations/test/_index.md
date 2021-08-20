@@ -9,4 +9,6 @@ imageAlt: sap logo
 type: "source"
 source: "test"
 tags: ["erp"]
+aliases:
+    - /integrations/sap/
 ---

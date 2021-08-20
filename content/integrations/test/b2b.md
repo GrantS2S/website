@@ -9,4 +9,6 @@ channel: "b2b trade store"
 image: "/images/sap-shopify.png"
 imageAlt: B2B trade store logo
 tags: []
+aliases:
+    - /integrations/sap-b2b-trade-store/
 ---

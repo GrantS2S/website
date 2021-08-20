@@ -9,4 +9,6 @@ channel: "magento"
 image: "/images/sap-shopify.png"
 imageAlt: magento logo
 tags: []
+aliases:
+    - /integrations/sap-magento/
 ---

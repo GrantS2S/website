@@ -9,4 +9,6 @@ channel: "takealot"
 image: "/images/sap-shopify.png"
 imageAlt: takealot logo
 tags: []
+aliases:
+    - /integrations/takealot-marketplace-sap-integration/
 ---

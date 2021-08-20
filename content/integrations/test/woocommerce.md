@@ -9,4 +9,6 @@ channel: "woocommerce"
 image: "/images/sap-shopify.png"
 imageAlt: woocommerce logo
 tags: []
+aliases:
+    - /integrations/sap-woocommerce-integration/
 ---

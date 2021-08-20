@@ -9,5 +9,7 @@ channel: "shopify"
 image: "/images/sap-shopify.png"
 imageAlt: shopify logo
 tags: []
+aliases:
+    - /integrations/sap-shopify/
 ---
     
