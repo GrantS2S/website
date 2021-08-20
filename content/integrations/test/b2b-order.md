@@ -3,7 +3,7 @@ title: "Raise Orders"
 subtitle: "Orders placed on your B2B Trade Store can be raised in SAP Business One as an invoice, sales order or quote."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "b2b trade store"

@@ -3,7 +3,7 @@ title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into SAP Business One (provided you are only doing lead time orders)."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "takealot"

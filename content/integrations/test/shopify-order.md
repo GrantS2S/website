@@ -3,7 +3,7 @@ title: "Raise Orders"
 subtitle: "Orders received from Shopify can be raised in SAP Business One as an invoice, sales order or quote."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "shopify"

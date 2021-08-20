@@ -3,7 +3,7 @@ title: "Sync Product & Inventory data"
 subtitle: "Sync inventory data from SAP Business One to Takealot."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "takealot"

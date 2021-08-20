@@ -3,7 +3,7 @@ title: "Run a B2B Store"
 subtitle: "Run a wholesale business on your Magento website."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "magento"

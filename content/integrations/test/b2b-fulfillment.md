@@ -3,7 +3,7 @@ title: "Raise Fulfillments"
 subtitle: "Create a sync between your 3rd-party logistics service and your B2B Trade Store, ensuring that your stock levels are accurate and your orders are fulfilled timeously."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/a002.png"
 headless: true
 source: "test"
 channel: "b2b trade store"
