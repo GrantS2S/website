@@ -10,21 +10,6 @@ Stock2Shop website and api documentation built with Hugo.
 - View in your browser with http://localhost:1313/
 
 
-## themes and content
-
-The site uses two themes (s2s and [docuapi](https://github.com/bep/docuapi/)).
-docuapi is used for documenting our api and has it's own config file `config-docuapi.toml`.
-The publish and content directory is set to `/api`
-To run the api docs use
-
-```shell script
-hugo -D --config=config-docuapi.toml server
-```
-Otherwise
-```shell script
-hugo -D server
-```
-s
 ## Front Matter Glossary
 
 |Term|Description| 
