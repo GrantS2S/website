@@ -1,10 +1,11 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+{{ $js1 := resources.Get "js/jquery-3.6.0.min.js"}}
+{{ $js2 := resources.Get "scss/bootstrap-5.0.0/js/bootstrap.min.js" }}
+{{ $js3 := resources.Get "js/slick.js" | resources.Minify }}
+{{ $js4 := resources.Get "js/functions.js" | resources.Minify }}
+{{ $js := slice $js1 $js2 $js3 $js4 | resources.Concat "js/bundle.js" }}
 
-{{ $jsBoostrap := resources.Get     "scss/bootstrap-5.0.0/js/bootstrap.js" }}
-<script src='{{ $jsBoostrap.RelPermalink }}'></script>
-
-{{ $slick := resources.Get     "js/slick.js" }}
-<script src='{{ $slick.RelPermalink }}'></script>
-
-{{ $jsCustom := resources.Get     "js/functions.js" }}
-<script src='{{ $jsCustom.RelPermalink }}'></script>
+{{ if .Site.IsServer }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ else }}
+<script src="{{ $js.Permalink }}"></script>
+{{ end }}
