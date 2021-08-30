@@ -1,15 +1,16 @@
 <head>
-    {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.css" }}
-    {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.css" }}
-    {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.css" }}
-    {{ $scss := resources.Get "scss/custom.scss" | resources.ToCSS }}
+    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+    {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.min.css" }}
+    {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.min.css" }}
+    {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.min.css" }}
+    {{ $scss := resources.Get "scss/custom.scss" | resources.ToCSS $options}}
     <!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
     {{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "bundle.css" }}
 
     {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ else }}
-    <link rel="stylesheet" href='/bundle.css'>
+    <link rel="stylesheet" href='{{ $css.Permalink }}'>
     {{ end }}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
