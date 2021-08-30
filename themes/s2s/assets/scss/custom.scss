@@ -26,34 +26,34 @@ $mobile        : 767px;
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px; 
+	font-size: 15px;
 	line-height: 1.56; 
 	background: #fff;
-	color: #526279; 
+	color: #212021;
 }
 
 h1 {
 	font-size: 42px; 
 	line-height: 1.24; 
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 h2 {
 	font-size: 32px; 
 	line-height: 1.31; 
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 h3 {
 	font-size: 20px; 
 	line-height: 1.2; 
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 h4 {
 	font-size: 18px; 
 	line-height: 1.2; 
-	font-weight: 900; 
+	font-weight: 900;
 }
 
 h5 {
@@ -169,6 +169,14 @@ ul {
 	.visible-mobile {
 		display: block !important; 
 	}
+}
+
+/* ------------------------------------------------------------ *\
+	Text
+\* ------------------------------------------------------------ */
+
+.lead {
+	font-size: 18px;
 }
 
 /* ------------------------------------------------------------ *\
@@ -5283,7 +5291,7 @@ ul {
 		overflow: hidden; 
 
 		.section__head {
-			max-width: 554px; 
+			max-width: 554px;
 
 			+ .section__image-alt {
 				margin-top: 24px; 

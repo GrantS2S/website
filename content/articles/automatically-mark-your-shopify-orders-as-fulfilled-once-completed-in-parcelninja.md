@@ -7,10 +7,9 @@ summary: "Stock2Shop has brought the Parcelninja integration full circle by auto
 lead: "Stock2Shop has brought the Parcelninja integration full circle by automatically updating order statuses to “Fulfilled” in Shopify, and notifying customers once delivery has taken place."
 image: "/uploads/article-shopify-parcelninja-order-update-fulfillment.jpg"
 imageAlt: shopify parcelninja order update fulfillment 
+linkText: "Automated Shopify Parcelninja Fulfillment"
 date: 2019-06-06
 --- 
-   
-![shopify-parcelninja-order-update-fulfillment](/uploads/article-shopify-parcelninja-order-update-fulfillment.jpg)
 
 If you have or are thinking of using Shopify as your sales channel and Parcelninja as your fulfillment partner, this solution is for you. Once a customer places an order and pays, the following process beings:
 

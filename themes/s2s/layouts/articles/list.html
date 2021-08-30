@@ -8,7 +8,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="article__content article__content--primary">
-                            <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+                            <h1>{{ title .Title }}</h1>
                             
                             <p>{{ .Params.Lead }}</p>
                         </div><!-- /.article__content -->
@@ -25,7 +25,9 @@
                     {{ range .Pages }}
                         <div class="col-md-4">
                             <div class="card card--primary">
-                                <div class="card-image" style="background-image: url({{ .Params.image }})"></div><!-- /.card-image -->
+                                <div class="card-image" style="background-image: url({{ .Params.image }})">
+
+                                </div><!-- /.card-image -->
                                 
                                 <div class="card-body">
                                     <h6>{{ .Params.date.Format "2 January 2006" }}</h6> 
@@ -34,7 +36,7 @@
                                     
                                     <p>{{ .Params.summary }}</p>
                                     
-                                    <a href="{{ .Page.RelPermalink }}" class="link">Read More <i class="ico-arrow-right"></i></a>
+                                    <a href="{{ .Page.RelPermalink }}" title="{{.Params.linkText}}" class="link">Read More <i class="ico-arrow-right"></i></a>
                                 </div><!-- /.card-body -->
                             </div>
                         </div><!-- /.col-md- offset-md- -->
@@ -43,60 +45,43 @@
             </div><!-- /.cards -->
 
             <div class="pagination">
-                <a href="#" class="pagination__btn">
-                    <i class="ico-angle-left-alt"></i>
-                    <i class="ico-angle-left-alt"></i>
-                </a>
+<!--                <a href="#" class="pagination__btn">-->
+<!--                    <i class="ico-angle-left-alt"></i>-->
+<!--                    <i class="ico-angle-left-alt"></i>-->
+<!--                </a>-->
 
-                <a href="#" class="pagination__btn">
-                    <i class="ico-angle-left-alt"></i>
-                </a>
+<!--                <a href="#" class="pagination__btn">-->
+<!--                    <i class="ico-angle-left-alt"></i>-->
+<!--                </a>-->
 
-                <ul>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <a href="#">2</a>-->
+<!--                    </li>-->
 
-                    <li class="is-active">
-                        <a href="#">3</a>
-                    </li>
+<!--                    <li class="is-active">-->
+<!--                        <a href="#">3</a>-->
+<!--                    </li>-->
 
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                </ul>
+<!--                    <li>-->
+<!--                        <a href="#">4</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
 
-                <a href="#" class="pagination__btn">
-                    <i class="ico-angle-right"></i>
-                </a>
+<!--                <a href="#" class="pagination__btn">-->
+<!--                    <i class="ico-angle-right"></i>-->
+<!--                </a>-->
 
-                <a href="#" class="pagination__btn">
-                    <i class="ico-angle-right"></i>
-                    <i class="ico-angle-right"></i>
-                </a>
+<!--                <a href="#" class="pagination__btn">-->
+<!--                    <i class="ico-angle-right"></i>-->
+<!--                    <i class="ico-angle-right"></i>-->
+<!--                </a>-->
             </div><!-- /.pagination -->
 
-            <div class="article article--small">
-                <div class="article__image">
-                    <img src="/images/a71.png" alt="Be first to know">
-                </div><!-- /.article__image -->
+            {{- partial "cta-first-to-know.html" . -}}
 
-                <div class="article__content">
-                    <h2>Be first to know</h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
-                    </p>
-
-                    <a href="#" class="btn btn--medium">Sign up today</a>
-                </div><!-- /.article__content -->
-
-                <i class="ico-circle-big"></i>
-            </div><!-- /.article-small -->
         </div><!-- /.container -->
     </section><!-- /.section -->
-
-
 
     {{- partial "footer.html" . -}}
 </div><!-- /.wrapper --> 

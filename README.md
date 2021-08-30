@@ -9,6 +9,13 @@ Stock2Shop website and api documentation built with Hugo.
 - Navigate to project and run ```hugo -D server```
 - View in your browser with http://localhost:1313/
 
+## Links
+
+### Markdown
+All links created in markdown must have alt text
+
+``
+
 
 ## Front Matter Glossary
 

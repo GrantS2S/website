@@ -7,7 +7,7 @@
             <div class="hero__content">
                 <img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
 
-                <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
+                <h1>{{ title .Title }}</h1>
                 
                 <p>{{ .Params.Lead }}</p>
             </div><!-- /.hero__content -->

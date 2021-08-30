@@ -6,80 +6,58 @@
         <div class="container">
             <div class="hero__content">
                 <img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
-
-                <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
-                
+                <h1>{{ title .Title }}</h1>
                 <p>{{ .Params.Lead }}</p>
             </div><!-- /.hero__content -->
         </div><!-- /.container -->
     </div><!-- /.hero-alt -->
 
-
     {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-channel-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}
     <section class="section {{if not (modBool $i 2)}}section--gray{{end}} section--size2">
         <div class="container">
-
-
-
-
-            <div class="section__container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            <header class="section__head">
-                                <h2>{{ .Params.title }}</h2>
-
-                                <p>{{ .Params.subtitle }}</p>
-                            </header><!-- /.section__head -->
-                            <div class="section__image-alt hidden-mobile">
-                                <img src="{{ .Params.imageMobile }}" alt="{{ .Params.title }}" class="img-fluid">
-                            </div><!-- /.section__image -->
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-                    <div class="col-md-6">
-                        <div class="section__content">
-                            {{ .Content }}
-                        </div><!-- /.section__content -->
-                    </div><!-- /.col-md- offset-md- -->
-                </div><!-- /.row -->
-            </div><!-- /.section__container -->
-
             {{if (modBool $i 2)}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="" style="text-align: justify">
+                        <h2>{{ .Params.title }}</h2>
+                        <br>
+                        <p class="lead">{{ .Params.subtitle }}</p>
+                        <br>
+                        {{ .Content }}
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="">
+                        <div class=" hidden-mobile">
+                            <img src="{{ .Params.imageMobile }}" alt="{{ .Params.title }}" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <i class="ico-circle-big section__ico-size1"></i>
+            {{ else}}
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="">
+                        <div class=" hidden-mobile" >
+                            <img src="{{ .Params.imageMobile }}" alt="{{ .Params.title }}" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="" style="text-align: justify">
+                        <h2>{{ .Params.title }}</h2>
+                        <br>
+                        <p class="lead">{{ .Params.subtitle }}</p>
+                        <br>
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
             {{ end }}
         </div><!-- /.container -->
     </section><!-- /.section -->
     {{ end }}
-
-<!--    {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-channel-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}-->
-<!--        <section class="section {{if not (modBool $i 2)}}section&#45;&#45;gray{{end}} section&#45;&#45;size2">-->
-<!--            <div class="container">-->
-<!--                <header class="section__head">-->
-<!--                    <h2>{{ .Params.title }}</h2>-->
-
-<!--                    <p>{{ .Params.subtitle }}</p>-->
-<!--                </header>&lt;!&ndash; /.section__head &ndash;&gt;-->
-
-<!--                <div class="section__image-alt hidden-mobile">-->
-<!--                    <img src="{{ .Params.imageDestop }}" alt="{{ .Params.title }}" width="{{ .Params.imageDestopWidth }}">-->
-<!--                </div>&lt;!&ndash; /.section__image &ndash;&gt;-->
-
-<!--                <div class="section__container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <div class="section__content">-->
-<!--                                {{ .Content }}-->
-<!--                            </div>&lt;!&ndash; /.section__content &ndash;&gt;-->
-<!--                        </div>&lt;!&ndash; /.col-md- offset-md- &ndash;&gt;-->
-<!--                    </div>&lt;!&ndash; /.row &ndash;&gt;-->
-<!--                </div>&lt;!&ndash; /.section__container &ndash;&gt;-->
-
-<!--                {{if (modBool $i 2)}}-->
-<!--                <i class="ico-circle-big section__ico-size1"></i>-->
-<!--                {{ end }}-->
-<!--            </div>&lt;!&ndash; /.container &ndash;&gt;-->
-<!--        </section>&lt;!&ndash; /.section &ndash;&gt;-->
-<!--    {{ end }}-->
 
     {{- partial "support-information.html" . -}}
     

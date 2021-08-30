@@ -11,11 +11,11 @@ aliases: "/stock2shop-console-product-attribute-templates/"
 date: 2020-03-30
 ---
 
-![product attribute templates](/uploads/article-product-attribute-templates.jpg)  
-  
-Attributes can be used for multiple purposes. For example, it could act as yes/no field that determines which channel a product is synced to, or it could be used for product segmentation such as Category, Gender, Season, Material… whatever makes sense for your business.
+# Introducing Product Attribute Templates
 
-## Different types of fields
+#### Attributes can be used for multiple purposes. For example, it could act as yes/no field that determines which channel a product is synced to, or it could be used for product segmentation such as Category, Gender, Season, Material… whatever makes sense for your business.
+
+### Different types of fields
 
 - true/false
 - string
@@ -23,7 +23,7 @@ Attributes can be used for multiple purposes. For example, it could act as yes/n
 
 Attributes can be used for multiple purposes, eg Active field, category data, custom attributes (eg material, gender etc). Basic info (applied to all products), group specific info (eg clothing, footwear and bags etc). You can create default data for each field. You can make a field ‘required’ before a product is updated on the channels. You can add a description to each field so that data capturers know what a field is used for. Below is a guide to using this feature.
 
-## Adding a Product Attribute
+### Adding a Product Attribute
 
 - On your Stock2Shop console, find your product list by clicking Product > View in the top menu.
 - Go into the backend of any product by clicking the three vertical dots on the righthand side of the screen.
