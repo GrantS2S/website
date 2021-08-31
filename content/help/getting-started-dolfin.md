@@ -9,6 +9,8 @@ tags: ["gettingstarted", "dolfin"]
 draft: true
 ---
 
+# Getting Started Dolfin
+
 Dolfin is an online accounting system. 
 This means the application lives in the “cloud”. 
 Enabling Stock2Shop to work with 
@@ -38,7 +40,7 @@ Dolfin and perform the following:
 
 1. [Sync products](#sync-products) 
 2. [Sync customers (Not Supported)](#sync-customers) 
-3. [Raise orders](#raise-orders) 
+3. [Raise orders](#raise-orders)
 
 ## Syncing Products to Stock2Shop {#sync-products}
 In order to sync products from Dolfin to your Stock2Shop client console, 

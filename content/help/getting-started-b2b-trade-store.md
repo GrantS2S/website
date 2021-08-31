@@ -7,5 +7,6 @@ type: help
 source: "b2b-trade-store"
 tags: ["gettingstarted", "b2b-trade-store"]
 draft: true
+productsTitle1": "SDVSFDGSF"
 ---
 

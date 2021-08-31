@@ -1,14 +1,15 @@
 {{ define "main" }}
     <div class="wrapper">
-        {{- partial "header.html" . -}}
-
-        <div class="hero hero--size0">
-
-        </div><!-- /.hero -->
-
+        {{- partial "header-alt.html" . -}}
 
         <section class="section-blog-alt">
             <div class="container">
+                <div class="section__image">
+                    <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
+
+                    <span class="section__label">Case Study</span>
+                </div><!-- /.section__image -->
+
                 <header class="section__head">
                     <h1>{{ title .Title }}</h1>
 
@@ -54,8 +55,15 @@
                     </div><!-- /.section__body -->
                 </div><!-- /.section__inner -->
 
-                {{- partial "cta-contact-us.html" . -}}
-
+                <section class="section section--red section--contact-alt">
+                    <div class="section__content">
+                        <p>
+                            Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+                        </p>
+                    
+                        <a href="#" class="btn btn--medium-alt btn--dark">Contact Us</a>
+                    </div><!-- /.section__content -->
+                </section><!-- /.section -->
             </div><!-- /.container -->
         </section><!-- /.section -->
 

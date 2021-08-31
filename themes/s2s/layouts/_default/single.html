@@ -2,14 +2,13 @@
 <div class="wrapper">
 	{{- partial "header.html" . -}}
 
-	<div class="hero hero--size5">
+	<div class="hero hero--size4">
 	    <div class="container">
 	        <article class="article">
 	            <div class="row align-items-center">
 	                <div class="col-lg-12">
 	                    <div class="article__content article__content--primary">
-	                        <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
-	                        
+	                        <h1>{{ title .Title }}</h1>
 	                        <p>
 	                        	{{ .Params.Lead }}
 	                        </p>
@@ -22,13 +21,12 @@
 
 	<section class="section section--secondary">
 		<div class="container">
-			<div class="section__image-alt">
-				<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
-			</div><!-- /.section__image -->
+			<div class="section__standard">
+				{{ .Content }}
+			</div>
 
 			<div class="section__inner">
 				<div class="section__content">
-					{{ .Content }}
 				</div><!-- /.section__content -->
 
 				<section class="section section--red section--contact-alt">

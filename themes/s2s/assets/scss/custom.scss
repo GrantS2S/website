@@ -1743,7 +1743,7 @@ ul {
 		
 		/*  Article Content Primary  */
 		&--primary {
-			max-width: 674px; 
+			//max-width: 674px;
 			margin: auto;
 			top: 0;
 			text-align: center;  
@@ -3704,6 +3704,11 @@ ul {
 		padding: 107px 0 116px; 
 	}
 
+	/*  Hero Size0  */
+	&--size0 {
+		padding: 40px 0 64px;
+	}
+
 	/*  Hero Size1  */
 	&--size1 {
 		padding: 129px 0 0; 
@@ -3753,7 +3758,7 @@ ul {
 	.hero {
 		/*  Hero Size1  */
 		&--size1 {
-			padding: 107px 0; 
+			padding: 107px 0;
 		}	
 	}
 }
@@ -3822,7 +3827,7 @@ ul {
 
 		/*  Hero Size5  */
 		&--size5 {
-			padding: 75px 20px 160px; 
+			padding: 75px 20px 40px;
 		}
 
 		/*  Hero Size5 Alt  */
@@ -5248,12 +5253,12 @@ ul {
 		padding: 84px 0 0; 
 
 		.section__head {
-			max-width: 554px; 
-			max-width: 100%; 
+			//max-width: 554px;
+			//max-width: 100%;
 
 			h2,
 			p {
-				max-width: 554px; 
+				//max-width: 554px;
 				margin-left: auto !important;
 				margin-right: auto !important; 
 			}
@@ -5502,7 +5507,7 @@ ul {
 	
 	/*  Section Secondary  */
 	&--secondary {
-		padding: 0 0 112px; 
+		padding: 0 0 0px;
 
 		.container {
 			position: relative; 
@@ -5516,7 +5521,8 @@ ul {
 			height: 526px; 
 			border-radius: 5px; 
 			box-shadow: 0 30px 99px rgba(78, 90, 109, 0.1);
-			background: #fff; 
+			background: #fff;
+			margin-bottom: 60px;
 
 			+ .section__inner {
 				margin-top: 101px; 
@@ -6066,11 +6072,26 @@ ul {
 }
 
 /* ------------------------------------------------------------ *\
+	Section Standard
+\* ------------------------------------------------------------ */
+
+.section__standard {
+	padding: 40px;
+	position: relative;
+	//height: 526px;
+	border-radius: 5px;
+	box-shadow: 0 30px 99px rgba(78, 90, 109, 0.1);
+	background: #fff;
+
+
+}
+
+/* ------------------------------------------------------------ *\
 	Section Blog
 \* ------------------------------------------------------------ */
 
 .section-blog {
-	padding: 143px 0 100px;
+	padding: 0px 0 100px;
 
 	.section__content {
 		max-width: 772px; 
@@ -6186,7 +6207,7 @@ ul {
 \* ------------------------------------------------------------ */
 
 .section-blog-alt {
-	padding: 145px 0 100px;
+	padding: 20px 0 100px;
 
 	.container {
 		max-width: 796px; 

@@ -26,8 +26,16 @@ queue_fetch_images
 sync_mode
 
 -->
+
+## Dolfin Features
+
+A fult set of features we offer for integrating with Dolfin.
+
+## Product syncing
+***
+
 <!-- cron_get_products_schedule -->
-### Update Stock2Shop hourly with Product data changes
+#### Update Stock2Shop hourly with Product data changes
 When changes are made to your Dolfin system, we can set an hourly time to check for Product updates.
 This can be set for which ever minute on the hour that best suits your workflow.
 
@@ -35,6 +43,9 @@ This can be set for which ever minute on the hour that best suits your workflow.
 ### Create orders on Dolfin
 Stock2Shop can create an order on Dolfin when
 it has been received from your sales channel(s).
+
+## Raising Orders
+***
 
 <!-- order_source_customer_code_map -->
 ### Raise Orders against Customers in Dolfin
