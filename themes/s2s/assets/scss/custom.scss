@@ -3033,7 +3033,8 @@ ul {
 	h4 {
 		color: #212021; 
 		text-transform: uppercase; 
-		margin: 0 0 20px; 
+		margin: 0 0 20px;
+		font-size: 16px;
 		position: relative; 
 
 		&:after {
@@ -6497,7 +6498,7 @@ ul {
 
 	.footer__aside {
 		position: absolute; 
-		top: -1px; 
+		top: -1px;
 		right: 15px; 
 		text-align: right; 
 		font-size: 14px; 
@@ -6572,9 +6573,7 @@ ul {
 			text-align: left; 
 
 			.logo {
-				position: absolute; 
-				top: 0; 
-				left: 15px;
+				display: none;
 			}
 
 			p + p {
@@ -6606,9 +6605,7 @@ ul {
 			}
 
 			.logo {
-				left: 32px; 
-				width: 238px; 
-				height: 54px; 
+				display: none;
 			}
 		}
 

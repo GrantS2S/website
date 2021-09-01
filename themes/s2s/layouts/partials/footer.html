@@ -2,39 +2,33 @@
 	<div class="container">
 		<div class="footer__body">
 			<div class="row">
-				<div class="col-md-8 col-lg-4">
-					<h4>Sources</h4>
-					
-					<div class="footer__nav footer__nav--primary">
+				<div class="col-md-4 col-lg-3">
+					<h4>ERP / Accounting</h4>
+					<nav class="footer__nav">
 						<ul>
-							<li><a href="#">Dolfin</a></li>
-							<li><a href="#">Efinity</a></li>
-							<li><a href="#">Flat File</a></li>
-							<li><a href="#">iQ Retail</a></li>
-							<li><a href="#">iSync</a></li>
+							<li><a href="#">SAP Business One</a></li>
+							<li><a href="#">Syspro</a></li>
 							<li><a href="#">Microsoft Dynamics NAV</a></li>
-							<li><a href="#">Omni Accounts</a></li>
 							<li><a href="#">Sage 50cloud Pastel Partner</a></li>
 							<li><a href="#">Sage 50cloud Pastel Xpress</a></li>
-						</ul>
-						
-						<ul>
 							<li><a href="#">Sage 100 Evolution</a></li>
 							<li><a href="#">Sage 200 Evolution</a></li>
 							<li><a href="#">Sage 300cloud</a></li>
 							<li><a href="#">Sage X3</a></li>
 							<li><a href="#">Sage Business Cloud Financials</a></li>
 							<li><a href="#">Sage Business Cloud Accounting</a></li>
-							<li><a href="#">SAP Business One</a></li>
-							<li><a href="#">Syspro</a></li>
+							<li><a href="#">Dolfin</a></li>
+							<li><a href="#">Omni Accounts</a></li>
+							<li><a href="#">iQ Retail</a></li>
+							<li><a href="#">Efinity</a></li>
+							<li><a href="#">iSync</a></li>
+							<li><a href="#">Flat File</a></li>
 							<li><a href="#">Custom Database</a></li>
 						</ul>
-					</div><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
-
-				<div class="col-md-4 col-lg-2">
+					</nav>
+				</div>
+				<div class="col-md-4 col-lg-3">
 					<h4>Channels</h4>
-
 					<nav class="footer__nav">
 						<ul>
 							<li><a href="#">Shopify</a></li>
@@ -42,22 +36,17 @@
 							<li><a href="#">Magento</a></li>
 							<li><a href="#">B2B Trade Store</a></li>
 						</ul>
-					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
+					</nav>
 
-				<div class="col-md-4 col-lg-6">
-					<h4>Fulfillment</h4>
-
+					<h4>Logistics</h4>
 					<nav class="footer__nav">
 						<ul>
 							<li><a href="#">Parcelninja</a></li>
 							<li><a href="#">On the Dot</a></li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
 
-				<div class="col-md-4 col-lg-2">
-					<h4>Marketplace</h4>
+					<h4>Marketplaces</h4>
 
 					<nav class="footer__nav">
 						<ul>
@@ -66,9 +55,8 @@
 							</li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
-
-				<div class="col-md-4 col-lg-2">
+				</div>
+				<div class="col-md-4 col-lg-3">
 					<h4>How it Works</h4>
 
 					<nav class="footer__nav">
@@ -77,9 +65,7 @@
 							<li><a href="/help/features/">Features</a></li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
 
-				<div class="col-md-4 col-lg-7">
 					<h4>Company</h4>
 
 					<nav class="footer__nav">
@@ -89,30 +75,17 @@
 							<li><a href="/contact-us/">Contact Us</a></li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
 
-				<div class="col-md-4 col-lg-2">
 					<h4>Resources</h4>
 
 					<nav class="footer__nav">
 						<ul>
 							<li><a href="/articles/" title="Supply Chain Articles">Articles</a></li>
 							<li><a href="/case-studies/" title="Client Success Stories">Success Stories</a></li>
+							<li><a href="/help/">Support</a></li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
 
-				<div class="col-md-4 col-lg-2">
-					<h4>Support</h4>
-
-					<nav class="footer__nav">
-						<ul>
-							<li><a href="/help/">Help Centre</a></li>
-						</ul>
-					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
-
-				<div class="col-md-4 col-lg-2">
 					<h4>Pricing</h4>
 
 					<nav class="footer__nav">
@@ -122,7 +95,8 @@
 							</li>
 						</ul>
 					</nav><!-- /.footer__nav -->
-				</div><!-- /.col-md- offset-md- -->
+				</div>
+
 			</div><!-- /.row -->
 		</div><!-- /.footer__body -->
 
@@ -130,7 +104,7 @@
 			<a href="/" class="logo footer__logo"></a>
 
 			<p>
-				@ Copyright 2021 Stock2Shop.<br> All Rights Reserved.
+				@ Copyright {{ dateFormat "2006" now }} Stock2Shop.<br> All Rights Reserved.
 			</p>
 
 			<p><a href="/privacy-policy/">Privacy Policy</a> <span class="separator">|</span> <a href="#">Terms & Conditions</a></p>
