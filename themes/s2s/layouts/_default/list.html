@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="wrapper">
+	{{- partial "header.html" . -}}
+
+	<div class="hero hero--size4">
+	    <div class="container">
+	        <article class="article">
+	            <div class="row align-items-center">
+	                <div class="col-lg-12">
+	                    <div class="article__content article__content--primary">
+	                        <h1>{{ title .Title }}</h1>
+	                        <p>
+	                        	{{ .Params.Lead }}
+	                        </p>
+	                    </div><!-- /.article__content -->
+	                </div><!-- /.col-md- offset-md- -->
+	            </div><!-- /.row -->
+	        </article><!-- /.article -->
+	    </div><!-- /.container -->
+	</div><!-- /.hero -->
+
+	<section class="section section--secondary">
+		<div class="container">
+			<div class="section__standard">
+				{{ .Content }}
+			</div>
+
+			<div class="section__inner">
+				<div class="section__content">
+				</div><!-- /.section__content -->
+
+				<section class="section section--red section--contact-alt">
+				    <div class="section__content">
+				        <p>
+				        	Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?
+				        </p>
+				    
+				        <a href="#" class="btn btn--medium-alt btn--dark">Let’s Talk</a>
+				    </div><!-- /.section__content -->
+				</section><!-- /.section -->
+			</div><!-- /.section__inner -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
+{{ end }}

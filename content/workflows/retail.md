@@ -3,9 +3,8 @@ title: "Retail Model"
 seoTitle: "Stock2Shop and Retail Business"
 seoDescription: "Understanding the role of Stock2Shop in a retail business model"
 seoKeyword: ["Retail", "B2C"]
-type: help
 source: ""
-tags: ["how-it-works", "model"]
+tags: []
 draft: true
 ---
 

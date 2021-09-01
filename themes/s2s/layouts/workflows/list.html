@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="wrapper">
+	{{- partial "header.html" . -}}
+
+	<div class="hero hero--size4">
+	    <div class="container">
+	        <article class="article">
+	            <div class="row align-items-center">
+	                <div class="col-lg-12">
+	                    <div class="article__content article__content--primary">
+	                        <h1>{{ title .Title }}</h1>
+	                        <p>
+	                        	{{ .Params.Lead }}
+	                        </p>
+	                    </div><!-- /.article__content -->
+	                </div><!-- /.col-md- offset-md- -->
+	            </div><!-- /.row -->
+	        </article><!-- /.article -->
+	    </div><!-- /.container -->
+	</div><!-- /.hero -->
+
+	<section class="section section--secondary">
+		<div class="container">
+
+			<div class="section__standard">
+
+				<div class="cards">
+					<div class="row">
+						{{ range .Pages }}
+						<div class="col-md-4">
+							<div class="card card--primary">
+
+								<div class="card-body">
+									<h3>{{ title .Page.Title }}</h3>
+
+									<p>{{ .Params.summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" title="{{.Params.linkText}}" class="link">Read More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.card-body -->
+							</div>
+						</div><!-- /.col-md- offset-md- -->
+						{{ end }}
+					</div><!-- /.row -->
+				</div><!-- /.cards -->
+
+			</div>
+
+			{{- partial "cta-lets-talk.html" . -}}
+
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
+{{ end }}
