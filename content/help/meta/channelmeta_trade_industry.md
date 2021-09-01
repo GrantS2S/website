@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "industry"
 description: "Industry specific store, option is &quot;automotive&quot;. Only use for year, make, and model."
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

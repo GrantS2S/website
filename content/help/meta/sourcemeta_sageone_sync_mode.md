@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "sync_mode"
 description: "push or pull"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "pull"
 values: []
 tags: [sourcemeta,sageone]

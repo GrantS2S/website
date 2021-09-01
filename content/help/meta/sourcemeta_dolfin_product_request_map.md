@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_dolfin"
 key: "product_request_map"
 description: "SOAP Url endpoint used to request products"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "&lt;soap:Envelope xmlns:soap=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:tem=&quot;http://tempuri.org/&quot;&gt;
             &lt;soap:Header xmlns:wsa=&quot;http://www.w3.org/2005/08/addressing&quot;&gt;
                 &lt;wsse:Security xmlns:wsse=&quot;http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd&quot; xmlns:wsu=&quot;http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd&quot;&gt;

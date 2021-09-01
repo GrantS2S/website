@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "param_quote_enabled"
 description: "Create a quote rather than invoice"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "false"
 values: []
 tags: [sourcemeta,sageone]

@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_isync"
 key: "product_field_map"
 description: "Field mapping between S2S and iSync, use '{{}}' signs to note variable, otherwise string will be treated as literal"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
 &quot;source&quot;: {
 &quot;source_product_code&quot;: &quot;{{Style}}&quot;,

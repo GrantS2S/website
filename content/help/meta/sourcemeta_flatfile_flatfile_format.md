@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "flatfile_format"
 description: "xml csv"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,flatfile]

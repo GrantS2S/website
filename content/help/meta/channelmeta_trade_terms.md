@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "terms"
 description: "Terms HTML"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

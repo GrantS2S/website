@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Fetch Images From Dolfin"
 name: "sourcemeta_dolfin"
 key: "queue_fetch_images"
 description: ""
-user-friendly-description: ""
+user_friendly_description: "If you capture your product images on Dolfin you can sync them through to Stock2Shop."
 default: "false"
 values: []
 tags: [sourcemeta,dolfin]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

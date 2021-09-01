@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "customer_map"
 description: "Map used to create new customers, see Sage One API docs"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
   &quot;Name&quot;: &quot;{{billing_address.company}}&quot;
 }"

@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "phone"
 description: "Client number on order view."
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

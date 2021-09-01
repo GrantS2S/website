@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "create_order_enabled"
 description: "Allow creating order on source"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "false"
 values: []
 tags: [sourcemeta,sageone]

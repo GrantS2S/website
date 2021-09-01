@@ -3,7 +3,7 @@ title: ""
 name: "fulfillmentservicemeta"
 key: "placeholder"
 description: "Ignore"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [fulfillmentservicemeta]

@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "shipping_methods"
 description: "Multiple shipping methods can be implemented for the customer to select. This can be added per customer as a meta. The format is JSON, with the key being the name displayed on the channel for each method"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
   &quot;Next Day&quot;: {
     &quot;method&quot;: &quot;flat_rate&quot;,

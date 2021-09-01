@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "tunnel_host"
 description: "Hostname for source tunnel"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]

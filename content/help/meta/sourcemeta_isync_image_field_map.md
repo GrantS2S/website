@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_isync"
 key: "image_field_map"
 description: "Field mapping between S2S and iSync for images, use '{{}}' signs to note variable, otherwise string will be treated as literal"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "[
 {
 &quot;image&quot;: {

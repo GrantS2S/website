@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "order_template"
 description: "Mustache JSON template used to transform order data"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{{some template}}"
 values: []
 tags: [sourcemeta,flatfile]

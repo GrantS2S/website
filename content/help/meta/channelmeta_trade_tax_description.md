@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "tax_description"
 description: "Description of sales tax, e.g. GST or VAT"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "VAT"
 values: []
 tags: [channelmeta,trade]

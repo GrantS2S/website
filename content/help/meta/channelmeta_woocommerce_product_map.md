@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_woocommerce"
 key: "product_map"
 description: "Product map overrides the basic product settings. To call price tier use the following &quot;{{variant.price_tier_MyPriceTier}}&quot;. To call a warehouse use the following &quot;{{variant.qty_availability_MyWarehouse}}&quot; {{#calculate}} function not possible - Will set values to '0'"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
 &quot;title&quot;: &quot;{{product.title}}&quot;,
 &quot;variations&quot;: [

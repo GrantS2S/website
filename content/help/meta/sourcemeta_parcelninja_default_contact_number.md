@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_parcelninja"
 key: "default_contact_number"
 description: "Telephone number to use when raising an order if no cell number given."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "0821231234"
 values: []
 tags: [sourcemeta,parcelninja]

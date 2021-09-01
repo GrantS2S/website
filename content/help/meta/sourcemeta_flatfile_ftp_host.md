@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "ftp_host"
 description: "Host for ftp"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,flatfile]

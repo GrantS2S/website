@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_woocommerce"
 key: "order_code_prefix"
 description: "Prefix all orders with this"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "#"
 values: []
 tags: [channelmeta,woocommerce]

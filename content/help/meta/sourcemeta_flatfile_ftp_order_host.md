@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "ftp_order_host"
 description: "Ftp host"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "ftp.stock2shop.com"
 values: []
 tags: [sourcemeta,flatfile]

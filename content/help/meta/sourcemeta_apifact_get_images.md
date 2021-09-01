@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "get_images"
 description: "Route for fetching images"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]

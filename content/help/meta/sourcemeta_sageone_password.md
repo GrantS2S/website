@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "password"
 description: "SageOne password"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,sageone]

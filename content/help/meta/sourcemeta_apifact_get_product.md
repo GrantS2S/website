@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "get_product"
 description: "Route for fetching product"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]

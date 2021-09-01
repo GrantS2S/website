@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "account_display"
 description: "Map used to display additional information on the customers account page. Does not require the mustache template. Use meta_ to map customer attributes."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
   &quot;Some Text&quot;: &quot;abc&quot;,
   &quot;Balance&quot;: &quot;meta_balance&quot;,

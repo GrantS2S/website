@@ -3,7 +3,7 @@ title: ""
 name: "fulfillmentservicemeta_parcelninja"
 key: "api_password"
 description: "API password"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "user123"
 values: []
 tags: [fulfillmentservicemeta,parcelninja]

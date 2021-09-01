@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_magento2"
 key: "order_map"
 description: "To be set if the default order_map needs to be adjusted."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
           &quot;system_order&quot;: {
             &quot;id&quot;: &quot;{{entity_id}}&quot;,

@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact_syspro"
 key: "param_operator_password"
 description: "Order setting:  eNet service operator password for logging in"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact,syspro]

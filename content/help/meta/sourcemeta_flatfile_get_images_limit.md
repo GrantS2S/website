@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "get_images_limit"
 description: "Number of images to fetch at a time"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "1"
 values: []
 tags: [sourcemeta,flatfile]

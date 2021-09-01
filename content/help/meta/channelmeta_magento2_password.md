@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_magento2"
 key: "password"
 description: "Magento Admin password"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "*****"
 values: []
 tags: [channelmeta,magento2]
