@@ -1,5 +1,5 @@
 ---
-title: "Sync Product & Inventory data"
+title: "Sync Product & Inventory Data"
 subtitle: "Sync product and inventory data from SAP Business One to Shopify."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
@@ -11,16 +11,50 @@ type: "source-channel-content"
 weight: 1
 ---
 
-### Sync Inventory Data
+### Near Real Time Syncing
+
+Our software continually monitors your SAP database for changes in product information and sends this to Shopify.
+Our software continually monitors your SAP database for changes in product information and sends this to Shopify.
+
+### Choose The Data To Sync
+
+Marking fields to sync, flags etc.. cherry pick, segments...
+We map Sap Business One database fields to a Shopify product.
+We map Sap Business One database fields to a Shopify product.
+We map Sap Business One database fields to a Shopify product.
+
+### Inventory to Multiple Locations
+
+You can choose to sync SAP Business One warehouses to one or many inventory locations within Shopify.
+You can choose to sync SAP Business One warehouses to one or many inventory locations within Shopify.
+
+### Run Multiple Online Stores From SAP Business One
+
+"sell B2B"
+
+### Assign specific pricing
+
+You dfsdf
+
+### Product Information Managment (PIM)
+
+Use Stock2Shop as a PIM to enrich product data not found in SAP
+Use Stock2Shop as a PIM to enrich product data not found in SAP
+Use Stock2Shop as a PIM to enrich product data not found in SAP
+
+### Customised Workflow
+
+Decide whhich systems manage what data directly.
+Decide whhich systems manage what data directly.
+Decide whhich systems manage what data directly.
 
 Keep your Shopify product data up to date, including pricing, stock levels and more.
 
-We map Sap Business One database fields to a Shopify product.
-These include the SKU code, price, stock availability, product title, collection and product type.
+### Message queueing
 
 Decide which price list will sync from SAP to Shopify.
 
-You can choose to sync SAP Business One warehouses to one or many inventory locations within Shopify.
+
 
 ### Data Enrichment
 

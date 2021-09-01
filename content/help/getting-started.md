@@ -1,7 +1,7 @@
 ---
-title: Getting Started
+title: "Getting Started"
 type: help
-tags: []
+tags: ["gettingstarted"]
 ---
 
 ## Getting Started

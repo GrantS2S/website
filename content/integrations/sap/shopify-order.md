@@ -1,6 +1,6 @@
 ---
 title: "Automate Raising Orders"
-subtitle: "Orders received from Shopify can be raised in SAP Business One as an invoice, sales order or quote."
+subtitle: "Orders received from Shopify can be automatically raised into SAP Business One."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -11,7 +11,25 @@ type: "source-channel-content"
 weight: 2
 ---
 
-### Order Processing
+### Select Your Document Type
+
+You can choose the type of order document created in SAP, from invoice, qupte to sales prder/.
+
+### Custom Notifications
+
+Sell our notifications system
+
+### Create orders depending on Status
+
+blah
+
+### Set Your Debtors Account
+
+### Message Queing
+
+failure handling etc.
+
+Stock2Shop can placec all your orders into one debtors account, or, orders can be raised into sepcific accounts depending on the customer.
 
 You can send Shopify orders into SAP Business One as an invoice, sales order or quote.
 

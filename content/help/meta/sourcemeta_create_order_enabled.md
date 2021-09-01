@@ -1,8 +1,13 @@
 ---
-title: "Enable order to your ERP"
+title: ""
+name: "sourcemeta"
 key: "create_order_enabled"
-value: "Integrate your Dolfin with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature", "dolfin"]
+description: "Allow ordering on source"
+user-friendly-description: ""
+default: "true"
+values: []
+tags: [sourcemeta]
 type: "meta"
-process: "products"
+process: ""
+headless: true
 ---

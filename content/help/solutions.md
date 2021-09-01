@@ -1,6 +1,6 @@
 ---
 title: Solutions
-tags: []
+tags: ["solution"]
 ---
 
 

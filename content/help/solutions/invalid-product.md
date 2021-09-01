@@ -6,6 +6,7 @@ seoDescription: "The product on Shopify is broken and cannot be saved, therefore
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["shopify"]
 fulfillments: []
+process: "products"
 draft: true
 date: 2020-12-28T13:30:59+02:00
 ---

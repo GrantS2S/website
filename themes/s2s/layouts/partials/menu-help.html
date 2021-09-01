@@ -1,0 +1,246 @@
+{{ $curURL := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+<div class="accordions">
+    <div class="accordion {{ if in .Params.tags "gettingstarted" }}is-active{{ end }}">
+        <div class="accordion__head">
+            <h4>Getting Started</h4>
+        </div><!-- /.accordion__head -->
+
+        <div class="accordion__body" {{ if in .Params.tags "gettingstarted" }}style="display:block;"{{ end }}>
+            <ul>
+                {{ $q1 := where .Site.Pages "Params.tags" "intersect" (slice "gettingstarted") }}
+                {{ $q2 := where .Site.Pages "Params.title" "!=" "Getting Started" }}
+                {{ range $q1 | intersect $q2 }}
+                {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                <li>
+                    <a href="{{ .Permalink }}"
+                       title="{{ .Params.seoTitle }}"
+                       class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                </li>
+                {{ end }}
+            </ul>
+        </div><!-- /.accordion__body -->
+    </div><!-- /.accordion -->
+
+    <div class="accordion {{ if in .Params.tags "feature" }}is-active{{ end }}">
+        <div class="accordion__head">
+            <h4>Features</h4>
+        </div><!-- /.accordion__head -->
+
+        <div class="accordion__body" {{ if in .Params.tags "feature" }}style="display:block;"{{ end }}>
+            <ul>
+                {{ $q1 := where .Site.Pages "Params.tags" "intersect" (slice "feature") }}
+                {{ $q2 := where .Site.Pages "Params.title" "!=" "Features" }}
+                {{ range $q1 | intersect $q2 }}
+                {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                <li>
+                    <a href="{{ .Permalink }}"
+                       title="{{ .Params.seoTitle }}"
+                       class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                </li>
+                {{ end }}
+            </ul>
+        </div><!-- /.accordion__body -->
+    </div><!-- /.accordion -->
+
+    <div class="accordion {{ if in .Params.tags "how-it-works" }}is-active{{ end }}">
+        <div class="accordion__head">
+            <h4>Key Concepts</h4>
+        </div><!-- /.accordion__head -->
+
+        <div class="accordion__body" {{ if in .Params.tags "how-it-works" }}style="display:block;"{{ end }}>
+
+            <div class="accordion {{ if in .Params.tags "console" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Console</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "console" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "console") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "source" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Sources</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "source" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "source") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "channel" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Channels</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "channel" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "channel") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "product" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Products</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "product" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "product") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "customer" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Customers</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "customer" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "customer") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "order" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Ordering</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "order" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "order") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "fulfillment" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Fulfillments</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "fulfillment" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "fulfillment") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "queue" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Queue</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "queue" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class="accordion {{ if in .Params.tags "model" }}is-active{{ end }}">
+                <div class="accordion__head">
+                    <h4>Business Models</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "model" }}style="display:block;"{{ end }}>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "model") }}
+                        {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                        <li>
+                            <a href="{{ .Permalink }}"
+                               title="{{ .Params.seoTitle }}"
+                               class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+        </div><!-- /.accordion__body -->
+    </div><!-- /.accordion -->
+
+    <div class="accordion {{ if in .Params.tags "solution" }}is-active{{ end }}">
+        <div class="accordion__head">
+            <h4>Solutions</h4>
+        </div><!-- /.accordion__head -->
+
+        <div class="accordion__body" {{ if in .Params.tags "solution" }}style="display:block;"{{ end }}>
+        <ul>
+            {{ $q1 := where .Site.Pages "Params.tags" "intersect" (slice "solution") }}
+            {{ $q2 := where .Site.Pages "Params.title" "!=" "Solutions" }}
+            {{ range $q1 | intersect $q2 }}
+            {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+            <li>
+                <a href="{{ .Permalink }}"
+                   title="{{ .Params.seoTitle }}"
+                   class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+            </li>
+            {{ end }}
+        </ul>
+        </div><!-- /.accordion__body -->
+    </div><!-- /.accordion -->
+
+</div><!-- /.accordions -->

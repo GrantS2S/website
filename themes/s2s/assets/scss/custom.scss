@@ -508,7 +508,7 @@ ul {
 	background: rgba(180, 187, 198, .15); 
 	border-radius: 5px; 
 	padding: 28px 27px; 
-	min-height: 464px; 
+	//min-height: 464px;
 
 	+ .widget-alt {
 		margin-top: 30px;
@@ -573,7 +573,7 @@ ul {
 		display: flex; 
 		flex-direction: column;
 		justify-content: center;
-
+		color: #777F8F;
 		p {
 			margin: 0;
 		}
@@ -4675,17 +4675,37 @@ ul {
 	.accordion__body {
 		margin: 25px 0 0; 
 		display: none; 
+		color: #777F8F;
 
+		//nested
+		.accordion__head {
+			h4 {
+				color: #777F8F;
+				font-size: 14px;
+			}
+		}
+		.accordion {
+			margin-left: 4px;
+			+.accordion {
+				margin-top: 4px;
+				padding-top: 4px;
+				border-top: none;
+			}
+			.accordion__body {
+				padding-bottom: 20px;
+			}
+		}
 		> ul {
 			list-style: none; 
 			font-size: 14px; 
-			font-weight: 700; 
+			font-weight: 700;
 
 			a {
 				text-decoration: none; 
 				display: block; 
 				position: relative; 
 				padding-right: 25px; 
+				padding-left: 4px;
 
 				&:hover {
 					color: #E23934; 
@@ -4695,6 +4715,15 @@ ul {
 
 						+ i {
 							opacity: 1; 
+						}
+					}
+				}
+				&.is-active {
+					color: #E23934;
+					i {
+						opacity: 0;
+						+ i {
+							opacity: 1;
 						}
 					}
 				}
@@ -4714,8 +4743,6 @@ ul {
 
 			li + li {
 				margin-top: 4px;
-
-
 			}
 		}
 	}
@@ -4878,7 +4905,7 @@ ul {
 \* ------------------------------------------------------------ */
 
 .section-alt {
-	padding: 100px 0 136px; 
+	padding: 40px 0 136px;
 	background: rgba(180, 187, 198, .15); 
 
 	.btn-def {
@@ -5085,7 +5112,7 @@ ul {
 
 @media(max-width: $mobile) {
 	.section-alt {
-		padding: 54px 0 68px; 
+		padding: 34px 0 68px;
 
 		.section__inner {
 			padding: 35px 18px 21px; 

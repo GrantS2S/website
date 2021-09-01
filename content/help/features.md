@@ -1,10 +1,12 @@
 ---
 title: Features
 type: help
-tags: []
+tags: ["feature"]
 ---
 
-## Features
+# Features for Stock2Shop connectors
+
+Select from the menu a connector to view our full features list.
 
 
 

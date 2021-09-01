@@ -1,6 +1,6 @@
 ---
 title: How it works
-tags: []
+tags: ["how-it-works"]
 ---
 
 ## How It Works
