@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "param_product_field_map"
 description: "If you want to use ':' in the option name as the key value for options, do not include the product-&gt;options property. Changes made to Category names and Price Tiers on SageOne will only Update in Stock2Shop if the Sync token is set back and a fetch is performed."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
 &quot;source&quot;: {
 &quot;source_product_code&quot;: &quot;TextUserField1&quot;,

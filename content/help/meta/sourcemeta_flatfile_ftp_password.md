@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "ftp_password"
 description: "Password for transferring file"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,flatfile]

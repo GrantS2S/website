@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_isync"
 key: "password"
 description: ""
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,isync]

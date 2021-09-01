@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_parcelninja"
 key: "create_order_enabled"
 description: ""
-user-friendly-description: ""
+user_friendly_description: ""
 default: "false"
 values: []
 tags: [sourcemeta,parcelninja]

@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "remove_file_enabled"
 description: "Removes the file when complete (only ftp)"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "true"
 values: []
 tags: [sourcemeta,flatfile]

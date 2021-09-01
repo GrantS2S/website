@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "ftp_order_password"
 description: "FTP password"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "abc"
 values: []
 tags: [sourcemeta,flatfile]

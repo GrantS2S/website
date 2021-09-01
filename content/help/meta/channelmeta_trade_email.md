@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "email"
 description: "Email address to be displayed on the default terms and conditions."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "info@gomedia.co.za"
 values: []
 tags: [channelmeta,trade]

@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_woocommerce"
 key: "order_shipping_method_name"
 description: "Use this description when creating an order for shipping."
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,woocommerce]

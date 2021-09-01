@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_takealot"
 key: "key"
 description: "Takealot seller account key"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "*****"
 values: []
 tags: [channelmeta,takealot]

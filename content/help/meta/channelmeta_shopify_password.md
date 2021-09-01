@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_shopify"
 key: "password"
 description: ""
-user-friendly-description: ""
+user_friendly_description: ""
 default: "****"
 values: []
 tags: [channelmeta,shopify]

@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "param_default_customer_code"
 description: "Use this if source_customer_code not found or given"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]

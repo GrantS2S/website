@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact_syspro"
 key: "param_sales_rep_id"
 description: "Order setting: Set the sales rep on the order"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact,syspro]

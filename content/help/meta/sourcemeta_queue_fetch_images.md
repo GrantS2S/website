@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta"
 key: "queue_fetch_images"
 description: "Fetch images after product is updated"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "false"
 values: []
 tags: [sourcemeta]

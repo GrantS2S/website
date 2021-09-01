@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_takealot"
 key: "order_map"
 description: "Used to transform takealot order to s2s order. The data transformed will be the result of view order https://seller-api.takealot.com/api-docs/#operation/view_sales We transform the returned sales information to include first_name, last_name and some other properties outlined in the default map."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
           &quot;system_order&quot;: {
             &quot;id&quot;: &quot;{{sales.0.order_id}}&quot;,

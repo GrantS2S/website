@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "param_tax_exempt_code"
 description: "used when raising an order, default on pastel is 0"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "0"
 values: []
 tags: [sourcemeta,sageone]

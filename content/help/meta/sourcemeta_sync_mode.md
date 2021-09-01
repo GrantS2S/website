@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta"
 key: "sync_mode"
 description: "push or pull"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "push"
 values: []
 tags: [sourcemeta]

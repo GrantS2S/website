@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_shopify"
 key: "api_key"
 description: "https://www.stock2shop.com/documentation/getting-started/shopify-install"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "xxx"
 values: []
 tags: [channelmeta,shopify]

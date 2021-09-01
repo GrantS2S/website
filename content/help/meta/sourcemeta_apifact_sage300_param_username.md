@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact_sage300"
 key: "param_username"
 description: "Username for raising orders through the API"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact,sage300]

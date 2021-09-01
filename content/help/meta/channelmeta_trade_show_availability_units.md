@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "show_availability_units"
 description: "Display units of stock available"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "true"
 values: []
 tags: [channelmeta,trade]

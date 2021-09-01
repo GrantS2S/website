@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Sync Product Schedule"
 name: "sourcemeta_dolfin"
 key: "cron_get_products_schedule"
 description: "Basic format is &quot;MM HH * * *&quot;"
-user-friendly-description: ""
+user_friendly_description: "When changes are made in Dolfin, we can set an hourly time to check for changes. This can be set for which ever minute on the hour best suits your workflow."
 default: "x 00 * * * *"
 values: []
 tags: [sourcemeta,dolfin]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

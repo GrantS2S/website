@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "param_skip_image_hash"
 description: "Do not check hash when fetching images"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]

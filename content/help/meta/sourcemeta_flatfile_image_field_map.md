@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_flatfile"
 key: "image_field_map"
 description: "Fieldmap used for creating images. See example map for object model"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
   &quot;source_images&quot;: [
     {

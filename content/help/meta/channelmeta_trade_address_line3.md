@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "address_line3"
 description: "Store address line 3"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_sageone"
 key: "company_id"
 description: "SageOne company id (Can be found by using the following: https://app.stock2shop.com/sageone/setup/)"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,sageone]

@@ -3,7 +3,7 @@ title: ""
 name: "fulfillmentservicemeta_parcelninja"
 key: "map"
 description: "Map used to convert Parcel Ninja fulfillment to S2S fulfillment. See example fulfillment from Parcel Ninja https://parcelninja.docs.apiary.io/#reference/webhooks/retrieve-an-outbound-with-event-history"
-user-friendly-description: ""
+user_friendly_description: ""
 default: "{
                       &quot;fulfillment&quot;: {
                         &quot;fulfillmentservice_order_code&quot;: &quot;{{clientId}}&quot;,

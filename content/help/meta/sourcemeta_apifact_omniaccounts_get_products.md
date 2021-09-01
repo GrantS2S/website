@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact_omniaccounts"
 key: "get_products"
 description: ""
-user-friendly-description: ""
+user_friendly_description: ""
 default: "/omniaccounts/getProducts"
 values: []
 tags: [sourcemeta,apifact,omniaccounts]

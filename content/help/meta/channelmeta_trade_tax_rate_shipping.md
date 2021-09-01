@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "tax_rate_shipping"
 description: "Tax rate used for shipping, this can be overridden by customer meta"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

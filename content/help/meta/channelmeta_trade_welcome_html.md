@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_trade"
 key: "welcome_html"
 description: "Welcome HTML"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [channelmeta,trade]

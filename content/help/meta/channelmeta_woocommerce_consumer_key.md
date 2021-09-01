@@ -3,7 +3,7 @@ title: ""
 name: "channelmeta_woocommerce"
 key: "consumer_key"
 description: "Consumer key to access the API."
-user-friendly-description: ""
+user_friendly_description: ""
 default: "xxx"
 values: []
 tags: [channelmeta,woocommerce]

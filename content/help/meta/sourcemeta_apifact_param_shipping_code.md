@@ -3,7 +3,7 @@ title: ""
 name: "sourcemeta_apifact"
 key: "param_shipping_code"
 description: "Inventory code for shipping line items"
-user-friendly-description: ""
+user_friendly_description: ""
 default: ""
 values: []
 tags: [sourcemeta,apifact]
