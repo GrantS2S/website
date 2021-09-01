@@ -5,7 +5,6 @@ seoDescription: "Understanding the role of Stock2Shop in a Retail and Wholesale 
 seoKeyword: ["Retail", "Wholesale", "B2C", "B2B"]
 source: ""
 tags: []
-draft: true
 ---
 
 You have a business that sells both direct to consumer via your own e-commerce website and or a marketplace.

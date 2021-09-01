@@ -7,7 +7,6 @@ seoDescription: "Understanding the role of Stock2Shop in a Dropshipping business
 seoKeyword: ["Dropshipping"]
 source: ""
 tags: []
-draft: true
 ---
 
 You manufacture and or distribute products to businesses (dropshippingretailers) to sell online.

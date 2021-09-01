@@ -5,7 +5,6 @@ seoDescription: "Understanding the role of Stock2Shop in a Wholesale business mo
 seoKeyword: ["Wholesale", "B2B"]
 source: ""
 tags: []
-draft: true
 ---
 
 You have a wholesale business that either purchases

@@ -5,7 +5,6 @@ seoDescription: "Understanding the role of Stock2Shop in a retail business model
 seoKeyword: ["Retail", "B2C"]
 source: ""
 tags: []
-draft: true
 ---
 
 You have a retail business that sells online via your e-commerce website to customers.
