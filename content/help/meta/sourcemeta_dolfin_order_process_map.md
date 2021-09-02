@@ -1,5 +1,5 @@
 ---
-title: "Dolfin Order Map"
+title: "Dolfin order map"
 name: "sourcemeta_dolfin"
 key: "order_process_map"
 description: "XML SOAP payload for order."

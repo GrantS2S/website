@@ -1,5 +1,5 @@
 ---
-title: "Sync Product Schedule"
+title: "Sync product schedule"
 name: "sourcemeta_dolfin"
 key: "cron_get_products_schedule"
 description: "Basic format is &quot;MM HH * * *&quot;"

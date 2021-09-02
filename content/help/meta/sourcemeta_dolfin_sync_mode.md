@@ -1,5 +1,5 @@
 ---
-title: "Pull Products From Dolfin"
+title: "Data retrieval method"
 name: "sourcemeta_dolfin"
 key: "sync_mode"
 description: "push or pull"

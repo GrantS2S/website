@@ -1,5 +1,5 @@
 ---
-title: "Check Point Map"
+title: "Check Point map"
 name: "sourcemeta_dolfin"
 key: "checkpoint_map"
 description: "Posts a checkpoint after each order"

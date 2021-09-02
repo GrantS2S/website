@@ -1,5 +1,5 @@
 ---
-title: "Dolfin Order Code"
+title: "Dolfin order code"
 name: "sourcemeta_dolfin"
 key: "order_source_order_code_map"
 description: "The source order code to return, uses template to render results"

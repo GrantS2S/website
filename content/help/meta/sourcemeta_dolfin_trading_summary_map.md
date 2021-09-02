@@ -1,5 +1,5 @@
 ---
-title: "Daily Transaction Summary"
+title: "Daily Trading summary"
 name: "sourcemeta_dolfin"
 key: "trading_summary_map"
 description: "summary which is posted after each order to count the days transactions. note the example data structure"

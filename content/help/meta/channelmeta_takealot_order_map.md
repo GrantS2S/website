@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Takealot order map"
 name: "channelmeta_takealot"
 key: "order_map"
 description: "Used to transform takealot order to s2s order. The data transformed will be the result of view order https://seller-api.takealot.com/api-docs/#operation/view_sales We transform the returned sales information to include first_name, last_name and some other properties outlined in the default map."
-user_friendly_description: ""
+user_friendly_description: "When sales are made, Stock2Shop will receive the order from Takealot, and sync it to your ERP / Accounting System. Orders will be fulfilled automatically by Takealot if there is stock at their warehouse, or a lead time order will be created."
 default: "{
           &quot;system_order&quot;: {
             &quot;id&quot;: &quot;{{sales.0.order_id}}&quot;,
@@ -45,6 +45,6 @@ default: "{
 values: []
 tags: [channelmeta,takealot]
 type: "meta"
-process: ""
+process: "orders"
 headless: true
 ---

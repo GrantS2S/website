@@ -1,5 +1,5 @@
 ---
-title: "Fetch Images From Dolfin"
+title: "Fetch images from dolfin"
 name: "sourcemeta_dolfin"
 key: "queue_fetch_images"
 description: ""

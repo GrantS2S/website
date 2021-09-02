@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Customer account display"
 name: "channelmeta_trade"
 key: "account_display"
 description: "Map used to display additional information on the customers account page. Does not require the mustache template. Use meta_ to map customer attributes."
-user_friendly_description: ""
+user_friendly_description: "Set custom fields to display additional information on the customers account page. This may include credit limit, balance, and who the sales rep for the customer is."
 default: "{
   &quot;Some Text&quot;: &quot;abc&quot;,
   &quot;Balance&quot;: &quot;meta_balance&quot;,
@@ -13,6 +13,6 @@ default: "{
 values: []
 tags: [channelmeta,trade]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

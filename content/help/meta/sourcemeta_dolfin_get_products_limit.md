@@ -1,5 +1,5 @@
 ---
-title: "Get Products Limit"
+title: "Get products limit"
 name: "sourcemeta_dolfin"
 key: "get_products_limit"
 description: "Determine how many products should sync from Dolfin to Stock2Shop"
