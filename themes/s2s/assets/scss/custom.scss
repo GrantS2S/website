@@ -689,7 +689,14 @@ ul {
 /* ------------------------------------------------------------ *\
 	Widget Data Alt (used in Pricing)
 \* ------------------------------------------------------------ */
-
+#priceTotal {
+	.accordion__body {
+		margin: 42px 0px 40px 20px;
+		li {
+			cursor: pointer;
+		}
+	}
+}
 .widget-data-alt {
 	font-size: 15px; 
 	color: #526279; 

@@ -297,7 +297,7 @@ function priceToggleSelectors() {
 
 $('.priceSelectSKU li').on('click', function(e){
 	priceSKUCount = $(this).data('total');
-	$('.priceSelectSKU h4').text("Up to " + priceSKUCount + " sku's");
+	$('.priceSelectSKU h4').text("Up to " + priceSKUCount + " products");
 	priceLoad();
 	priceToggleSelectors();
 });
