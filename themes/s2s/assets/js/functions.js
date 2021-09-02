@@ -176,3 +176,146 @@ $win.on('load scroll', function(){
 	initSliders()
 	initSliderFilter()
 })
+
+// -----------------------------------------------------------------
+// Price Calculator
+// -----------------------------------------------------------------
+
+const priceMap = {
+	"source": {
+		"Sage One": {
+			"setup": "10000",
+			"0": 0,
+			"500": 200,
+			"2000": 300,
+			"5000": 400,
+			"7000": 500,
+			"10000": 600,
+			"10001": 700,
+		}
+	},
+	"channel": {
+		"Shopify": {
+			"setup": "20000",
+			"0": 0,
+			"500": 200,
+			"2000": 300,
+			"5000": 400,
+			"7000": 500,
+			"10000": 600,
+			"10001": 700,
+		}
+	},
+	"fulfillment": {
+		"Parcelninja": {
+			"setup": "20000",
+			"0": 0,
+			"500": 200,
+			"2000": 300,
+			"5000": 400,
+			"7000": 500,
+			"10000": 600,
+			"10001": 700,
+		}
+	}
+};
+let priceSKUCount = '0';
+let priceCart = {};
+
+function priceAddToCart(type, connector) {
+	if(!priceCart[type]) {
+		priceCart[type] = {}
+	}
+	priceCart[type][connector] = priceMap[type][connector][priceSKUCount]
+}
+
+function priceUpdate() {
+	for (const t in priceCart) {
+		for (const c in priceCart[t]) {
+			priceCart[t][c] = priceMap[t][c][priceSKUCount]
+		}
+	}
+}
+function priceLoad() {
+	priceUpdate();
+
+	// Create our number formatter.
+	var formatter = new Intl.NumberFormat('en-ZA', {
+		style: 'currency',
+		currency: 'ZAR',
+		minimumFractionDigits: 0
+	});
+
+	// empty cart
+	$(".priceCart").empty();
+
+	// Calculate totals
+	let totalOnceOff = 0;
+	let total = 0;
+	for (const t in priceCart) {
+		for (const c in priceCart[t]) {
+			totalOnceOff += parseFloat(priceMap[t][c]['setup']);
+			total += parseFloat(priceCart[t][c]);
+		}
+	}
+	$(".priceTotalOnceOff").text(formatter.format(totalOnceOff));
+	$(".priceTotal").text(formatter.format(total));
+	if(total > 0) {
+		$(".priceCartSummary").show();
+	} else {
+		$(".priceCartSummary").hide();
+	}
+
+	priceToggleSelectors();
+}
+
+function pricePopulateSelects() {
+	for (const t in priceMap.source) {
+		let html = '<li class="priceSelect" data-type="source" >' + t + '</li>';
+		$(".priceSelectSource ul").append(html);
+	}
+	for (const t in priceMap.channel) {
+		let html = '<li class="priceSelect" data-type="channel" >' + t + '</li>';
+		$(".priceSelectChannel ul").append(html);
+	}
+	for (const t in priceMap.fulfillment) {
+		let html = '<li class="priceSelect" data-type="fulfillment" >' + t + '</li>';
+		$(".priceSelectFulfillment ul").append(html);
+	}
+}
+
+function priceToggleSelectors() {
+	$(".priceSelectSource").removeClass('is-active');
+	$(".priceSelectChannel").removeClass('is-active');
+	$(".priceSelectFulfillment").removeClass('is-active');
+	$(".priceSelectSKU").removeClass('is-active');
+	$(".priceSelectSource .accordion__body").hide();
+	$(".priceSelectChannel .accordion__body").hide();
+	$(".priceSelectFulfillment .accordion__body").hide();
+	$(".priceSelectSKU .accordion__body").hide();
+}
+
+$('.priceSelectSKU li').on('click', function(e){
+	priceSKUCount = $(this).data('total');
+	$('.priceSelectSKU h4').text("Up to " + priceSKUCount + " sku's");
+	priceLoad();
+	priceToggleSelectors();
+});
+
+$("body").on("click", ".priceSelect", function(){
+	let type = $(this).data('type');
+	let connector = $(this).text();
+	priceAddToCart(type, connector);
+	priceLoad();
+	$(this).parents('.accordion').find( "h4" ).text(connector);
+	priceToggleSelectors();
+});
+
+
+// go
+pricePopulateSelects();
+priceLoad();
+
+// -----------------------------------------------------------------
+// END Price Calculator
+// -----------------------------------------------------------------

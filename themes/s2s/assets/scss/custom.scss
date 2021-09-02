@@ -687,7 +687,7 @@ ul {
 }
 
 /* ------------------------------------------------------------ *\
-	Widget Data Alt
+	Widget Data Alt (used in Pricing)
 \* ------------------------------------------------------------ */
 
 .widget-data-alt {
@@ -755,13 +755,13 @@ ul {
 		}
 
 		+ .widget__item--alt {
-			margin-top: 37px;
+			//margin-top: 37px;
 		}
  		
  		/*  Widget Item Alt  */
 		&--alt {
-			border-top: 1px solid rgba(180, 187, 198, .5);
-			border-bottom: 1px solid rgba(180, 187, 198, .5);
+			//border-top: 1px solid rgba(180, 187, 198, .5);
+			//border-bottom: 1px solid rgba(180, 187, 198, .5);
 			padding: 29px 0 23px; 
 
 			h2 {
