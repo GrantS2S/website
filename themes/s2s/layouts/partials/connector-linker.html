@@ -1,0 +1,41 @@
+<div class="form" id="connector-linker">
+    <form method="post" id="connector-linker-form">
+        <div class="form__body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="connector-linker-source">I’d like to integrate:</label>
+
+                        <div class="select">
+                            <select class="form-control" id="connector-linker-source">
+                                <option>Select your ERP</option>
+                                {{ $q1 := where .Site.Pages "Type" "source" }}
+                                {{ range $q1.ByParam "Title" }}
+                                <option value="{{ .Params.source }}">{{ .Title }}</option>
+                                {{ end }}
+                            </select>
+                        </div><!-- /.select -->
+                    </div><!-- /.form-group -->
+                </div><!-- /.col-md- offset-md- -->
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="connector-linker-channel">With:</label>
+
+                        <div class="select">
+                            <select class="form-control" id="connector-linker-channel">
+                                <option>Select Your Website</option>
+                                {{ $q1 := where .Site.Pages "Type" "channel" }}
+                                {{ range $q1.ByParam "Title" }}
+                                <option value="{{ .Params.channel }}">{{ .Title }}</option>
+                                {{ end }}
+                            </select>
+                        </div><!-- /.select -->
+                    </div><!-- /.form-group -->
+                </div><!-- /.col-md- offset-md- -->
+            </div><!-- /.row -->
+
+            <button class="btn btn--alt btn--hover-alt form__btn">Show Me</button>
+        </div><!-- /.form__body -->
+    </form>
+</div><!-- /.form -->

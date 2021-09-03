@@ -18,9 +18,9 @@
 							</p>
 
 							<div class="article__actions">
-								<a href="#" class="btn btn--big btn--hover-alt">Schedule A Demo</a>
+								<a href="#" class="btn btn--big btn--hover-alt cta-popup" data-target="#popup-form">Schedule A Demo</a>
 								
-								<a href="#" class="btn-alt">
+								<a href="/how-it-works" class="btn-alt">
 									<i class="ico-play"></i>
 
 									Watch Video
@@ -166,43 +166,7 @@
 				</p>
 			</header><!-- /.section__head -->
 
-			<div class="form">
-				<form action="?" method="post">
-					<div class="form__body">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">	
-									<label for="field-select1">I’d like to integrate:</label>
-										
-									<div class="select">
-										<select class="form-control" id="field-select1">
-											<option>Sage Business Cloud Accounting</option>
-
-											<option>Sage Business Cloud Accounting</option>
-										</select>
-									</div><!-- /.select -->
-								 </div><!-- /.form-group -->
-							</div><!-- /.col-md- offset-md- -->
-
-							<div class="col-md-6">
-								<div class="form-group">	
-									<label for="field-select2">With:</label>
-										
-									<div class="select">
-										<select class="form-control" id="field-select2">
-											<option>Shopify</option>
-
-											<option>Shopify</option>
-										</select>
-									</div><!-- /.select -->
-								 </div><!-- /.form-group -->
-							</div><!-- /.col-md- offset-md- -->
-						</div><!-- /.row -->
-
-						<button class="btn btn--alt btn--hover-alt form__btn">Show Me</button>
-					</div><!-- /.form__body -->
-				</form>
-			</div><!-- /.form -->
+			{{- partial "connector-linker.html" . -}}
 
 			<div class="widget-primary">
 				<nav class="widget__nav">

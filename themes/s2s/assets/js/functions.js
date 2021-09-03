@@ -150,6 +150,21 @@ $('.js-popup').on('click', function(e){
 	$( $(this).data('target') ).toggleClass('is-visible')
 })
 
+$('.cta-popup').on('click', function(e){
+	e.preventDefault()
+
+	$( $(this).data('target') ).toggle()
+})
+
+// $('.play-video').on('click', function(e){
+// 	$('.widget-video-alt').addClass('is-playing')
+// })
+$( "#connector-linker-form" ).submit(function( e ) {
+	let channel = $('#connector-linker-channel').val();
+	let source = $('#connector-linker-source').val();
+	e.preventDefault();
+	window.location.href = "/integrations/" + source + "/" + channel;
+});
 $('.widget-video-alt .widget__btn').on('click', function(e){
 	e.preventDefault()
 
