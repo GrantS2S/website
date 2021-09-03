@@ -12,16 +12,11 @@ weight: 3
 ---
 
 ### Automate Fulfillments
-Have a totally automated solution, from placing an online order to delivery.
+Have a totally automated solution, from placing an online order to dispatching for delivery. Once a Shopify order has successfully been raised into SAP Business One, Stock2Shop can send an automatic outbound notification to your 3rd-party logistics partner so they can pick, pack and deliver.
 
-Once a Shopify order has successfully been raised into SAP Business One as an invoice, sales order or quote, Stock2Shop can send an automatic outbound notification to your 3rd-party logistics partner so they can pick, pack and deliver.
+If your WMS or fulfillment partner supports delivery notifications, they will return fulfilment data to Stock2Shop (waybill / tracking number / tracking link). The Shopify order will then be updated with this information and the order's status is changed to “Fulfilled”. Your customers can then easily track the progress of their order.
 
-If your WMS or fulfillment partner supports delivery notifications, they return fulfilment information to Stock2Shop (waybill / tracking number / tracking link).
-In turn, Stock2Shop can update the Shopify and mark the orders status to “Fulfilled” and in turn notify your customer.
-Your customers can then easily track the progress of their order.
+### Sync Stock Levels
+If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on Shopify.
 
-### Sync stock levels
-
-If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate updating stock directly to Shopify.
-
-[Click here](/help "Sap One Features") to view our Sap Business One feature set.
+[Click here](/help/features-sap-business-one/ "Sap Business One Features") to view our Sap Business One feature set.

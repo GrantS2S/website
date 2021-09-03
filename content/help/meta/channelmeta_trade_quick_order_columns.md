@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Define the quick order columns customers see"
 name: "channelmeta_trade"
 key: "quick_order_columns"
 description: "Columns included on the quick order screen. Meta fields can be accessed as &quot;meta_[abc]&quot;"
@@ -11,6 +11,6 @@ default: "{
 values: []
 tags: [channelmeta,trade]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---
