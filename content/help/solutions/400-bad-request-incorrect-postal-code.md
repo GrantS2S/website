@@ -1,19 +1,15 @@
 ---
 title: "400 Bad Request - Incorrect Postal Code"
+question: "How to fix Incorrect Postal Code on Parcelninja?"
 type: "solution"
-seoTitle: "400 Bad Request - Incorrect Postal Code"
+seoTitle: "Help with fulfillment processing on Parcelninja"
 seoDescription: "A postal code field included in the order from the channel has incorrect information."
-sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
-fulfillments: ["parcel-ninja"]
-draft: true
-date: 2020-12-30T11:57:00+02:00
+source: ""
+channel: ""
+fulfillment: "parcelninja"
+process: "fulfillments"
 ---
-<!-- Action: fulfill_order -->
-#### Error description
-A postal code field included in the order from the channel has incorrect information.
 
-#### Error solution
 Parcelninja cannot process this order as it does not recognize that postal code. Check for extra digits or characters.
 
 Update the postal code in the fulfillment tab of the order on S2S
