@@ -1,17 +1,26 @@
 <head>
-    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
-    {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.min.css" }}
-    {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.min.css" }}
-    {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.min.css" }}
-    {{ $css4 := resources.Get "scss/custom.scss" | resources.ToCSS $options}}
-    <!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
-    {{ $css := slice $css1 $css2 $css3 $css4 | resources.Concat "css/bundle.css" }}
+
 
     {{ if .Site.IsServer }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    {{ else }}
-    <link rel="stylesheet" href='{{ $css.Permalink }}'>
-    {{ end }}
+        {{ $options := (dict "targetPath" "style.css" "enableSourceMap" true ) }}
+        {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.css" }}
+        {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.css" }}
+        {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.css" }}
+        {{ $css4 := resources.Get "scss/custom.scss" | resources.ToCSS $options}}
+        <link rel="stylesheet" href="{{ $css1.RelPermalink }}">
+        <link rel="stylesheet" href="{{ $css2.RelPermalink }}">
+        <link rel="stylesheet" href="{{ $css3.RelPermalink }}">
+        <link rel="stylesheet" href="{{ $css4.RelPermalink }}">
+    {{else}}
+        {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" false ) }}
+        {{ $css1 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap.min.css" }}
+        {{ $css2 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-grid.min.css" }}
+        {{ $css3 := resources.Get "scss/bootstrap-5.0.0/css/bootstrap-reboot.min.css" }}
+        {{ $css4 := resources.Get "scss/custom.scss" | resources.ToCSS $options}}
+        {{ $css := slice $css1 $css2 $css3 $css4 | resources.Concat "css/bundle.css" }}
+        <link rel="stylesheet" href='{{ $css.Permalink }}'>
+    {{end}}
+
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
 

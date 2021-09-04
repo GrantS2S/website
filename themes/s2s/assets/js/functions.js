@@ -508,9 +508,7 @@ let priceSKUCount = '0';
 let priceCart = {};
 
 function priceAddToCart(type, connector) {
-	if(!priceCart[type]) {
-		priceCart[type] = {}
-	}
+	priceCart[type] = {}
 	priceCart[type][connector] = priceMap[type][connector][priceSKUCount]
 }
 
