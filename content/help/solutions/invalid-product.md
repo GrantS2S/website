@@ -1,14 +1,14 @@
 ---
 title: "Invalid Product"
+issue: "Shopify: Invalid Product"
 type: "solution"
 seoTitle: "Shoipify - Invalid Product"
 seoDescription: "The product on Shopify is broken and cannot be saved, therefore when S2S tries to run an instruction on the product it blocks the queue"
-sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["shopify"]
-fulfillments: []
+source: ""
+channel: "shopify"
+fulfillment: ""
 process: "products"
-draft: true
-date: 2020-12-28T13:30:59+02:00
+headless: true
 ---
 
 #### Error description

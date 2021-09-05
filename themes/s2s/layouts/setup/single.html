@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="wrapper">
+    {{- partial "header.html" . -}}
+
+    <div class="hero hero--size0"></div>
+
+    <section class="section-alt" id="section-alt">
+        <div class="container">
+            {{- partial "breadcrumb.html" . -}}
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="btn-def js-popup" data-target="#section-alt">
+                        <i class="ico-list"></i>
+
+                        Contents
+
+                        <i class="ico-angle-down-alt"></i>
+                    </a>
+
+                    <aside class="section__aside">
+                        <div class="section__head-alt">
+                            <h3>Contents</h3>
+                            <a href="#" class="js-popup" data-target="#section-alt">
+                                <i class="ico-x"></i>
+                            </a>
+                        </div><!-- /.section__head-alt -->
+
+                        {{- partial "menu-help.html" . -}}
+
+                    </aside><!-- /.section__aside -->
+                </div><!-- /.col-md- offset-md- -->
+
+                <div class="col-lg-9">
+                    <div class="section__inner">
+                        <div class="section__content">
+                            {{ .Content }}
+
+                            {{ if or (ne .Params.source "") (ne .Params.channel "") (ne .Params.fulfillment "") }}
+
+                            <h2>Features specific to {{.Title}}</h2>
+                            <p>
+                            To get the most out of your {{.Title}} integration with Stock2shop,
+                            head over to our <a href="/help/features/sap-business-one" title="SAP Business One Features">SAP Business One</a> features section.
+                            </p>
+                            {{ end }}
+
+                            <h2>Key Concepts (How Stock2Shop Works)</h2>
+                            <p>
+                            It is important to understand how Stock2Shop works
+                            along with the terminology we use. Added to that, there are certain concepts that you
+                            the client have the ability to manage in your own capacity. We have prepared
+                            documentation that describes all our <a href="/help/how-it-works" title="How Stock2Shop works">key concepts here</a>.
+                            </p>
+
+                            <h2>Support</h2>
+                            <p>
+                                For more assistance regarding our technical support, please log a ticket
+                                directly from your Stock2Shop console, alternatively send an email to
+                                <a href="mailto:support@stock2shop.com" title="Support Email">support</a>.
+                                If you are interested in purchasing a <a href="/pricing#support-pricing" title="Support Plan Pricing">support plan</a>, please <a href="mailto:sales@stock2shop.com" title="Sales Email"> contact sales</a>.
+                            </p>
+                        </div><!-- /.section__content -->
+                    </div><!-- /.section__inner -->
+                </div><!-- /.col-md- offset-md- -->
+            </div><!-- /.row -->
+            
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
+
+
+
+{{ end }}

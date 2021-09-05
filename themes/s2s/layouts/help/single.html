@@ -49,7 +49,7 @@
                                 {{ $q2 := where .Site.Pages "Params.tags" "intersect" (slice .Params.source) }}
                                 {{ $q3 := where .Site.Pages "Params.process" "products" }}
                                 {{ if $q1 | intersect $q2 | intersect $q3 }}
-                                <div class="widget-alt">
+                                <div class="widget-alt" id="products">
                                     <div class="widget__head">
                                         <h3>Product / Customer Syncing</h3>
                                     </div><!-- /.widget__head -->
@@ -89,7 +89,7 @@
                                 {{ $q2 := where .Site.Pages "Params.tags" "intersect" (slice .Params.source) }}
                                 {{ $q3 := where .Site.Pages "Params.process" "orders" }}
                                 {{ if $q1 | intersect $q2 | intersect $q3 }}
-                                <div class="widget-alt">
+                                <div class="widget-alt" id="orders">
                                     <div class="widget__head">
                                         <h3>Orders</h3>
                                     </div><!-- /.widget__head -->
@@ -130,7 +130,7 @@
                                 {{ $q2 := where .Site.Pages "Params.tags" "intersect" (slice .Params.source) }}
                                 {{ $q3 := where .Site.Pages "Params.process" "fulfillments" }}
                                 {{ if $q1 | intersect $q2 | intersect $q3}}
-                                <div class="widget-alt">
+                                <div class="widget-alt" id="fulfillments">
                                     <div class="widget__head">
                                         <h3>Fulfillments</h3>
                                     </div><!-- /.widget__head -->

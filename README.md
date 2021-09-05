@@ -43,6 +43,41 @@ All links created in markdown must have alt text
 |parent|Page name used in menu to nest under|
 |name|Unique name for menu item when different to title|
 
+## Integration Section
+
+The integrations section is made up of the following page Type in the front matter:
+
+### Main Types
+- source
+- channel
+- b2b
+- marketplace
+- fulfillment
+
+### Combination Types
+- source-channel
+- source-b2b
+- source-marketplace
+- source-fulfillment
+
+### Data content
+
+The combination layouts above are broken down into sections with a picture and some text.
+To add sections of content to the appropriate type, use these Types:-
+
+- source-channel-content
+- source-b2b-content
+- source-marketplace-content
+- source-fulfillment-content
+
+In each of the above you must set front matter
+
+```toml
+headless: true
+```
+This ensure content snippets are not created as independent pages.
+
+
 ## Connector Naming & Tagging Conventions
 A list of all connectors and how they should be named and tagged on Hugo.
 

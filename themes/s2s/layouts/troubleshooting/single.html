@@ -1,0 +1,136 @@
+{{ define "main" }}
+<div class="wrapper">
+    {{- partial "header.html" . -}}
+
+    <div class="hero hero--size0"></div>
+
+    <section class="section-alt" id="section-alt">
+        <div class="container">
+            {{- partial "breadcrumb.html" . -}}
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="btn-def js-popup" data-target="#section-alt">
+                        <i class="ico-list"></i>
+
+                        Contents
+
+                        <i class="ico-angle-down-alt"></i>
+                    </a>
+
+                    <aside class="section__aside">
+                        <div class="section__head-alt">
+                            <h3>Contents</h3>
+                            <a href="#" class="js-popup" data-target="#section-alt">
+                                <i class="ico-x"></i>
+                            </a>
+                        </div><!-- /.section__head-alt -->
+
+                        {{- partial "menu-help.html" . -}}
+
+                    </aside><!-- /.section__aside -->
+                </div><!-- /.col-md- offset-md- -->
+
+                <div class="col-lg-9">
+                    <div class="section__inner">
+
+                        <header class="section__head">
+                            <h1>{{.Title}}</h1>
+                            <p class="lead">{{.Params.lead}}</p>
+                        </header><!-- /.section__head -->
+
+                        <div class="section__body">
+
+                            {{.Content}}
+
+                            {{ $q1 := where .Site.Pages "Type" "solution" }}
+                            {{ $q2 := where .Site.Pages "Params.process" .Params.process }}
+                            {{ $q3 := where .Site.Pages "Params.source" "" }}
+                            {{ $q4 := where .Site.Pages "Params.channel" "" }}
+                            {{ $q5 := where .Site.Pages "Params.fulfillment" "" }}
+                            {{ $all := $q1 | intersect $q2| intersect $q3| intersect $q4| intersect $q5 }}
+                            {{ if $all }}
+                            <h3>General</h3>
+                            <ul>
+                            {{ range $all.ByParam "issue" }}
+                            {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                            <li>
+                                <p><a href="#" class="troubleShoot" data-target="{{$url}}">{{.Params.issue}}</a></p>
+                                <div style="display: none;" data-awnser="{{$url}}">{{.Content}}</div>
+                            </li>
+                            {{end}}
+                            </ul>
+                            {{end}}
+
+                            {{ $q1 := where .Site.Pages "Type" "solution" }}
+                            {{ $q2 := where .Site.Pages "Params.process" .Params.process }}
+                            {{ $q3 := where .Site.Pages "Params.source" "!=" "" }}
+                            {{ $q4 := where .Site.Pages "Params.channel" "" }}
+                            {{ $q5 := where .Site.Pages "Params.fulfillment" "" }}
+                            {{ $all := $q1 | intersect $q2| intersect $q3| intersect $q4| intersect $q5 }}
+                            {{ if $all }}
+                            <h3>ERP / Accounting</h3>
+                            <ul>
+                                {{ range $all.ByParam "issue" }}
+                                {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                                <li>
+                                    <p><a href="#" class="troubleShoot" data-target="{{$url}}">{{.Params.issue}}</a></p>
+                                    <div style="display: none;" data-awnser="{{$url}}">{{.Content}}</div>
+                                </li>
+                                {{end}}
+                            </ul>
+                            {{end}}
+
+                            {{ $q1 := where .Site.Pages "Type" "solution" }}
+                            {{ $q2 := where .Site.Pages "Params.process" .Params.process }}
+                            {{ $q3 := where .Site.Pages "Params.source" "" }}
+                            {{ $q4 := where .Site.Pages "Params.channel" "!=" "" }}
+                            {{ $q5 := where .Site.Pages "Params.fulfillment" "" }}
+                            {{ $all := $q1 | intersect $q2| intersect $q3| intersect $q4| intersect $q5 }}
+                            {{ if $all }}
+                            <h3>Channels</h3>
+                            <ul>
+                                {{ range $all.ByParam "issue" }}
+                                {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                                <li>
+                                    <p><a href="#" class="troubleShoot" data-target="{{$url}}">{{.Params.issue}}</a></p>
+                                    <div style="display: none;" data-awnser="{{$url}}">{{.Content}}</div>
+                                </li>
+                                {{end}}
+                            </ul>
+                            {{end}}
+
+                            {{ $q1 := where .Site.Pages "Type" "solution" }}
+                            {{ $q2 := where .Site.Pages "Params.process" .Params.process }}
+                            {{ $q3 := where .Site.Pages "Params.source" "" }}
+                            {{ $q4 := where .Site.Pages "Params.channel" "" }}
+                            {{ $q5 := where .Site.Pages "Params.fulfillment" "!=" "" }}
+                            {{ $all := $q1 | intersect $q2| intersect $q3| intersect $q4| intersect $q5 }}
+                            {{ if $all }}
+                            <h3>Fulfillment Services</h3>
+                            <ul>
+                                {{ range $all.ByParam "issue" }}
+                                {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                                <li>
+                                    <p><a href="#" class="troubleShoot" data-target="{{$url}}">{{.Params.issue}}</a></p>
+                                    <div style="display: none;" data-awnser="{{$url}}">{{.Content}}</div>
+                                </li>
+                                {{end}}
+                            </ul>
+                            {{end}}
+
+
+                        </div><!-- /.section__body -->
+                    </div><!-- /.section__inner -->
+                </div><!-- /.col-md- offset-md- -->
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper -->
+
+
+
+{{ end }}

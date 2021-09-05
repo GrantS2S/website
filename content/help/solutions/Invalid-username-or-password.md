@@ -1,13 +1,14 @@
 ---
 title: "Invalid username or password"
+issue: "Omni Accounts: Invalid Username or Password"
 seoTitle: "Invalid username or password"
 seoDescription: "Stock2Shop has no access to Omni Account or the credentials are invalid."
 type: "solution"
-sources: [ "omni-accounts" ]
-channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
-fulfillments: ["parcel-ninja", "on-the-dot"]
-draft: true
-date: 2020-12-30T16:31:00+02:00
+source: "omniaccounts"
+channel: ""
+fulfillment: ""
+process: "orders"
+headless: true
 ---
 
 #### Error description

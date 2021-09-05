@@ -1,13 +1,14 @@
 ---
 title: "Adding a custom domain"
+issue: "B2B Trade Store: How to add a custom domain"
+type: "solution"
 seoTitle: "Adding as custom domain name to your B2B Trade Store"
 seoDescription: "Use your existing or a custom domain for your B2B Trade Store"
-type: "how-to"
-sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["b2b-trade-store"]
-fulfillments: ["parcel-ninja", "on-the-dot"]
-draft: true
-date: 2020-12-31T12:16:00+02:00
+source: ""
+channel: "b2b"
+fulfillment: ""
+process: ""
+headless: true
 ---
 
 ## Prerequisites

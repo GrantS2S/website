@@ -13,7 +13,7 @@
 							<p>{{ .Params.Lead }}</p>
 
 							<div class="article__actions">
-								<a href="#" class="btn btn--big btn--hover-alt js-popup" data-target="#popup-form">Schedule A Demo</a>
+								<a href="#" class="btn btn--big btn--hover-alt cta-popup" data-target="#popup-form">Schedule A Demo</a>
 							</div><!-- /.article__actions -->
 						</div><!-- /.article__content -->
 					</div><!-- /.col-md- offset-md- -->
@@ -45,7 +45,7 @@
 							Assign your customers to any of the price lists in your accounting system, and allocate them to different warehouses if required. This means that Peter might see better pricing to Paul when he logs in, and possibly different stock availability too. And when a product is sold out, you can allow customers to continue buying it on back order.
 						</p>
 				
-						<a href="#" class="btn btn--medium">Contact us</a>
+						<a href='{{ with .Site.GetPage "/help/features-b2b-trade-store.md" }}{{ .Permalink }}{{ end }}#products' title="B2B Shopping Cart Inventory Features" class="btn btn--medium" >View Features</a>
 					</div><!-- /.article__content -->
 				</div><!-- /.col-md- offset-md- -->
 			</div><!-- /.row -->
@@ -125,7 +125,7 @@
 							Your ERP will decide whether an order is valid or not. If the customer is in good standing, the order will be raised successfully and Stock2Shop can then fire an outbound fulfillment to your warehousing solution to pick, pack and deliver.
 						</p>
 				
-						<a href="#" class="btn btn--medium">Schedule a demo</a>
+						<a href='{{ with .Site.GetPage "/help/features-b2b-trade-store.md" }}{{ .Permalink }}{{ end }}#orders' title="B2B Shopping Cart Ordering" class="btn btn--medium " >View Features</a>
 					</div><!-- /.article__content -->
 				</div><!-- /.col-md- offset-md- -->
 			</div><!-- /.row -->
@@ -149,7 +149,7 @@
 							Your dashboard is where you get to present your logo and other brand-related messaging, while your product menu provides a place to segment your items to make them easy to find. Customers can filter the product listing by category, brand or any attribute you require in order to narrow their search. They can also use the powerful elastic search or Quick Order functions if they prefer.
 						</p>
 				
-						<a href="#" class="btn btn--medium">Schedule a demo</a>
+						<a href="#" class="btn btn--medium cta-popup" data-target="#popup-form">Schedule a demo</a>
 					</div><!-- /.article__content -->
 				</div><!-- /.col-md- offset-md- -->
 			</div><!-- /.row -->
@@ -214,31 +214,42 @@
 		</div><!-- /.container -->
 	</article><!-- /.article -->
 
-	<section class="section section--gray section--size3">
+	<article class="article article--gray article--senary article--senary-size1">
 		<div class="container">
-			<header class="section__head">
-				<h2>Integrations</h2>
-			</header><!-- /.section__head -->
+			<section class="section section--services">
+				<div class="container">
+					<header class="section__head">
+						<h2>See full set of integrations</h2>
+						<p>In order to get the most out of your {{ .Params.seoTitle }}, view a full list of features and configuration settings here.</p>
+					</header><!-- /.section__head -->
 
-			{{ $q1 := where .Site.Pages "Type" "source-channel" }}
-			{{ $q2 := where .Site.Pages "Params.channel" "b2b" }}
-			{{ range $q1 | intersect $q2 }}
-			<div class="col-md-3 bg-white p-0">
-				<div class="card" >
-					<a href="{{ .Permalink }}" title=".Params.seoTitle">
-						<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" class="card-img-top" >
-					</a>
-					<div class="card-body">
-						<h4 class="card-title">
-							<a href="{{ .Permalink }}" title=".Params.seoTitle">{{ title .Page.Title }}</a>
-						</h4>
-					</div>
-				</div>
-			</div>
-			{{end}}
+					<div class="services">
+						<div class="row">
 
-		</div><!-- /.container -->
-	</section><!-- /.section -->
+							<div class="col-md-12">
+								<div class="service">
+									<i class="ico-mobile service__ico"></i>
+
+									<h4>See our list of supported ERP/Accounting systems which integrate with our B2B store:</h4>
+
+									<p>Blurb and link to b2b</p>
+
+									<ul>
+										{{ $q1 := where .Site.Pages "Type" "source" }}
+										{{ range $q1.ByParam "Title" }}
+										<li>
+											<a href="/integrations/{{ .Params.source }}/b2b" class="link" title="{{.Params.Title}} B2B trade store software">{{ .Title }}<i class="ico-arrow-right"></i></a>
+										</li>
+										{{ end }}
+									</ul>
+								</div><!-- /.service -->
+							</div><!-- /.col-md- offset-md- -->
+						</div><!-- /.row -->
+					</div><!-- /.services -->
+				</div><!-- /.container -->
+			</section><!-- /.section -->
+		</div>
+	</article>
 
 	{{- partial "footer.html" . -}}
 </div><!-- /.wrapper --> 

@@ -6,7 +6,6 @@ summary: "Our very own wholesale platform and shopping cart. Manage multiple pri
 image: "/uploads/logo-platform-s2s.png"
 imageAlt: Stock2Shop logo
 aliases: "/b2b-shopping-cart/"
-type: "channel"
-tags: ["b2b"]
+type: "b2b"
 ---
 

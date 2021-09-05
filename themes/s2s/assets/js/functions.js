@@ -113,16 +113,24 @@ $('.dropdown .dropdown__link').on('click', function(e){
 	$(this).closest('.is-expanded').removeClass('is-expanded')
 })
 
-$('.widget-primary .widget__nav a').on('click', function(e){
+$('.troubleShoot').on('click', function(e){
+	e.preventDefault();
+	var link = $(this).data('target');
+	console.log(link);
+	$('div[data-awnser=' + link + ']').toggle();
+})
+
+// Integrations filter
+$('#connectors .widget__nav a').on('click', function(e){
 	e.preventDefault()
 
 	var $this = $(this)
-	var category = $this.attr('href')
+	var category = $this.data('type')
 	var $elements = $this.closest('.widget-primary').find('.widget__item')
 
 	$this.closest('li').addClass('is-active').siblings().removeClass('is-active')
 
-	if ( category === 'widget__item' ) {
+	if ( category === 'all' ) {
 		$elements.removeClass('is-hidden')		
 		$this.closest('li').removeClass('is-active')
 
