@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Setup shipping methods at checkout"
 name: "channelmeta_trade"
 key: "shipping_methods"
 description: "Multiple shipping methods can be implemented for the customer to select. This can be added per customer as a meta. The format is JSON, with the key being the name displayed on the channel for each method"
-user_friendly_description: ""
+user_friendly_description: "Display one or multiple shipping methods at checkout. Methods can be set as a flat fee such as one price for same day or next day shipping. You can also set up shipping based on the cart total (rate based on cart)."
 default: "{
   &quot;Next Day&quot;: {
     &quot;method&quot;: &quot;flat_rate&quot;,
@@ -63,6 +63,6 @@ default: "{
 values: []
 tags: [channelmeta,trade]
 type: "meta"
-process: ""
+process: "orders"
 headless: true
 ---
