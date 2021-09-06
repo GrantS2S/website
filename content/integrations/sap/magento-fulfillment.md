@@ -1,6 +1,6 @@
 ---
 title: "Raise Fulfillments"
-subtitle: "Once an order has been raised in SAP Business One, fulfill your order with one of our logistics partners."
+subtitle: "Fulfill your orders with one of our logistics partners or directly in your WMS (Warehouse Management System)."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -8,15 +8,13 @@ headless: true
 source: "sap"
 channel: "magento"
 type: "source-channel-content"
-weight: 4
+weight: 3
 ---
 
-## Sync stock levels
-Sync stock levels from Parcelninja into Stock2Shop
+### Automate Fulfillments
+Have a totally automated solution, from placing an online order to dispatching for delivery. Once a Magento order has successfully been raised into SAP Business One, Stock2Shop can send an automatic outbound notification to your 3rd-party logistics partner so they can pick, pack and deliver.
 
-- Decide whether SAP Business One or Parcelninja will control the stock levels presented on Magento.
+If your WMS or fulfillment partner supports delivery notifications, they will return fulfilment data to Stock2Shop (waybill / tracking number / tracking link). The Magento order will then be updated with this information and the order’s state is changed to “Complete”. Your customers can then easily track the progress of their order.
 
-## Automate Fulfillments 
-Have a totally automated solution, from placing an online order to delivery.
-
-- Once a Magento order has successfully been raised into SAP as an invoice, sales order or quote, Stock2Shop can send an automatic outbound notification to your 3rd-party logistics partner so they can pick, pack and deliver. 
+### Sync Stock Levels
+If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on Magento.

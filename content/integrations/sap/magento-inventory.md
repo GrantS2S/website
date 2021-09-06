@@ -1,5 +1,5 @@
 ---
-title: "Sync Product & Inventory data"
+title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from SAP Business One to Magento."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
@@ -11,18 +11,26 @@ type: "source-channel-content"
 weight: 1
 ---
 
-## Sync Inventory Data
-Keep your Magento product data up to date, including pricing, stock levels and more.
+### Near Real Time Syncing
+Our software continually monitors your SAP database for changes in product information and sends these updates to Magento. So if your pricing or stock levels are adjusted on SAP, it won’t be long before these changes reflect on your website.
 
-- We understand that your ERP is the brain of your business. Once you’ve configured products correctly on SAP Business One (we can help), product data can be “mapped” to fields on Magento. These include the SKU code, price, stock availability, product name, category and custom attributes.
-- If you sell products that are available in many variations (e.g. one shoe that comes in multiple sizes), we can create multi-variant products in Magento automatically. 
-- Each customer group on Magento can be linked to a different SAP price list, allowing you to place your customers on different price tiers. 
-- You can decide which warehouse (or combination of warehouses) on your SAP Business One will control stock availability on Magento. 
+### Choose the Data to Sync
+You get to decide which data fields are mapped from your SAP database to fields and attributes within Magento. You can also choose whether a particular field is managed by SAP, Stock2Shop or Magento.
 
-## Enrich Data
-Make your products more presentable online.
+### Product Information Management (PIM)
+Use Stock2Shop as a PIM to enrich product data not found in SAP. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage your product enrichment in one place.
 
-- Enriching your products involves the addition of images, descriptions, categorisation and other marketing information that may not exist in SAP Business One. Stock2Shop allows you to add enrichment in a number of ways so that your products are suitably presented on the website. 
-- A popular workflow is to sync only SKU, title, quantity and price from SAP Business One to Stock2Shop. You can then edit fields on the Stock2Shop console which will automatically update Magento. 
-- Another workflow is to update these fields directly on Magento after the products have populated on the website.
-- If your products already exist on Magento, all you need to do is ensure your SKU codes correlate with your SAP item codes, and Stock2Shop will keep your pricing and stock availability up to date.
+### Run Multiple Online Stores from one SAP Database
+Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple Magento websites is easy.
+
+### Assign Customers to Various Price Tiers
+You can create multiple customer groups on Magento and allocate each one to a different SAP price list. This enables you to assign your customers to different pricing tiers (eg Gold, Silver and Bronze). 
+
+### Sell B2C and B2B on One Store
+Magento’s ability to accommodate multiple pricing Tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
+
+### Sync Inventory from One or Multiple Warehouses on SAP
+You can choose which warehouse (or combination of warehouses) on SAP updates your stock quantities on Magento.
+
+### Error Management
+If an update fails to process to your Magento website, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.

@@ -1,5 +1,5 @@
 ---
-title: "Sync Customer & Account Information"
+title: "Sync Customer and Account Information"
 subtitle: "Sync your customer account information from SAP Business One to the B2B Trade Store."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
@@ -11,17 +11,15 @@ type: "source-channel-content"
 weight: 2
 ---
 
-## Sync Customer Information
-Stock2Shop will sync wholesale customers onto your console, including SAP customer account codes, warehouse allocation and pricing contracts.
+### Sync Customer Information
+Sync wholesale customers onto your Stock2Shop console, including SAP customer account codes, warehouse allocation and pricing contracts. When a customer logs in to the B2B Trade Store, they will see relevant pricing and stock availability. 
 
-- When a customer logs in to your B2B Trade Store, they will see relevant pricing and stock availability, and they will be able to place orders directly into their dedicated debtors account on SAP Business One.
- 
-## Display Account Information to Customers
-Give customers the ability to view important information such as their payment terms, credit limit and contact details. 
+### Display Account Information to Customers
+Give customers the ability to view important information pertaining to their SAP account, including: 
+- Credit Limit 
+- Current Balance
+- Name of their sales rep 
+- Last 5 orders
 
-- Your customers might find it useful to view the following when logged in to your B2B Trade Store: 
-  - Credit Limit 
-  - Current Balance
-  - Name of their sales rep 
-  - Last 5 orders
-
+### Segment Customers by Console User (e.g. Sales Rep)
+You are able to limit which customers a particular console user is able to view when they log in. This means your sales reps will not have access to each other’s customers.

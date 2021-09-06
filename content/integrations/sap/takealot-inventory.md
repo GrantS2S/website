@@ -1,6 +1,6 @@
 ---
-title: "Sync Product & Inventory data"
-subtitle: "Sync inventory data from SAP Business One to Takealot."
+title: "Sync Inventory Data"
+subtitle: "Sync inventory data from SAP Business One to Takealot Marketplace."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -11,11 +11,24 @@ type: "source-channel-content"
 weight: 1
 ---
 
-## Sync Inventory Data
-You’ll be able to sync inventory data and pricing with ease once you’ve integrated with Stock2Shop.
+### Near Real Time Syncing
+Our software continually monitors your SAP database for changes in inventory information and sends these updates to Takealot. So if your pricing or stock levels are adjusted on SAP, it won’t be long before these changes reflect on Takealot.
 
-- Sync inventory information from SAP Business One to your existing marketplace offers. This includes the price, recommended retail price, lead time and stock availability, and can be updated near real time.
-- Once you’ve configured products correctly on SAP Business One (we can help), price lists and stock levels from SAP Business One can be “mapped” to price, recommended retail price and delivery lead time for each of your Takealot marketplace offers.
-- Now that Takealot is kept informed of your lead time stock levels, your risk of overselling is greatly reduced.
+### Choose the Data to Sync
+Automatically create and update offers against products that exist in Takealot's catalogue. Once linked, Stock2Shop can update the following fields:
+- Offer price
+- Recommended retail price
+- Stock availability (for lead time orders)
+- Lead time (the number of days it will take to deliver the product to Takealot)
 
-** Stock2Shop is not able to create products on Takealot, only update existing offers.
+### Run Multiple Online Stores from one SAP Database
+Once you’re integrated with Stock2Shop and are syncing product updates to Takealot, opening data feeds to other ecommerce channels is relatively easy. You could then run multiple online sales channels from one SAP database.
+
+### Assign a Price List
+You decide which price list on SAP Business One is synced to the offer price and recommended retail price fields on Takealot Marketplace.
+
+### Sync Inventory from One or Multiple Warehouses on SAP
+You can choose which warehouse (or combination of warehouses) on SAP updates your stock quantities on Takealot Marketplace.
+
+### Error Management
+If an update fails to process to Takealot, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.

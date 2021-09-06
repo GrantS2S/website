@@ -1,6 +1,6 @@
 ---
 title: "Raise Fulfillments"
-subtitle: "Create a sync between your 3rd-party logistics service and your B2B Trade Store, ensuring that your stock levels are accurate and your orders are fulfilled timeously."
+subtitle: "Fulfill your orders with one of our logistics partners or directly in your WMS (Warehouse Management System)."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -11,12 +11,8 @@ type: "source-channel-content"
 weight: 4
 ---
 
-## Sync stock levels
-Synced stock levels from Parcelninja into Stock2Shop.
+### Automate Fulfillments
+Have a totally automated solution, from placing an online order to dispatching for delivery. Once an order has successfully been raised into SAP Business One, Stock2Shop can send an automatic outbound notification to your 3rd-party logistics partner so they can pick, pack and deliver.
 
-- Decide whether SAP Business One or Parcelninja will control the stock levels presented on your B2B Trade Store. 
-
-## Automate Fulfillments 
-Have a totally automated solution, from placing an online order to delivery.
-
-- Once a B2B Trade Store order has successfully been raised into SAP as an invoice or sales order, Stock2Shop can send an automatic notification to your 3rd-party logistics partner so they can pick, pack and deliver. 
+### Sync Stock Levels
+If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on the B2B Trade Store.

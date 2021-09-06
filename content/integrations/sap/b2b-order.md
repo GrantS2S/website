@@ -1,6 +1,6 @@
 ---
-title: "Raise Orders"
-subtitle: "Orders placed on your B2B Trade Store can be raised in SAP Business One as an invoice, sales order or quote."
+title: "Automate Raising Orders"
+subtitle: "Orders placed on the B2B Trade Store can be automatically created in SAP Business One."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -11,16 +11,26 @@ type: "source-channel-content"
 weight: 3
 ---
 
-## Automate Ordering
-You can automate orders easily once you’ve integrated SAP Business One and the B2B Trade Store.
+### Select your Document Type
+You can choose whether the order document created in SAP will be a quote, sales order or invoice.
 
-- Automatically raise B2B Trade Store orders into SAP as invoices, sales orders or quotes. 
-- Shipping costs added to an order can be created as a line item (service item) on the SAP document.
-- Enable back orders to allow customers to continue buying products that are out of stock.
-- The Quick Order search function makes it easy to see the price and stock availability of desired products, and to add them to the cart with a single click. 
-- Bulk Order functionality allows for uploading CSV spreadsheet orders with a large number of line items. 
-- Customers are able to checkout without having to pay upfront.
+### Custom Notifications
+Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.
 
-## Customise Order Field Mapping
-You can map the data received on the B2B Trade Store order payload to the relevant fields on the SAP sales document e.g. the purchase order number is synced to the customer reference field. 
+### Raise Orders into Each Customer’s Debtors Account
+When onboarding a new wholesale customer, simply add them to SAP and sync them to the Stock2Shop console automatically. They can start placing orders directling into their dedicated SAP account.
 
+### Ordering Tool for Sales Reps
+Your reps can log into their customers’ accounts and place orders on their behalf. Stock2Shop is mobile friendly, making it a useful tool for capturing orders while on the road.
+
+### Allow Back Orders
+Enable back orders, allowing customers to continue buying products that are out of stock.
+
+### Offer Payment by Credit Card
+You can offer customers the ability to pay upfront by credit card, using one of our accepted payment gateways.
+
+### Customise Order Fields
+You can map the data received on the order to the relevant fields on the SAP Business One sales document. Provided the data can be captured in your standard order screen on SAP, it can be added automatically by Stock2Shop.
+
+### Error Management
+If an order fails to process to SAP, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the failure, and once you’ve rectified the issue, you can reset the order to try again.
