@@ -8,7 +8,14 @@ tags: ["console"]
 weight: 1
 ---
 
-The stock2Shop console is ... etc
+## What can you do with the console
+With the Stock2Shop console you can xyz
+
+## How do you find the console
+If you have signed up to Stock2Shop you can vist console.stock2shop.com/login
+
+## How can you login to the console.
+In order to login you need to have...
 
 
 

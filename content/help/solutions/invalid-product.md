@@ -12,8 +12,6 @@ headless: true
 ---
 
 #### Error description
-
-
 The "Invalid Product" error occurs on any instruction ie: add_product | add_variant | add_image | update_product | update_variant
 
 #### Error solution
