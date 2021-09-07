@@ -12,7 +12,6 @@ headless: true
 ---
 
 Parcelninja cannot process this order as it does not recognize that postal code. Check for extra digits or characters.
-
 Update the postal code in the fulfillment tab of the order on S2S
 
 1. Go to: S2S Console > Queue > View > Find queue error > View Order

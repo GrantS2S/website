@@ -9,12 +9,11 @@ fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-29T09:26:00+02:00
 ---
-<!-- Action: add_product -->
-#### Error description
+
+### Error description
 S2S attempted to create a product on the website but was rejected by WooCommerce.
 
-#### Error solution
-
+### Error solution
 This error is an authentication error
 
 1. Confirm that the api_URL provided to S2S is secure and has a "https://" prefix

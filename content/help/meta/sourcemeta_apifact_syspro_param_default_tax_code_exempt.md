@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Set your default tax exempt code"
 name: "sourcemeta_apifact_syspro"
 key: "param_default_tax_code_exempt"
 description: "Order setting: Default tax code to use in the orders for line items with tax line code 'taxed'"

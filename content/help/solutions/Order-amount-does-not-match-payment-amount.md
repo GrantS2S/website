@@ -9,12 +9,12 @@ fulfillments : []
 draft: true
 ---
 
-#### Queue Error Description
+### Queue Error Description
 This error can occur frequently if you have a rate based on cart shipping_method. 
 When the quantity is adjusted in the cart of the checkout page, it adjusts the shipping cost (Rate based on cart) value. 
 This does not update the cached value of the order total.
 
-#### How to resolve Queue Error
+### How to resolve Queue Error
 If your Trade Store has a rate based on cart shipping_method, you will need to notify your B2B customers that they should refresh their page before placing the order on the trade store to prevent this from occurring.
 
 Alternatively, you can follow these steps:

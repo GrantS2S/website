@@ -9,8 +9,7 @@ channel: ""
 fulfillment: ""
 process: "orders"
 headless: true
----
-<!-- Action: create_order -->
+--- 
 
 #### Error description
 An order failed to create on the ERP
