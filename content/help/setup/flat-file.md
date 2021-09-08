@@ -1,14 +1,14 @@
 ---
 title: "Flat File"
 seoTitle: "Flat File Getting Started"
-seoDescription: "Integrate your Flat File with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Flat File", "Integrations"]
-type: help
+seoDescription: "Integrate your Flat File Data Source with supported B2B and B2C Systems through Stock2Shop"
+type: setup
 source: "flat-file"
-tags: ["gettingstarted", "flat-file"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
+## Flat File
 A Flat File is a source of data and can be used as a [Primary source](/help/how-it-works-primary-sources "Concept of a Primary Source in Stock2Shop") to create products,
 or as a [Linked source](help/how-it-works-linked-sources "Concept of a Linked source in Stock2Shop") to only be in charge of enriching your master data from your Primary source.
 This source of data (on a flat file) would typically be hosted on FTP server. Enabling Stock2Shop to work with 
@@ -47,7 +47,6 @@ your Flat File and perform the following:
 In order to sync products from a Flat File to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Flat File                      | Stock2Shop                     | Description                                                                          |
 | ------------------------------ | ------------------------------ | ------------------------------------------------------------------------------------ |
 | Product Code                   | source_product_code            | Product Parent Code for Stock2Shop.                                                  |
@@ -58,7 +57,6 @@ the minimum required fields are:
 | Qty                            | variants.qty                   | Quantity on Hand for the Product                                                     |
 | Sku                            | variants.sku                   | Sku code field for Stock2Shop                                                        |
 | variants.inventory_management  | variants.inventory_management  | Control qty syncing and updating on the Sales Channel                                |
- ```
 
 ## Syncing Customers to Stock2Shop  {#sync-customers} 
 Stock2Shop currently does not support the syncing of customers from a Flat File to Stock2Shop. 
@@ -69,7 +67,6 @@ If customers are a requirement, please read up on how to import customers manual
 ## Syncing Orders to a Flat File {#raise-orders}
 By default, Stock2Shop raises orders to a Flat File with the following order details:
 
-```
 | Flat File   | Stock2Shop       | Description                                             |
 | ----------- | ---------------- | ------------------------------------------------------- |
 | Customer    | customer.name    | Name of Person who placed Order                         |
@@ -78,18 +75,3 @@ By default, Stock2Shop raises orders to a Flat File with the following order det
 | Ordered Qty | line_item.qty    | Total Qty for each line item being ordered              |
 | Item Cost   | line_item.price  | Price for the items Ordered to list on the Invoice file |
 
- ```
-
-## Features specific to Flat File
-To get the most out of your Flat File integration with Stock2shop, 
-head over to our [Flat File](/help/features-flat-file "Flat File features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com

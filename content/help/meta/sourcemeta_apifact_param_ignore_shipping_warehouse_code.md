@@ -6,7 +6,7 @@ description: "If warehouse tracking on inventory is disabled for shipping, this 
 user_friendly_description: ""
 default: "false"
 values: []
-tags: [sourcemeta,apifact]
+tags: ["sourcemeta","apifact"]
 type: "meta"
 process: ""
 headless: true

@@ -2,13 +2,13 @@
 title: "Syspro"
 seoTitle: "Syspro Getting Started"
 seoDescription: "Integrate your Syspro with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Syspro", "Integrations"]
-type: help
+type: setup
 source: "syspro"
-tags: ["gettingstarted", "syspro"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
+## Syspro
 Syspro is a client-side ERP system. 
 This means that the Syspro application is installed on a 
 server at your office, on your actual work computer or on a 
@@ -54,7 +54,6 @@ Syspro and perform the following:
 In order to sync products from Syspro to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Syspro             | Stock2Shop                     | Description                                     |
 | ------------------ | ------------------------------ | ----------------------------------------------- |
 | StockCode          | source_product_code            | The unique identifier of a product              |
@@ -65,13 +64,11 @@ the minimum required fields are:
 | InvWarehouse Table | variants.qty                   | Retrives Warehouse with QtyOnHand QtyAllocated  |
 | StockCode          | variants.sku                   | The unique identifier of a product              |
 | true               | variants.inventory_management  | Manage whether a product is inventory managed   |
- ```
 
 ## Syncing Customers to Stock2Shop {#sync-customers}
 In order to sync customers from Syspro to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Syspro   | Stock2Shop             | Description                                                                                                          |
 | -------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | 'true'   | customer_active        | We will either hardcode this to true or require a field on the customer to determine whether they are active or not. |
@@ -79,7 +76,7 @@ the minimum required fields are:
 | Name     | first_name             | There is no first name field, Name is used                                                                           |
 | Name     | last_name              | There is no last name field, Name is used                                                                            |
 | Email    | email                  | email field for the email address of the customer                                                                    |
- ```
+
 Note that customers can only be synced with Stock2Shop's B2B Trade Store sales channel and no other sales channels.
 
 ## Syncing Orders to Syspro {#raise-orders}
@@ -96,7 +93,6 @@ Along with the aforementioned we would also require the following details:
 
 By default, Stock2Shop raises orders to Syspro with the following order details:
 
-```
 | Syspro      | Stock2Shop             | Description                                                          |
 | ----------- | ---------------------- | -------------------------------------------------------------------- |
 | Salesperson | sales_rep_id           | Sale Rep for the order                                               |
@@ -105,20 +101,5 @@ By default, Stock2Shop raises orders to Syspro with the following order details:
 | StockCode   | line_item.sku          | Unique identifier of the line item                                   |
 | OrderQty    | line_item.qty          | Qty of the line item that was ordered                                |
 | Price       | line_item.price        | Price of the line item that the customer paid ex tax and ex discount |
- ```
  
- There are many other settings we can change for each order. For a complete example of the SYSPRO sales order payload and required information, please view [this document]().
-
-## Features specific to Syspro
-To get the most out of your Syspro integration with Stock2shop, 
-head over to our [Syspro](/help/features-syspro "Syspro features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com
+There are many other settings we can change for each order. For a complete example of the SYSPRO sales order payload and required information, please view [this document]().

@@ -16,4 +16,4 @@ Orders are not syncing to Pastel Partner
 #### Error solution
 The SDK for Pastel Partner is not setup.
 
-You need to contact Sage for the SDK. More information on the [Sage Pastel Partner Installation]({{< ref "getting-started-sage-50cloud-pastel-partner.md" >}} "Sage Pastel Partner Installation")
+You need to contact Sage for the SDK. More information on the [Sage Pastel Partner Installation]( "Sage Pastel Partner Installation")

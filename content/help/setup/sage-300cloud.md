@@ -2,13 +2,13 @@
 title: "Sage 300cloud"
 seoTitle: "Sage 300cloud Getting Started"
 seoDescription: "Integrate your Sage 300cloud with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Sage 300cloud", "Integrations"]
-type: help
+type: setup
 source: "sage-300cloud"
-tags: ["gettingstarted", "sage-300cloud"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
+## Sage 300cloud
 Sage 300cloud is a client-side ERP system. 
 This means that the Sage 300cloud application is installed on a 
 server at your office, on your actual work computer or on a 
@@ -50,7 +50,6 @@ Sage 300cloud and perform the following:
 In order to sync products from Sage 300cloud to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Sage 300                            | Stock2Shop                     | Description                                     |
 | ----------------------------------- | ------------------------------ | ----------------------------------------------- |
 | ITEMNO                              | source_product_code            | The unique identifier of a product              |
@@ -62,13 +61,10 @@ the minimum required fields are:
 | ITEMNO                              | variants.sku                   | The unique identifier of a product              |
 | TRUE                                | variants.inventory_management  | Manage whether a product is inventory managed   |
 
- ```
-
 ## Syncing Customers to Stock2Shop {#sync-customers}
 In order to sync customers from Sage 300cloud to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Sage 300   | Stock2Shop             | Description                                                                                                                |
 | ---------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | CUSTACTIVE | customer_active        | This field would be used to manage whether a customer has access to the trade store (A = Active | D = Delete | I = Ignore) |
@@ -76,8 +72,6 @@ the minimum required fields are:
 | IDCUST     | first_name             | There is no first name field, Name is used                                                                                 |
 | NAMECTAC   | last_name              | There is no last name field, Name is used                                                                                  |
 | EMAIL1     | email                  | email field for the email address of the customer                                                                          |
-
- ```
 
 ## Syncing Orders to Sage 300cloud {#raise-orders}
 If you require Stock2Shop to insert sales orders or invoices into your Sage 300cloud, you need to have Web Screens installed and setup. 
@@ -90,7 +84,6 @@ Below are some usefull links to get you started:
 
 By default, Stock2Shop raises orders to Sage 300cloud with the following order details:
 
-```
 | Sage 300        | Stock2Shop             | Description                                                          |
 | --------------- | ---------------------- | -------------------------------------------------------------------- |
 | CustomerNumber  | source_customer_code   | The name/code of the customer account to process the order against   |
@@ -98,18 +91,4 @@ By default, Stock2Shop raises orders to Sage 300cloud with the following order d
 | Item            | line_item.sku          | Unique identifier of the line item                                   |
 | QuantityOrdered | line_item.qty          | Qty of the line item that was ordered                                |
 | OrderUnitPrice  | line_item.price        | Price of the line item that the customer paid ex tax and ex discount |
- ```
 
-## Features specific to Sage 300cloud
-To get the most out of your Sage 300cloud integration with Stock2shop, 
-head over to our [Sage 300cloud](/help/features-sage-300cloud "Sage 300cloud features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com

@@ -2,14 +2,13 @@
 title: "Omni Accounts"
 seoTitle: "Omni Accounts Getting Started"
 seoDescription: "Integrate your Omni Accounts with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Omni Accounts", "Integrations"]
-type: help
+type: setup
 source: "omni-accounts"
-tags: ["gettingstarted", "omni-accounts"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
-
+## Omni Accounts
 Omni Accounts is a client-side accounting system. 
 This means that the Omni Accounts application is installed on a 
 server at your office, on your actual work computer or on a 
@@ -55,7 +54,6 @@ Omni Accounts and perform the following:
 In order to sync products from Omni Accounts to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Omni Accounts | Stock2Shop                     | Description                                                                                  |
 | ------------- | ------------------------------ | -------------------------------------------------------------------------------------------- |
 | STOCKCODE     | source_product_code            | The unique identifier of a product                                                           |
@@ -67,8 +65,6 @@ the minimum required fields are:
 | STOCKCODE     | variants.sku                   | The unique identifier of a product                                                           |
 | true          | variants.inventory_management  | Manage whether a product is inventory managed                                                |
 
- ```
-
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from Omni Accounts to Stock2Shop. 
 At this point in time there are no plans to build out this functionality. 
@@ -77,7 +73,6 @@ If customers are a requirement, please read up on how to import customers manual
 ## Syncing Orders to Omni Accounts {#raise-orders}
 By default, Stock2Shop raises orders to Omni Accounts with the following order details:
 
-```
 | Omni Accounts               | Stock2Shop             | Description                                                        |
 | --------------------------- | ---------------------- | ------------------------------------------------------------------ |
 | customer_account_code       | source_customer_code   | The name/code of the customer account to process the order against |
@@ -87,18 +82,3 @@ By default, Stock2Shop raises orders to Omni Accounts with the following order d
 | order_lines.quantity        | line_item.qty          | Qty of the line item that was ordered                              |
 | order_lines.selling_price   | line_item.price        | Price of the line item that the customer paid                      |
 | order_lines.vat_code        | default_tax_code       | Tax code used for taxed items                                      |
- ```
-
-## Features specific to Omni Accounts
-To get the most out of your Omni Accounts integration with Stock2shop, 
-head over to our [Omni Accounts](/help/features-omni-accounts "Omni Accounts features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com

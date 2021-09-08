@@ -2,13 +2,13 @@
 title: "Sage Business Cloud Accounting"
 seoTitle: "Sage Business Cloud Accounting Getting Started"
 seoDescription: "Integrate your Sage Business Cloud Accounting with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Sage Business Cloud Accounting", "Integrations"]
-type: help
+type: setup
 source: "sage-business-cloud-accounting"
-tags: ["gettingstarted", "sage-business-cloud-accounting"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
+## Sage Business Cloud Accounting
 Sage Business Cloud Accounting is an online accounting system. 
 This means the application lives in the “cloud”. Enabling Stock2Shop to work with 
 Sage Business Cloud Accounting is relatively simple. 
@@ -40,7 +40,6 @@ Sage Business Cloud Accounting and perform the following:
 In order to sync products from Sage Business Cloud Accounting to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Sage Business Cloud Accounting  | Stock2Shop                     | Description                                                                          |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------ |
 | Code                            | source_product_code            | Product Parent Code for Stock2Shop.                                                  |
@@ -51,7 +50,6 @@ the minimum required fields are:
 | *QuantityOnHand                 | variants.qty                   | Quantity on Hand for the Product                                                     |
 | Code                            | variants.sku                   | Sku code field for Stock2Shop                                                        |
 | *true                           | variants.inventory_management  | Control qty syncing and updating on the Sales Channel                                |
-```
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop. 
@@ -61,7 +59,6 @@ If customers are a requirement, please read up on how to import customers manual
 ## Syncing Orders to Sage Business Cloud Accounting {#raise-orders}
 By default, Stock2Shop raises orders to Sage Business Cloud Accounting with the following order details:
 
-```
 | Sage Business Cloud Accounting | Stock2Shop                                   | Description                                           |
 | ------------------------------ | -------------------------------------------- | ----------------------------------------------------- |
 | Date                           | created_at                                   | Customer Name                                         |
@@ -73,18 +70,3 @@ By default, Stock2Shop raises orders to Sage Business Cloud Accounting with the 
 | Tax Exempt Code                | param_tax_exempt_code                        | Tax Code to used for Orders marked as Tax Exempt      |
 | Quote/Tax Invoice              | Order                                        | Create Quote instead of Sales Invoice                 |
 | Delivery Charge                | Order                                        | Fixed code for processing Shipping Line Items against |
-```
-
-## Features specific to Sage Business Cloud Accounting
-To get the most out of your Sage Business Cloud Accounting integration with Stock2shop, 
-head over to our [Sage Business Cloud Accounting](/help/features-sage-business-cloud-accounting "Sage Business Cloud Accounting features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com

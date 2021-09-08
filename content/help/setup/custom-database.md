@@ -2,13 +2,13 @@
 title: "Custom Database"
 seoTitle: "Custom Database Getting Started"
 seoDescription: "Integrate your Custom Database with supported B2B and B2C Systems through Stock2Shop"
-seoKeyword: ["Custom Database", "Integrations"]
-type: help
+type: setup
 source: "custom-database"
-tags: ["gettingstarted", "custom-database"]
-draft: true
+channel: ""
+fulfillment: ""
 ---
 
+## Custom Database
 Stock2Shop can pull inventory data from multiple databases. 
 The only prerequisite is that the database can be accessed via ODBC. 
 We therefore support Microsoft SQL Server, MySQL Server, Pervasive SQL, Hana and many other databases.
@@ -47,7 +47,6 @@ Custom Database, and perform the following:
 In order to sync products from a Custom Database, to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Custom Database             | Stock2Shop                     | Description                                                                      |
 | --------------------------- | ------------------------------ | -------------------------------------------------------------------------------- |
 | Product Grouping Code       | source_product_code            | Used for Grouping Variable Products. Equal to Item Code for simple product setup |
@@ -62,13 +61,10 @@ the minimum required fields are:
 | Variant Option 2            | variants.option2_value         | Only for variable products : 2nd Option/Selection                                |
 | Variant Option 3            | variants.option3_value         | Only for variable products : 3rd Option/Selection                                |
 
- ```
-
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 In order to sync customers from a Custom Database to your Stock2Shop client console, 
 the minimum required fields are:
 
-```
 | Custom Database           | Stock2Shop             | Description                                               |
 | ------------------------- | ---------------------- | --------------------------------------------------------- |
 | Customer Active           | customer_active        | User Defined Field with 3 Options: Ignore, Active, Delete |
@@ -77,14 +73,10 @@ the minimum required fields are:
 | Last Name                 | last_name              | Customer last name                                        |
 | E-Mail                    | email                  | Customer email which cannot be blank                      |
 
- ```
- 
 ## Syncing Orders to a Custom Database {#raise-orders}
 Syncing orders to a Custom Database will need to be discussed in detail with our developers as the mechanism
 to raise the orders will need to be confirmed. We suggest that the following fields are raised on the order:
 
-
-```
 | Custom Database           | Stock2Shop              | Description                                           |
 | ------------------------- | ----------------------- | ----------------------------------------------------- |
 | Date                      | sytem_order.createdate  | Date the order is created on Stock2Shop               |
@@ -93,18 +85,3 @@ to raise the orders will need to be confirmed. We suggest that the following fie
 | Qty                       | line_item.qty           | Qty orderd by the customer                            |
 | Item Price                | line_item.price         | Price of the product on the website                   |
 
- ```
-
-## Features specific to Custom Database
-To get the most out of a Custom Database integration with Stock2shop, 
-head over to our [Custom Database](/help/features-custom-database "Custom Database features") documentation.
-
-## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source 
-along with the terminology we use. Added to that, there are certain concepts that you 
-the client have the ability to manage in your own capacity. We have prepared 
-documentation that describes all our concepts, [here](/help/how-it-works "How it works")
-
-## Support
-For more assistance regarding our technical support, please log a ticket
-directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com
