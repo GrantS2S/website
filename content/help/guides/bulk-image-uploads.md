@@ -7,20 +7,21 @@ tags: ["product"]
 ---
 
 Stock2Shop has requirements in order for images to be uploaded and used, below is a list of those requirements and points to be aware of: 
-1. Only ".jpg", ".jpeg" and ".png" images are accepted by S2S (Note that .JPG can cause issues, ensure that the file extensions are all small caps) 
-2. Images can be no larger than 2mb, recommended size is 500kb for web 
-3. Although this is not a requirement try to ensure your images are all the same resolution for a uniform display
+- Only ".jpg", ".jpeg" and ".png" images are accepted by S2S (Note that .JPG can cause issues, ensure that the file extensions are all small caps)-
+- Images can be no larger than 2mb, recommended size is 500kb for web 
+- Although this is not a requirement try to ensure your images are all the same resolution for a uniform display
+
 To read more on best image practices [see here](/documentation/product-data/product-images/).
 
 #### Preparing images
 Preparing your images for upload to S2S, the below list is to ensure that images are uploaded and applied to the correct products, pay special attention to the points when working with multiple images for one product:
-1. Save the image name as the SKU/item code of the product you wish to upload the product to
-2. When working with multiple images for one product, there are two ways to do this:
-a) Add a unique character to the SKU code to adjust the name of each image ( you will use the find and replace feature on S2S to replace the character with blank so the image matches the SKU), ie if SKU is abc then image 1 name will be abc-1.jpg, image 2 name will be abc-2.jpg, image 3 name will be abc-3.jpg etc.  You will need to Find -1, -2 and -3 and replace them with blank/nothing to match your SKUs
-b) Name each image the exact same as the SKU but save them in separate folders, ie all image 1's in a folder call image 1 / Front view, all image 2's in a folder called image 2 / side view etc
-If you are going to use method 2a then remember to use a symbol that is not used in your SKU's note that you can use more than one character to differentiate the images.
-The next step is uploading the images to S2S, keep note of the special characters that may be used in the different SKUs.
-Should you computer not allow you to save the image as the SKU because it has a forward slash as an example, then replace that symbol with one that is accepted and take note of it for the next step.
+- Save the image name as the SKU/item code of the product you wish to upload the product to 
+- When working with multiple images for one product, there are two ways to do this: 
+  - Add a unique character to the SKU code to adjust the name of each image ( you will use the find and replace feature on S2S to replace the character with blank so the image matches the SKU), ie if SKU is abc then image 1 name will be abc-1.jpg, image 2 name will be abc-2.jpg, image 3 name will be abc-3.jpg etc.  You will need to Find -1, -2 and -3 and replace them with blank/nothing to match your SKUs
+  - Name each image the exact same as the SKU but save them in separate folders, ie all image 1's in a folder call image 1 / Front view, all image 2's in a folder called image 2 / side view etc
+- If you are going to use the first method then remember to use a symbol that is not used in your SKU's note that you can use more than one character to differentiate the images.
+- The next step is uploading the images to S2S, keep note of the special characters that may be used in the different SKUs.
+- Should you computer not allow you to save the image as the SKU because it has a forward slash as an example, then replace that symbol with one that is accepted and take note of it for the next step.
 
 #### Upload
 Once your images are ready and named accordingly, proceed to login into your S2S console, navigate to "Products" > "Import Images"
@@ -28,8 +29,6 @@ Before selecting the images you want to upload there are a couple points to take
 1. Source - Make sure that your ERP/Accounting System is selected
 2. Field - This is the field in S2S that relates to what you have named your images
 3. Find Replace - this directly relates to whether you have replaced characters in your image names in order to save them and if you have used method 2a in preparing your images
-
-![Bulk image uploads](/uploads/general-managing-bulk-image-uploads.png)
 
 ## Find Replace:
 
