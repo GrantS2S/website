@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Sync specific product images to Stock2Shop"
 name: "sourcemeta_isync"
 key: "image_field_map"
 description: "Field mapping between S2S and iSync for images, use '{{}}' signs to note variable, otherwise string will be treated as literal"
-user_friendly_description: ""
+user_friendly_description: "Define which fields in iSync contains images that need to be synced to Stock2Shop. You can sync more than one image."
 default: "[
 {
 &quot;image&quot;: {
@@ -31,6 +31,6 @@ default: "[
 values: []
 tags: [sourcemeta,isync]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

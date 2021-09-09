@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Map your product fields"
 name: "sourcemeta_isync"
 key: "product_field_map"
 description: "Field mapping between S2S and iSync, use '{{}}' signs to note variable, otherwise string will be treated as literal"
-user_friendly_description: ""
+user_friendly_description: "Map the product fields in iSync to product fields in Stock2Shop when syncing products."
 default: "{
 &quot;source&quot;: {
 &quot;source_product_code&quot;: &quot;{{Style}}&quot;,
@@ -54,6 +54,6 @@ default: "{
 values: []
 tags: [sourcemeta,isync]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

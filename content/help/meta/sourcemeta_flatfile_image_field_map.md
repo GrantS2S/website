@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Sync specific product images to Stock2Shop"
 name: "sourcemeta_flatfile"
 key: "image_field_map"
 description: "Fieldmap used for creating images. See example map for object model"
-user_friendly_description: ""
+user_friendly_description: "Define which columns in your Flat File data source contains images that need to be synced to Stock2Shop. You can sync more than one image."
 default: "{
   &quot;source_images&quot;: [
     {
@@ -25,8 +25,8 @@ default: "{
   ]
 }"
 values: []
-tags: [sourcemeta,flatfile]
+tags: [sourcemeta,flatfile,flat-file]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---
