@@ -1,6 +1,6 @@
 ---
 title: "Exception: Number Required for Key Source_variant_code, Param Is Str"
-issue: "Evolution: No Quantity available for Order item"
+issue: "Evolution: Number Required for Key Source_variant_code"
 type: "solution"
 seoTitle: "No Quantity available for Order item"
 seoDescription: "There is no quantity available for the Ordered item in Stock2Shop"
