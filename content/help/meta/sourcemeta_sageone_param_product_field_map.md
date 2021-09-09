@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Map your product fields"
 name: "sourcemeta_sageone"
 key: "param_product_field_map"
 description: "If you want to use ':' in the option name as the key value for options, do not include the product-&gt;options property. Changes made to Category names and Price Tiers on SageOne will only Update in Stock2Shop if the Sync token is set back and a fetch is performed."
-user_friendly_description: ""
+user_friendly_description: "Map the product fields in Sage Business Cloud Accounting to product fields in Stock2Shop when syncing products."
 default: "{
 &quot;source&quot;: {
 &quot;source_product_code&quot;: &quot;TextUserField1&quot;,
@@ -37,8 +37,8 @@ default: "{
 }
 }"
 values: []
-tags: [sourcemeta,sageone]
+tags: [sourcemeta,sageone,sage-business-cloud-accounting]
 type: "meta"
-process: ""
+process: "products"
 headless: true
 ---

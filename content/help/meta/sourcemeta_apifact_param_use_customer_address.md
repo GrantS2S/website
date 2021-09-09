@@ -1,5 +1,5 @@
 ---
-title: "Use address in ERP / Accounting System"
+title: "Use customer address in ERP / Accounting System"
 name: "sourcemeta_apifact"
 key: "param_use_customer_address"
 description: "Use address from source"

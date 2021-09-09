@@ -6,7 +6,7 @@ description: "Queue fetch_images item after processing sync_product. Must be set
 user_friendly_description: "Once a product has been created in Stock2Shop, we will fetch the images from Sage Business Cloud Accounting to add to the relevant products on Stock2Shop."
 default: "false"
 values: []
-tags: [sourcemeta,sageone]
+tags: [sourcemeta,sageone,sage-business-cloud-accounting]
 type: "meta"
 process: "products"
 headless: true
