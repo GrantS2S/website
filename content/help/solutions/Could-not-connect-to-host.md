@@ -6,7 +6,7 @@ seoTitle: "Could not connect to Host to post orders"
 seoDescription: "The tunnel or network between Stock2Shop and your ERP is down or giving errors."
 source: ""
 channel: ""
-fulfillment:""
+fulfillment: ""
 process: "orders"
 headless: true
 ---
