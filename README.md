@@ -106,7 +106,7 @@ A list of all connectors and how they should be named and tagged on Hugo.
 | Channel        | B2B Trade Store                | b2b-trade-store                |
 | Channel        | Shopify                        | shopify                        |
 | Channel        | Takealot                       | takealot                       |
-| Channel        | Woocommere                     | woocommere                     |
+| Channel        | WooCommere                     | woocommere                     |
 | Fulfilment     | Parcelninja                    | parcelninja                    |
 | Fulfilment     | On The Dot                     | on-the-dot                     |
 

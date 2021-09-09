@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Create orders on Parcelninja"
 name: "sourcemeta_parcelninja"
 key: "create_order_enabled"
 description: ""
