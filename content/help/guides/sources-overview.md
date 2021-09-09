@@ -4,7 +4,7 @@ lead: "Sources in Stock2Shop is the term used for the source of your product and
 seoTitle: ""
 seoDescription: ""
 type: guides
-tags: ["sources"]
+tags: ["source"]
 weight: 1
 ---
 
