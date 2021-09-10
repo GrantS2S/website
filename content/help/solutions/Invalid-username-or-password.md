@@ -15,13 +15,13 @@ headless: true
 Failed to raise orders in Omni Accounts
 
 #### Error solution
-S2S's Apifact software can no longer being able to contact the Omni Accounts database, or the user credentials used are no longer valid.
+S2S's Apifact software can no longer contact the Omni Accounts database, or the user credentials are no longer valid.
 
 To resolve this issue:
 
-1. Reach out to Omni Accounts specialists to confirm if any changes have been made to the server configuration.
-2. Ensure credentials issued to S2S are still valid and granted sufficient access level to the database.
-3. Ensure all necessary services are running on the server.
+- Reach out to Omni Accounts specialists and confirm if the server configuration has had any changes.
+- Ensure credentials issued to S2S are still valid and granted sufficient access level to the database.
+- Ensure all necessary services are running on the server.
 
 Contact support@stock2shop.com if your details have changed or if you need further assistance.
 
