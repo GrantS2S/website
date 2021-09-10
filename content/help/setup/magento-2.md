@@ -18,13 +18,17 @@ and lastly that the Magento 2.x orders webhook has been setup. Stock2Shop requir
 3. [Raise Orders](#raise-orders) 
 
 ## Prerequisites {#prerequisites}
-You will need to have a version of Magento 1.x already up and running that is accessible via the web.
+You will need to have a version of Magento 2.x already up and running that is accessible via the web.
 
 ## Syncing Products to Magento 2.x {#sync-products}
-- api module
-- api user
+In order for Stock2Shop to communicate with Magento, It is required that the REST API is enabled. 
+Refer to the following [Magento REST API documentation](https://devdocs.magento.com/guides/v2.3/rest/bk-rest.html "Magento 2.x REST API Documentation") on how this can be done.
 
+Stock2Shop requires the following:
+
+- REST URL Endpoint
+- Magento Admin Username
+- Magento Admin Password
 
 ## Syncing Orders to Stock2Shop {#raise-orders}
-- webhook module
-- webhook endpoint
+Your Magento developers will be required to install the [Magento 2.x Webhook Module](https://github.com/stock2shop/magento2_module_webhook "Stock2Shop Magento 2.x Webhook Module"). Thereafter once the webhook module has been installed and the endpoint defined, Stock2Shop can beging to receive orders.

@@ -24,11 +24,28 @@ For the integration between Stock2Shop and Shopify to work without any issues, y
 - A Staging or production Shopify Store
 
 ## Syncing Products to Shopify {#sync-products}
-The only requirement for Stock2Shop to sync products to Shopify is that the API is enabled. Follow these steps below:
+The only requirement for Stock2Shop to sync products to Shopify is that the API is enabled. 
+Follow these steps below:
 
-// Todo Add
+- In Shopify navigate to  Apps > Manage Private Apps and click Create a new private app.
+- Set the Private app name to Stock2Shop
+- Add in an email address to be notified of any communication regarding the Shopify API
+- Set all permissions to the highest possible, either Read / Write or just Read permission.
+
+Once you have completed filling out all the details and setting permission, be sure to save the app. A pop-up modal will appear asking to confirm you understand. 
+Click I understand, Create the app. You will be directed to a page that will display the API key and API Password. Send the following to Stock2Shop:
+
+- API Key
+- API Password
 
 ## Syncing Orders to Stock2Shop {#raise-orders}
 The only requirement for Stock2Shop to sync orders from Shopify back to Stock2Shop is that the Shopify Webhook is enabled. Follow these steps below:
 
-// Todo Add
+- In Shopify navigate to Settings > Notifications
+- Navigate to Webhooks and click Create webhook
+- Set the Webhook event to Order update
+- Set the format to JSON
+- Stock2Shop will supply you with the URL
+- Set Webhook API version latest stable version
+
+Note, that Stock2Shop will only provide the URL when we are ready to start receiving orders.

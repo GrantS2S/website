@@ -51,4 +51,4 @@ Once this process has been completed, you will need to supply Stock2Shop with th
 Note, your Magento developers will be required to install the [Magento REST API Module](https://github.com/stock2shop/magento_module_rest "Stock2Shop Magento REST API Module") if you are planning on syncing configurable products from Stock2Shop to Magento 1.x. 
 
 ## Syncing Orders to Stock2Shop {#raise-orders}
-Your Magento developers will be required to install the [Magento Webhook Module](https://github.com/stock2shop/magento_module_webhook "Stock2Shop Magento Webhook Module"). Thereafter once the webhook module has been installed and the endpoint defined, Stock2Shop can beging to receive orders.
+Your Magento developers will be required to install the [Magento 1.x Webhook Module](https://github.com/stock2shop/magento_module_webhook "Stock2Shop Magento 1.x Webhook Module"). Thereafter once the webhook module has been installed and the endpoint defined, Stock2Shop can beging to receive orders.

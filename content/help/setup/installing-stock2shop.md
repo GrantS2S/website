@@ -13,6 +13,7 @@ fulfillment: ""
 ERP's which run in the cloud or at your premises that are not SaaS solutions will need to have our software installed.
 
 TODO: download setup and install instructions
+https://apifact.com
 
 In order for Stock2Shop to communicate with SAP Business One ERP system,
 we require the following information:
