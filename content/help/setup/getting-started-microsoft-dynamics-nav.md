@@ -9,3 +9,5 @@ fulfillment: ""
 ---
 
 ## Microsoft Dynamics NAV
+Stock2Shop can pull inventory data from multiple databases. The only prerequisite is that the database can be accessed via ODBC. 
+We therefore support Microsoft SQL Server, MySQL Server, Pervasive SQL, Hana and many other databases.
