@@ -6,17 +6,8 @@ type: guides
 tags: ["product"]
 ---
 
-# big heading
-
-list
-- a
-- b
-- c
-
-link [this is a link]('/abc')
-
 ## Product Fields
-Product cover many aspects of a product. We have fields in Stock2Shop for your product data to cover most cases, but 
+Stock2Shop cover many aspects of a product. We have fields in Stock2Shop for your product data to cover most cases, but 
 if required, we can add extensive meta data to your Product that can be used in lots of different ways. 
 
 The main fields for Products are the name of your product, how much you are selling it for, a short description of the

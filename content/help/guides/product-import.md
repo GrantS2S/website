@@ -11,7 +11,7 @@ Stock2Shops console has the ability to export all your product data fields that 
 make any changes to the fields available and import the data back into the console.
 
 There are certain settings applied to ensure that the data that you have imported does not get overwritten on the next 
-sync from your ERP/Accounting system, these setting are a feature called flags, [click here to learn more about flags](/documentation/key-concepts/flags/).
+sync from your ERP/Accounting system, these setting are a feature called flags.
 
 We suggest you contact support@stock2shop.com to find out if your flags have been set up according to the fields
 that you would like to make changes to. 
@@ -19,9 +19,9 @@ that you would like to make changes to.
 ## Exporting
 Here are some steps to Export your Product data. You can see our [Product Fields](/how-to/products/product-fields) for more information.
 
-- 1. Log in to your console - https://console.stock2shop.com/ 
-- 2. [Click here](https://console.stock2shop.com/console/#/products/export) or Hover over the "Products" Tab and Click "Export"
-- 3. Tick the boxes of the fields you wish to include on your export
+- Log in to your console - https://console.stock2shop.com/ 
+- [Click here](https://console.stock2shop.com/console/#/products/export) or Hover over the "Products" Tab and Click "Export"
+- Tick the boxes of the fields you wish to include on your export
 
 Here are the Fields that can be selected for your Export data.
 
@@ -57,39 +57,39 @@ Here are the Fields that can be selected for your Export data.
 |All qty availability|This is all the warehouses available on the variants (Each listed in own column)|source_variant_code + qty_[warehouse name] required to make changes to these fields (qty_ tells the Stock2Shop system to create/update a specific warehouse after the "qty_")|
 
 
-- 4. Once the fields have been selected, you will need to select the Source that is relevant.
+
+- Once the fields have been selected, you will need to select the Source that is relevant.
    (For Integrations with more than 1 Source)
 
-- 5. Click "EXPORT PRODUCTS"  the console will start to process the CSV file, you can wait for the Download link to Generate.
+- Click "EXPORT PRODUCTS"  the console will start to process the CSV file, you can wait for the Download link to Generate.
     
-- 6. Once processed, you can click on the generated link to download the CSV file for editing.
+- Once processed, you can click on the generated link to download the CSV file for editing.
     
-Save the export and open it in either Google Sheets or Excel. 
+- Save the export and open it in either Google Sheets or Excel. 
 
 ## Importing
 
 When importing data into Stock2Shop, the key points to remember are:
 
-1. Only import fields required and fields that have updates to them. Avoid Importing Quantity and Price fields if not being updated.
-2. If these fields are updated by your ERP/Accounting system, you should not need to import them.
-3. Are the flags set up accordingly (Consult support@stock2shop.com to assist) to update specific fields in Stock2Shop that you are trying to import?
-4. Is my import file in plain CSV format?
+- Only import fields required and fields that have updates to them. Avoid Importing Quantity and Price fields if not being updated.
+- If these fields are updated by your ERP/Accounting system, you should not need to import them.
+- Are the flags set up accordingly (Consult support@stock2shop.com to assist) to update specific fields in Stock2Shop that you are trying to import?
+- Is my import file in plain CSV format?
 
 Once you have populated the correct fields per the above, follow the below steps to process your import:
 
-1. Login to your console - https://console.stock2shop.com/ 
-2. [Click here](https://console.stock2shop.com/console/#/products/import) or Hover over the "Products" Tab and Click "Import"
-3. Read the fields listed and make sure you are aware of the fields you are importing and have the required fields in place.
-4. Select your primary source (Main ERP/Accounting system)
-5. Ensure that both **"Skip adding new products"** and "[Ignore flags](/documentation/key-concepts/flags/)"  are ticked **NB**
-6. Click on "SELECT FILE" and choose the CSV file that you wish to import.
-7. Click on "IMPORT PRODUCTS"
-8. The import will process and depending on the size of the import file it may take some time. Once complete, you will
+- Login to your console - https://console.stock2shop.com/ 
+- [Click here](https://console.stock2shop.com/console/#/products/import) or Hover over the "Products" Tab and Click "Import"
+- Read the fields listed and make sure you are aware of the fields you are importing and have the required fields in place.
+- Select your primary source (Main ERP/Accounting system)
+- Ensure that both **"Skip adding new products"** and "[Ignore flags](/documentation/key-concepts/flags/)"  are ticked **NB**
+- Click on "SELECT FILE" and choose the CSV file that you wish to import.
+- Click on "IMPORT PRODUCTS"
+- The import will process and depending on the size of the import file it may take some time. Once complete, you will
 see a breakdown of the Import.
 
 ## Processing Queue
 Any import into your console will be added to the Queue, hover over Queue and click on "View" you will see the 
 lines containing "sync_products" wait for the queue to complete and open one or two products and confirm that your 
-import has processed successfully. Should your changes not reflect, or an error occurs check out our [Solutions](/help/how-to/solutions/_index)
-or contact support@stock2shop.com for assistance. 
+import has processed successfully. Should your changes not reflect, or an error occurs contact support@stock2shop.com for assistance. 
 

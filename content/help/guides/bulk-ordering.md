@@ -21,36 +21,29 @@ The bulk ordering process is very simple. Below are the steps to take when bulk 
 Find attached to this solution an example of the CSV template.
 
 #### Step 1: Prepare your CSV template
-
-1. Make sure your CSV file includes a header row.
-2. Your CSV needs the following fields:
+- Make sure your CSV file includes a header row. 
+- Your CSV needs the following fields:
     - SKU (unique product identifier)
     - QTY (the number of units to order per SKU)
     - Order number (your purchase order number, used to group rows)
-4. Update the sheet with the SKU's you are wanting to order along with the quantities and order number(s).
-5. Download/Export the files as a CSV.
+- Update the sheet with the SKU's you are wanting to order along with the quantities and order number(s). 
+- Download/Export the files as a CSV.
 
 Note: An example CSV can be found at the bottom of this solution
 
 #### Step 2: Process your Bulk Order
+- Navigate to the **B2B Trade Store > Bulk Order**
+- Select **Choose File** and add the file you recently downloaded/exported 
+- Click **Upload**
 
-1. Navigate to the **B2B Trade Store > Bulk Order**
-2. Select **Choose File** and add the file you recently downloaded/exported
-3. Click **Upload**
-
-![b2b bulk ordering](/uploads/b2b-bulk-ordering-1.png)
-
-4. Link the columns from your CSV file to the columns on the b2B Trade store using the dropdowns
-5. Click Process once you have completed linking the CSV fields to the order fields.
-
-![b2b bulk ordering](/uploads/b2b-bulk-ordering-2.png)
+- Link the columns from your CSV file to the columns on the b2B Trade store using the dropdowns
+- Click Process once you have completed linking the CSV fields to the order fields.
 
 Note: At this point, your import will be validated to confirm all the SKU's exist in the trade store. If the SKU's don't exist, you will be notified and will need to update your sheet and begin the import process again.
 
-6. If your orders are valid you will be taken to the final step where you send the orders.
-7. Simply select the order in question or all orders and select **Send Orders**
+- If your orders are valid you will be taken to the final step where you send the orders.
+- Simply select the order in question or all orders and select **Send Orders**
 
-![b2b bulk ordering](/uploads/b2b-bulk-ordering-3.png)
 
 Note: Multiple orders will show based on the number of order numbers you created in your CSV file
 

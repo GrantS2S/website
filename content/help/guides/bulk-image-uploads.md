@@ -26,17 +26,17 @@ Preparing your images for upload to S2S, the below list is to ensure that images
 #### Upload
 Once your images are ready and named accordingly, proceed to login into your S2S console, navigate to "Products" > "Import Images"
 Before selecting the images you want to upload there are a couple points to take note of:
-1. Source - Make sure that your ERP/Accounting System is selected
-2. Field - This is the field in S2S that relates to what you have named your images
-3. Find Replace - this directly relates to whether you have replaced characters in your image names in order to save them and if you have used method 2a in preparing your images
+- Source - Make sure that your ERP/Accounting System is selected
+- Field - This is the field in S2S that relates to what you have named your images 
+- Find Replace - this directly relates to whether you have replaced characters in your image names in order to save them and if you have used method 2a in preparing your images
 
 ## Find Replace:
 
 To understand how the find and replace function works, think about example in 2a, if SKU is abc and image one name is abc-1.jpg and image 2 is abc-2.jpg and image 3 abc-3.jpg
 Then you would need to setup three find and replace rules: 
-1. Fill the find block with "-1" and leave the replace block blank so that it removes the "-1" from the image name when searching for the SKU
-2. Fill the find block with "-2" and leave the replace block blank so that it removes the "-2" from the image name when searching for the SKU
-3. Fill the find block with "-3" and leave the replace block blank so that it removes the "-3" from the image name when searching for the SKU
+- Fill the find block with "-1" and leave the replace block blank so that it removes the "-1" from the image name when searching for the SKU
+- Fill the find block with "-2" and leave the replace block blank so that it removes the "-2" from the image name when searching for the SKU
+- Fill the find block with "-3" and leave the replace block blank so that it removes the "-3" from the image name when searching for the SKU
 
 The same principle would apply if you had to replace a forward slash, think about the following example:
 SKU is abc/1 and you have saved the image name as abc+1.jpg, the rule to setup would be:

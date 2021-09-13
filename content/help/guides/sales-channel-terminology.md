@@ -42,23 +42,12 @@ manage your ecommerce channels to send data to and from your Seller Portal accou
 The benefit of using an API is that it takes away the manual effort required to keep the data between your own software 
 program(s) and the Seller Portal in sync - meaning less time and effort for you, as no human intervention is needed.
 
-#### API Key
-
-#### Consumer Key
-
-#### Consumer Secret
-
-#### Channel Domain
+#### API Keys
+The secure key and sercet or password the API creates for Stock2Shop to authenticate with when pushing updates to the sales channel
 
 #### Inventory Management
 Most websites have a functionality to display “In Stock” or “Out of Stock” labels when a product has qty or not, 
 this is called inventory management and is optional when integrating with Stock2Shop.
-
-#### Product Status
-
-#### Attribute
-
-#### Attribute Set
 
 #### Channel Rules
 
@@ -91,7 +80,5 @@ feature to remove the old ID’s in bulk.
 
 The product can be added/linked by either using a setting to match to current skus codes that still exist on the website
 or create brand new skus with new IDs.
-
-#### Product links
 
 
