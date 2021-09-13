@@ -5,8 +5,8 @@ type: "solution"
 seoTitle: "Magento 1.x: Field Map Transform Error"
 seoDescription: "Related to attributes that contain special characters that have been added into the fields."
 source: ""
-channel: ["magento_1"]
-fulfillments: ""
+channel: "magento_1"
+fulfillment: ""
 process: "products"
 headless: true
 ---

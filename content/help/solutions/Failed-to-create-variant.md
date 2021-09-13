@@ -5,7 +5,7 @@ type: "solution"
 seoTitle: "Failed to create variant : WooCommerce"
 seoDescription: "An SKU within the product is failing to be created on the website, specifically WooCommerce."
 source: ""
-channel: ["woocommerce"]
+channel: "woocommerce"
 fulfillment: ""
 process: "products"
 headless: true

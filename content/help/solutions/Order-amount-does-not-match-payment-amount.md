@@ -1,5 +1,6 @@
 ---
 title: "Order Amount Does Not Match Payment Amount"
+issue: "B2B Trade Store - Order Amount Does Not Match Payment Amount"
 type: solution
 seoTitle: "B2B Trade Store - Order Amount Does Not Match Payment Amount"
 seoDescription: "error can occur frequently if you have a rate based on cart shipping_method."
