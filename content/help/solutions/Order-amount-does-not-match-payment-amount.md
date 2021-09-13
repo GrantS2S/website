@@ -1,22 +1,23 @@
 ---
 title: "Order Amount Does Not Match Payment Amount"
-issue: "B2B Trade Store - Order Amount Does Not Match Payment Amount"
+issue: "B2B Trade Store: Order Amount Does Not Match Payment Amount"
 type: solution
 seoTitle: "B2B Trade Store - Order Amount Does Not Match Payment Amount"
 seoDescription: "error can occur frequently if you have a rate based on cart shipping_method."
-sources : ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels : ["b2b-trade-store"]
-fulfillments : []
-draft: true
+source:  ""
+channel: "b2b-trade-store"
+fulfillment: ""
+process: "orders"
+headless: true
 ---
 
-### Queue Error Description
-This error can occur frequently if you have a rate based on cart shipping_method. 
-When the quantity is adjusted in the cart of the checkout page, it adjusts the shipping cost (Rate based on cart) value. 
+#### Queue Error Description
+This error can occur frequently if you have a shipping  method based on the cart.
+When the quantity is adjusted in the cart of the checkout page, it adjusts the shipping cost (cart based rate) value. 
 This does not update the cached value of the order total.
 
-### How to resolve Queue Error
-If your Trade Store has a rate based on cart shipping_method, you will need to notify your B2B customers that they should refresh their page before placing the order on the trade store to prevent this from occurring.
+#### How to resolve Queue Error
+If your Trade Store has a shipping method based on the, you will need to notify your B2B customers that they should refresh their page before placing the order on the trade store to prevent this from occurring.
 
 Alternatively, you can follow these steps:
 - Skip the queue error and recreate the order on the Trade Store ensuring to first refresh your browser before checking out
