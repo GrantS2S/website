@@ -63,7 +63,6 @@ Stock2Shop currently does not support the syncing of customers from a Flat File 
 At this point in time there are no plans to build out this functionality. 
 If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
- 
 ## Syncing Orders to a Flat File {#raise-orders}
 By default, Stock2Shop raises orders to a Flat File with the following order details:
 
@@ -74,4 +73,3 @@ By default, Stock2Shop raises orders to a Flat File with the following order det
 | Line Items  | line_item.sku    | Products being Ordered                                  |
 | Ordered Qty | line_item.qty    | Total Qty for each line item being ordered              |
 | Item Cost   | line_item.price  | Price for the items Ordered to list on the Invoice file |
-
