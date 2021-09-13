@@ -4,9 +4,9 @@ issue: "Syspro: Freight Product Class not found"
 type: "solution"
 seoTitle: "Syspro - line_item_error: Freight Product class not found"
 seoDescription: " a non existent shipping line item is being added which causes the order to fail."
-source: ["syspro" ]
-channels: ""
-fulfillments: ""
+source: "syspro" 
+channel: ""
+fulfillment: ""
 process: "orders"
 headless: true
 ---

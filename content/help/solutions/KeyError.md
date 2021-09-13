@@ -4,7 +4,7 @@ issue: "Sage 50cloud Pastel Partner: KeyError"
 seoTitle: "KeyError"
 seoDescription: "The SDK for Pastel Partner is not setup. Orders are not syncing to Pastel Partner"
 type: "solution"
-source: ["sage-50cloud-pastel-partner", "sage-50cloud-pastel-xpress"]
+source: "sage-50cloud-pastel-partner"
 channel: ""
 fulfillment: ""
 process: "orders"

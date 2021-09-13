@@ -1,12 +1,12 @@
 ---
 title: "No Default Customer Code Given or Source Customer Code and Not Allowed to Create Customer"
-Issue: "Sage Business Cloud Accounting: Customer Code Error"
+issue: "Sage Business Cloud Accounting: Customer Code Error"
 seoTitle: "No Default Customer Code Given or Source Customer Code and Not Allowed to Create Customer"
 seoDescription: "Failed to create order on Sage One No Default Customer Code/Source Customer Code."
 type: "solution"
 source: "sage-business-cloud-accounting"
 channel: ""
-fulfillments: ""
+fulfillment: ""
 process: "orders"
 headless: true  
 ---

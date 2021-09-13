@@ -1,12 +1,12 @@
 ---
-title: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found"
-issue: " WooCommerce: No product found with ID equal to [ID]"
+title: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
+issue: "WooCommerce: No product found with ID equal to [ID]"
 type: "solution"
-seoTitle: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found"
+seoTitle: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
 seoDescription: "A product update sent to WooCommerce has failed as the product was not found on the site by it's internal ID."
-source: 
+source: ""
 channel: woocommerce
-fulfillment: 
+fulfillment: ""
 process: products
 headless: true
 ---
