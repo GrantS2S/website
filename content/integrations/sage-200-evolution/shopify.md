@@ -10,5 +10,5 @@ image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []
 aliases:
-    - /integrations/sage-evolution-shopify/
+    - /integrations/sage-200-evolution-shopify-integration/
 ---

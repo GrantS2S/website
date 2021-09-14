@@ -10,5 +10,5 @@ image: "/images/sap-shopify.png"
 imageAlt: B2B trade store logo
 tags: []
 aliases:
-    - /integrations/sage-pastel-partner-b2b-trade-store/
+    - /integrations/sage-200-evolution-b2b-trade-store-integration/
 ---

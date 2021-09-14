@@ -10,5 +10,5 @@ image: "/images/sap-shopify.png"
 imageAlt: woocommerce logo
 tags: []
 aliases:
-    - /integrations/sage-evolution-woocommerce/
+    - /integrations/sage-200-evolution-woocommerce-integration/
 ---
