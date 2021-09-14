@@ -10,6 +10,6 @@ image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []
 aliases:
-    - /integrations/sap-shopify/
+    - /integrations/
 ---
     
