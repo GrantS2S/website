@@ -1,25 +1,26 @@
 ---
 title: "Undefined Property StdClass Increment Id"
+issue: "Magento 1.x: Undefined Property StdClass Increment Id"
 type: "solution"
 seoTitle: "Magento: Undefined Property StdClass Increment Id"
 seoDescription: "S2S is trying to sync an order from Magento with an external order number that already exists in S2S."
-sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["magento_1"]
-fulfillments: ["parcel-ninja", "on-the-dot"]
-draft: true
-date: 2020-12-29T13:30:57+02:00
+source: ""
+channel: "magento_1"
+fulfillment: ""
+process: "orders"
+headless: true
 ---
 
 #### Error description
 S2S is trying to sync an order from Magento with an external order number (passed on the increment ID field) that already exists in S2S.
 
 #### Error solution
-1. Navigate to Queue -> View
-2. 3 dots > View Item
-3. Search for and copy "increment_id" value
-4. Navigate to Orders -> View
-5. Search the increment id, which in S2S is displayed as "Channel Code"
-6. If increment_id is found, then order number already exists in S2S.
+- Navigate to Queue -> View
+- 3 dots > View Item
+- Search for and copy "increment_id" value
+- Navigate to Orders -> View
+- Search the increment id, which in S2S is displayed as "Channel Code"
+- If increment_id is found, then order number already exists in S2S.
 
 Once the error is confirmed, it is likely that the order is a duplicate. Confirm order details against those found in S2S, and the order can be skipped.
 
