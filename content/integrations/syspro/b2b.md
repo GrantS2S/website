@@ -10,5 +10,5 @@ image: "/images/sap-shopify.png"
 imageAlt: B2B trade store logo
 tags: []
 aliases:
-    - /integrations/
+    - /integrations/syspro-b2b-trade-store/
 ---

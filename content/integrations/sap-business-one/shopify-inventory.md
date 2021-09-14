@@ -32,4 +32,4 @@ You can choose to sync SAP Business One warehouses to one or many inventory loca
 ### Error Management
 If an update fails to process to your Shopify website, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.
 
-[Click here](/help/features-sap-business-one/ "Sap Business One Features") to view our Sap Business One feature set.
+[Click here](/help/features/sap-business-one/ "SAP Business One Features") to view our SAP Business One feature set.

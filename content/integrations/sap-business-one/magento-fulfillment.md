@@ -18,3 +18,5 @@ If your WMS or fulfillment partner supports delivery notifications, they will re
 
 ### Sync Stock Levels
 If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on Magento.
+
+[Click here](/help/features/sap-business-one/ "SAP Business One Features") to view our SAP Business One feature set.

@@ -22,3 +22,5 @@ Create a default customer account on SAP into which all Takealot orders will syn
 
 ### Error Management
 If an order fails to process to SAP, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the failure, and once you’ve rectified the issue, you can reset the order to try again.
+
+[Click here](/help/features/sap-business-one/ "SAP Business One Features") to view our SAP Business One feature set.

@@ -16,3 +16,5 @@ Have a totally automated solution, from placing an online order to dispatching f
 
 ### Sync Stock Levels
 If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on WooCommerce.
+
+[Click here](/help/features/sap-business-one/ "SAP Business One Features") to view our SAP Business One feature set.
