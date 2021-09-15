@@ -6,8 +6,8 @@ summary: "Automatically update your important product information such as pricin
 lead: "Stock2Shop can integrate your Takealot marketplace offerings with many ERP / Accounting and logistic applications, here is how we can help you automate your business"
 image: "/uploads/logo-platform-takealot.png"
 imageAlt: takealot logo
-type: "source"
-source: "takealot"
+type: "marketplace"
+marketplace: "takealot"
 tags: ["marketplace"]
 aliases:
     - /integrations/takealot-marketplace-integration/

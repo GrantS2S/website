@@ -5,7 +5,7 @@ seoDescription: "Integrate Sage 100 Evolution and Takealot, and you'll be able t
 lead: "Let Stock2Shop send product inventory updates from Sage 100 Evolution to the Takealot Marketplace. And if you are doing exclusively lead time orders, you can automate the raising of Takealot orders directly into your ERP. Here’s how we can help you streamline your workflow."
 type: "source-marketplace"
 source: "sage-100-evolution"
-channel: "takealot"
+marketplace: "takealot"
 image: "/images/sap-shopify.png"
 imageAlt: takealot logo
 tags: []

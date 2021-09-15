@@ -6,8 +6,8 @@ summary: "Run your e-commerce business from anywhere with Parcelninja’s scalab
 lead: "Stock2Shop can integrate Parcelninja with many B2B and B2C ecommerce and ERP / Accounting applications, here is how we can help you automate your business"
 image: "/uploads/logo-fulfillment-parcelninja.png"
 imageAlt: parcelninja logo
-type: "source"
-source: "parcelninja"
+type: "fulfillment"
+fulfillment: "parcelninja"
 tags: ["fulfillment"]
 aliases:
     - /integrations/parcel-ninja/

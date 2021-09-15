@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a004.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "magento"
-type: "source-content"
+channel: "magento"
+type: "channel-content"
 headless: true
 weight: 3
 ---

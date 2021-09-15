@@ -5,7 +5,7 @@ seoDescription: "Integrate SAP Business One with Parcelninja, and you'll be able
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in SAP Business One. Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "sap"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: Parcelninja logo
 tags: []

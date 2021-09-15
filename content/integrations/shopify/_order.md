@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "shopify"
-type: "source-content"
+channel: "shopify"
+type: "channel-content"
 headless: true
 weight: 2
 ---

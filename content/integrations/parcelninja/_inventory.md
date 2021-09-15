@@ -6,8 +6,8 @@ imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
-source: "parcelninja"
-type: "source-content"
+fulfillment: "parcelninja"
+type: "fulfillment-content"
 headless: true
 weight: 1
 ---

@@ -5,7 +5,7 @@ seoDescription: "Integrate Sage Business Cloud Accounting with Parcelninja, and 
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in Sage Business Cloud Accounting (formerly Sage One). Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "sage-business-cloud-accounting"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []

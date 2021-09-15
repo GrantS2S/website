@@ -6,8 +6,8 @@ summary: "Start selling today with a purpose-built and fast growing e-commerce p
 lead: "Stock2Shop can integrate Shopify with many ERP / Accounting and logistic applications, here is how we can help you automate your business"
 image: "/uploads/logo-platform-shopify.png"
 imageAlt: shopify logo
-type: "source"
-source: "shopify"
+type: "channel"
+channel: "shopify"
 tags: ["channel"]
 aliases:
     - /integrations/shopify/

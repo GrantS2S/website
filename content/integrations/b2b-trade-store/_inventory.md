@@ -6,8 +6,8 @@ imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
-source: "b2b-trade-store"
-type: "source-content"
+channel: "b2b"
+type: "b2b-content"
 headless: true
 weight: 1
 ---

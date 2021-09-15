@@ -6,8 +6,8 @@ imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
 source: "custom-database"
-channel: "takealot"
-type: "source-channel-content"
+marketplace: "takealot"
+type: "source-marketplace-content"
 weight: 1
 ---
 

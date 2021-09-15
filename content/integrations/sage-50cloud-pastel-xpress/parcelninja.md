@@ -5,7 +5,7 @@ seoDescription: "Integrate Sage 50cloud Pastel Xpress with Parcelninja, and you'
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in Sage 50cloud Pastel Xpress. Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "sage-50cloud-pastel-xpress"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []

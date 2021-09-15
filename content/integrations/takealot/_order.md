@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "takealot"
-type: "source-content"
+marketplace: "takealot"
+type: "marketplace-content"
 headless: true
 weight: 2
 ---

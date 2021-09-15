@@ -6,8 +6,8 @@ imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
 source: "sage-50cloud-pastel-xpress"
-channel: "parcelninja"
-type: "source-channel-content"
+fulfillment: "parcelninja"
+type: "source-fulfillment-content"
 weight: 1
 ---
 

@@ -5,7 +5,7 @@ seoDescription: "Integrate source_name with Parcelninja, and you'll be able to a
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in IQ Retail. Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "iq-retail"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []

@@ -5,7 +5,7 @@ seoDescription: "Integrate iSync with Parcelninja, and you'll be able to automat
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in iSync. Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "isync"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: isync logo
 tags: []

@@ -28,7 +28,7 @@
     </nav><!-- /.widget__nav -->
 
     <div class="widget__body js-slider-filter">
-        {{ range (where .Site.RegularPages "Params.type" "in" (slice "source" "channel" "fulfillment" "b2b" "marketplace")) }}
+        {{ range (where .Site.Pages "Params.type" "in" (slice "source" "channel" "fulfillment" "b2b" "marketplace")) }}
         <div class='widget__item {{ .Params.type }}' data-category='{{ .Params.type }}'>
             <div class="feature">
                 <div class="feature__body">

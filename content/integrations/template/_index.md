@@ -6,8 +6,8 @@ summary: ""
 lead: "Stock2Shop can integrate source name with many B2B and B2C ecommerce and logistic applications, here is how we can help you automate your business"
 image: "/uploads/"
 imageAlt: source name logo
-type: "source"
-source: "sap"
+type: ""
+source: ""
 tags: ["erp"]
 aliases:
     - /integrations/source-name/

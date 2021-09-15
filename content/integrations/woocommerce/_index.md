@@ -6,8 +6,8 @@ summary: "An open-source e-commerce plug-in for WordPress that’s customisable 
 lead: "Stock2Shop can integrate WooCommerce with many ERP / Accounting and logistic applications, here is how we can help you automate your business"
 image: "/uploads/logo-platform-woocommerce.png"
 imageAlt: woocommerce logo
-type: "source"
-source: "woocommerce"
+type: "channel"
+channel: "woocommerce"
 tags: ["channel"]
 aliases:
     - /integrations/woo-commerce/

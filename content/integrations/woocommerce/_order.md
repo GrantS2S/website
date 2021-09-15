@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "woocommerce"
-type: "source-content"
+channel: "woocommerce"
+type: "channel-content"
 headless: true
 weight: 2
 ---

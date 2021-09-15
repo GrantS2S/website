@@ -5,7 +5,7 @@ seoDescription: "Integrate Sage 100 Evolution with Parcelninja, and you'll be ab
 lead: "Let Stock2Shop send fulfillment notifications to Parcelninja once orders are successfully raised in Sage 100 Evolution. Here’s how we can help you streamline your workflow."
 type: "source-fulfillment"
 source: "sage-100-evolution"
-channel: "parcelninja"
+fulfillment: "parcelninja"
 image: "/images/sap-shopify.png"
 imageAlt: source_name logo
 tags: []

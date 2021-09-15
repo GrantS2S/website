@@ -6,8 +6,8 @@ imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
-source: "magento"
-type: "source-content"
+channel: "magento"
+type: "channel-content"
 headless: true
 weight: 1
 ---

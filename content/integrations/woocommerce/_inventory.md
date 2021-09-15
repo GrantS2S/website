@@ -6,8 +6,8 @@ imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
-source: "woocommerce"
-type: "source-content"
+channel: "woocommerce"
+type: "channel-content"
 headless: true
 weight: 1
 ---

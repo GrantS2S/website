@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a004.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "parcelninja"
-type: "source-content"
+fulfillment: "parcelninja"
+type: "fulfillment-content"
 headless: true
 weight: 2
 ---

@@ -6,8 +6,8 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a004.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "b2b-trade-store"
-type: "source-content"
+channel: "b2b"
+type: "b2b-content"
 headless: true
 weight: 4
 ---
