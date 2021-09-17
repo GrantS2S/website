@@ -9,12 +9,10 @@ image: "/uploads/logo-client-virgin-active.png"
 imageAlt: "virgin active logo"
 aliases: "/case-studies/case-study-virgin-active/"
 weight: 4
-
 industry: "Health Club / Gym"
 supply: "Retailer"
 founded: "Early 1980s"
 website: www.myvirginactive.co.za
-
 ---
 
 ### The Challenge

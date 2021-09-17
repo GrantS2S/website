@@ -9,14 +9,11 @@ image: "/uploads/logo-client-omnico.png"
 imageAlt: omnico logo
 aliases: "/case-studies/case-study-omnico/"
 weight: 1
+industry: "Lifestyle / Cycling"
+supply: "Distributor"
+founded: "1987"
+website: "https://omnico.co.za"
 ---
-
----
-## The company
-- Industry: Lifestyle / Cycling
-- Supply chain: Distributor
-- Founded: 1987
-- Website: www.omnico.co.za
 
 ---
 ## The challenge

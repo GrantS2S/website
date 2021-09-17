@@ -9,22 +9,18 @@ image: "/uploads/logo-client-pj-marketing.png"
 aliases: "/case-studies/success-story-pj-marketing/"
 imageAlt: pj marketing logo
 weight: 7
+industry: "Kitchenware / Homeware"
+supply: "Importer and distributor"
+founded: "2000s"
+website: "https://www.pjmarketing.co.za/"
 ---
 
-## The Company
-
-- Industry: Supplier to kitchenware and homeware retailers, online retailers the hospitality industry
-- Supply chain: Importer and distributor
-- Website: www.pjmarketing.co.za/
-
 ---
-## THE CHALLENGE
-
+## The challenge
 PJ Marketing was looking for a way to present their product offering on a public website as an online catalogue. It was important that prospective wholesalers not be able to view pricing or place orders. Once accepted as a reseller, a customer should be able to log into a portal to see availability and pricing, and place orders into their specific account on PJ Marketing’s Pastel Partner. In addition, we needed to provide a way for customers to be able to upload a CSV file for bulk orders.
 
 ---
-## THE GOALS
-
+## The goals
 - Sync product information to the front-facing website, excluding price and stock levels.
 - Create a B2B Trade Store where customers can log in to see pricing and stock levels.
 - Provide a streamlined product search, with product segmentation (attributes) uploaded to Stock2Shop.

@@ -9,17 +9,13 @@ image: "/uploads/logo-client-falke.png"
 imageAlt: Falke logo
 aliases: "/case-studies/case-study-falke/"
 weight: 3
+industry: "Fashion / Sport"
+supply: "Retailer"
+founded: "1980s"
+website: "https://falke.co.za"
 ---
 
 ---
-## The company
-- Industry: Fashion / Sport
-- Supply chain: Retailer
-- Founded: Early 1980s
-- Website: www.falke.co.za
-
-![case study falke](/uploads/case-study-falke.jpg)
-
 ## The Challenge
 Falke needed an e-commerce website to function as an online retail store as well as a B2B ordering platform. They also needed to **sync their data** with their ERP (SYSPRO) and their various sales channels, and **manage their inventory** better. Stock2Shop provided a **simple, efficient solution**.
 
@@ -32,9 +28,7 @@ Falke needed an e-commerce website to function as an online retail store as well
 
 ---
 ## The Solutions
-Stock2Shop worked with Falke to set up an effective online presence, streamline their current workflow, and run their inventory control and order management from their existing ERP. Here’s how we did it:
-
-![falke s2s console](/uploads/case-study-falke-s2s-console.jpg)
+Stock2Shop worked with Falke to set up an effective online presence, streamline their current workflow, and run their inventory control and order management from their existing ERP. Here’s how we did it.
 
 ### Custom build a consumer-facing e-commerce website
 - Falke wanted a professional looking B2C website with their distinctive brand look and feel. We custom built them a fully integrated Magento e-commerce website that we host and run.

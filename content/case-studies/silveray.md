@@ -8,20 +8,18 @@ summary2: "Success story featuring Syspro, WooCommerce and a B2B Trade Store."
 image: "/uploads/logo-client-silveray.png"
 imageAlt: silveray logo
 weight: 6
+industry: " Lifestyle / Homeware / Electronics"
+supply: "Distributor"
+founded: ""
+website: "https://www.silveray.co.za"
 ---
 
-## The Company
-
-- Industry: Lifestyle / Homeware / Electronics
-- Supply chain: Distributor
-
+---
 ## The Challenge
-
 Silveray was looking for a way to consolidate their various databases to reflect their product offering on a centralised B2B Trade Store. It was important that each customer that logged in saw the correct pricing, including any discount structures that might apply. In addition, their orders should be raised into their ERP Customer Account and allocated to the correct location.
 
 ---
 ## The Goals
-
 - Sync inventory, showing stock levels for each product by location
 - Sync wholesale customer data, including contract pricing structures
 - Provide streamlined product search
@@ -31,7 +29,6 @@ Silveray was looking for a way to consolidate their various databases to reflect
 
 ---
 ## The Solutions
-
 Silveray sells out of four different companies. We helped consolidate their data on the Stock2Shop console to enable them to sell from one B2B platform. A feed was set up to send product data from the Silveray ERP to their Stock2Shop console. They could then enrich these products with information such as images and long descriptions, before presenting them for sale on two channels:
 
 - A B2B Trade Store servicing wholesale customers

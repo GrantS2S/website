@@ -9,14 +9,11 @@ image: "/uploads/logo-client-alcd.png"
 imageAlt: alcd logo
 aliases: "/case-studies/case-study-al-cd-ashley/"
 weight: 2
+industry: "Homeware"
+supply: "Importer and Distributor"
+founded: "1919"
+website: "https://www.alcdashley.co.za"
 ---
-
----
-## The Company
-- Industry: Homeware
-- Supply chain: Importer and Distributor
-- Founded: 1919
-- Website: www.alcdashley.co.za
 
 ---
 ## The Challenge

@@ -9,22 +9,18 @@ image: "/uploads/logo-client-calasca.png"
 imageAlt: calasca logo
 aliases: "/case-studies/case-study-calasca/"
 weight: 5
+industry: "Lifestyle / Homeware / Electronics"
+supply: "Distributor"
+founded: "2008"
+website: "https://calasca.com"
 ---
 
-## The Company
-
-- Industry: Lifestyle / Homeware / Electronics
-- Supply chain: Distributor
-
-![case study calasca](/uploads/case-study-calasca.jpg)  
-
+---
 ## The Challenge
-
 In addition to syncing Calasca’s product data from their ERP with their retail e-commerce website, we were required to provide an efficient and user-friendly route to market for their wholesale business.
 
 ---
 ## The Goals
-
 - Sync product data to retail e-commerce website (B2C)
 - Capture online retail orders directly into ERP
 - Send product data feeds directly into retailers’ e-commerce websites
