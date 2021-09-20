@@ -1,30 +1,26 @@
 ---
-title: "iQ Retail"
-seoTitle: "iQ Retail Getting Started"
-seoDescription: "Integrate your iQ Retail with supported B2B and B2C Systems through Stock2Shop"
+title: "IQ Retail"
+seoTitle: "IQ Retail Getting Started"
+seoDescription: "Integrate your IQ Retail with supported B2B and B2C Systems through Stock2Shop"
 type: setup
 source: "iq-retail"
 channel: ""
 fulfillment: ""
 ---
 
-## iQ Retail
-iQ Retail is a client-side ERP system. 
-This means that the iQ Retail application is installed on a 
-server at your office, on your actual work computer or on a 
-server in the cloud. 
+## IQ Retail
+IQ Retail is a client-side ERP system. 
+This means that the IQ Retail application is installed on a server at your office, on your actual work computer or on a server in the cloud.
 
-In order for Stock2Shop to provide you 
-with the full integration capabilities and link iQ Retail 
-to other sales channels and fulfilment services such as 
-Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
-Parcelninja and Takealot we need to install software on the server or computer where your iQ Retail is set up. 
+In order for Stock2Shop to provide you with the full integration capabilities and link IQ Retail to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
+Parcelninja and Takealot we need to install software on the server or computer where your IQ Retail is set up. 
+For more information on the installation of Stock2Shop's software, see our guide on [installing Stock2Shop](/help/setup/installing-stock2shop/ "Installing Stock2Shop for on Premise ERP / AAccounting Sysytems") for on premise ERP / Accounting Systems.
 
-Below is all documentation you will need regarding your iQ Retail integration from start to finish.
+Below is all documentation you will need regarding your IQ Retail integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
 ## Getting Started (Prerequisites)
-In order for Stock2Shop to communicate with iQ Retail ERP system, 
+In order for Stock2Shop to communicate with IQ Retail ERP system, 
 we require the following information:
 
 - Database Name
@@ -42,7 +38,7 @@ The below must be taken into consideration to ensure we can manage information o
 - The user must have full admin rights.
 
 With these credentials, Stock2Shop will be able to integrate with 
-iQ Retail and perform the following:
+IQ Retail and perform the following:
 
 1. [Sync products](#sync-products) 
 2. [Sync customers](#sync-customers) 
@@ -52,7 +48,7 @@ iQ Retail and perform the following:
 In order to sync products from iQ Retail to your Stock2Shop client console, 
 the minimum required fields are:
 
-| iQ Retail           | Stock2Shop                     | Description                                        |
+| IQ Retail           | Stock2Shop                     | Description                                        |
 | ------------------- | ------------------------------ | -------------------------------------------------- |
 | CODE                | source_product_code            | The unique identifier of a product                 |
 | CODE                | source_variant_code            | The unique identifier of a product                 |
@@ -64,10 +60,10 @@ the minimum required fields are:
 | true                | variants.inventory_management  | Manage whether a product is inventory managed      |
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
-In order to sync customers from iQ Retail to your Stock2Shop client console, 
+In order to sync customers from IQ Retail to your Stock2Shop client console, 
 the minimum required fields are:
 
-| iQ Retail | Stock2Shop             | Description                                                                                                                |
+| IQ Retail | Stock2Shop             | Description                                                                                                                |
 | --------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | status    | customer_active        | This field would be used to manage whether a customer has access to the trade store (A = Active | D = Delete | I = Ignore) |
 | account   | source_customer_code   | The account code for the customer in IQ Retail                                                                             |
@@ -75,10 +71,10 @@ the minimum required fields are:
 | name      | last_name              | There is no last name field, Name is used                                                                                  |
 | email     | email                  | email field for the email address of the customer                                                                          |
 
-## Syncing Orders to iQ Retail {#raise-orders}
-By default, Stock2Shop raises orders to iQ Retail with the following order details:
+## Syncing Orders to IQ Retail {#raise-orders}
+By default, Stock2Shop raises orders to IQ Retail with the following order details:
 
-| iQ Retail                     | Stock2Shop                    | Description                                                          |
+| IQ Retail                     | Stock2Shop                    | Description                                                          |
 | ----------------------------- | ----------------------------- | -------------------------------------------------------------------- |
 | iQ_Company_Number             | iq_company_number             | Company id/number that the orders must process into                  |
 | iQ_Terminal_Number            | iq_terminal_number            | Terminal number that orders must be processed against                |

@@ -9,3 +9,5 @@ fulfillment: ""
 ---
 
 ## Sage X3
+
+For more information on the installation of Stock2Shop's software, see our guide on [installing Stock2Shop](/help/setup/installing-stock2shop/ "Installing Stock2Shop for on Premise ERP / AAccounting Sysytems") for on premise ERP / Accounting Systems.
