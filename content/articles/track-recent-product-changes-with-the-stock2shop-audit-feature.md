@@ -8,6 +8,8 @@ lead: "With our new “Audit” feature, you can now pull up a list of all the u
 image: "/uploads/article-magnifying-glass-audit-feature.jpg"
 imageAlt: magnifying glass audit feature 
 date: 2019-08-01
+aliases:
+    - /articles/
 ---
 
 ![magnifying glass audit feature wide](/uploads/article-magnifying-glass-audit-feature-wide.jpg)

@@ -8,6 +8,8 @@ lead: "Automatically update your important product information on the Takealot m
 image: "/uploads/article-takealot.png"
 imageAlt: takealot
 date: 2018-10-23
+aliases:
+    - /articles/
 ---
 
 {{< figure src="/uploads/article-marketplace-puzzles.jpg" caption="Photo by rawpixel on Unsplash" >}}

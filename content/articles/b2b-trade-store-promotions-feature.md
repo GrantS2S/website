@@ -8,6 +8,8 @@ lead: "Create promotions and generate coupons that your customers can redeem at 
 image: "/uploads/article-promotions.jpg"
 imageAlt: promotions
 date: 2019-10-22
+aliases:
+    - /articles/
 ---
 
 ![promotions banner](/uploads/article-promotions-banner.jpg)

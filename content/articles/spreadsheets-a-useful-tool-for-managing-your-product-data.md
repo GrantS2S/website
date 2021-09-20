@@ -8,6 +8,8 @@ lead: "Contrary to popular belief, running a successful online store is not as s
 image: "/uploads/article-meaningful-data.jpg"
 imageAlt: meaningful data
 date: 2018-10-19
+aliases:
+    - /articles/
 ---
 
 ![top](/uploads/article-top.jpg)

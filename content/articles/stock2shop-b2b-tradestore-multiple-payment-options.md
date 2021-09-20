@@ -8,6 +8,8 @@ lead: "It’s one thing to have a long list of debtors, it’s quite another to 
 image: "/uploads/article-payment-methods.png"
 imageAlt: payment methods
 date: 2019-08-01
+aliases:
+    - /articles/
 ---
 
 ![payment-methods](/uploads/article-payment-methods.png)

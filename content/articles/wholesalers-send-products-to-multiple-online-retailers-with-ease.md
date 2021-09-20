@@ -8,6 +8,8 @@ lead: "You’ve sourced your products, you’ve developed relationships with onl
 image: "/uploads/article-fishing.jpg"
 imageAlt: fishing
 date: 2019-06-04
+aliases:
+    - /articles/
 ---
 
 Now comes the ever-present challenge of staying on top of your supply chain. Your resellers need to know what products you have, how much they cost, and how many you have in stock.

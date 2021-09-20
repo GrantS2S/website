@@ -25,12 +25,16 @@ Below is all documentation you will need regarding your SAP Business One integra
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
 ## Getting Started (Prerequisites)
+In order for Stock2Shop to communicate with SAP Business One ERP system, 
+we require the following information:
 
-Before you can sync products, orders, customers and fulfillments for SAP Business One you need to install the Stock2Shop software on your network.
+- Server Name / IP Address
+- Database Name
+- Database Username (Read-Only)
+- Database Password (Read-Only)
+- DI Server	
 
-[Follow these instructions](/help/setup/installing-stock2shop "Installing Stock2Shop for SAP Business One").
-
-Once completed, Stock2Shop will be able to integrate with SAP Business One and perform the following:
+With these credentials, Stock2Shop will be able to integrate with SAP Business One and perform the following:
 
 1. [Sync products](#sync-products) 
 2. [Sync customers](#sync-customers) 

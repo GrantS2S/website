@@ -9,6 +9,8 @@ image: "/uploads/article-bulk-upload.jpg"
 imageAlt: bulk upload
 aliases: "/b2b-trade-store-bulk-ordering/"
 date: 2020-03-27
+aliases:
+    - /articles/
 ---
 
 # What to consider when choosing your ERP

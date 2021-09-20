@@ -37,12 +37,6 @@ we require the following information:
 - Database Password (Read-Only)
 - Paster Partner SDK
 
-The below must be taken into consideration to ensure we can manage information on a continual basis:
-
-- Outgoing port 8080 should be open.
-- The server must always be online.
-- The user must have full admin rights.
-
 With these credentials, Stock2Shop will be able to integrate with 
 Sage 50cloud Pastel Xpress and perform the following:
 

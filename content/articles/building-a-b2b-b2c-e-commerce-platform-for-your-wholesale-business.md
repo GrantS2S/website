@@ -8,6 +8,8 @@ lead: "Everyone knows that a website is as essential as a business card – if n
 image: "/uploads/article-shelves.jpg"
 imageAlt: shelves
 date: 2018-08-13
+aliases:
+    - /articles/
 ---
 
 ![shelves](/uploads/article-shelves.jpg)

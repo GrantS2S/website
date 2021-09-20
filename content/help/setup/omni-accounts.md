@@ -38,12 +38,6 @@ we require the following information:
 - OmniWebServiceREST
 - Omni Accounts v7.13.63 3345 or later
 
-The below must be taken into consideration to ensure we can manage information on a continual basis:
-
-- Outgoing port 8080 should be open.
-- The server must always be online.
-- The user must have full admin rights.
-
 With these credentials, Stock2Shop will be able to integrate with 
 Omni Accounts and perform the following:
 

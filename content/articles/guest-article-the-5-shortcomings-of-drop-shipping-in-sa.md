@@ -9,6 +9,8 @@ image: "/uploads/article-dropshipping.jpg"
 imageAlt: dropshipping
 date: 2019-03-30
 author: "Warrick Kernes"
+aliases:
+    - /articles/
 ---
 
 ![dropshipping](/uploads/article-dropshipping.jpg)

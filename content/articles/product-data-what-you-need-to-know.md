@@ -8,6 +8,8 @@ lead: "Understanding product data is one of the most important elements to a suc
 image: "/uploads/article-notebook.jpg"
 imageAlt: "product data"
 date: 2018-07-05
+aliases:
+    - /articles/
 ---
 
 ![notebook](/uploads/article-notebook.jpg)

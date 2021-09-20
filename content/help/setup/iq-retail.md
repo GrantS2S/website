@@ -31,12 +31,6 @@ we require the following information:
 - IQRetail user Password
 - 32-bit DBISAM ODBC Driver (To be installed on server by Stock2)
 
-The below must be taken into consideration to ensure we can manage information on a continual basis:
-
-- Outgoing port 8080 should be open.
-- The server must always be online.
-- The user must have full admin rights.
-
 With these credentials, Stock2Shop will be able to integrate with 
 IQ Retail and perform the following:
 

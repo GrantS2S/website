@@ -7,6 +7,8 @@ lead: "So you have an ERP and you have a website to display your products… But
 image: "/uploads/article-online-supply-chain-integration.jpg"
 imageAlt: "online supply chain integration"
 date: 2018-07-26
+aliases:
+    - /articles/
 ---
 ![online supply chain integration](/uploads/ article-online-supply-chain-integration.jpg)
 

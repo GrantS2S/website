@@ -98,7 +98,6 @@ We will try to keep the personal information we collect as accurate, complete an
  
 You are able to review or update any personal information that we hold on you by emailing us, or by phoning us. Please note that in order to better protect you and safeguard your personal information, we take steps to verify your identity before granting you access to your account or making any corrections to your personal information.
 
-
 ### Retention of personal information
 We will only retain your personal information for as long as we determine is necessary to fulfill the purposes explicitly set out in this policy, or a period reasonably required in the legitimate interest of our business activities or statutory obligations.
  
@@ -112,7 +111,6 @@ We are not responsible for, give no warranties, nor make any representations in 
 
 ### Contact Us
 If you have any questions or concerns arising from this Privacy Policy or the way in which we handle personal data, please contact us at:
-
 
 - Company Name: Stock2Shop
 - Company Tel: +27 21 813 5866

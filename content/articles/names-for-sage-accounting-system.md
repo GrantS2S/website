@@ -8,6 +8,8 @@ lead: "Would a Sage product by another name be as sweet? The short answer is yes
 image: "/uploads/article-sage-products.jpg"
 imageAlt: sage-products
 date: 2019-02-07
+aliases:
+    - /articles/
 ---
 
 ![sage banner](/uploads/article-sage-banner.jpg)

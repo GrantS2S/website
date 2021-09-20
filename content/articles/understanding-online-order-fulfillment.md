@@ -8,6 +8,8 @@ lead: "One of the most important things to understand about e-commerce is the fu
 image: "/uploads/article-fulfillment.jpg"
 imageAlt: fulfillment
 date: 2018-08-24
+aliases:
+    - /articles/
 ---
 
 ![fulfillment](/uploads/article-fulfillment.jpg)

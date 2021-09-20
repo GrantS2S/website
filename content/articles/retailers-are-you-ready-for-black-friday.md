@@ -8,6 +8,8 @@ lead: "With Black Friday nearly upon us, retailers have a great opportunity to b
 image: "/uploads/article-black-friday.jpg"
 imageAlt: black friday
 date: 2019-10-04
+aliases:
+    - /articles/
 ---
 
 ![black friday](/uploads/article-black-friday-wide.jpg)

@@ -8,6 +8,8 @@ image: "/uploads/article-layered-navigation.jpg"
 imageAlt: "layered navigation"
 aliases: "/articles/how-to-categorise-products-layered-navigation/"
 date: 2018-07-18
+aliases:
+    - /articles/
 ---
 ![layered navigation](/uploads/article-layered-navigation.jpg)
 ## What is layered navigation?1

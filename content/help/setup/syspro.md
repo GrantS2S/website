@@ -38,14 +38,7 @@ we require the following information:
 - Public SYSPRO eNet Web Services URL
 - Syspro Version
 
-The below must be taken into consideration to ensure we can manage information on a continual basis:
-
-- Outgoing port 8080 should be open.
-- The server must always be online.
-- The user must have full admin rights.
-
-With these credentials, Stock2Shop will be able to integrate with 
-Syspro and perform the following:
+With these credentials, Stock2Shop will be able to integrate with Syspro and perform the following:
 
 1. [Sync products](#sync-products) 
 2. [Sync customers](#sync-customers) 

@@ -8,6 +8,8 @@ lead: "If you’re a wholesaler, one of the most difficult decisions you’ll ha
 image: "/uploads/article-wholesale.jpg"
 imageAlt: wholesale
 date: 2018-08-02
+aliases:
+    - /articles/
 ---
 
 ![direct consumer](/uploads/article-direct-to-consumer.jpg)

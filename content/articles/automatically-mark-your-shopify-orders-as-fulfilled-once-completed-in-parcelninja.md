@@ -9,6 +9,8 @@ image: "/uploads/article-shopify-parcelninja-order-update-fulfillment.jpg"
 imageAlt: shopify parcelninja order update fulfillment 
 linkText: "Automated Shopify Parcelninja Fulfillment"
 date: 2019-06-06
+aliases:
+    - /articles/
 --- 
 
 If you have or are thinking of using Shopify as your sales channel and Parcelninja as your fulfillment partner, this solution is for you. Once a customer places an order and pays, the following process beings:
