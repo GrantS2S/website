@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Magento order transform map"
 name: "channelmeta_magento2"
 key: "order_map"
 description: "To be set if the default order_map needs to be adjusted."
-user_friendly_description: ""
+user_friendly_description: "Used to transform the order data from Magento into the structure required for Stock2Shop."
 default: "{
           &quot;system_order&quot;: {
             &quot;id&quot;: &quot;{{entity_id}}&quot;,
@@ -87,8 +87,8 @@ default: "{
           }
         }"
 values: []
-tags: [channelmeta,magento2]
+tags: [channelmeta,magento2,magento-2]
 type: "meta"
-process: ""
+process: "orders"
 headless: true
 ---

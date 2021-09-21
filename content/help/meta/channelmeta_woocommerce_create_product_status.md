@@ -1,5 +1,5 @@
 ---
-title: "Create products with a set status in WooCommerce "
+title: "Create products with a set status in WooCommerce"
 name: "channelmeta_woocommerce"
 key: "create_product_status"
 description: "If set, it will use this status only when creating a new product, default is publish"
