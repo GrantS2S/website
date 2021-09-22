@@ -1,6 +1,6 @@
 ---
-title: "Sync Product & Inventory data"
-subtitle: "Sync products and inventory data from your Custom Database to your sales channel(s)"
+title: "Sync Product and Inventory Data"
+subtitle: "Sync updates such as pricing and stock levels from your custom database to your sales channel(s). The only prerequisite is that the database can be accessed via ODBC. We therefore support Microsoft SQL Server, MySQL Server, Pervasive SQL, Hana and many other databases."
 imageDestop: "/images/a01.png"
 imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"

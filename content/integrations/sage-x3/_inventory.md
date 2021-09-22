@@ -1,6 +1,6 @@
 ---
-title: "Sync Product & Inventory data"
-subtitle: "Sync products and inventory data from Sage X3 to your sales channel(s)"
+title: "Sync Product and Inventory Data"
+subtitle: "Sync updates such as pricing and stock levels from Sage X3 to your sales channel(s)."
 imageDestop: "/images/a01.png"
 imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
