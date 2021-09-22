@@ -9,5 +9,5 @@ buttonHrefMobile: "/"
 source: "custom-database"
 type: "source-content"
 headless: true
-weight: 3
+weight: 2
 ---

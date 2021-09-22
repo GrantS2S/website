@@ -1,6 +1,6 @@
 ---
-title: "Raise orders"
-subtitle: "Sync orders from our B2B Trade Store to Stock2Shop which will then be processed into your ERP / Accounting System"
+title: "Raise Orders"
+subtitle: "Sync orders from the B2B Trade Store which will then be processed into each customer’s dedicated account on your ERP or accounting system."
 imageDestop: "/images/a03.png"
 imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"
