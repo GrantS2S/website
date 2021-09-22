@@ -1,6 +1,6 @@
 ---
 title: "Automate Raising Orders"
-subtitle: "Orders received from Shopify can be automatically created in IQ Retail as a sales order."
+subtitle: "Orders received from Shopify can be automatically created in IQ Retail."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -16,6 +16,9 @@ Assign administrators in your business to receive notifications at various stage
 
 ### Create Orders Depending on Status
 You can decide whether all completed Shopify orders are raised into IQ Retail, or only those that have a specific order status, eg “PAID”.
+
+### Select your Document Type
+You can choose whether the order document created in IQ Retail will be a sales order or invoice.
 
 ### Set your Debtors Account
 Create a default customer account on IQ Retail into which all Shopify orders will sync. This will prevent you from having loads of customer accounts on your ERP unnecessarily.

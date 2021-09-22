@@ -5,7 +5,7 @@ imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
-source: "isyn"
+source: "isync"
 channel: "magento"
 type: "source-channel-content"
 weight: 1
@@ -27,7 +27,7 @@ Once your product data has synced onto Stock2Shop and you have added product enr
 You can create multiple customer groups on Magento and allocate each one to a different iSync price list. This enables you to assign your customers to different pricing tiers (eg Gold, Silver and Bronze). 
 
 ### Sell B2C and B2B on One Store
-Magento’s ability to accommodate multiple pricing Tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
+Magento’s ability to accommodate multiple pricing tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
 
 ### Sync Inventory from One or Multiple Warehouses on iSync
 You can choose which warehouse (or combination of warehouses) on iSync updates your stock quantities on Magento.

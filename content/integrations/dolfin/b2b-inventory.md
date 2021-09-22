@@ -1,6 +1,6 @@
 ---
 title: "Sync Product and Inventory Data"
-subtitle: "Sync product and inventory data from Dolfin to WooCommerce."
+subtitle: "Sync product and inventory data from Dolfin to the B2B Trade Store."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -12,10 +12,10 @@ weight: 1
 ---
 
 ### Near Real Time Syncing
-Stock2Shop fetches changes in product information from your Dolfin on a regular basis and sends these updates to the B2B Trade Store. So if your pricing or stock levels are adjusted on Dolfin, it won’t be long before these changes reflect on Magento.
+Stock2Shop fetches changes in product information from your Dolfin on a regular basis and sends these updates to WooCommerce. So if your pricing or stock levels are adjusted on Dolfin, it won’t be long before these changes reflect on the B2B Trade Store.
 
 ### Choose the Data to Sync
-You get to decide which data fields are synced from your Dolfin database. You can also choose whether a particular field is managed by Sage or Stock2Shop.
+You get to decide which data fields are synced from your Dolfin database. You can also choose whether a particular field is managed by Dolfin or Stock2Shop.
 
 ### Product Information Management (PIM)
 Use Stock2Shop as a PIM to enrich product data not found in Dolfin. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful should you decide to send product feeds to additional retail websites because you can manage your product enrichment in one place.

@@ -1,6 +1,6 @@
 ---
 title: "Raise Lead Time Orders"
-subtitle: "Raise your Takealot orders into IQ Retail (provided you are only doing lead time orders)."
+subtitle: "Raise your Takealot orders into IQ Retail as a sales order (provided you are only doing lead time orders)."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -12,7 +12,7 @@ weight: 2
 ---
 
 ### Select your Document Type
-You can choose whether the order document created in IQ Retail will be a quote, sales order or invoice.
+You can choose whether the order document created in IQ Retail will be a sales order or invoice.
 
 ### Custom Notifications
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.

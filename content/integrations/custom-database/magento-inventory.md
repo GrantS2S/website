@@ -30,7 +30,7 @@ You decide which price list on your database is synced to your Shopify channel. 
 You can create multiple customer groups on Magento and allocate each one to a different database price list. This enables you to assign your customers to different pricing tiers (eg Gold, Silver and Bronze). 
 
 ### Sell B2C and B2B on One Store
-Magento’s ability to accommodate multiple pricing Tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
+Magento’s ability to accommodate multiple pricing tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
 
 ### Sync Inventory from One or Multiple Warehouses on your Custom Database
 You can choose which warehouse (or combination of warehouses) on your database updates your stock quantities on Magento.

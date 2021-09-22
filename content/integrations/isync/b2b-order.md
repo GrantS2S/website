@@ -5,7 +5,7 @@ imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
-source: "source_name"
+source: "isync"
 channel: "b2b"
 type: "source-channel-content"
 weight: 3

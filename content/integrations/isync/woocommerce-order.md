@@ -15,7 +15,7 @@ weight: 2
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.
 
 ### Create Orders Depending on Status
-You can decide whether all completed WooCommerce orders are raised into SAP Business One, or only those that have a specific order status, eg “PROCESSING”.
+You can decide whether all completed WooCommerce orders are raised into iSync, or only those that have a specific order status, eg “PROCESSING”.
 
 ### Set your Debtors Account
 Create a default customer account on iSync into which all WooCommerce orders will sync. This will prevent you from having loads of customer accounts on your ERP unnecessarily.

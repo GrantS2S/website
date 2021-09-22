@@ -12,7 +12,7 @@ weight: 1
 ---
 
 ### Near Real Time Syncing
-Our software continually monitors your IQ Retail database for changes in product information and sends these updates to Magento. So if your pricing or stock levels are adjusted on SAP, it won’t be long before these changes reflect on your website.
+Our software continually monitors your IQ Retail database for changes in product information and sends these updates to Magento. So if your pricing or stock levels are adjusted on IQ Retail, it won’t be long before these changes reflect on your website.
 
 ### Choose the Data to Sync
 You get to decide which data fields are mapped from your IQ Retail database to fields and attributes within Magento. You can also choose whether a particular field is managed by IQ Retail, Stock2Shop or Magento.
@@ -27,7 +27,7 @@ Once your product data has synced onto Stock2Shop and you have added product enr
 You can create multiple customer groups on Magento and allocate each one to a different IQ Retail price list. This enables you to assign your customers to different pricing tiers (eg Gold, Silver and Bronze). 
 
 ### Sell B2C and B2B on One Store
-Magento’s ability to accommodate multiple pricing Tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
+Magento’s ability to accommodate multiple pricing tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
 
 ### Sync Inventory from One or Multiple Warehouses on IQ Retail
 You can choose which warehouse (or combination of warehouses) on IQ Retail updates your stock quantities on Magento.

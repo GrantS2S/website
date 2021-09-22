@@ -12,7 +12,7 @@ weight: 1
 ---
 
 ### Near Real Time Syncing
-Stock2Shop fetches changes in product information from your Dolfin on a regular basis and sends these updates to Shopify. So if your pricing or stock levels are adjusted on Dolfin, it won’t be long before these changes reflect on Shopify.
+Stock2Shop fetches changes in product information from your Dolfin on a regular basis and sends these updates to Takealot. So if your pricing or stock levels are adjusted on Dolfin, it won’t be long before these changes reflect on Takealot.
 
 ### Choose the Data to Sync
 Automatically create and update offers against products that exist in Takealot's catalogue. Once linked, Stock2Shop can update the following fields:

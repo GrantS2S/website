@@ -27,8 +27,8 @@ Once you’re integrated with Stock2Shop and are syncing product updates to Take
 ### Assign a Price List
 You decide which price list on IQ Retail is synced to the offer price and recommended retail price fields on Takealot Marketplace.
 
-### Sync Inventory from One or Multiple Stores on IQ Retail
-You can choose which store (or combination of stores) on IQ Retail updates your stock quantities on Takealot Marketplace.
+### Sync Inventory from One or Multiple Warehouses on IQ Retail
+You can choose which warehouses (or combination of warehouses) on IQ Retail updates your stock quantities on Takealot Marketplace.
 
 ### Error Management
 If an update fails to process to Takealot, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.

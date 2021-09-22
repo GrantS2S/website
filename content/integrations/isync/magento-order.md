@@ -21,7 +21,7 @@ You can decide whether all completed Magento orders are raised into iSync, or on
 Create a default account on iSync into which all retail Magento orders will sync. For wholesale customers, you can ensure their orders flow into their dedicated iSync account.
 
 ### Customise Order Fields
-You can map the data received on the Magento order to the relevant fields on the iSync Business One sales document. Provided the data can be captured in your standard order screen on iSync, it can be added automatically by Stock2Shop.
+You can map the data received on the Magento order to the relevant fields on the iSync sales document. Provided the data can be captured in your standard order screen on iSync, it can be added automatically by Stock2Shop.
 
 ### Error Management
 If an order fails to process to iSync, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the failure, and once you’ve rectified the issue, you can reset the order to try again.

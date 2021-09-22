@@ -1,6 +1,6 @@
 ---
 title: "Automate Raising Orders"
-subtitle: "Orders placed on the B2B Trade Store can be automatically created in IQ Retail as a sales order."
+subtitle: "Orders placed on the B2B Trade Store can be automatically created in IQ Retail."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
@@ -13,6 +13,9 @@ weight: 3
 
 ### Custom Notifications
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.
+
+### Select your Document Type
+You can choose whether the order document created in IQ Retail will be a sales order or invoice.
 
 ### Raise Orders into Each Customer’s Debtors Account
 When onboarding a new wholesale customer, simply add them to IQ Retail and sync them to the Stock2Shop console automatically. They can start placing orders directly into their dedicated IQ Retail account.
