@@ -1,6 +1,6 @@
 ---
-title: "Raise orders"
-subtitle: "Sync orders from your ecommerce sales channel(s) to iSync"
+title: "Raise Orders"
+subtitle: "Automatically raise online orders into iSync as an invoice or sales order."
 imageDestop: "/images/a03.png"
 imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"

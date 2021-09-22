@@ -1,6 +1,6 @@
 ---
-title: "Raise orders"
-subtitle: "Sync orders from your ecommerce sales channel(s) to iQ Retail"
+title: "Raise Orders"
+subtitle: "Automatically raise online orders into IQ Retail as an invoice or sales order."
 imageDestop: "/images/a03.png"
 imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"

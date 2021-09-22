@@ -1,6 +1,6 @@
 ---
-title: "Raise orders"
-subtitle: "Sync orders from your ecommerce sales channel(s) to your Custom Database"
+title: "Raise Orders"
+subtitle: "Stock2Shop can automatically drop off flat file orders at an FTP location."
 imageDestop: "/images/a03.png"
 imageDestopWidth: "1007"
 imageMobile: "/images/a003.png"
