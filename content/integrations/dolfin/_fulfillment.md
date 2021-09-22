@@ -1,6 +1,6 @@
 ---
 title: "Raise Fulfillments"
-subtitle: "Once an order has been raised in Dolfin, fulfill your order with one of fulfillment partners, such as Parcelninja"
+subtitle: "Once an order has been successfully created in Dolfin, automatically fulfill your order with one of our fulfillment partners."
 imageDestop: "/images/a04.png"
 imageDestopWidth: "1007"
 imageMobile: "/images/a004.png"

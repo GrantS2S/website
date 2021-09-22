@@ -33,8 +33,9 @@ we require the following information:
 - Database Password (Read-Only)
 - Omni Accounts Username
 - Omni Accounts Password
-- [Automation switch (SF187)](https://www.omniaccounts.co.za/switch/omni-automation "Omni Accounts automation switch")
-- [Imports sales document switch (SF109)](https://www.omniaccounts.co.za/switch/import-sales-documents "Omni Accounts import sales document switch")
+- [Automation switch (SF187)](https://www.omniaccounts.co.za/switch/omni-automation "Omni Accounts Automation Switch") Enabled
+- [Imports sales document switch (SF109)](https://www.omniaccounts.co.za/switch/import-sales-documents "Omni Accounts Import Sales Document Switch") Enabled
+- [Extra stock details switch (SF046)](https://www.omniaccounts.co.za/switch/extra-stock-details "Omni Accounts Extra Stock Details Switch") Enabled
 - OmniWebServiceREST
 - Omni Accounts v7.13.63 3345 or later
 

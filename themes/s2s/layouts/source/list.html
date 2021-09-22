@@ -59,9 +59,9 @@
                         <div class="service">
                             <i class="ico-card service__ico"></i>
 
-                            <h4>eCommerce integrations for {{ .Title }}:</h4>
+                            <h4>eCommerce integrations for {{ .Title }}</h4>
 
-                            <p>Shopping carts which integrate with {{ .Title}}</p>
+                            <p>Shopping carts that integrate with {{ .Title}}:</p>
 
                             <ul>
                                 {{ $q1 := where .Site.Pages "Type" "source-channel" }}
@@ -79,9 +79,9 @@
                         <div class="service">
                             <i class="ico-mobile service__ico"></i>
 
-                            <h4>B2B ordering for {{ .Params.Title }}:</h4>
+                            <h4>B2B ordering for {{ .Params.Title }}</h4>
 
-                            <p>Learn about our Trade Shopping Cart</p>
+                            <p>Learn about our B2B Trade Store:</p>
 
                             <ul>
                                 {{ $q1 := where .Site.Pages "Type" "source-b2b" }}
@@ -101,7 +101,7 @@
 
                             <h4>Fulfilment Integrations</h4>
 
-                            <p>Automate logistics with our fulfillment partners</p>
+                            <p>Automate logistics with one of our fulfillment partners:</p>
 
                             <ul>
                                 {{ $q1 := where .Site.Pages "Type" "source-fulfillment" }}
@@ -119,9 +119,9 @@
                         <div class="service">
                             <i class="ico-market service__ico"></i>
 
-                            <h4>Marketplaces for {{ .Params.Title }}:</h4>
+                            <h4>Marketplaces for {{ .Params.Title }}</h4>
 
-                            <p>Link your system to online marketplaces</p>
+                            <p>Link your system to online marketplaces:</p>
 
                             <ul>
                                 {{ $q1 := where .Site.Pages "Type" "source-marketplace" }}
