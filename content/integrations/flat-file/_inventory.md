@@ -1,6 +1,6 @@
 ---
-title: "Sync Product & Inventory data"
-subtitle: "Sync products and inventory data from your Flat File Data Source to your sales channel(s)"
+title: "Sync Product and Inventory Data"
+subtitle: "Sync updates such as pricing and stock levels from your flat file data source to your sales channel(s)."
 imageDestop: "/images/a01.png"
 imageDestopWidth: "1006"
 imageMobile: "/images/a001.png"
