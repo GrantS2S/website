@@ -29,9 +29,6 @@ You can create multiple customer groups on Magento and allocate each one to a di
 ### Sell B2C and B2B on One Store
 Magento’s ability to accommodate multiple pricing tiers (see above) means you can sell retail (B2C) and wholesale (B2B) on one website. To offer a customer preferential pricing, simply assign them to the relevant customer group.
 
-### Sync Inventory from One or Multiple Stores on Sage Business Cloud Accounting
-You can choose which store (or combination of stores) on Sage Business Cloud Accounting updates your stock quantities on Magento.
-
 ### Error Management
 If an update fails to process to your Magento website, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.
 

@@ -1,6 +1,6 @@
 ---
 title: "Sync Product and Inventory Data"
-subtitle: "Sync product and inventory data from Sage 200 50cloud Pastel Partner to WooCommerce."
+subtitle: "Sync product and inventory data from Sage 50cloud Pastel Xpress to WooCommerce."
 imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"

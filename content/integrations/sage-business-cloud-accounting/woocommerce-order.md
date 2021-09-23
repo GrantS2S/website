@@ -12,7 +12,7 @@ weight: 2
 ---
 
 ### Select your Document Type
-You can choose whether the order document created in Sage 50cloud Pastel Xpress will be a quote or invoice.
+You can choose whether the order document created in Sage Business Cloud Accounting will be a quote or invoice.
 
 ### Custom Notifications
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.

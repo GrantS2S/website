@@ -18,7 +18,7 @@ Our software continually monitors your Sage 300cloud database for changes in pro
 You get to decide which data fields are mapped from your Sage 300cloud database to fields and attributes within Magento. You can also choose whether a particular field is managed by Sage, Stock2Shop or Magento.
 
 ### Product Information Management (PIM)
-Use Stock2Shop as a PIM to enrich product data not found in Sage Evolution. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage your product enrichment in one place.
+Use Stock2Shop as a PIM to enrich product data not found in Sage 300cloud. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage your product enrichment in one place.
 
 ### Run Multiple Online Stores from one Sage 300cloud Database
 Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple Magento websites is easy.

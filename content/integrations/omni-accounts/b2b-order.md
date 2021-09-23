@@ -18,7 +18,7 @@ You can choose whether the order document created in Omni Accounts will be a quo
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.
 
 ### Raise Orders into Each Customer’s Debtors Account
-When onboarding a new wholesale customer, simply add them first to Omni Accounts and then to the Stock2Shop console, ensuring the account codes correlate. This will enable them to start placing orders directly into their dedicated Sage account.
+When onboarding a new wholesale customer, simply add them first to Omni Accounts and then to the Stock2Shop console, ensuring the account codes correlate. This will enable them to start placing orders directly into their dedicated Omni Accounts debtors account.
 
 ### Ordering Tool for Sales Reps
 Your reps can log into their customers’ accounts and place orders on their behalf. Stock2Shop is mobile friendly, making it a useful tool for capturing orders while on the road.

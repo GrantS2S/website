@@ -12,7 +12,7 @@ weight: 1
 ---
 
 ### Near Real Time Syncing
-Our software continually monitors your Omni Accounts database for changes in product information and sends these updates to WooCommerce. So if your pricing or stock levels are adjusted on Sage, it won’t be long before these changes reflect on your website.
+Our software continually monitors your Omni Accounts database for changes in product information and sends these updates to WooCommerce. So if your pricing or stock levels are adjusted on Omni Accounts, it won’t be long before these changes reflect on your website.
 
 ### Choose the Data to Sync
 You get to decide which data fields are synced from your Omni Accounts database. You can also choose whether a particular field is managed by Omni Accounts, Stock2Shop or WooCommerce.
@@ -27,7 +27,7 @@ Once your product data has synced onto Stock2Shop and you have added product enr
 You decide which price list on Omni Accounts is synced to your WooCommerce channel. If you have multiple websites, each one can be assigned a different price list.
 
 ### Sync Inventory from One or Multiple Warehouses on Omni Accounts
-You can choose which warehouse (or combination of wrehouses) on Omni Accounts updates your stock quantities on WooCommerce.
+You can choose which warehouse (or combination of warehouses) on Omni Accounts updates your stock quantities on WooCommerce.
 
 ### Error Management
 If an update fails to process to your WooCommerce website, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.
