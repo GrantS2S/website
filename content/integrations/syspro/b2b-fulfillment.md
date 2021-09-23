@@ -17,4 +17,4 @@ Have a totally automated solution, from placing an online order to dispatching f
 ### Sync Stock Levels
 If your WMS or fulfillment partner supports stock feeds, Stock2Shop can automate the updating of stock levels directly on the B2B Trade Store.
 
-[Click here](/help/features/syspro/ "Syspro Features") to view our SYSPRO feature set.
+[Click here](/help/features/syspro/ "SYSPRO Features") to view our SYSPRO feature set.

@@ -35,4 +35,4 @@ You are able to map the data received on the order to the relevant fields on the
 ### Error Management
 If an order fails to process to SYSPRO, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the failure, and once you’ve rectified the issue, you can reset the order to try again.
 
-[Click here](/help/features/syspro/ "Syspro Features") to view our SYSPRO feature set.
+[Click here](/help/features/syspro/ "SYSPRO Features") to view our SYSPRO feature set.

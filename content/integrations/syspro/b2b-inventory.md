@@ -35,4 +35,4 @@ Choose which products each customer is able to view when logging into the B2B Tr
 ### Error Management
 If an update fails to process to your Magento website, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.
 
-[Click here](/help/features/syspro/ "Syspro Features") to view our SYSPRO feature set.
+[Click here](/help/features/syspro/ "SYSPRO Features") to view our SYSPRO feature set.
