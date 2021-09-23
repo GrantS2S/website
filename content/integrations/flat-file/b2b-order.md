@@ -8,7 +8,7 @@ headless: true
 source: "flat-file"
 channel: "b2b"
 type: "source-channel-content"
-weight: 2
+weight: 3
 ---
 
 ### Custom Notifications
