@@ -6,6 +6,7 @@ lead: "Silveray Stationery Company, a wholly-owned subsidiary of the Bidvest Gro
 summary: "Manufacturer and distributor of leading stationery brands, including Croxley, Parker, Sellotape, Sharpie, Stabilo and more."
 summary2: "Success story featuring Syspro, WooCommerce and a B2B Trade Store."
 image: "/uploads/logo-client-silveray.png"
+aliases: "/case-studies/silveray/"
 imageAlt: silveray logo
 weight: 6
 industry: " Lifestyle / Homeware / Electronics"
