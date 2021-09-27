@@ -21,7 +21,7 @@ You get to decide which data fields are synced from your SYSPRO database. You ca
 Use Stock2Shop as a PIM to enrich product data not found in SYSPRO. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage most of your product enrichment in one place.
 
 ### Run Multiple Online Stores from one SYSPRO Database
-Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple Shopify websites is easy.
+Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple WooCommerce websites is easy.
 
 ### Assign a Price List
 You decide which price list on SYSPRO is synced to your WooCommerce channel. If you have multiple websites, each one can be assigned a different price list.

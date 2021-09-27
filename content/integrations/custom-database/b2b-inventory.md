@@ -23,6 +23,9 @@ Use Stock2Shop as a PIM to enrich product data not found in your database. You a
 ### Run Multiple Online Stores from one Custom Database
 Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to additional ecommerce websites is easy.
 
+### Accommodate Customer Price Tiers
+Assign your customers to a price tier that is linked to the relevant price list in your database, ensuring that when they log into the B2B Trade Store, they see the right prices.
+
 ### Error Management
 If an update fails to process to your B2B Trade Store, an error will appear in your Stock2Shop console and you will be sent an email notification. The error will give an indication of what caused the update failure, and once you’ve rectified the issue, you can reset the update to try again.
 

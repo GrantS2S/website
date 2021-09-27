@@ -5,7 +5,7 @@ imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
-source: "sage-50cloud-pastel-xpress"
+source: "microsoft-dynamics-nav"
 fulfillment: "parcelninja"
 type: "source-fulfillment-content"
 weight: 1
@@ -18,6 +18,6 @@ Stock2Shop can automate the updating of stock levels directly from Parcelninja. 
 Update orders on supported sales channels with fulfillment and tracking information (waybill / tracking number / tracking link).
 
 ### Fulfill Orders
-Once an order has successfully been created in Sage 50cloud Pastel Xpress, Stock2Shop can send an automatic outbound notification to Parcelninja so they can pick, pack and deliver.
+Once an order has successfully been created in Microsoft Dynamics NAV, Stock2Shop can send an automatic outbound notification to Parcelninja so they can pick, pack and deliver.
 
 [Click here](/help/features/dolfin/ "Dolfin Features") to view our Dolfin feature set.

@@ -14,7 +14,7 @@ weight: 2
 ### Custom Notifications
 Assign administrators in your business to receive notifications at various stages of the syncing process. You can also alert specific administrators of certain sync activity, eg the sales manager can receive notifications of successful orders and the IT manager can be notified of failed orders.
 
-### Create Orders Depending on Status
+### Create Orders Depending on State
 You can decide whether all completed Magento orders are synced to your FTP location, or only those that have a specific order state, eg “PROCESSING”.
 
 ### Error Management

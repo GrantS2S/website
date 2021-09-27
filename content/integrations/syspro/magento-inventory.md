@@ -15,7 +15,7 @@ weight: 1
 Our software continually monitors your SYSPRO database for changes in product information and sends these updates to Magento. So if your pricing or stock levels are adjusted on SYSPRO, it won’t be long before these changes reflect on your website.
 
 ### Choose the Data to Sync
-You get to decide which data fields are mapped from your SYSPRO database to fields and attributes within Magento. You can also choose whether a particular field is managed by SAP, Stock2Shop or Magento.
+You get to decide which data fields are mapped from your SYSPRO database to fields and attributes within Magento. You can also choose whether a particular field is managed by SYSPRO, Stock2Shop or Magento.
 
 ### Product Information Management (PIM)
 Use Stock2Shop as a PIM to enrich product data not found in SYSPRO. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage your product enrichment in one place.

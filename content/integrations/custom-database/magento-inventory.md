@@ -21,10 +21,10 @@ You get to decide which data fields are synced from your database. You can also 
 Use Stock2Shop as a PIM to enrich product data not found in your database. You are able to make your products more presentable for online selling by adding images, long descriptions and other marketing material. This is particularly useful when sending product data to multiple online stores because you can manage your product enrichment in one place.
 
 ### Run Multiple Online Stores from one Custom Database
-Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple Shopify websites is easy.
+Once your product data has synced onto Stock2Shop and you have added product enrichment such as images and descriptions, opening data feeds to multiple Magento websites is easy.
 
 ### Assign a Price List
-You decide which price list on your database is synced to your Shopify channel. If you have multiple websites, each one can be assigned a different price list.
+You decide which price list on your database is synced to your Magento channel. If you have multiple websites, each one can be assigned a different price list.
 
 ### Assign Customers to Various Price Tiers
 You can create multiple customer groups on Magento and allocate each one to a different database price list. This enables you to assign your customers to different pricing tiers (eg Gold, Silver and Bronze). 

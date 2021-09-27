@@ -22,7 +22,7 @@ Automatically create and update offers against products that exist in Takealot's
 - Lead time (the number of days it will take to deliver the product to Takealot)
 
 ### Run Multiple Online Stores from one Custom Database
-Once you’re integrated with Stock2Shop and are syncing product updates to Takealot, opening data feeds to other ecommerce channels is relatively easy. You could then run multiple online sales channels from one flat file database.
+Once you’re integrated with Stock2Shop and are syncing product updates to Takealot, opening data feeds to other ecommerce channels is relatively easy.
 
 ### Assign a Price List
 You decide which price list on your database is synced to the offer price and recommended retail price fields on Takealot Marketplace.
