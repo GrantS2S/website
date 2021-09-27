@@ -12,7 +12,7 @@ aliases:
     - /articles/
 ---
 
-![black friday](/uploads/article-black-friday-wide.jpg)
+# Retailers - Are you ready for Black Friday?
 
 In the dark days before e-commerce, when people had to put on pants to go shopping, clearance specials were like the Wild West. There was gold in them hills! But there were bandits too. Danger lurked at every turn: jammed parking lots, congested checkout queues and hordes of shoppers named Carol demanding to speak to the manager. It was a heady time.
 

@@ -11,11 +11,10 @@ date: 2018-07-18
 aliases:
     - /articles/
 ---
-![layered navigation](/uploads/article-layered-navigation.jpg)
-## What is layered navigation?1
 
-#### Layered navigation solves the problem of how to search a lot of data. It makes it simple to find products based on various attributes: like category, size or price, for example.
+# How to categorise products: layered navigation
 
+What is layered navigation? Layered navigation solves the problem of how to search a lot of data. It makes it simple to find products based on various attributes: like category, size or price, for example.
 Traditionally, websites have two different places for navigation: the main menu (top navigation) which breaks data into sections or groups of products (like departments on Amazon). And the left hand menu, which is usually layered navigation. You choose the fields that appear in the left hand menu, but they are automatically populated with the data that your customer requests. Layered navigation is the easy, efficient way to display product data.
 
 ![what is layered navigation](/uploads/article-what-is-layered-navigation.jpg)

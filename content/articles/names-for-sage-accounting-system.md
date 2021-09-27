@@ -12,7 +12,7 @@ aliases:
     - /articles/
 ---
 
-![sage banner](/uploads/article-sage-banner.jpg)
+# Names for Sage Accounting System
 
 If Sage’s decision to change the names of many of their accounting products has left you a little disorientated, you’re not alone. After using Pastel Partner, for example, to run your business for years, suddenly you find to your great surprise that you’re now using a Sage 50cloud product. It all seems unnecessarily confusing on the face of it, but on closer inspection you’ll start to see some method to their madness.
 

@@ -13,6 +13,8 @@ aliases:
     - /articles/
 --- 
 
+# Automatically mark your shopify orders as fulfilled once completed in parcelninja
+
 If you have or are thinking of using Shopify as your sales channel and Parcelninja as your fulfillment partner, this solution is for you. Once a customer places an order and pays, the following process beings:
 
 - Shopify sends order to Stock2Shop

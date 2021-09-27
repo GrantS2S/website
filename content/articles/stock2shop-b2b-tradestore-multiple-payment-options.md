@@ -12,9 +12,9 @@ aliases:
     - /articles/
 ---
 
-![payment-methods](/uploads/article-payment-methods.png)
+# Give your resellers the option to pay upfront
 
-#### There is a well known adage in business circles: “Turnover is vanity, profit is sanity, cash is a reality.”
+There is a well known adage in business circles: “Turnover is vanity, profit is sanity, cash is a reality.”
 
 As a wholesaler, giving your resellers favourable terms is a great way to increase turnover and build customer loyalty. But this can be both risky and expensive.The Stock2Shop B2B Cart now allows you to give your resellers the option to pay upfront via credit card.
 

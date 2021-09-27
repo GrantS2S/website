@@ -13,7 +13,7 @@ aliases:
     - /articles/
 ---
 
-![dropshipping](/uploads/article-dropshipping.jpg)
+# Shortcomings of Dropshippings in SA
 
 The drop shipping business model allows you to list and sell products that you haven’t bought yet so you effectively don’t need start-up capital for inventory. When you sell an item then the supplier will deliver straight to the customer. Simple. So why then is it so hard to get right here in SA? Here are our five shortcomings of drop shipping in South Africa.
 

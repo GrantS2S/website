@@ -12,9 +12,7 @@ aliases:
     - /articles/
 ---
 
-![fulfillment](/uploads/article-fulfillment.jpg)
-
-## What is online order fulfillment?
+# What is online order fulfillment?
 
 In essence, online order fulfillment is all the steps between the customer placing the order and receiving the order. That might sound pretty simple, but there are a lot of different steps! Once the order is received, it needs to be processed, the product needs to be picked and packed, and then the parcel needs to be delivered. While many companies choose to do this themselves, others use a fulfillment service. There is a misconception that e-commerce platforms (like Shopify, WooCommerce or Magento) provide this service out of the box. Wouldn’t that be great? If the orders were automatically picked up from your company once you took out an e-commerce subscription! Unfortunately, that’s not the case.
 

@@ -12,9 +12,8 @@ aliases:
     - /articles/
 ---
 
-{{< figure src="/uploads/article-marketplace-puzzles.jpg" caption="Photo by rawpixel on Unsplash" >}}
+# Sell on the Takealot Marketplace with Ease
 
-## HOW CAN I MAKE A LOT ON TAKEALOT?
 The Takealot marketplace is an effective, low-risk way to boost turnover by exposing your products to an extensive customer base. Now with Stock2Shop’s new Takealot connector, it’s never been easier.
 
 As an existing client of ours, your up-to-date product information is already syncing from your accounting system onto your Stock2Shop console. For the nominal cost of a Takealot connector, we can send relevant data to the marketplace automatically. What’s more, when someone buys your products on Takealot, the order can be raised directly into your accounting system.

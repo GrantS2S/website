@@ -10,10 +10,10 @@ date: 2018-07-26
 aliases:
     - /articles/
 ---
-![online supply chain integration](/uploads/ article-online-supply-chain-integration.jpg)
 
-## Online supply chain integration is a simple way to make your business work more efficiently, with fewer errors, streamlined. Here's how to set it up.
+# Online supply chain integration 101
 
+Online supply chain integration is a simple way to make your business work more efficiently, with fewer errors, streamlined. Here's how to set it up.
 Essentially, it’s taking your existing ERP – whether that’s Sage, SAP, iSync, SYSPRO or Omni Accounts – and making it talk to an ordering platform – like Shopify, WooCommerce, Magento or a B2B trade store – and a fulfillment service.
 
 ## How do they talk to each other?

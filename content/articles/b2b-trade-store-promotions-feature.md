@@ -12,7 +12,7 @@ aliases:
     - /articles/
 ---
 
-![promotions banner](/uploads/article-promotions-banner.jpg)
+# Introducing the B2B Trade Store Promotions Feature
 
 The promotions feature allows you to create a storewide promotion which will be applied to every cart at checkout. If you would prefer to limit the promotion to certain customers, you have the ability to create discount coupons for each promotion and issue them to the relevant people.
 
@@ -26,7 +26,7 @@ Storewide promotions do not make use of coupons. Once created, they will be appl
 4. Select a Discount Type. This can either be a fixed rate or a % discount of the order.
 5. Add the Discount Amount. Note this amount must be entered in Cents.
 
-Because we are not making use of coupons you can leave Use Coupons unchecked and click submit. Now log into your B2B trade and add some items to your cart. When viewing your cart you’ll notice a discount line item being applied by the promotion you created. Below is an example of setting up a storewide promotion.
+Because we are not making use of coupons you can leave Use Coupons unchecked and click submit. Now log into your B2B trade store and add some items to your cart. When viewing your cart you’ll notice a discount line item being applied by the promotion you created. Below is an example of setting up a storewide promotion.
 
 ![coupons](/uploads/article-coupons.png)
 

@@ -12,11 +12,9 @@ aliases:
     - /articles/
 ---
 
-![notebook](/uploads/article-notebook.jpg)
-## Meaningful product information
+# Product data: What you need to know
 
-#### Structuring your product information and capturing meaningful data about each product is essential when marketing and selling products online. But what is meaningful product information? Let’s take a closer look.
-
+Structuring your product information and capturing meaningful data about each product is essential when marketing and selling products online. But what is meaningful product information? Let’s take a closer look.
 Each product sold online needs:
 
 1. A product code: base stock keeping unit (SKU) data.

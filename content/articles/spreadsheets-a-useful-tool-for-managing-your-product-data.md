@@ -12,12 +12,12 @@ aliases:
     - /articles/
 ---
 
-![top](/uploads/article-top.jpg)
+# Spreadsheets: A useful tool for managing your product data
 
 In an article written for UsabilityGeek.com entitled Why Web Site Usability Is Important For A Company, Justin Mifsud wrote that “a web site operating in the very competitive e-commerce environment is more likely to lose a potential customer due to poor usability.” He goes on to point out that research indicates that “this can happen even if that site contains the information, product or service that that user is looking for.”
 Your data is the nuts and bolts of your online store. Unless your products are correctly represented and segmented into categories that make navigating your website easy, you will lose business. Fast.
 
-##### There are six steps involved in putting the information from your accounting system into a format that is suitable for selling online effectively. We’re going to lead you through each step so that you know how to build a well-categorised list of product data.
+There are six steps involved in putting the information from your accounting system into a format that is suitable for selling online effectively. We’re going to lead you through each step so that you know how to build a well-categorised list of product data.
 
 1. Getting a dump of raw product data
 2. Dealing with product variants

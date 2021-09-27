@@ -12,12 +12,9 @@ aliases:
     - /articles/
 ---
 
-![shelves](/uploads/article-shelves.jpg)
+# Building a B2B B2C e-commerce site
 
-## When you know it’s time for a b2b trade store
-
-##### First of all, let’s talk about when you know it’s time to upgrade to a B2B trade store. If your website has been functioning merely as contact information and background for your company, you may have been missing out on valuable sales opportunities.
-
+First of all, let’s talk about when you know it’s time to upgrade to a B2B trade store. If your website has been functioning merely as contact information and background for your company, you may have been missing out on valuable sales opportunities.
 Here are 5 questions to ask to determine if you need a B2B trade store:
 
 1. Are you a distributor?

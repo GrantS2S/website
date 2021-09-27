@@ -12,7 +12,7 @@ aliases:
     - /articles/
 ---
 
-![direct consumer](/uploads/article-direct-to-consumer.jpg)
+# Should wholesalers sell DTC?
 
 It may seem tempting to go direct-to-consumer (DTC). With an e-commerce website, you can reach the people who want your products without going through a middleman. And you can make more profit in the process! But there is a lot to consider: essentially, moving from wholesale to retail is building a new business. It’s an entirely different strategy. Because wholesale strategies are so different to retail strategies, you may not be geared up for retail. Retail interactions depend on multichannel customer acquisition, digital marketing and a seamless customer experience – including fast fulfillment. You also need a much larger customer base as your customers won’t be placing large orders like wholesalers.
 
