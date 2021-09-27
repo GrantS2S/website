@@ -1,5 +1,7 @@
 ---
 title: "Retail Model"
+lead: "Keep your ecommerce website up to date automatically, and sync orders into your accounting system."
+summary: "Keep your ecommerce website up to date automatically, and sync orders into your accounting system."
 seoTitle: "Stock2Shop and Retail Business"
 seoDescription: "Understanding the role of Stock2Shop in a retail business model"
 seoKeyword: ["Retail", "B2C"]

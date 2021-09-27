@@ -1,5 +1,7 @@
 ---
 title: "Retail and Wholesale Model"
+lead: "Sync your pricing structures and inventory data from your ERP to both your wholesale and retail sales channels for better efficiency."
+summary: "Sync your pricing structures and inventory data from your ERP to both your wholesale and retail sales channels for better efficiency."
 seoTitle: "Stock2Shop and Retail and Wholesale Business"
 seoDescription: "Understanding the role of Stock2Shop in a Retail and Wholesale business model"
 seoKeyword: ["Retail", "Wholesale", "B2C", "B2B"]

@@ -1,7 +1,7 @@
 ---
 title: "Dropshipping Model"
-lead: "Dropshipping Model"
-summary: "If you are wanting to Dropship your products to other retailers or are a retailer looking to get automated product updates."
+lead: "Centralise your product information for easy distribution to multiple dropshipping websites."
+summary: "Centralise your product information for easy distribution to multiple dropshipping websites."
 seoTitle: "Stock2Shop and Dropshipping Business"
 seoDescription: "Understanding the role of Stock2Shop in a Dropshipping business model"
 seoKeyword: ["Dropshipping"]

@@ -1,5 +1,7 @@
 ---
 title: "Wholesale Model"
+lead: "The B2B Trade Store enables customers and sales reps to see accurate inventory data, and place orders directly into your ERP."
+summary: "The B2B Trade Store enables customers and sales reps to see accurate inventory data, and place orders directly into your ERP."
 seoTitle: "Stock2Shop and Wholesale Business"
 seoDescription: "Understanding the role of Stock2Shop in a Wholesale business model"
 seoKeyword: ["Wholesale", "B2B"]
