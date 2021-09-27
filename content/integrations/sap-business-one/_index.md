@@ -7,7 +7,7 @@ lead: "Stock2Shop can integrate SAP Business One with various B2B and B2C ecomme
 image: "/uploads/logo-sap-business-one.png"
 imageAlt: sap business one logo
 type: "source"
-source: "sap"
+source: "sap-business-one"
 tags: ["erp"]
 aliases:
     - /integrations/sap/

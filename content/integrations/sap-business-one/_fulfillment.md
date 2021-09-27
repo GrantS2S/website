@@ -6,7 +6,7 @@ imageDestopWidth: "1007"
 imageMobile: "/images/a004.png"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
-source: "sap"
+source: "sap-business-one"
 type: "source-content"
 headless: true
 weight: 4

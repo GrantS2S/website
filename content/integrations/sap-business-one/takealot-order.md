@@ -5,7 +5,7 @@ imageDestop: "/images/a21.png"
 imageDestopWidth: "849"
 imageMobile: "/images/a002.png"
 headless: true
-source: "sap"
+source: "sap-business-one"
 marketplace: "takealot"
 type: "source-marketplace-content"
 weight: 2
