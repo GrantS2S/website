@@ -9,41 +9,22 @@ source: ""
 tags: []
 ---
 
-You have a retail business that sells online via your e-commerce website to customers.
+Does this sound like you?
 
-### Traditional Retail Model 
-Traditionally, your organisation would have an [ERP / Accounting system](/integrations) and an e-commerce website.
-In most instances, there would be very little to no integration between the two systems. 
-They would operate independently and have to be manually updated by someone within your organisation.
+You have a retail business (B2C) that sells direct to consumers (B2C) via a physical store and an ecommerce website. In your physical store, customers browse your shelves and checkout at a point of sale (POS) which captures orders into your accounting system.
 
-All product information, including product description, options, pricing and quantities 
-would have to be manually exported from your [ERP / Accounting system](/integrations) and imported into your e-commerce website.
+Your ecommerce website is becoming a more and more lucrative source of revenue, but keeping your product information accurate can be labour-intensive. Once a week you export pricing and stock level data from your accounting system, and compare them to your website to ensure it’s up to date. Someone in your organisation is tasked with collating your retail online orders and manually capturing them on your ERP / accounting system.
 
-Once you have all your product information on your e-commerce website, and sales start coming in
-you will again have to export the sales information in the form of orders and manually import them
-into your [ERP / Accounting system](/integrations). Thereafter another manual request must be made to fulfil the order.
+Challenges you may be facing:
+- Your website is not showing your latest inventory information, so you are at risk of overselling or selling at the wrong price.
+- Customers’ orders are not captured immediately in your ERP / accounting system, which could result in fulfillment delays.
+- Your admin staff is required to manually update product data, as well as input online orders on your ERP / accounting system. This can expose your company to human error.
 
-This approach is a problematic for several reasons:
+How Stock2Shop can help you:
+- Inventory and product information is synced from your ERP / accounting system to your ecommerce website.
+- Retail customers can place orders on your ecommerce website.
+- As soon as a sale is captured in your physical store’s POS, it syncs to your ERP where stock availability is affected. This reduction in inventory is then communicated to your website, dramatically reducing the risk of overselling.
+- Your admin staff is notified as soon as an order is received.
+- You get to manage vital product data for your ecommerce website in one place - on your ERP / accounting system.
 
-1. Manual intervention between the two systems can result in stock and price discrepancies.
-2. Product prices and quantities on the e-commerce website may not always be up to date
-3. potentially oversell products due to inventory discrepancies
-4. Having to capture order information in the [ERP / Accounting system](/integrations) can be a laborious task.
-
-### New Retail Model
-Inventory and product information can be synced to your [e-commerce website](/integrations) sales channel 
-from your ERP / Accounting system and orders from your e-commerce website are automatically raised as sales orders
-and converted to invoices in your ERP / Accounting system. 
-
-This approach is a beneficial for several reasons:
-1. Little to no manual intervention between your ERP / Accounting system and your e-commerce website.
-2. As soon as orders are placed and paid for, they are sent to your ERP / Accounting system. 
-3. Automatic inventory and product updates sent from your ERP / Accounting system to your e-commerce website.
-4. Notifications automatically sent to your 3rd party fulfillment service to deliver orders.
-
-This is a rudimentary example of how Stock2Shop can accommodate the retail model. 
-In this example, Stock2Shop has reduced the administration requirements and processing time for the company, 
-ensured that inventory, product and order data is correctly captured. 
-Stock2Shop is highly customisable and there are many different configuration options for each of the steps above.
-
-[Contact us](/contact-us/) to find out how we can tailor a solution to meet your needs.
+In short, Stock2Shop has reduced human error, reduced duplicate data capturing and increased efficiency.

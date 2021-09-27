@@ -9,44 +9,26 @@ source: ""
 tags: []
 ---
 
-You have a wholesale business that either purchases
-from or manufactures products and sells them to retailers.
- 
-### Traditional Wholesale Model
-Traditionally, you send your customers (retailers) stock sheets 
-on a regular basis with updated prices and quantities. 
-Once your customer confirms what they want to order, they either email or call you to confirm
-what products they want along with the quantities. 
-At this point, someone in your organisation needs to manually capture this information into a 
-legitimate sales order on your [ERP / Accounting system](/integrations).
+Does this sound like you?
 
-This approach is a problematic for several reasons:
-1. The customer does not know stock availability at the time of ordering, unless they request an updated list of inventory and pricing.
-2. It is difficult to control what prices are given to specific customers.
-3. Manually re-capturing orders is hugely time consuming and prone to human error.
-4. Product information is not stored in one central place.
+You are a wholesaler who acquires or manufactures products, and sells them to retailers. You send your customers (retailers) updated stock sheets on a regular basis with the latest prices and quantities. When a customer wants to make a purchase, they call your head office to check that the items are still available before confirming the order by email.
 
-### New Wholesale Model 
-Customer, inventory and product information can be synced to [Stock2Shop's B2B trade store](/b2b-shopping-cart/)
-from your [ERP / Accounting system](/integrations) and orders from this platform are automatically raised as 
-sales orders and converted to invoices in your ERP / Accounting system.
+You may have reps who check in on your key accounts to make sure that stocks aren’t running low. When a customer wants to place an order, the rep writes it in their notebook so they can email it to head office at the next opportunity. Someone in your organisation is tasked with receiving telephonic or email orders from customers and sales reps, and manually capturing them on your ERP / accounting system.
 
-Price lists, stock levels and product information is continually sent to the B2B trade store. 
-Customers and sales reps are given access to this information to view and order products.
+Challenges you may be facing:
+- The customers often don’t have an updated stock sheet handy.
+- Customers phoning in to check stock levels and pricing may get frustrated if they have to wait for assistance.
+- Customers wishing to place orders outside of your office hours have to wait until the next business day.
+- Your reps don’t have the latest stock availability at their fingertips.
+- Your reps may not be aware of which discount structures apply to their clients.
+- Manually re-capturing orders is hugely time consuming and prone to human error.
 
-There is strict control around what products and pricing each customer and sales rep gets to see. 
-This means when a customer or sales rep logs in to the B2B trade store, they only see the products and price list that has been assigned to them.
+How Stock2Shop can help you:
+- Inventory, product and customer* information can be synced to the Stock2Shop B2B Trade Store from your ERP / accounting system.
+- Customers can log on and immediately see relevant pricing and stock information.
+- Orders can be placed on this platform any time, day or night.
+- Orders are automatically raised in your ERP / accounting system against each customer’s debtors account.
+- Your admin staff is notified as soon as an order is received.
+- Reps can log in to check customer-specific pricing and stock levels, and immediately place an order into that customer’s account.
 
-This approach is a beneficial for several reasons:
-1. Negates the process of someone having to manually send stock sheets
-2. Negates the process of someone having to capture orders manually into your [ERP / Accounting system](/integrations)
-3. As soon as orders are placed, the stock on hand is updated.
-4. Customers will always be able to see what is actually in stock and at what price.
-5. Notify business units internally when orders have been raised.
-
-This is a rudimentary example of how Stock2Shop can accommodate the wholesale model.
-In this example, Stock2Shop has reduced the administration requirements and processing time for the 
-company, ensured that order data is correctly captured, and given customers access to an easy-to-use ordering system.
-Stock2Shop is highly customisable and there are many different configuration options for each of the steps above.
-
-[Contact us](/contact-us/) to find out how we can tailor a solution to meet your needs.
+In short, Stock2Shop has reduced human error, reduced duplicate data capturing and increased efficiency.

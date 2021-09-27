@@ -9,53 +9,35 @@ source: ""
 tags: []
 ---
 
-You have a business that sells both direct to consumer via your own e-commerce website and or a marketplace.
-This is considered the retail side of your entity.
-Additionally you sell in bulk to retailers who then on sell your products.
-This is considered the Wholesale side of your entity.
+Does this sound like you?
 
-### Traditional Retail & Wholesale Model 
-Traditionally, your organisiton would have an [ERP / Accounting system](/integrations) and potentially an e-commerce website. 
-You would also have someone in charge of sending stock sheets and placing orders on behalf of your wholesale clients, the reatailers.
+You have a predominantly wholesale business (B2B) that also retails direct to consumers (B2C) via a physical store and an ecommerce website. You send your wholesale customers (retailers) updated stock sheets on a regular basis with the latest prices and quantities. When a customer wants to make a purchase, they call your head office to check that the items are still available before confirming the order by email.
 
-All product information, including product description, options, pricing and quantities would have to be manually exported 
-from your [ERP / Accounting system](/integrations) and imported into your e-commerce website.
+You may have reps who check in on your key accounts to make sure that stocks aren’t running low. When a customer wants to place an order, the rep writes it in their notebook so they can email it to head office at the next opportunity. In your physical store, customers browse your shelves and checkout at a point of sale (POS) which captures orders into your accounting system.
 
-Once you have all your product information on your e-commerce website, and sales start coming in you 
-will again have to export the sales information in the form of orders and manually import them into your ERP / Accounting system. 
-Thereafter another manual request must be made to fulfil the order.
+Your ecommerce website is becoming a more and more lucrative source of revenue, but keeping your product information accurate can be labour-intensive. Once a week you export pricing and stock level data from your accounting system, and compare them to your website to ensure it’s up to date. Someone in your organisation is tasked with receiving telephonic or email wholesale orders from customers and sales reps, as well as collating your retail online orders, and manually capturing them on your ERP / accounting system.
 
-Static Stock sheets would need to be sent via mail to your wholesale customers with up to date pricing and quantity levels.
-Once the wholesale customer has mailed you back with their intent to purchase, the stock may or may not be available.
+Wholesale (B2B) challenges you may be facing:
+- The customers often don’t have an updated stock sheet handy.
+- Customers phoning in to check stock levels and pricing may get frustrated if they have to wait for assistance.
+- Customers wishing to place orders outside of your office hours have to wait until the next business day.
+- Your reps don’t have the latest stock availability at their fingertips.
+- Your reps may not be aware of which discount structures apply to their clients.
+- Manually re-capturing orders is hugely time consuming and prone to human error.
 
-This approach is a problematic for several reasons:
+Retail (B2C) ecommerce challenges you may be facing:
+- Your website is not showing your latest inventory information, so you are at risk of overselling or selling at the wrong price.
+- Customers’ orders are not captured immediately in your ERP / accounting system, which could result in fulfillment delays.
+- Your admin staff is required to manually update product data, as well as input online orders on your ERP / accounting system. This can expose your company to human error.
 
-1. Manual intervention between the two systems can result in stock and price discrepancies.
-2. Product prices and quantities on the e-commerce website may not always be up to date
-3. potentially oversell products due to inventory discrepancies
-4. Having to capture order information in the [ERP / Accounting system](/integrations) can be a laborious task.
-5. Sending static stock sheets to wholesaler doesn't allow for any changes to be taken into consideration
-6. Orders could be placed on products on both the e-commerce site at the same time the wholesalers is securing stock.
+How Stock2Shop can help you:
+- Inventory and product information is synced from your ERP / accounting system to both online channels - the Stock2Shop B2B Trade Store and your ecommerce website.
+- Wholesale customers can login to your B2B Trade Store and immediately see relevant pricing and stock information. 
+- B2B orders can be placed on this platform, any time day or night, and automatically raised in your ERP / accounting system against each customer’s debtors account.
+- Reps can log in to the B2B Trade Store to check customer-specific pricing and stock levels, and immediately place an order into that customer’s account.
+- Retail customers can place orders on your ecommerce website.
+- As soon as an order is placed on either online channel (B2C or B2B), it syncs to your ERP where stock availability is affected. This reduction in inventory is then communicated to your other online channel, dramatically reducing the risk of overselling.
+- Your admin staff is notified as soon as an order is received.
+- You get to manage vital product data for both online channels in one place - on your ERP / accounting system.
 
-
-### New Retail & Wholesale Model
-Inventory and product information can be synced to your e-commerce website sales channel from your [ERP / Accounting system](/integrations)
-system and orders from your e-commerce website are automatically raised as sales orders and converted to invoices in your ERP / Accounting system.
-
-Additionally, instead of sending your wholesale customers stock sheets via mail, you can give them access to a 
-B2B trade Store ordering portal. This allows them to see specific pricing and quantity as well as place orders that will also be automatically 
-be raised into your [ERP / Accounting system](/integrations).
-
-This approach is a beneficial for several reasons:
-
-1. Little to no manual intervention between your ERP / Accounting system and your e-commerce website.
-2. As soon as orders are placed and paid for, they are sent to your ERP / Accounting system.
-3. Automatic inventory and product updates sent from your ERP / Accounting system to your e-commerce website and B2B Trade Store.
-4. Notifications automatically sent to your 3rd party fulfillment service to deliver orders.
-5. Negate having to manually send stock sheets and place manual orders for your wholesale clients.
-
-This is a rudimentary example of how Stock2Shop can accommodate the retail model. In this example, 
-Stock2Shop has reduced the administration requirements and processing time for the company, ensured that inventory, 
-product and order data is correctly captured. Stock2Shop is highly customisable and there are many different configuration options for each of the steps above.
-
-[Contact us](/contact-us/) to find out how we can tailor a solution to meet your needs.
+In short, Stock2Shop has reduced human error, reduced duplicate data capturing and increased efficiency.
