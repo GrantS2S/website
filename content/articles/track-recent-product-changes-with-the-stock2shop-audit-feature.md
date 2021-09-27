@@ -9,7 +9,7 @@ image: "/uploads/article-magnifying-glass-audit-feature.jpg"
 imageAlt: magnifying glass audit feature 
 date: 2019-08-01
 aliases:
-    - /articles/
+    - /articles/track-recent-product-changes-with-the-Stock2Shop-Audit-feature/
 ---
 
 # Stock2Shop's new “Audit” feature

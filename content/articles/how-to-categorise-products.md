@@ -9,7 +9,7 @@ imageAlt: "layered navigation"
 aliases: "/articles/how-to-categorise-products-layered-navigation/"
 date: 2018-07-18
 aliases:
-    - /articles/
+    - /articles/how-to-categorize-products/
 ---
 
 # How to categorise products: layered navigation

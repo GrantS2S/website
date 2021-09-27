@@ -9,7 +9,7 @@ image: "/uploads/article-notebook.jpg"
 imageAlt: "product data"
 date: 2018-07-05
 aliases:
-    - /articles/
+    - /articles/product-data-what-you-need-to-know/
 ---
 
 # Product data: What you need to know

@@ -8,7 +8,7 @@ image: "/uploads/article-online-supply-chain-integration.jpg"
 imageAlt: "online supply chain integration"
 date: 2018-07-26
 aliases:
-    - /articles/
+    - /articles/online-supply-chain-integration-101/
 ---
 
 # Online supply chain integration 101

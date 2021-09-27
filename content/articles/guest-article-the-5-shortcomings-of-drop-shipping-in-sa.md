@@ -10,7 +10,7 @@ imageAlt: dropshipping
 date: 2019-03-30
 author: "Warrick Kernes"
 aliases:
-    - /articles/
+    - /articles/guest-article-the-5-shortcomings-of-drop-shipping-in-sa/
 ---
 
 # Shortcomings of Dropshippings in SA

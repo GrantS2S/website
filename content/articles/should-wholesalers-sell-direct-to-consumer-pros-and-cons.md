@@ -9,7 +9,7 @@ image: "/uploads/article-wholesale.jpg"
 imageAlt: wholesale
 date: 2018-08-02
 aliases:
-    - /articles/
+    - /articles/should-wholesalers-sell-direct-to-consumer-pros-and-cons/
 ---
 
 # Should wholesalers sell DTC?

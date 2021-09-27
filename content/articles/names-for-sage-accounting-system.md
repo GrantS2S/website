@@ -9,7 +9,7 @@ image: "/uploads/article-sage-products.jpg"
 imageAlt: sage-products
 date: 2019-02-07
 aliases:
-    - /articles/
+    - /articles/names-for-sage-accounting-system/
 ---
 
 # Names for Sage Accounting System

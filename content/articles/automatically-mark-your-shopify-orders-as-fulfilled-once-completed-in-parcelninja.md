@@ -10,7 +10,7 @@ imageAlt: shopify parcelninja order update fulfillment
 linkText: "Automated Shopify Parcelninja Fulfillment"
 date: 2019-06-06
 aliases:
-    - /articles/
+    - /articles/automatically-mark-your-shopify-orders-as-fulfilled-once-completed-in-parcelninja/
 --- 
 
 # Automatically mark your shopify orders as fulfilled once completed in parcelninja

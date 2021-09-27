@@ -9,7 +9,7 @@ image: "/uploads/article-fulfillment.jpg"
 imageAlt: fulfillment
 date: 2018-08-24
 aliases:
-    - /articles/
+    - /articles/understanding-online-order-fulfillment/
 ---
 
 # What is online order fulfillment?

@@ -9,7 +9,7 @@ image: "/uploads/article-takealot.png"
 imageAlt: takealot
 date: 2018-10-23
 aliases:
-    - /articles/
+    - /articles/sell-on-the-takealot-marketplace-with-ease/
 ---
 
 # Sell on the Takealot Marketplace with Ease

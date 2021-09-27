@@ -9,7 +9,7 @@ image: "/uploads/article-promotions.jpg"
 imageAlt: promotions
 date: 2019-10-22
 aliases:
-    - /articles/
+    - /articles/b2b-trade-store-promotions-feature/
 ---
 
 # Introducing the B2B Trade Store Promotions Feature

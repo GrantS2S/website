@@ -9,7 +9,7 @@ image: "/uploads/article-payment-methods.png"
 imageAlt: payment methods
 date: 2019-08-01
 aliases:
-    - /articles/
+    - /articles/stock2shop-b2b-tradestore-multiple-payment-options/
 ---
 
 # Give your resellers the option to pay upfront

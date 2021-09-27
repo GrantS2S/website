@@ -9,7 +9,7 @@ image: "/uploads/article-fishing.jpg"
 imageAlt: fishing
 date: 2019-06-04
 aliases:
-    - /articles/
+    - /articles/wholesalers-send-products-to-multiple-online-retailers-with-ease/
 ---
 
 # Are you a wholesaler? How would you like more time to go fishing?

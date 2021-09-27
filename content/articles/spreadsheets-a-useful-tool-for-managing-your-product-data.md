@@ -9,7 +9,7 @@ image: "/uploads/article-meaningful-data.jpg"
 imageAlt: meaningful data
 date: 2018-10-19
 aliases:
-    - /articles/
+    - /articles/spreadsheets-a-useful-tool-for-managing-your-product-data/
 ---
 
 # Spreadsheets: A useful tool for managing your product data

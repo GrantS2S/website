@@ -9,7 +9,7 @@ image: "/uploads/article-shelves.jpg"
 imageAlt: shelves
 date: 2018-08-13
 aliases:
-    - /articles/
+    - /articles/building-a-b2b-b2c-e-commerce-platform-for-your-wholesale-business/
 ---
 
 # Building a B2B B2C e-commerce site

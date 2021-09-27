@@ -9,7 +9,7 @@ image: "/uploads/article-black-friday.jpg"
 imageAlt: black friday
 date: 2019-10-04
 aliases:
-    - /articles/
+    - /articles/retailers-are-you-ready-for-black-friday/
 ---
 
 # Retailers - Are you ready for Black Friday?

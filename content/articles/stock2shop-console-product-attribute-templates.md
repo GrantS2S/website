@@ -10,7 +10,7 @@ imageAlt: "product attributes"
 aliases: "/stock2shop-console-product-attribute-templates/"
 date: 2020-03-30
 aliases:
-    - /articles/
+    - /articles/stock2shop-console-product-attribute-templates/
 ---
 
 # Introducing Product Attribute Templates
