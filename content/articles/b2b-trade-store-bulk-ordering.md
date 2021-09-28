@@ -14,7 +14,6 @@ aliases:
 ---
 
 # Introducing the B2B Trade Store Bulk Ordering Feature
-
 The Stock2Shop B2B Trade Store allows users to import bulk orders via a CSV (Comma-separated values) file. This means that should one of your customers wish to order a large number of products, they can do so easily by uploading a spreadsheet.
 The bulk ordering process is very user-friendly. Below are the steps to take when bulk ordering:
 
