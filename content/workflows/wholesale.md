@@ -15,7 +15,7 @@ You are a wholesaler who acquires or manufactures products, and sells them to re
 
 You may have reps who check in on your key accounts to make sure that stocks aren’t running low. When a customer wants to place an order, the rep writes it in their notebook so they can email it to head office at the next opportunity. Someone in your organisation is tasked with receiving telephonic or email orders from customers and sales reps, and manually capturing them on your ERP / accounting system.
 
-Challenges you may be facing:
+## Challenges you may be facing:
 - The customers often don’t have an updated stock sheet handy.
 - Customers phoning in to check stock levels and pricing may get frustrated if they have to wait for assistance.
 - Customers wishing to place orders outside of your office hours have to wait until the next business day.
@@ -23,7 +23,7 @@ Challenges you may be facing:
 - Your reps may not be aware of which discount structures apply to their clients.
 - Manually re-capturing orders is hugely time consuming and prone to human error.
 
-How Stock2Shop can help you:
+## How Stock2Shop can help you:
 - Inventory, product and customer* information can be synced to the Stock2Shop B2B Trade Store from your ERP / accounting system.
 - Customers can log on and immediately see relevant pricing and stock information.
 - Orders can be placed on this platform any time, day or night.
