@@ -77,7 +77,6 @@ Each business has a unique workflow, so we worked with Omnico to find out how to
 ## Open up additional sales channels
 Opening up new sales channels is another one of our specialities. We made it significantly easier for Omnico to sell through additional sales channels – automated drop shipping through marketplaces, a B2C Magento sales channel to sell end-of-range stock, and a streamlined sales rep ordering platform through the B2B store.
 
----
 ### How the B2B sales rep ordering platform works:
 - Omnico sales reps can log in as a customer to see their pricing.
 - The rep can raise an order on behalf of the client (using their mobile phone or computer).
@@ -91,3 +90,4 @@ Opening up new sales channels is another one of our specialities. We made it sig
 - With Stock2Shop, Omnico can now share real time inventory data with drop shippers, automatically and near real time.
 - Some retailers don’t hold all of Omnico’s stock, so it’s essential to have accurate stock and pricing information, constantly updated.
 - Because inventory levels are automatically updated, Omnico never sells something they can’t deliver. And customers are never disappointed.
+---

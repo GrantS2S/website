@@ -16,7 +16,7 @@ aliases:
 
 The promotions feature allows you to create a storewide promotion which will be applied to every cart at checkout. If you would prefer to limit the promotion to certain customers, you have the ability to create discount coupons for each promotion and issue them to the relevant people.
 
-## Setting up a storewide promotion
+### Setting up a storewide promotion
 
 Storewide promotions do not make use of coupons. Once created, they will be applied to every checkout until disabled. Setting up a storewide promotion on your Stock2Shop console is simple:
 
@@ -30,7 +30,7 @@ Because we are not making use of coupons you can leave Use Coupons unchecked and
 
 ![coupons](/uploads/article-coupons.png)
 
-## Setting up a promotion with coupons
+### Setting up a promotion with coupons
 
 Setting up promotion with the use of coupons gives you the ability to manage who has access to the promotion. Coupons can be generated manually or in bulk. You can control how many times a coupon can be used by setting the Usage Limit, or you can set it to unlimited use by putting a zero (0) in this field. Setting up a promotion with coupons on your Stock2Shop console can be done in a few simple steps:
 
@@ -53,7 +53,7 @@ Generating Random Coupons gives you the ability to populate between 1 – 5000 u
 
 ![promotions](/uploads/article-promotions.png)
 
-## View coupons associated to an existing promotion
+### View coupons associated to an existing promotion
 
 Once you have created your coupons, you have the ability to track them within the promotion. Here you can see the usage limits for each coupon as well as how many times a coupon has been used.
 
@@ -61,7 +61,7 @@ Once you have created your coupons, you have the ability to track them within th
 
 The coupon will be the code you give to your customer to use in order to access the discount. If at any point you need to remove a coupon, simply click on the “3 vertical dots” and delete it.
 
-## Deactivating your promotions
+### Deactivating your promotions
 
 Whether you are using a storewide promotion or discount coupons, you can deactivate the promotion on your Stock2Shop console by following these steps:
 

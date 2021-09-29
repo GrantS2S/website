@@ -21,7 +21,7 @@ The Trade Store is a pre-built system so there is no development involved, and i
 From a user perspective it’s easy to navigate. Just give each outlet manager login credentials so they can browse what is available, see how much each item costs, and place orders directly into the head office ERP.
 Finding products is quick and easy. Franchisees can make use of a number of search functions, or they can simply select a past order and click the “re-order” button. If they have a spreadsheet of items they would like to order, this can be uploaded to the Trade Store using the [“bulk order”](/articles/b2b-trade-store-bulk-ordering/ "Stock2Shop B2B Trade Store Bulk Ordering") function.
 
-## Benefits of the B2B Trade Store to a franchise operation
+### Benefits of the B2B Trade Store to a franchise operation
 - Streamline operations and reduce the pressure on head office staff
 - Give franchisees easy access to pricing and stock levels, anytime day or night
 - Products can be easily segmented by attributes such as brand or category for easy navigation

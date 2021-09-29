@@ -26,7 +26,7 @@ There are six steps involved in putting the information from your accounting sys
 5. Using pivot tables to inform navigation
 6. Building data validation
 
-## 1. Getting a dump of raw product data
+### 1. Getting a dump of raw product data
 
 Your raw product data will usually be stored in your ERP or accounting system, and will typically include an SKU (‘Stock Keeping Unit’, also referred to as an item code), title, quantity and price.
 
@@ -34,11 +34,11 @@ Your raw product data will usually be stored in your ERP or accounting system, a
 
 The above screenshot is an example of product data from a fictitious company (let’s call it Apparel Limited) that sells caps, beanies, bags, dresses, t-shirts and tracktops. Of the 19 unique SKUs on this sheet, you will notice that some of the items look similar. This is often (but not always) an indication that these SKUs should be grouped together as variants of one product. In rows 16 to 20, for example, the SKUs are size variants of the product “Red T-shirt”.
 
-## 2. DEALING WITH PRODUCT VARIANTS
+### 2. DEALING WITH PRODUCT VARIANTS
 
 It’s essential to understand the difference between products and variants. A product is comprised of one or more variant, and includes information such as title, collection, description, brand and product type. Each variant has its own SKU code, price and quantity.
 
-##### Grouping variants together as a product
+#### Grouping variants together as a product
 
 In order to group SKUs together as a product with multiple variants, we must add some fields to the Apparel Limited spreadsheet
 
@@ -63,7 +63,7 @@ On the Apparel Limited data sheet below you can see that the “Cotontech Short 
 
 ![spreadsheets](/uploads/article-spreadsheets-4.png)
 
-##### The golden rule of variants
+#### The golden rule of variants
 
 The golden rule of variants is that: No two variants of a product can have exactly the same option values.
 
@@ -71,7 +71,7 @@ In other words, our Blue Cotontech Short Dress (product code “7000-BLU”) can
 
 Note: Some products do not have multiple variants (see lines 2 to 5 above). In these instances, you can simply copy the SKUs into the “product code” fields and leave the option fields empty.
 
-##### More than one product option
+#### More than one product option
 
 A product can have multiple options. For example, if we decided that we wanted to sell our Red T-shirt in different materials as well as different sizes, you could have both of these product options on your data sheet.
 
@@ -80,7 +80,7 @@ A product can have multiple options. For example, if we decided that we wanted t
 This means that the Red T-shirt would have two dropdown options on our website: “size” and “material”.
 Remember to consider the user experience when setting up your options. Too many dropdowns on your site can make it look messy, or worse, confuse your customers. Less is more.
 
-## 3. Verifying your product / variant relationships
+### 3. Verifying your product / variant relationships
 
 Options can be product characteristics such as size, material, width, weight or even colour. You can make your options anything, but the golden rule still applies: a product with two variants that have identical options is a no no.
 
@@ -97,11 +97,11 @@ If you have duplicate options within a product, that means that one of the follo
 1. You have captured the option incorrectly (in the above example the “material” option is wrong in line 6).
 2. You have grouped your variants incorrectly. Check your product codes to see if you’ve accidentally grouped two SKUs that don’t belong together.
 
-##### Checking for duplicate options with a pivot table
+#### Checking for duplicate options with a pivot table
 
 Pivot tables are a great tool to ensure you haven’t assigned two or more variants to a product with the same option. A pivot table report quickly summarises your data by grouping rows and columns together on a separate sheet.
 
-##### How to run a pivot table report on Google Sheets:
+#### How to run a pivot table report on Google Sheets:
 
 1. Highlight all the products.
 2. From the Menu bar, choose “Data” and then “Pivot table”.
@@ -123,7 +123,7 @@ Use the filter function on your COUNTA column to show only product codes with a 
 
 Once you’ve identified the errors and rectified them, go back to your pivot table to double check that there are no COUNTA values greater than 1.
 
-## 4. ENRICHING PRODUCT DATA: DEFINING NAVIGATION
+### 4. ENRICHING PRODUCT DATA: DEFINING NAVIGATION
 
 In order to add value and enrich your data, you need to describe your product in a meaningful way. This will help your customers understand what you are selling and find the products they are looking for.
 
@@ -135,7 +135,7 @@ In the below example you can see that we have created attributes named gender, b
 
 Note: When adding these attribute columns it is important to remember that you’re enriching a product, not a variant. You will notice in the above example that all the SKUs with the same product code have identical values in each attribute field.
 
-##### Defining the necessary attributes
+#### Defining the necessary attributes
 
 Effectively defining your attributes makes your products easier to find on your website. When going through this process, consider all the ways a customer might search for a particular product.
 
@@ -149,7 +149,7 @@ As long as you capture the necessary details on your spreadsheet, you have the f
 
 **Note**: There may be blanks in some columns because not all attributes apply to all products (for example, brand).
 
-## 5. Using a pivot table to inform navigation
+### 5. Using a pivot table to inform navigation
 
 Using a pivot table is an great tool to help you explore ways you can build navigation and categories on your website.
 
@@ -170,7 +170,7 @@ When deciding on your navigation structure, it’s helpful to know how many prod
 
 ![spreadsheets](/uploads/article-spreadsheets-11.png)
 
-## 6. Building a data validation sheet for variants and attributes
+### 6. Building a data validation sheet for variants and attributes
 When setting up your options and attributes, it’s important that your naming conventions are consistent. For example, you must decide if you’re going to use “S / M / L” or “Small / Medium / Large, and apply that convention throughout your size options. The same applies to your attributes.
 
 The best way to ensure consistency and avoid spelling errors is to use data validation. Here’s a step-by-step guide how to do this in Google Sheets (other software may work slightly differently, but the principle is the same):
@@ -193,7 +193,7 @@ The best way to ensure consistency and avoid spelling errors is to use data vali
 
 ![spreadsheets](/uploads/article-spreadsheets-15.png)
 
-## Stock2Shop – helping you work smarter, not harder
+### Stock2Shop – helping you work smarter, not harder
 
 You can build a beautiful website with all the bells and whistles, but the only way to turn visitors into customers is to make it easy to navigate. The secret to an intuitive, user-friendly lies in well-considered data. Once that is in place, user satisfaction will rise and so will your sales.
 

@@ -26,7 +26,7 @@ Each product sold online needs:
 
 For your products to be ready to sell online, you have to actually capture this list of information for each one. Luckily, with the right system integration, this is a task you’ll only have to do once.
 
-## More information = more helpful
+### More information = more helpful
 
 When a customer is trying to make a decision between two options, more information is always a good thing. Think about how you can give them as thorough a view as possible of your product. Perhaps that means adding extra keywords, more photos, a more detailed description or a longer title. It’s helpful to think about how you shop online: do you just look for shoes, or do you look for Falke hiking socks, in size 9, for high performance?
 
@@ -36,7 +36,7 @@ The magic formula for apparel product descriptions is:
 **Brand + Gender + Color + Size + Specific model + Material + Category**
 Not every product will include all of these elements, but you should aim to have as many of them as possible.
 
-## Tailored descriptions to suit your market
+### Tailored descriptions to suit your market
 
 Of course, selling socks is very different to selling toys, and one of the things to keep top of mind when compiling product data is what questions your customers will have, and how to answer them before they have to ask.
 
@@ -54,7 +54,7 @@ So if you’re selling a child’s toy, you may need to include things like:
 
 Remember: it’s important to write original descriptions so that your listing gets the benefit of SEO – the descriptions don’t have to be complicated, but unique copy is always an advantage.
 
-## Different products need different data
+### Different products need different data
 
 It may sound obvious to say that different products need different data. On one level it is, as each product needs a different data set that describes it. But different kinds of products also need different data. If you’re selling a technical product to technical customers, (like RAM, for example) it’s important to give all the technical information you have available – including all the specs you can find that will give them a better idea of what exactly you’re selling.
 

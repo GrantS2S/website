@@ -34,14 +34,14 @@ A feed was set up to send product data from the PJ Marketing Pastel Partner to t
 
 Two different B2B Trade Stores were then set up, with different product selections sent to each. Wholesale customers were then allocated to a particular B2B channel. When they log in to place an order, they are only exposed to products that are relevant to them, and at the correct price. Their orders are then raised directly into their account on Pastel Partner. In addition to the wholesale functionality, a feed of product data was also sent to the front-facing WooCommerce website. This is purely for browsing purposes; ordering on this channel is disabled.
 
-#### Sync Data
+### Sync Data
 - PJ Marketing can manage their inventory and pricing from Pastel Partner, automatically sending updates to their B2B Trade Store in near real time.
 - All the Pastel Partner data, together with images and long descriptions that were added to the Stock2Shop console, is synced to the B2B Trade Store and WooCommerce website.
 
-#### Product Segmentation for Efficient Search
+### Product Segmentation for Efficient Search
 - A product attribute called “Category” was uploaded to Stock2Shop, making it easy for customers to find what they are looking for.
 
-#### B2B Trade Store
+### B2B Trade Store
 The Stock2Shop B2B Trade Store has a useful tool called “layered navigation” where customers can filter by a product attribute such as “Category” to narrow their search. In addition to layered navigation, B2B customers can make use of the following tools:
 
 - Search bar – This elastic search function is likely to bring up the desired product even if the search key is slightly misspelled.

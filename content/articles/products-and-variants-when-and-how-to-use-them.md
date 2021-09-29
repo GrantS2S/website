@@ -17,7 +17,7 @@ Product configuration is a personal thing. Whether you choose to display each on
 
 Your main consideration when setting up an online store should be the user experience. If your customers find your website cumbersome and difficult to navigate, it will directly impact your bottom line. Two of the biggest factors affecting the user experience are categorisation and product configuration. In this article we tackle the latter within the context of systems integration, but before we dive in, we’re going to clarify some terminology to avoid confusion going forward.
 
-## Ecommerce Terminology
+### Ecommerce Terminology
 - SKUs (stock keeping unit): These refer to the smallest units of items that you sell. It is often referred to as an “item” on various accounting systems, and is always represented by a unique SKU code.
 - Products: A product contains information such as title, collection, description, vendor, product type and images. Each product must contain at least one variant. A product with multiple variants is called a variable product, and the customer indicates which one they want by selecting an “option”.
 - Options: Variable products have dropdown options which enable a customer to select a variant. Each variant is linked to an item on your accounting system by an SKU code.
@@ -25,7 +25,7 @@ Your main consideration when setting up an online store should be the user exper
 
 For more information on the relationship between products and variants view our documentation regarding Key Concepts, [Here](/help/guides/products-overview/ "Stock2Shop Products Overview Guide").
 
-## When to use variable products
+### When to use variable products
 Syncing standalone products is pretty straightforward – the item code on your accounting system needs to correlate to the SKU code field on the online product’s solitary variant. However, sometimes your situation may call for certain products to be made up of many variants, in which case, a dropdown of options is provided so the customer can make a selection.
 
 When determining whether to group items together as a variable product, ask yourself if all of them can be represented by the same image. A good example is shoes.
@@ -34,7 +34,7 @@ When determining whether to group items together as a variable product, ask your
 
 You may sell a model of shoe that comes in two different colours, each with a size curve. Best practice is to list the blue shoe and the orange shoes as two separate products (because they look different), each with an option dropdown for size.
 
-## How to configure variable products
+### How to configure variable products
 In the example below, customers are presented with two separate products on the website, an orange shoe and a blue shoe. They can then click into whichever colour shoe they want and select the appropriate size option. Each one of these options is assigned to a variant, each with its own SKU code, price, stock quantity, barcode and weight.
 
 ![How to configure variable products](/uploads/products_variants_image_2.jpg)

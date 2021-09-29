@@ -19,7 +19,7 @@ Sure, it’s important to have a well-designed website that provides a pleasant 
 
 Unlike your shop on the local highstreet, it’s unlikely that anyone is going to stumble across your website and pop in for a browse. Unless you are selling something extremely niche, you’re going to have to work hard to attract each customer. In this article we’re going to touch on a few ways in which you can help your online business stand out from the crowd.
 
-## SEO and Google Ads
+### SEO and Google Ads
 A report by [Episerver](https://www.optimizely.com/globalassets/03.-global-documents/reports/b2c-retail-benchmark-report-q1-2020.pdf "B2C Retail Benchmark Report, Q1 2020") conducted on the US ecommerce market indicates that search engines are still the most powerful sources of traffic, with “42 percent of consumers report[ing] they visit Google first” when looking for a specific product or service. It’s therefore vital that your site ranks on the first page.
 
 Organic search results account for up to 27% of traffic, so the importance of improving your search engine ranking goes without saying. In fact, Bing reported that top listed websites get 42% of the traffic, with second and third getting 11% and 8% respectively.
@@ -34,31 +34,31 @@ It’s always best to engage an SEO professional to help you improve and maintai
 
 If you have the budget, Google Ads is a handy way to jump the queue to page one, although paid results are slightly less effective sources of traffic. When done well, Google Ads can bring great returns, but be warned: you can hemorrhage money with very little to show for it if you don’t know what you’re doing. If you can’t afford to pay an agency to run your campaigns on an ongoing basis, at least commission one to help you get set up.
 
-## Blogging
+### Blogging
 This aspect of your digital marketing plan works hand in hand with your search engine strategy mentioned above, and SEO should be incorporated into every piece of content you publish.
 
 Remember, it’s more important to write with your target audience in mind than your product or service. The objective is to drive the right people to your website, so publish content that they will find interesting and useful, even if it isn’t exactly what you’re selling.
 
 Case in point is this article you’re reading right now. Stock2Shop doesn’t do digital marketing, but you’re on our website. And if you’re researching ways to improve your online business, chances are good you may find our integration services interesting too.
 
-## Competitor Analysis
+### Competitor Analysis
 Keeping an eye on the competition is an integral part of any marketing strategy. It’s important to know how you stack up when it comes to things like price, fulfillment and overall user experience as it will give you a good idea where you’re strong and where you’re falling down.
 
 There are also [tools](https://www.monsterinsights.com/how-to-spy-on-your-competitors-and-ethically-steal-their-traffic/ "How to Spy on Your Competitors and “Ethically” Steal Their Traffic") which allow you to see what kind of content and SEO keywords your competitors are using to great effect, helping you get a better foothold in the market.
 
-## Referral Program
+### Referral Program
 The concept is simple – incentivise your existing customers to help you grow your business. Whether it’s loyalty points, store credit or an entry into a competition, the sweetener needs to be attractive for this to work.
 
 A well-implemented referral program can be gold to your online business, yielding high quality traffic for relatively little effort. In fact, Episerver reports that it has the best conversion rate of all traffic sources (3%), beating out search engines and email marketing at 2.6% and 2.5% respectively.
 
 Check out this article for tips on [how to choose the referral program that is right for you](https://shanebarker.com/blog/referral-marketing-software/ "12 Best Referral Marketing Software to Boost Your Sales in 2021").
 
-## Build a Database (for effective Email Marketing)
+### Build a Database (for effective Email Marketing)
 Everyone knows they should be growing their client database, but not many know the importance of leveraging it properly. Research shows that existing customers are far more likely to buy and cost far less than a new customer to convert a sale.
 
 Your customers presumably know and trust you, and like what you’re selling. Make sure they are kept abreast of new products, flash discounts and clearance sales with a well thought out email marketing plan.
 
-## Retargeting
+### Retargeting
 There is a good chance that you’ve seen retargeting in action without realising it. You’ve gone onto a website to browse for, say, steak knives. Without making a purchase, you close the page and open Facebook… where you’re presented with an ad for steak knives.
 
 It may seem annoying on the face of it, and perhaps a little insidious, [but retargeting can massively boost your conversion rates](https://fetchprofits.com/rules-for-retargeting/ "7 Cardinal Rules for Retargeting You Should Follow"). Intelligent ads may just be the beginning of the robot uprising, so it makes sense to have them on your side!

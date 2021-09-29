@@ -15,12 +15,12 @@ You manufacture and/or distribute products to businesses (dropshipping retailers
 
 When your products are purchased on your dropshippers’ websites, you are provided with the order details (including the customer’s name and address) so that you can deliver the order directly to the consumer.
 
-## Challenges you may be facing:
+### Challenges you may be facing:
 - You may have many dropshippers who are constantly selling your products. They won’t have your latest stock and pricing information, which means they are at risk of overselling (or selling at the wrong price).
 - Manually re-capturing orders is hugely time consuming and prone to human error.
 - Product information is not stored in one central place.
 
-## How Stock2Shop can help you:
+### How Stock2Shop can help you:
 - Inventory and product information can be synced from your ERP / accounting system and then enriched on your Stock2Shop console before being distributed to your dropshippers’ ecommerce websites for sale.
 - Once your product data is curated on your Stock2Shop console, opening feeds to multiple dropshipping websites is easy.
 - You can decide which products are synced to which website.

@@ -20,13 +20,13 @@ You could send them stock sheets every week. But not only is that extra admin to
 
 What if you could send your products directly into your resellers’ websites? Stock2Shop can help.
 
-## Step 1:
+### Step 1:
 Sync your product data from your accounting system to Stock2Shop.
 
-## Step 2:
+### Step 2:
 Enrich your product data on Stock2Shop with any additional marketing collateral that might be useful, such as long descriptions and images.
 
-## Step 3:
+### Step 3:
 Now you have a repository of products that are ready to be sold online! Simply provide data feeds to your resellers and they will receive product titles, images, long descriptions, pricing and up-to-date stock levels directly into their website*.
 
 Stock2Shop offers many configuration options. For example, you can decide which products are sent to each website, and you can even assign each reseller to a different price list.

@@ -25,7 +25,7 @@ Here are 5 questions to ask to determine if you need a B2B trade store:
 
 If the answer is ‘yes’ to 3 or more of these questions, a B2B trade store could improve your efficiency enormously. Stock2Shop offers a B2B ordering platform as part of our system integration.
 
-## What a B2B B2B website offers
+### What a B2B B2B website offers
 
 So now you have a good website, but you want to make it great. Let’s talk about B2B B2C e-commerce platforms.
 
@@ -39,7 +39,7 @@ At the same time, the back-end of your B2B B2C website is a fully-functioning B2
 4. Each retailer sees their products at their price, and can raise orders depending on the terms you have set for them.
 5. Once payment has been made, the fulfillment process will begin.
 
-## The benefits of a B2B B2B website
+### The benefits of a B2B B2B website
 
 - It’s all about creating efficiencies. As you know, all the back and forth of information all the time wastes so much time. How many of these items do you have in stock? What’s the unit price? What are the variations? All of these questions can be answered at a single glance. Customer admin is dramatically reduced.
 - It’s secure. Until a new client has been vetted and registered, they won’t be loaded on the system or able to access the B2B trade store.

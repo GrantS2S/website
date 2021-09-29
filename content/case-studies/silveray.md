@@ -37,25 +37,25 @@ Silveray sells out of four different companies. We helped consolidate their data
 
 When a customer logs into the B2B Trade Store, they are automatically shown product data that pertains to the company that they buy from. Syspro is a flexible system with a hierarchy of discounts that can be configured to your needs. Silveray’s customers each have a specific discount setting, and this is mirrored on the B2B Trade Store. When a customer logs in they will see the correct pricing and stock levels available to them. When a wholesale customer places an order, it is raised directly into their account on the relevant company.
 
-#### Sync Data
+### Sync Data
 - Silveray can now manage their inventory and pricing from Syspro, while Stock2Shop automatically updates their B2B Trade Store and ecommerce website in near real-time.
 - We integrated all their product data: multiple price lists (and contract pricing), inventory levels by warehouse, alternative products and more.
 - All the Syspro data, together with images and long descriptions that were added to the Stock2Shop console, is synced to the two sales channels.
 
-#### Sync Customer Data
+### Sync Customer Data
 - Together with the product data, Stock2Shop synced the equally important customer data onto the console. This enabled customers and sales reps to automatically access products and pricing linked to their account.
 
-#### Product Segmentation for Efficient Search
+### Product Segmentation for Efficient Search
 Various fields are syncing from the ERP to Stock2Shop as product attributes. These attributes are being used in different ways on each sales channel to make it easy for customers to find what they are looking for.
 
-#### Sync Data
+### Sync Data
 The Stock2Shop B2B Trade Store has a useful tool called “layered navigation” where customers can filter by product attributes such as brand or category to narrow their search. In addition to layered navigation, B2B customers can make use of the following tools:
 - Search bar – This elastic search function is likely to bring up the desired product even if the search key is slightly misspelt.
 - Quick Order – Entering an SKU code or part of a product title will populate an easy-to-navigate list with the desired product, as well as all related products. Customers can then add what they want to their cart with just a few clicks.
 
-#### eCommerce Website
+### eCommerce Website
 The product attributes on Stock2Shop are concatenated into a structure that is compatible with the ecommerce system and then synced to the website. The products are then presented in a series of categories and subcategories that are controlled by the ERP.
 
-#### Sync customer Orders
+### Sync customer Orders
 - When a wholesale customer places an order on the B2B Trade Store, Stock2Shop will attempt to raise it into their dedicated account on Syspro. If the customer is in good standing, the order will raise successfully as a sales order. If not, it will fail, and Stock2Shop will notify the accounts department at Silveray.
 - When a retail customer makes a purchase on the ecommerce website, when the order is recognised as paid, it is raised as an invoice into a cash account on Syspro.
