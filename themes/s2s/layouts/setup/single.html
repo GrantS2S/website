@@ -38,10 +38,11 @@
 
                             {{ if or (ne .Params.source "") (ne .Params.channel "") (ne .Params.fulfillment "") }}
 
+
                             <h2>Features specific to {{.Title}}</h2>
                             <p>
                             To get the most out of your {{.Title}} integration with Stock2shop,
-                            head over to our <a href="/help/features/sap-business-one" title="SAP Business One Features">SAP Business One</a> features section.
+                            head over to our <a href="/help/features/{{.Params.channel}}{{.Params.source}}{{.Params.fulfillment}}" title="{{.Title}} Features">{{.Title}}</a> features section.
                             </p>
                             {{ end }}
 
