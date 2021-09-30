@@ -7,7 +7,7 @@ imageMobile: "/images/a002.png"
 headless: true
 source: "sap-business-one"
 channel: "b2b"
-type: "source-channel-content"
+type: "source-b2b-content"
 weight: 3
 ---
 

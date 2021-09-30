@@ -7,6 +7,6 @@ imageMobile: "/images/a002.png"
 headless: true
 source: "source_name"
 channel: "b2b"
-type: "source-channel-content"
+type: "source-b2b-content"
 weight: 1
 ---

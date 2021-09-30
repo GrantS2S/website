@@ -37,7 +37,7 @@
 
 
     <div class="container-fluid">
-        {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-channel-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}
+        {{ range $i,$p := where (where (where .Site.RegularPages "Type" "source-b2b-content") ".Params.source" .Params.source) ".Params.channel" .Params.channel }}
         <section class="section {{if not (modBool $i 2)}}section--gray{{end}} section--size2">
             {{if (modBool $i 2)}}
             <div class="container">

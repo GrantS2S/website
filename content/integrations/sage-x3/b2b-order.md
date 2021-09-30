@@ -7,7 +7,7 @@ imageMobile: "/images/a002.png"
 headless: true
 source: "sage-x3"
 channel: "b2b"
-type: "source-channel-content"
+type: "source-b2b-content"
 weight: 3
 ---
 

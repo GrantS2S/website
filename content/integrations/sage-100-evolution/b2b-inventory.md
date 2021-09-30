@@ -7,7 +7,7 @@ imageMobile: "/images/a002.png"
 headless: true
 source: "sage-100-evolution"
 channel: "b2b"
-type: "source-channel-content"
+type: "source-b2b-content"
 weight: 1
 ---
 

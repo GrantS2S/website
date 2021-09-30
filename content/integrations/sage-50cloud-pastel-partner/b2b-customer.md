@@ -7,7 +7,7 @@ imageMobile: "/images/a002.png"
 headless: true
 source: "sage-50cloud-pastel-partner"
 channel: "b2b"
-type: "source-channel-content"
+type: "source-b2b-content"
 weight: 2
 ---
 ### Onboard Customers
