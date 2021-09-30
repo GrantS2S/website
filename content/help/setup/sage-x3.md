@@ -1,38 +1,33 @@
 ---
-title: "Custom Database"
-seoTitle: "Custom Database Getting Started"
-seoDescription: "Integrate your Custom Database with supported B2B and B2C Systems through Stock2Shop"
+title: "Sage X3"
+seoTitle: "Sage X3 Getting Started"
+seoDescription: "Integrate your Sage X3 with supported B2B and B2C Systems through Stock2Shop"
 type: setup
-source: "custom-database"
+source: "sage-x3"
 channel: ""
 fulfillment: ""
 aliases:
-    - /documentation/getting-started/database-install/
+    - 
 ---
 
-## Custom Database
-Stock2Shop can pull inventory data from multiple databases. 
-The only prerequisite is that the database can be accessed via ODBC. 
-We therefore support Microsoft SQL Server, MySQL Server, Pervasive SQL, Hana and many other databases.
-
-A Custom Database is client-side. 
-This means that the Custom Database is installed on a 
+## Sage X3
+Sage X3 is a client-side ERP system. 
+This means that the Sage X3 application is installed on a 
 server at your office, on your actual work computer or on a 
 server in the cloud. 
 
 In order for Stock2Shop to provide you 
-with the full integration capabilities and link a Custom Database
+with the full integration capabilities and link Sage X3
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
-Parcelninja and Takealot we need to install software on the server or computer where the Custom Database is set up. 
+Parcelninja and Takealot we need to install software on the server or computer where your Sage X3 is set up. 
 For more information on the installation of Stock2Shop's software, see our guide on [installing Stock2Shop](/help/setup/installing-stock2shop/ "Installing Stock2Shop for on Premise ERP / Accounting Systems") for on premise ERP / Accounting Systems.
 
-
-Below is all documentation you will need regarding a Custom Database integration from start to finish.
+Below is all documentation you will need regarding your Sage X3 integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
 ## Getting Started (Prerequisites)
-In order for Stock2Shop to communicate with a Custom Database, 
+In order for Stock2Shop to communicate with a Sage X3, 
 we require the following information:
 
 - Server Name / IP Address
@@ -41,17 +36,17 @@ we require the following information:
 - Database Password (Read-Only)
 
 With these credentials, Stock2Shop will be able to integrate with a
-Custom Database, and perform the following:
+Sage X3, and perform the following:
 
 1. [Sync products](#sync-products) 
 2. [Sync customers](#sync-customers) 
 3. [Raise orders](#raise-orders) 
 
 ## Syncing Products to Stock2Shop {#sync-products}
-In order to sync products from a Custom Database, to your Stock2Shop client console, 
+In order to sync products from a Sage X3, to your Stock2Shop client console, 
 the minimum required fields are:
 
-| Custom Database             | Stock2Shop                     | Description                                                                      |
+| Sage X3                     | Stock2Shop                     | Description                                                                      |
 | --------------------------- | ------------------------------ | -------------------------------------------------------------------------------- |
 | Product Grouping Code       | source_product_code            | Used for Grouping Variable Products. Equal to Item Code for simple product setup |
 | Item Code                   | source_variant_code            | Product Ref Code/ Item No                                                        |
@@ -66,10 +61,10 @@ the minimum required fields are:
 | Variant Option 3            | variants.option3_value         | Only for variable products : 3rd Option/Selection                                |
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
-In order to sync customers from a Custom Database to your Stock2Shop client console, 
+In order to sync customers from a Sage X3 to your Stock2Shop client console, 
 the minimum required fields are:
 
-| Custom Database           | Stock2Shop             | Description                                               |
+| Sage X3                   | Stock2Shop             | Description                                               |
 | ------------------------- | ---------------------- | --------------------------------------------------------- |
 | Customer Active           | customer_active        | User Defined Field with 3 Options: Ignore, Active, Delete |
 | Account / Customer Number | source_customer_code   | The unique ID for a customer or customer account          |
@@ -77,11 +72,11 @@ the minimum required fields are:
 | Last Name                 | last_name              | Customer last name                                        |
 | E-Mail                    | email                  | Customer email which cannot be blank                      |
 
-## Syncing Orders to a Custom Database {#raise-orders}
-Syncing orders to a Custom Database will need to be discussed in detail with our developers as the mechanism
+## Syncing Orders to a Sage X3 {#raise-orders}
+Syncing orders to a Sage X3 will need to be discussed in detail with our developers as the mechanism
 to raise the orders will need to be confirmed. We suggest that the following fields are raised on the order:
 
-| Custom Database           | Stock2Shop              | Description                                           |
+| Sage X3                   | Stock2Shop              | Description                                           |
 | ------------------------- | ----------------------- | ----------------------------------------------------- |
 | Date                      | sytem_order.createdate  | Date the order is created on Stock2Shop               |
 | Account / Customer Number | customer_code           | Default Customer Account if not specified on customer |

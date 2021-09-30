@@ -6,6 +6,8 @@ type: setup
 source: ""
 channel: "woocommerce"
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/woocommerce/
 ---
 
 ## WooCommerce

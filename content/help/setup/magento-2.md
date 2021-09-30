@@ -6,6 +6,8 @@ type: setup
 source: "magento-2"
 channel: ""
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/magento-2-install/
 ---
 
 ## Magento 2.x

@@ -6,6 +6,8 @@ type: setup
 source: "sage-200-evolution"
 channel: ""
 fulfillment: ""
+aliases:
+    - /getting-started/sage-pastel-evolution/
 ---
 
 ## Sage 200 Evolution
@@ -19,7 +21,7 @@ with the full integration capabilities and link Sage 200 Evolution
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
 Parcelninja and Takealot we need to install software on the server or computer where your Sage 200 Evolution is set up. 
-For more information on the installation of Stock2Shop's software, see our guide on [installing Stock2Shop](/help/setup/installing-stock2shop/ "Installing Stock2Shop for on Premise ERP / AAccounting Sysytems") for on premise ERP / Accounting Systems.
+For more information on the installation of Stock2Shop's software, see our guide on [installing Stock2Shop](/help/setup/installing-stock2shop/ "Installing Stock2Shop for on Premise ERP / Accounting Systems") for on premise ERP / Accounting Systems.
 
 Below is all documentation you will need regarding your Sage 200 Evolution integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.

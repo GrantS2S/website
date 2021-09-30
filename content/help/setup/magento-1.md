@@ -6,6 +6,8 @@ type: setup
 source: "magento-1"
 channel: ""
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/magento-install/
 ---
 
 ## Magento 1.x

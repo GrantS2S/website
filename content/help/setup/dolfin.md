@@ -6,6 +6,8 @@ type: setup
 source: "dolfin"
 channel: ""
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/dolfin-install/
 ---
 
 ## Dolfin

@@ -6,6 +6,8 @@ type: setup
 source: "sage-business-cloud-accounting"
 channel: ""
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/sage-one-install/
 ---
 
 ## Sage Business Cloud Accounting

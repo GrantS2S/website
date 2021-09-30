@@ -6,6 +6,8 @@ type: setup
 source: "isync"
 channel: ""
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/isync/
 ---
 
 ## iSync

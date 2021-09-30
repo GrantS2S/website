@@ -6,6 +6,8 @@ type: setup
 source: ""
 channel: "shopify"
 fulfillment: ""
+aliases:
+    - /documentation/getting-started/shopify-install/
 ---
 
 ## Shopify

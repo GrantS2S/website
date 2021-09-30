@@ -6,6 +6,8 @@ type: setup
 source: ""
 channel: ""
 fulfillment: "parcelninja"
+aliases:
+    - /documentation/getting-started/parcelninja/
 ---
 
 ## Parcelninja

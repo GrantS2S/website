@@ -19,8 +19,9 @@ With this software Stock2Shop will be able to perform the following:
 Below are the steps to get started with downloading and installing Stock2Shop:
 
 - Ensure that you have signed up with Stock2Shop.
-- Download Stock2Shop's software (Apifact) that sits on your server, [here](https://apifact.com "Apifact download link").
-- Once downloaded, Stock2Shop will provide you with a Username and Password.
+- Download Stock2Shop's installer tool, [here](https://apifact.com "Stock2Shop Apifact installer download link").
+- Once downloaded, run the installer tool to download the Apifact software.
+- Stock2Shop will provide you with a Username and Password.
 - Install Apifact using the installer tool.
 - Confirm with Stock2Shop once this process has been completed successfully.
 
