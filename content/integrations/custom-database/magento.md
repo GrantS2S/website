@@ -7,6 +7,8 @@ type: "source-channel"
 source: "custom-database"
 channel: "magento"
 image: "/images/sap-shopify.png"
+sourceImage: "/images/connector-logos/custom-database.png"
+channelImage: "/images/connector-logos/magento.png"
 imageAlt: source_name logo
 tags: []
 ---
