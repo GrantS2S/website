@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once an order has been successfully created in Sage 200 Evolution, automatically fulfill your order with one of our fulfillment partners."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/sage-200-evolution/sage-200-evolution-4-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/sage-200-evolution/sage-200-evolution-4-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "sage-200-evolution"

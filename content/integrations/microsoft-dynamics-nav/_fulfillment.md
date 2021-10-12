@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once a valid order has been placed on your sales channel, automatically notify one of our supported fulfillment partners to fulfill."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-1-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-1-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "microsoft-dynamics-nav"

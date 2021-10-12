@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Parcelninja to your sales channel(s)."
-imageDestop: "/images/a01.png"
+imageDestop: "/images/connector-diagrams/parcelninja/parcelninja-1-desk.svg"
 imageDestopWidth: "1006"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/connector-diagrams/parcelninja/parcelninja-1-mobile.svg"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
 fulfillment: "parcelninja"

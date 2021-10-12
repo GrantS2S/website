@@ -1,9 +1,9 @@
 ---
 title: "Raise Orders"
 subtitle: "Stock2Shop can automatically drop off flat file orders at an FTP location."
-imageDestop: "/images/a03.png"
+imageDestop: "/images/connector-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-2-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a003.png"
+imageMobile: "/images/connector-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-2-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "microsoft-dynamics-nav"

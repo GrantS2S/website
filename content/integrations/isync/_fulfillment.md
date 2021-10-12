@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once an order has been successfully created in iSync, automatically fulfill your order with one of our fulfillment partners."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/isync/isync-3-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/isync/isync-3-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "isync"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync updates such as pricing and stock levels from Sage 100 Evolution to your sales channel(s)."
-imageDestop: "/images/a01.png"
+imageDestop: "/images/connector-diagrams/sage-100-evolution/sage-100-evolution-1-desk.svg"
 imageDestopWidth: "1006"
-imageMobile: "/images/a001.png"
+imageMobile: "/images/connector-diagrams/sage-100-evolution/sage-100-evolution-1-mobile.svg"
 buttonTextMobile: "Schedule a demo"
 buttonHrefMobile: "/"
 source: "sage-100-evolution"

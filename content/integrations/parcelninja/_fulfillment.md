@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once an order has been successfully raised in your ERP or accounting system, Parcelninja can be automatically notified to deliver."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/parcelninja/parcelninja-2-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/parcelninja/parcelninja-2-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 fulfillment: "parcelninja"

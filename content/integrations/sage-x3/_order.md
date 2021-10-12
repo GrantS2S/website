@@ -1,9 +1,9 @@
 ---
 title: "Raise Orders"
 subtitle: "Automatically raise online orders into Sage X3 as an invoice or sales order."
-imageDestop: "/images/a03.png"
+imageDestop: "/images/connector-diagrams/sage-x3/sage-x3-3-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a003.png"
+imageMobile: "/images/connector-diagrams/sage-x3/sage-x3-3-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "sage-x3"

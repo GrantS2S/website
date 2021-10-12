@@ -1,9 +1,9 @@
 ---
 title: "Raise Orders"
 subtitle: "Automatically raise online orders into Sage 300cloud as an invoice or sales order."
-imageDestop: "/images/a03.png"
+imageDestop: "/images/connector-diagrams/sage-300cloud/sage-300cloud-3-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a003.png"
+imageMobile: "/images/connector-diagrams/sage-300cloud/sage-300cloud-3-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 source: "sage-300cloud"
