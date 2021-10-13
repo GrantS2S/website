@@ -54,7 +54,7 @@ the minimum required fields are:
 | *true                           | variants.inventory_management  | Control qty syncing and updating on the Sales Channel                                |
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
-Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop. 
+Stock2Shop currently does not support the syncing of customers from Sage Business Cloud Accounting to Stock2Shop. 
 At this point in time there are no plans to build out this functionality. 
 If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
