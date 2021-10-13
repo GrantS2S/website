@@ -27,24 +27,8 @@ You may also have a Google Sheet “linked source”, which is linked to your Sa
 On the Google Sheet linked source, you maintain additional product information, such as product titles, categories, images and any other product attribute you require.
 
 ## How do you know if your source is supported?
-Below is a list of sources currently supported by Stock2Shop:
+Please click [here](/integrations/ "Stock2Shop integrations list") and select ERP / Accounting to see if we support your System.
 
-- Dolfin
-- Flat File
-- iQ Retail
-- iSync
-- Microsoft Dynamics NAV
-- Omni Accounts
-- Sage 50cloud Pastel Partner
-- Sage 50cloud Pastel Xpress
-- Sage 100 Evolution
-- Sage 200 Evolution
-- Sage 300cloud
-- Sage X3
-- Sage Business Cloud Accounting
-- SAP Business One
-- Syspro
-- Custom Database
 
 
 

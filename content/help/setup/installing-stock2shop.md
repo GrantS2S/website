@@ -42,7 +42,6 @@ The below must be taken into consideration to ensure we can manage information o
 
 Below is a list of ERP / Accounting Systems which requires our software be installed:
 
-- [iQ Retail](/help/setup/iq-retail/ "iQ Retail Setup and Configuration")
 - [Microsoft Dynamics NAV](/help/setup/microsoft-dynamics-nav/ "Microsoft Dynamics NAV Setup and Configuration")
 - [Omni Accounts](/help/setup/omni-accounts/ "Omni Accounts Setup and Configuration")
 - [Sage 50cloud Pastel Partner](/help/setup/sage-50cloud-pastel-partner/ "Sage 50cloud Pastel Partner Setup and Configuration")

@@ -16,7 +16,7 @@ This means that the IQ Retail application is installed on a server at your offic
 
 In order for Stock2Shop to provide you with the full integration features and link your IQ Retail system 
 to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
-Parcelninja and Takealot, we need access to your IQ Retail ERP via IQ API Interface.
+Parcelninja and Takealot, we need access to your IQ Retail ERP via the IQ API Interface.
 
 Below is all documentation you will need regarding your IQ Retail integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
@@ -55,7 +55,7 @@ the minimum required fields are:
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from IQ Retail to Stock2Shop. 
 At this point in time there are no plans to build out this functionality. 
-If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").                                                                        |
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/guides/customer-import/ "Manually import customers into Stock2Shop").
 
 ## Syncing Orders to IQ Retail {#raise-orders}
 By default, Stock2Shop raises orders to IQ Retail with the following order details:
