@@ -1,9 +1,9 @@
 ---
 title: "Sync Customer and Account Information"
 subtitle: "Sync your customer account information from SAP Business One to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-customer.svg"
 headless: true
 source: "sap-business-one"
 channel: "b2b"
