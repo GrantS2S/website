@@ -5,7 +5,10 @@ seoTitle: ""
 seoDescription: ""
 type: guides
 tags: ["channel"]
+aliases:
+    - /documentation/key-concepts/channels/
 weight: 1
+
 ---
 
 ## What are channels?

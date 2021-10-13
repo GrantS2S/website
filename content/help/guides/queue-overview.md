@@ -5,6 +5,8 @@ seoTitle: ""
 seoDescription: ""
 type: guides
 tags: ["queue"]
+aliases:
+    - 
 weight: 1
 ---
 

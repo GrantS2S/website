@@ -5,6 +5,8 @@ seoDescription: "Understanding the concept of Linked sources"
 seoKeyword: ["Linked Sources"]
 type: guides
 tags: ["source"]
+aliases:
+    - /documentation/key-concepts/linked-sources/
 ---
 
 A linked source is an additional source of product and inventory information that can sync to your sales channels (e-commerce websites).

@@ -4,6 +4,8 @@ seoTitle: "Understanding Stock2Shop sales channel rules"
 seoDescription: "Understanding Stock2Shop sales channel rules"
 type: guides
 tags: ["channel"]
+aliases:
+    - 
 ---
 
 Channel Rules can determine which items sync to your channel/web store.

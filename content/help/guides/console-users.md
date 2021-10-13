@@ -4,6 +4,8 @@ seoTitle: "Managing Console Users"
 seoDescription: "Manage which users have access to your Stock2Shop Console as well as the permissions they have with your data."
 type: guides
 tags: ["console"]
+aliases:
+    - /documentation/getting-started/manage-users/
 ---
 
 This solution is to guide you through managing your S2S console users, [this link](/documentation/getting-started/manage-users/) is a break down of the different types of users that can be applied.

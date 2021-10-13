@@ -4,6 +4,8 @@ seoTitle: "Order Processing"
 seoDescription: "Processing of orders relating to sources"
 type: guides
 tags: ["order"]
+aliases:
+    - 
 ---
 
 Orders in Stock2Shop are received by different sales channels using a method called Webhooks.

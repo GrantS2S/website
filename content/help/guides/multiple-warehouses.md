@@ -6,6 +6,8 @@ seoKeyword: ["Multiple Warehouses"]
 type: guides
 source: ""
 tags: ["product"]
+aliases:
+    - /key-concepts/multiple-warehouses/
 ---
 
 ## Multiple Warehouses

@@ -4,6 +4,8 @@ seoTitle: "Managing console notifications"
 seoDescription: "The S2S system has a notifications tool, this allows any person set to receive notifications for any errors and processed orders."
 type: guides
 tags: ["console"]
+aliases:
+    - 
 ---
 
 The S2S system has a notifications tool, this allows any person set to receive notifications for any errors and processed orders.  

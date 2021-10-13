@@ -5,6 +5,8 @@ seoDescription: "Stock2Shop sales channels"
 seoKeyword: ["Sales Channels"]
 type: guides
 tags: ["channel"]
+aliases:
+    - 
 ---
 
 What do we mean when we say channels? Places to display and sell your goods. Here’s all you need to know about 

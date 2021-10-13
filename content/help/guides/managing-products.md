@@ -4,6 +4,8 @@ seoTitle: "Managing your products with Stock2shop"
 seoDescription: "Understanding how to manage your products with Stock2Shop and your connected systems"
 type: guides
 tags: ["product"]
+aliases:
+    - 
 ---
 
 There are various ways to Manage your Product Data in Stock2Shop, we have your initial Sync from a Data Source but there 

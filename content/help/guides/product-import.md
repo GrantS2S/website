@@ -1,10 +1,12 @@
 ---
-title: "Importing and Exporting Product Data with Stock2Shop"
+title: "Importing and Exporting Product Data"
 seoTitle: "Importing and Exporting Product Data with Stock2Shop"
 seoDescription: "Instructions on how to use the Stock2Shop Import/Export features for Product data."
 seoKeyword: ["Product Importing", "Product Exporting"]
 type: guides
 tags: ["product"]
+aliases:
+    - /documentation/product-data/product-export/
 ---
 
 Stock2Shops console has the ability to export all your product data fields that sync from your ERP / Accounting system,

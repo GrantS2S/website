@@ -4,6 +4,8 @@ seoTitle: "Enrich Products with Stock2Shop"
 seoDescription: "Enriching your Product data with your Stock2Shop integration"
 type: guides
 tags: ["product"]
+aliases:
+    - 
 ---
 
 There are many workflows for enriching your Product data, you can enrich the Product fully and Sync it to 

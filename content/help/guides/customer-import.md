@@ -4,6 +4,8 @@ seoTitle: "Importing Customers into Stock2Shop"
 seoDescription: "Instructions on how to use the Stock2Shop to import customers."
 type: guides
 tags: ["customer"]
+aliases:
+    - 
 ---
 
 Some sources do not cater for automatically syncing customers into Stock2Shop. 

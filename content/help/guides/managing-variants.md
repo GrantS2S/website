@@ -5,6 +5,8 @@ seoDescription: "Understanding how to manage your variants with Stock2Shop and y
 seoKeyword: ["Managing Variants"]
 type: guides
 tags: ["product"]
+aliases:
+    - 
 ---
 
 When integrating using S2S, ensure that you understand how S2S maps your data, below are points to confirm when managing your variants

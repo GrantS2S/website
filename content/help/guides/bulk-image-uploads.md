@@ -4,6 +4,8 @@ seoTitle: "Managing Bulk Image Uploads"
 seoDescription: "Managing Bulk Image Uploads"
 type: guides
 tags: ["product"]
+aliases:
+    - /documentation/product-data/product-images/
 ---
 
 Stock2Shop has requirements in order for images to be uploaded and used, below is a list of those requirements and points to be aware of: 

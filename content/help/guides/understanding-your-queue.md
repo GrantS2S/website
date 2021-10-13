@@ -4,6 +4,8 @@ seoTitle: "Understanding your queue"
 seoDescription: "How to manage the Stock2Shop Console Queue for a smooth running integration."
 type: guides
 tags: ["queue"]
+aliases:
+    - /documentation/key-concepts/queue/
 ---
 
 ## Introduction

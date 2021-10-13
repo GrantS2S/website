@@ -5,6 +5,8 @@ seoDescription: "Dealing with many systems can get confusing. We have put togeth
 seoKeyword: ["Product Terminology"]
 type: guides
 tags: ["product"]
+aliases:
+    - 
 ---
 
 Below is a list of terminology commonly used with Stock2Shop Products:

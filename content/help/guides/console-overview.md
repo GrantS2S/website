@@ -5,6 +5,8 @@ seoTitle: ""
 seoDescription: ""
 type: guides
 tags: ["console"]
+aliases:
+    - 
 weight: 1
 ---
 

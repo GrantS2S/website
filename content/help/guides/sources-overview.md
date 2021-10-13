@@ -5,6 +5,8 @@ seoTitle: ""
 seoDescription: ""
 type: guides
 tags: ["source"]
+aliases:
+    - /documentation/key-concepts/sources/
 weight: 1
 ---
 

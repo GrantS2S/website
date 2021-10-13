@@ -5,6 +5,8 @@ seoDescription: "Understanding the concept of Source Flags"
 seoKeyword: ["Source Flags"]
 type: guides
 tags: ["source"]
+aliases:
+    - /documentation/key-concepts/flags/
 ---
 
 Decide which fields to use on sources and channels: all you need to know about Stock2Shop flags.

@@ -6,7 +6,8 @@ seoKeyword: ["Bulk Image Uploads"]
 type: guides
 source: ""
 tags: ["customer"]
-draft: true
+aliases:
+    - 
 ---
 
 ## Segments

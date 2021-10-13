@@ -5,6 +5,8 @@ seoDescription: "Dealing with many systems can get confusing. We have put togeth
 seoKeyword: ["Source Terminology"]
 type: guides
 tags: ["source"]
+aliases:
+    - 
 ---
 
 #### Terminology

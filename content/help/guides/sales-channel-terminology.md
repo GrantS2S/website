@@ -4,6 +4,8 @@ seoTitle: "Understanding Sales Channel terminology relating to Stock2Shop"
 seoDescription: "Dealing with many systems can get confusing. We have put together a guide for Stock2Shop Sales Channel terms."
 type: guides
 tags: ["channel"]
+aliases:
+    - 
 ---
 
 Below is a list of terminology commonly used with Stock2Shop Integrations:
