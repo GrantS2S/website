@@ -57,7 +57,7 @@ The Customer Read Only user has access to the following on the console:
 - View Customers
 - Has the ability to login as a sales representative to the B2B platform via the console on behalf of a customer to create orders for them.
 
-The Read Only user does not have access to the following on the console:
+The Customer Read Only user does not have access to the following on the console:
 
 - Add / Import Customers
 - View Orders
