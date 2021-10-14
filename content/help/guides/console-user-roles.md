@@ -49,3 +49,21 @@ The product editor role is great to use for person/s who enrich your product dat
 The Product Editor (Attributes Only) has the exact same functionality as a normal Product Editor user, the only difference being that this user does not have access to Images or the ability to edit attribute templates. This user would be great for person/s that should/does not have access to images or the prebuilt product attribute templates.
 
 ## Customer Read Only
+A Customer Read Only user should be used when you have a person/s or sales rep who should not be able to make any changes but requires access to the customers loaded into the Stock2Shop console. 
+This user role does allow access to the b2b customer admin login and would be great for sales reps who order on behalf of your customers (Only applicable to S2S trade store).
+
+The Customer Read Only user has access to the following on the console:
+
+- View Customers
+- Has the ability to login as a sales representative to the B2B platform via the console on behalf of a customer to create orders for them.
+
+The Read Only user does not have access to the following on the console:
+
+- Add / Import Customers
+- View Orders
+- View Products
+- Export / Fetch Orders
+- Add / Import / Export Products
+- Import Images
+- View / Clear Queue
+- Settings
