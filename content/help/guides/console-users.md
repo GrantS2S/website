@@ -8,10 +8,13 @@ aliases:
     - /documentation/getting-started/manage-users/
 ---
 
-This solution is to guide you through managing your S2S console users, [this link](/documentation/getting-started/manage-users/) is a break down of the different types of users that can be applied.
+This solution is to guide you through creating and editing Stock2Shop Console users.
+
+## What are console users?
+Console users are specific users that have the ability to interact with the information inside the Stock2Shop client's console.
+Console users have the ability to add and edit information and manage the syncing of product data should their be any issues that arise.
 
 ## Adding a new user
-
 Follow the below steps to adding a new user
 
 - Sign into your S2S console - [Click Here](https://console.stock2shop.com/) to sign in
@@ -24,7 +27,6 @@ Follow the below steps to adding a new user
 In the next step the person can update their password to be personal.
 
 ## Editing existing user
-
 Follow the below steps to edit and existing user:
 
 - Sign into your S2S console - [Click Here](https://console.stock2shop.com/) to sign in
@@ -38,7 +40,6 @@ Follow the below steps to edit and existing user:
 Note that Username cannot be updated and will revert back to the original
 
 ## Marking a user inactive
-
 Follow the below steps to mark a live user as inactive:  
 
 - Sign into your S2S console - [Click Here](https://console.stock2shop.com/) to sign in
