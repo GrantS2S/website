@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once a Takealot order has successfully synced to Stock2Shop, one of our fulfillment partners can be automatically notified to deliver."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/takealot/takealot-3-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/takealot/takealot-3-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 marketplace: "takealot"

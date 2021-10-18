@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into your ERP / accounting system (provided you are only doing lead time orders)."
-imageDestop: "/images/a03.png"
+imageDestop: "/images/connector-diagrams/takealot/takealot-2-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a003.png"
+imageMobile: "/images/connector-diagrams/takealot/takealot-2-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 marketplace: "takealot"

@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Once a Magento order syncs to Stock2Shop, one of our fulfillment partners can be automatically notified to deliver."
-imageDestop: "/images/a04.png"
+imageDestop: "/images/connector-diagrams/magento/magento-3-desk.svg"
 imageDestopWidth: "1007"
-imageMobile: "/images/a004.png"
+imageMobile: "/images/connector-diagrams/magento/magento-3-mobile.svg"
 buttonTextMobile: "See how it works"
 buttonHrefMobile: "/" 
 channel: "magento"
