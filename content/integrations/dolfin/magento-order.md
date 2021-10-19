@@ -18,7 +18,7 @@ Assign administrators in your business to receive notifications at various stage
 You can decide whether all completed Magento orders are raised into Dolfin, or only those that have a specific order state, eg “PROCESSING”.
 
 ### Raise Orders into the Correct Debtors Account
-Create a default account on Dolfin into which all retail Magento orders will sync. For wholesale customers, you can ensure their orders flow into their dedicated Sage account.
+Create a default account on Dolfin into which all retail Magento orders will sync. For wholesale customers, you can ensure their orders flow into their dedicated Dolfin account.
 
 ### Customise Order Fields
 You can map the data received on the Magento order to the relevant fields on the Dolfin sales document. Provided the data can be captured in your standard order screen on Dolfin, it can be added automatically by Stock2Shop.
