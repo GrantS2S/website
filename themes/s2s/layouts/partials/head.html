@@ -27,15 +27,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        {{ if .Page.IsHome }}
-        {{ .Title }}
-        {{ else }}
-        {{- block "title" . -}}
-        {{ with title .Params.Title }}{{ . }}{{ end }} | {{ .Site.Title }}
-        {{- end -}}
-        {{ end }}
+        {{ .Params.seoTitle }}
     </title>
-    <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
+    <meta name="description" content="{{ with .Params.seoDescription }}{{ . }}{{ end }}">
 
     {{ if .Params.image }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | relURL }}"/>
