@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into Dolfin (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-takealot-orders.svg"
 headless: true
 source: "dolfin"
 marketplace: "takealot"

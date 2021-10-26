@@ -1,9 +1,9 @@
 ---
 title: "An End-to-End Solution"
 subtitle: "With Stock2Shop, you can “close the loop” on the ecommerce process. Your customers are informed of what is available, sales documents are created in your ERP, your customers receive tracking information and the order is delivered."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-parcelninja-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-parcelninja-inventory.svg"
 headless: true
 source: "dolfin"
 fulfillment: "parcelninja"

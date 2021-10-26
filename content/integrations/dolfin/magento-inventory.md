@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Dolfin to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-magento-inventory.svg"
 headless: true
 source: "dolfin"
 channel: "magento"

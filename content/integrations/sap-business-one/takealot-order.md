@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into SAP Business One (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-takealot-orders.svg"
 headless: true
 source: "sap-business-one"
 marketplace: "takealot"

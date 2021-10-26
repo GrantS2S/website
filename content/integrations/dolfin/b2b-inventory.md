@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Dolfin to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-b2b-trade-store-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-b2b-trade-store-inventory.svg"
 headless: true
 source: "dolfin"
 channel: "b2b"

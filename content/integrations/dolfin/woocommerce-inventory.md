@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Dolfin to WooCommerce."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-woocommerce-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-woocommerce-inventory.svg"
 headless: true
 source: "dolfin"
 channel: "woocommerce"

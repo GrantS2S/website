@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from SAP Business One to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-magento-inventory.svg"
 headless: true
 source: "sap-business-one"
 channel: "magento"

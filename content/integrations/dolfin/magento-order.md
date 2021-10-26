@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Magento can be automatically created in Dolfin as a sale."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-magento-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-magento-orders.svg"
 headless: true
 source: "dolfin"
 channel: "magento"

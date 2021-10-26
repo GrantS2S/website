@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from SAP Business One to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-takealot-inventory.svg"
 headless: true
 source: "sap-business-one"
 marketplace: "takealot"

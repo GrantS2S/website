@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Dolfin to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-takealot-inventory.svg"
 headless: true
 source: "dolfin"
 marketplace: "takealot"

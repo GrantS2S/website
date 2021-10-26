@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders placed on the B2B Trade Store can be automatically created in Dolfin as a sale."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/dolfin/dolfin-b2b-trade-store-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/dolfin/dolfin-b2b-trade-store-orders.svg"
 headless: true
 source: "dolfin"
 channel: "b2b"
