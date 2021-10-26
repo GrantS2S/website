@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into iSync (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/isync/isync-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/isync/isync-takealot-orders.svg"
 headless: true
 source: "isync"
 marketplace: "takealot"

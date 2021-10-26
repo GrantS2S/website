@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Omni Accounts to the B2B Trade Store."
-imageDestop: "/images/combination-diagrams/comb-b2b-trade-store.svg"
+imageDestop: "/images/combination-diagrams/omni-accounts/omni-accounts-b2b-trade-store-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/comb-b2b-trade-store.svg"
+imageMobile: "/images/combination-diagrams/omni-accounts/omni-accounts-b2b-trade-store-inventory.svg"
 headless: true
 source: "omni-accounts"
 channel: "b2b"

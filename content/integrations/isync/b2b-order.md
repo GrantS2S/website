@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders placed on the B2B Trade Store can be automatically created in iSync."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/isync/isync-b2b-trade-store-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/isync/isync-b2b-trade-store-orders.svg"
 headless: true
 source: "isync"
 channel: "b2b"

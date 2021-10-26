@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into IQ Retail as a sales order (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/iq-retail/iq-retail-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/iq-retail/iq-retail-takealot-orders.svg"
 headless: true
 source: "iq-retail"
 marketplace: "takealot"

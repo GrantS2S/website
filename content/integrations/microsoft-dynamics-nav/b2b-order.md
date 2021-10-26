@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders placed on the B2B Trade Store can be automatically dropped off at an FTP location."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-b2b-trade-store-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-b2b-trade-store-orders.svg"
 headless: true
 source: "microsoft-dynamics-nav"
 channel: "b2b"

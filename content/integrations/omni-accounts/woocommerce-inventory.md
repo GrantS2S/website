@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Omni Accounts to WooCommerce."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/omni-accounts/omni-accounts-woocommerce-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/omni-accounts/omni-accounts-woocommerce-inventory.svg"
 headless: true
 source: "omni-accounts"
 channel: "woocommerce"

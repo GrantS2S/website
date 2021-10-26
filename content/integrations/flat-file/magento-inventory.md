@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from a Flat File data source to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/flat-file/flat-file-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/flat-file/flat-file-magento-inventory.svg"
 headless: true
 source: "flat-file"
 channel: "magento"

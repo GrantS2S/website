@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from IQ Retail to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/iq-retail/iq-retail-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/iq-retail/iq-retail-takealot-inventory.svg"
 headless: true
 source: "iq-retail"
 marketplace: "takealot"

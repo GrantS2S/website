@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from iSync to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/isync/isync-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/isync/isync-magento-inventory.svg"
 headless: true
 source: "isync"
 channel: "magento"

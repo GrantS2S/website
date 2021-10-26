@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from WooCommerce can be automatically created in IQ Retail."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/iq-retail/iq-retail-woocommerce-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/iq-retail/iq-retail-woocommerce-orders.svg"
 headless: true
 source: "iq-retail"
 channel: "woocommerce"

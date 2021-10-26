@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Shopify can be automatically dropped off at an FTP location as flat files."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/flat-file/flat-file-shopify-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/flat-file/flat-file-shopify-orders.svg"
 headless: true
 source: "flat-file"
 channel: "shopify"

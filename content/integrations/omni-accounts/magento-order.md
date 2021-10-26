@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Magento can be automatically created in Omni Accounts."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/omni-accounts/omni-accounts-magento-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/omni-accounts/omni-accounts-magento-orders.svg"
 headless: true
 source: "omni-accounts"
 channel: "magento"

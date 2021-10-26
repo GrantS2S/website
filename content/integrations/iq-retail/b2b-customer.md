@@ -1,9 +1,9 @@
 ---
 title: "Sync Customer and Account Information"
 subtitle: "Sync your customer account information from IQ Retail to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/iq-retail/iq-retail-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/iq-retail/iq-retail-b2b-trade-store-customer.svg"
 headless: true
 source: "iq-retail"
 channel: "b2b"

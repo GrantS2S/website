@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your customer account information from iSync to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/isync/isync-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/isync/isync-b2b-trade-store-customer.svg"
 headless: true
 source: "isync"
 channel: "b2b"

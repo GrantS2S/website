@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Microsoft Dynamics NAV to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop:  "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-takealot-inventory.svg"
 headless: true
 source: "microsoft-dynamics-nav"
 marketplace: "takealot"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Microsoft Dynamics NAV to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-magento-inventory.svg"
 headless: true
 source: "microsoft-dynamics-nav"
 channel: "magento"

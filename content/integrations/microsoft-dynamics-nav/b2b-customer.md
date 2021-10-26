@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your list of Microsoft Dynamics NAV wholesale customers to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-b2b-trade-store-customer.svg"
 headless: true
 source: "microsoft-dynamics-nav"
 channel: "b2b"

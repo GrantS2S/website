@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Sync your Takealot orders as flat files to an FTP location (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/microsoft-dynamics-nav/microsoft-dynamics-nav-takealot-orders.svg"
 headless: true
 source: "microsoft-dynamics-nav"
 marketplace: "takealot"

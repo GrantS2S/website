@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from IQ Retail to WooCommerce."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/iq-retail/iq-retail-woocommerce-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/iq-retail/iq-retail-woocommerce-inventory.svg"
 headless: true
 source: "iq-retail"
 channel: "woocommerce"

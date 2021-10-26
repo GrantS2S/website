@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from your Flat File data source to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/flat-file/flat-file-b2b-trade-store-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/flat-file/flat-file-b2b-trade-store-inventory.svg"
 headless: true
 source: "flat-file"
 channel: "b2b"

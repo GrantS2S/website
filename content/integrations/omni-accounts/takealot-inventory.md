@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Omni Accounts to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/omni-accounts/omni-accounts-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/omni-accounts/omni-accounts-takealot-inventory.svg"
 headless: true
 source: "omni-accounts"
 marketplace: "takealot"

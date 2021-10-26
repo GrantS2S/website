@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your list of Omni Accounts wholesale customers to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/omni-accounts/omni-accounts-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/omni-accounts/omni-accounts-b2b-trade-store-customer.svg"
 headless: true
 source: "omni-accounts"
 channel: "b2b"
