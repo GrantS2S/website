@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Fulfill your order with one of our logistics partners or directly in your WMS (Warehouse Management System)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-shopify-fulfillment.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-shopify-fulfillment.svg"
 headless: true
 source: "custom-database"
 channel: "shopify"

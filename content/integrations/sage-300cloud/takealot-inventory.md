@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Sage 300cloud to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-300cloud/sage-300cloud-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-300cloud/sage-300cloud-takealot-inventory.svg"
 headless: true
 source: "sage-300cloud"
 marketplace: "takealot"

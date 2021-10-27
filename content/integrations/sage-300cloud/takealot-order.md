@@ -1,9 +1,9 @@
 ---
 title: "Raise Lead Time Orders"
 subtitle: "Raise your Takealot orders into Sage 300cloud (provided you are only doing lead time orders)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-300cloud/sage-300cloud-takealot-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-300cloud/sage-300cloud-takealot-orders.svg"
 headless: true
 source: "sage-300cloud"
 marketplace: "takealot"

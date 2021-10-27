@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from your custom database to WooCommerce."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-woocommerce-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-woocommerce-inventory.svg"
 headless: true
 source: "custom-database"
 channel: "woocommerce"

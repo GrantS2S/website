@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from WooCommerce can be automatically dropped off at an FTP location as flat files."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-woocommerce-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-woocommerce-orders.svg"
 headless: true
 source: "custom-database"
 channel: "woocommerce"

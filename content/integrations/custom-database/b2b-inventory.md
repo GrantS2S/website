@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from your custom database to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-b2b-trade-store-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-b2b-trade-store-inventory.svg"
 headless: true
 source: "custom-database"
 channel: "b2b"

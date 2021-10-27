@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from your custom database to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-takealot-inventory.svg"
 headless: true
 source: "custom-database"
 marketplace: "takealot"

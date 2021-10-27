@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Shopify can be automatically created in SAP Business One."
-imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-orders.svg"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-orders.svg"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-inventory.svg"
 headless: true
 source: "sap-business-one"
 channel: "shopify"

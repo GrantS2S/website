@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Sage X3 to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-x3/sage-x3-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-x3/sage-x3-takealot-inventory.svg"
 headless: true
 source: "sage-x3"
 marketplace: "takealot"

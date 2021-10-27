@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Sage Business Cloud Accounting to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-business-cloud-accounting/sage-business-cloud-accounting-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-business-cloud-accounting/sage-business-cloud-accounting-takealot-inventory.svg"
 headless: true
 source: "sage-business-cloud-accounting"
 marketplace: "takealot"

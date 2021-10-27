@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from SAP Business One to Shopify."
-imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-inventory.svg"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-fulfillment.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-inventory.svg"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-fulfillment.svg"
 headless: true
 source: "sap-business-one"
 channel: "shopify"

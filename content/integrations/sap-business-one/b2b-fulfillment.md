@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Fulfill your orders with one of our logistics partners or directly in your WMS (Warehouse Management System)."
-imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-fulfillment.svg"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-fulfillment.svg"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-orders.svg"
 headless: true
 source: "sap-business-one"
 channel: "b2b"

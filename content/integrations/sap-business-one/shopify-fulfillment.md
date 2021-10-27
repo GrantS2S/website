@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Fulfill your order with one of our logistics partners or directly in your WMS (Warehouse Management System)."
-imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-fulfillment.svg"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-fulfillment.svg"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-shopify-orders.svg"
 headless: true
 source: "sap-business-one"
 channel: "shopify"

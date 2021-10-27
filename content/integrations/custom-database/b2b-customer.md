@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your list of your wholesale customers to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/custom-database/custom-database-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/custom-database/custom-database-b2b-trade-store-customer.svg"
 headless: true
 source: "custom-database"
 channel: "b2b"

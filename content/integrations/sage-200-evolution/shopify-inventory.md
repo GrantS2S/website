@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Sage 200 Evolution to Shopify."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-200-evolution/sage-200-evolution-shopify-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-200-evolution/sage-200-evolution-shopify-inventory.svg"
 headless: true
 source: "sage-200-evolution"
 channel: "shopify"

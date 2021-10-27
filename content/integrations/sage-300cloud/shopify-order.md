@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Shopify can be automatically created in Sage 300cloud."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-300cloud/sage-300cloud-shopify-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-300cloud/sage-300cloud-shopify-orders.svg"
 headless: true
 source: "sage-300cloud"
 channel: "shopify"

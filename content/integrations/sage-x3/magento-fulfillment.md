@@ -1,9 +1,9 @@
 ---
 title: "Raise Fulfillments"
 subtitle: "Fulfill your orders with one of our logistics partners or directly in your WMS (Warehouse Management System)."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-x3/sage-x3-magento-fulfillment.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-x3/sage-x3-magento-fulfillment.svg"
 headless: true
 source: "sage-x3"
 channel: "magento"

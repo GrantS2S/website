@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from SAP Business One to the B2B Trade Store."
-imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-inventory.svg"
+imageDestop: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-inventory.svg"
+imageMobile: "/images/combination-diagrams/sap-business-one/sap-business-one-b2b-trade-store-customer.svg"
 headless: true
 source: "sap-business-one"
 channel: "b2b"

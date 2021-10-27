@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your customer account information from Sage Business Cloud Accounting to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-business-cloud-accounting/sage-business-cloud-accounting-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-business-cloud-accounting/sage-business-cloud-accounting-b2b-trade-store-customer.svg"
 headless: true
 source: "sage-business-cloud-accounting"
 channel: "b2b"

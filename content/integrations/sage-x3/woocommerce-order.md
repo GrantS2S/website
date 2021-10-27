@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from WooCommerce can be automatically created in Sage X3."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-x3/sage-x3-woocommerce-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-x3/sage-x3-woocommerce-orders.svg"
 headless: true
 source: "sage-x3"
 channel: "woocommerce"

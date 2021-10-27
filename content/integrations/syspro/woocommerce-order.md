@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from WooCommerce can be automatically created in SYSPRO."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/syspro/syspro-woocommerce-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/syspro/syspro-woocommerce-orders.svg"
 headless: true
 source: "syspro"
 channel: "woocommerce"

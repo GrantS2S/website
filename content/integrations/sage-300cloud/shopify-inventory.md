@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Sage 300cloud to Shopify."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-300cloud/sage-300cloud-shopify-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-300cloud/sage-300cloud-shopify-inventory.svg"
 headless: true
 source: "sage-300cloud"
 channel: "shopify"
