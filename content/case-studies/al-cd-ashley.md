@@ -5,7 +5,7 @@ seoDescription: "AL & CD Ashley needed to integrate their Sage Pastel Partner ER
 lead: "AL & CD Ashley is a major importer and distributor of high quality homeware and kitchenware products, including Bodum, Brabantia, Scanpan and many more."
 summary: "Imports and distributes high quality cookware."
 summary2: "Success Story featuring Pastel Partner, B2B and B2C stores."
-image: "/uploads/logo-client-alcd.png"
+image: "/images/success-story-logos/alcd.jpg"
 imageAlt: alcd logo
 aliases: "/case-studies/case-study-al-cd-ashley/"
 weight: 2

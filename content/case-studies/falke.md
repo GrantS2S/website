@@ -5,7 +5,7 @@ seoDescription: "Falke needed a website that would cover both their B2C e-commer
 lead: "Falke is a leading international sock manufacturer, with both fashion and sport ranges for men and women."
 summary: "Develops stylish fashion for modern people: men’s and women’s fashion and sport socks and underwear."
 summary2: "Success story featuring SYSPRO and Magento."
-image: "/uploads/logo-client-falke.png"
+image: "/images/success-story-logos/falke.jpg"
 imageAlt: Falke logo
 aliases: "/case-studies/case-study-falke/"
 weight: 3

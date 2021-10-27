@@ -5,7 +5,7 @@ seoDescription: "Silveray Stationery Company, a wholly-owned subsidiary of the B
 lead: "Silveray Stationery Company, a wholly-owned subsidiary of the Bidvest Group Limited, is a manufacturer and distributor of leading stationery brands. Their range of diverse products services a wide range of markets such as schools, homes and corporates in South Africa and beyond via national sales and distribution network supported by regional hubs in Johannesburg, Durban, Cape Town as well as a sales branch in Bloemfontein. These hubs cover all regions and regional centres across the country and beyond our borders into Africa."
 summary: "Manufacturer and distributor of leading stationery brands, including Croxley, Parker, Sellotape, Sharpie, Stabilo and more."
 summary2: "Success story featuring Syspro, WooCommerce and a B2B Trade Store."
-image: "/uploads/logo-client-silveray.png"
+image: "/images/success-story-logos/silveray.jpg"
 aliases: "/case-studies/silveray/"
 imageAlt: silveray logo
 weight: 6

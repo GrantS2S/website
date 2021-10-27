@@ -5,7 +5,7 @@ seoDescription: "Omnico had a common challenge: how to integrate SYSPRO into mul
 lead: "Omnico is a major importer of lifestyle, cycle and electronic brands, including GoPro, Canondale, Giro, Stages, Ryder and Red-e."
 summary: "Imports leading lifestyle and cycle brands in South Africa."
 summary2: "Success Story featuring B2B, SYSPRO and Magento."
-image: "/uploads/logo-client-omnico.png"
+image: "/images/success-story-logos/omnico.jpg"
 imageAlt: omnico logo
 aliases: "/case-studies/case-study-omnico/"
 weight: 1

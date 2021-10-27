@@ -5,7 +5,7 @@ seoDescription: "Virgin Active wanted a specific e-commerce website linked to th
 lead: "Virgin Active is a global chain of health clubs and gyms, with over 270 clubs in 10 countries."
 summary: "Enriches people's lives through physical activity."
 summary2: "Success story featuring Parcelninja and Magento."
-image: "/uploads/logo-client-virgin-active.png"
+image: "/images/success-story-logos/virgin-active.jpg"
 imageAlt: "virgin active logo"
 aliases: "/case-studies/case-study-virgin-active/"
 weight: 4
