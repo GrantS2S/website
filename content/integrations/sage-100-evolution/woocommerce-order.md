@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from WooCommerce can be automatically created in Sage 100 Evolution."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-woocommerce-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-woocommerce-orders.svg"
 headless: true
 source: "sage-100-evolution"
 channel: "woocommerce"

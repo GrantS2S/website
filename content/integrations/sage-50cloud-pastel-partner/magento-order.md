@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Magento can be automatically created in Sage 50cloud Pastel Partner."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-magento-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-magento-orders.svg"
 headless: true
 source: "sage-50cloud-pastel-partner"
 channel: "magento"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Sage 50cloud Pastel Partner to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-b2b-trade-store-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-b2b-trade-store-inventory.svg"
 headless: true
 source: "sage-50cloud-pastel-partner"
 channel: "b2b"

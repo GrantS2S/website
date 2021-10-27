@@ -1,9 +1,9 @@
 ---
 title: "Upload Customer and Account Information"
 subtitle: "Upload your customer account information from Sage 50cloud Pastel Partner to the B2B Trade Store."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-b2b-trade-store-customer.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-partner/sage-50cloud-pastel-partner-b2b-trade-store-customer.svg"
 headless: true
 source: "sage-50cloud-pastel-partner"
 channel: "b2b"

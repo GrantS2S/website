@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Sage 100 Evolution to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-magento-inventory.svg"
 headless: true
 source: "sage-100-evolution"
 channel: "magento"

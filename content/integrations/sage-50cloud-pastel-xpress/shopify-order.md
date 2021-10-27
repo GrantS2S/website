@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders received from Shopify can be automatically created in Sage 50cloud Pastel Xpress."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-shopify-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-shopify-orders.svg"
 headless: true
 source: "sage-50cloud-pastel-xpress"
 channel: "shopify"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Sage 100 Evolution to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-100-evolution/sage-100-evolution-takealot-inventory.svg"
 headless: true
 source: "sage-100-evolution"
 marketplace: "takealot"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Product and Inventory Data"
 subtitle: "Sync product and inventory data from Sage 50cloud Pastel Xpress to Magento."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-magento-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-magento-inventory.svg"
 headless: true
 source: "sage-50cloud-pastel-xpress"
 channel: "magento"

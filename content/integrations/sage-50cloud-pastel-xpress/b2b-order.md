@@ -1,9 +1,9 @@
 ---
 title: "Automate Raising Orders"
 subtitle: "Orders placed on the B2B Trade Store can be automatically created in Sage 50cloud Pastel Xpress."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-b2b-trade-store-orders.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-b2b-trade-store-orders.svg"
 headless: true
 source: "sage-50cloud-pastel-xpress"
 channel: "b2b"

@@ -1,9 +1,9 @@
 ---
 title: "Sync Inventory Data"
 subtitle: "Sync inventory data from Sage 50cloud Pastel Xpress to Takealot Marketplace."
-imageDestop: "/images/a21.png"
+imageDestop: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-takealot-inventory.svg"
 imageDestopWidth: "849"
-imageMobile: "/images/a002.png"
+imageMobile: "/images/combination-diagrams/sage-50cloud-pastel-xpress/sage-50cloud-pastel-xpress-takealot-inventory.svg"
 headless: true
 source: "sage-50cloud-pastel-xpress"
 marketplace: "takealot"
