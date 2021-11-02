@@ -13,7 +13,8 @@ A linked source is an additional source of product and inventory information tha
 To understand what a linked source is, you must first understand what a [primary source](/help/how-to/sources/primary-sources/) is.
 
 ### What Is A Linked Source?
-A linked source is a source that can only be used to update product and inventory information to your sales channels. Linked sources do not offer functionality that allow you to raise orders. Orders raised in your sales channels can only be sent to primary sources like an ERP / accounting system such as Sage, SYSPRO, SAP or iSync.
+A linked source is a source that can only be used to update product and inventory information to your sales channels. 
+Linked sources do not offer functionality that allow you to raise orders. Orders raised in your sales channels can only be sent to primary sources like an ERP / accounting system such as Sage, SYSPRO, SAP or iSync.
 
 ### Linked Source Formats
 Linked sources come in a variety of formats. The majority of linked sources that we work with are flat files and XML feeds.

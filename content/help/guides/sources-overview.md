@@ -1,6 +1,6 @@
 ---
 title: "Sources Overview"
-lead: "Sources in Stock2Shop is the term used for the source of your product and customer information"
+lead: "What are Stock2Shop sources and what they are used for."
 seoTitle: ""
 seoDescription: ""
 type: guides
@@ -11,28 +11,15 @@ weight: 1
 ---
 
 ## What are sources?
-A Stock2Shop source is where we get product / inventory information from or push sales orders to. 
+Sources are where data such as product / inventory and customer information originates or can be obtained from.
+Generally speaking this is an ERP / Accounting system or any custom database or flatfile that contains such information.
+Sales orders and invoices can also be generated programmatically back into your source to close off the order cycle. There are two different types of sources on Stock2Shop, namely:
 
-There are two different types of sources on Stock2Shop: “primary sources” and “linked sources“.
-
-## What is a linked source?
-A linked source is a source that can only be used to update product information (to a primary source).
-Sales orders cannot be sent to linked sources, only to primary sources.
-
-For example, you may need to update product inventory information that is not available from the primary source.
-
-In this case, you may use Sage Pastel Partner as a primary source of inventory information, which includes product codes, price lists and stock availability. You push sales orders back to your Sage Pastel Partner primary source.
-You may also have a Google Sheet “linked source”, which is linked to your Sage Pastel Partner primary source. 
-
-On the Google Sheet linked source, you maintain additional product information, such as product titles, categories, images and any other product attribute you require.
+- [Primary sources](/help/guides/primary-sources/ "Understanding Primary sources in Stock2Shop")
+- [Linked sources](/help/guides/linked-sources/ "Understanding Linked sources in Stock2Shop")
 
 ## How do you know if your source is supported?
 Please click [here](/integrations/ "Stock2Shop integrations list") and select ERP / Accounting to see if we support your System.
-
-
-
-
-
 
     
 
