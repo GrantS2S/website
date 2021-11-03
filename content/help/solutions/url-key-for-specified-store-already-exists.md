@@ -16,5 +16,4 @@ A product is trying to use the same url of an existing product.
 
 #### Error solution
 Magento does not allow duplicate product names, as it uses them to create url keys.
-
 Update any duplicate product titles then retry any errors in the queue with a similar message.
