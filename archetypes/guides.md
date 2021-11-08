@@ -1,8 +1,9 @@
 ---
 title: ""
-lead: ""
 seoTitle: ""
 seoDescription: ""
 type: guides
-tags: []
+tags: ["channel", "console", "source", "product", "customer", "order", "fulfillment", "queue"]
+aliases:
+    -
 ---
