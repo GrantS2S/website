@@ -3694,8 +3694,7 @@ ul {
 
 .hero {
 	color: #fff;  
-	background: url(/images/rect.png) repeat 0 0; 
-	background-size: cover; 
+	background: transparent linear-gradient(236deg, #212021 0%, #343F50 100%) 0% 0% no-repeat padding-box; 
 	padding: 197px 0 360px; 
 
 	.widget-brands {
