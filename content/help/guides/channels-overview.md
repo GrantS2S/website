@@ -1,9 +1,10 @@
 ---
 title: "Channels Overview"
-lead: "Channels in Stock2Shop is the term used for the sales channels that your products are sold on"
-seoTitle: ""
-seoDescription: ""
+lead: "Channels in Stock2Shop is the term used for the sales channels that your products are distributed to and sold on"
+seoTitle: "Multi-channel sales platform"
+seoDescription: "Stock2Shop offers multi-channel software that links inventory data from your ERP / Accounting system to various sales channels (Magento, Shopify, WooCommerce or your B2B platform). Data sent and sales orders received, simply and easily."
 type: guides
+draft: true
 tags: ["channel"]
 aliases:
     - /documentation/key-concepts/channels/
@@ -40,6 +41,7 @@ Each channel can be configured differently. Configuration on a channel usually r
 - Payment gateways
 - Customer accounts
 - Price tiers
+
 Each sales channel has its own set of configuration and requirements.
 
 

@@ -3,7 +3,8 @@ title: "Console Users"
 seoTitle: "Managing Console Users"
 seoDescription: "Manage which users have access to your Stock2Shop Console as well as the permissions they have with your data."
 type: guides
-tags: ["console"]
+draft: true
+tags: [""]
 aliases:
     - /documentation/getting-started/manage-users/
 ---

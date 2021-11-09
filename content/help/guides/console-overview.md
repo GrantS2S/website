@@ -4,7 +4,8 @@ lead: "The stock2Shop console is a platform you can login to manage all elements
 seoTitle: ""
 seoDescription: ""
 type: guides
-tags: ["console"]
+draft: true
+tags: [""]
 aliases:
     - 
 weight: 1
