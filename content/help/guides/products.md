@@ -10,9 +10,9 @@ aliases:
 ---
 
 You can add and update information about your products directly on your Stock2Shop console. 
-If you need to add add additional or custom information to your products this can be achieved by adding product attributes.
+If you need to add additional or custom information to your products this can be achieved by adding product attributes.
 
-## Adding a product
+## Add a product
 To add a product manually via your Stock2Shop console:
 
 1. From your Stock2Shop console, go to Products > Add.
@@ -26,8 +26,8 @@ To add a product manually via your Stock2Shop console:
 4. Click Save.
 ---
 
-## Adding product attributes
-After you have added products with the standard fields Stock2Shop has to offer, you can enrich them by adding any other additional product information that is necessary to your integration using attributes.
+## Add product attributes
+After you have added products to Stock2Shop, you can enrich them by adding any other additional product information that is necessary to your integration using attributes.
 There are two ways in which you can manually add product attributes. To add attributes one at a time:
 
 1. From your Stock2Shop console, go to Products > View.
@@ -64,14 +64,19 @@ Now that you have created your product attribute template, you can start adding 
 
 ---
 
-## Editing and updating products
-- On the Stock2shop console Navigate to products > view > edit
-- Talk about things we can edit on products > Genereal
-- Talk about editing price lists and warehouses under variants
+## Edit a product
+After you have added products, you can edit them to change their titles, descriptions, categorisations, prices, warehouses and any other product details.
+To edit or update a product on your Stock2Shop console:
+
+1. From your Stock2Shop console, go to Products > View.
+2. Search for the product you would like to edit.
+3. Click on the three vertical dots and click edit.
+4. Modify the [product](/help/guides/product/ "Understanding products in Stock2Shop") and [variant](/ "Understanding variants in Stock2Shop") details.
+5. Click Save.
 
 ---
 
-## Importing products
+## Import products
 Importing of products can be used to bulk add products to your Stock2Shop console and or update and further enrich existing products.
 To add new products to your Stock2Shop console:
 
@@ -84,9 +89,9 @@ To add new products to your Stock2Shop console:
 
 To update and or enrich existing products on your Stock2Shop console:
 
-1. First export (link to export) your products on Stock2Shop
+1. Export (link to export) your products on Stock2Shop.
 2. Update this export with any enrichment information.
-3. Save as a .CSV file
+3. Save as a CSV file
 4. From your Stock2Shop console, go to Products > Import.
 5. Select the source you will be importing against. 
 
@@ -94,46 +99,98 @@ Example import sheet attached [here](https://docs.google.com/spreadsheets/d/1ouY
 
 ---
 
-## Exporting products
-1. On the Stock2shop console Navigate to products > export
-2. Select the fields you wish to export
-3. Select whether you want to export all product from source or only some that are linked to a certain channel
+## Export products
+You can export your products to a CSV file where you will be able to edit and or update.
+
+1. From your Stock2Shop console, go to Products > Export.
+2. Select the fields you wish to export.
+3. Select if you would like to select all products from a source or only products linked to a certain channel.
+4. Click Export Products.
+5. click Click here to download export file.
 
 ---
 
-## Working with product images
+## Add product images
+You can manually add an image or images to a product or bulk import images.
+
+To manually add an image to a product:
+
+1. From your Stock2Shop console, go to Products > View.
+2. Search for the product you would like to add an image or images to.
+3. Click on the three vertical dots and click edit.
+4. Click on the Attributes tab.
+5. Click Select a file.
+6. Click Upload Image.
+
+To bulk import multiple images for multiple products:
+
+1. From your Stock2Shop console, go to Products > Import Images.
+2. Select the [source](/help/guides/source "What is a Stock2Shop source").
+3. Select the filed to be used as the identifier.
+4. Click Select Files.
+5. Click Upload All.
+
+Note: ensure that your image names are identical to the identifier field, else your import may not work.
+
+1. using find and replace to remove text from image name.
+
+```
 - Manually add product images
 - Image size and aspect ratio (nothing > 2mb)
 - Image file types that are accepted
 - Bulk import product images
 - Bulk import multiple
+```
 
 ---
 
-## Deleting products 
-- Manual deletion
-- Bulk deletion viq the product import
+## Delete products
+You can manually delete a single product or delete multiple products using the product import feature.
 
-source_product_code
-source_variant_code
-active = false
-
----
-
-## View sales channel(s) linked to product
-In order to confirm which products are linked to your sales channel(s).
+To manually delete a single product:
 
 1. From your Stock2Shop console, go to Products > View.
-2. Search for the product you would like 
+2. Search for the product you would like to delete.
+3. Click on the three vertical dots and click edit.
+4. On the General tab click Delete.
+5. Select OK.
+
+To delete multiple products:
+
+1. Export (link to export) your products on Stock2Shop.
+2. Open the export in a spreadsheet application (Google Sheets / Microsoft Excel).
+3. Remove any products from the spreadsheet that you do not want to delete.
+4. Keep the following columns:
+    - source_product_code
+    - source_variant_code
+    - active
+5. Set the active filed on all products to FALSE.
+6. Save the file on your computer.
+7. Import the file into Stock2Shop.
+
+By setting the active field as false, you will bulk delete these products.
+
+---
+
+## View product linked to sales channel(s)
+To confirm if a product is linked to a channel or multiple channels.
+
+1. From your Stock2Shop console, go to Products > View.
+2. Search for the product.
 3. Click on the three vertical dots and click edit.
 4. Click on the Channels tab.
 
+The corresponding channel product code and channel variant code will be present if the product is linked. 
+If there is no channel product code and or channel variant code the product is not linked to the channel.
 
 ---
 
 ## View product audit trail
-The product audit lets you view all activity relating to a product over the last 30 days.
+To view the last 30 days activity of your you product, you can use the product audit feature.
 
-- On the Stock2shop console Navigate to products > product > audit
+1. From your Stock2Shop console, go to Products > View.
+2. Search for the product you would like to audit.
+3. Click on the three vertical dots and click edit.
+4. Click on the Audit tab.
 
 ---
