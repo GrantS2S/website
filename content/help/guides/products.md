@@ -76,7 +76,7 @@ To edit or update a product on your Stock2Shop console:
 
 ---
 
-## Import products
+## Import products {#import-products}
 Importing of products can be used to bulk add products to your Stock2Shop console and or update and further enrich existing products.
 To add new products to your Stock2Shop console:
 
@@ -89,18 +89,16 @@ To add new products to your Stock2Shop console:
 
 To update and or enrich existing products on your Stock2Shop console:
 
-1. Export (link to export) your products on Stock2Shop.
-2. Update this export with any enrichment information.
+1. [Export](#export-products) your products on Stock2Shop.
+2. Update this export with the enrichment information.
 3. Save as a CSV file
 4. From your Stock2Shop console, go to Products > Import.
 5. Select the source you will be importing against. 
 
-Example import sheet attached [here](https://docs.google.com/spreadsheets/d/1ouYrwVcM--PuWzbQjCtiauB_FdGEGKSlWI9slJ18WAA/edit#gid=0 "Example product import template")
-
 ---
 
-## Export products
-You can export your products to a CSV file where you will be able to edit and or update.
+## Export products {#export-products}
+You can export your products to a CSV file where you will be able to work with the data outside of Stock2Shop.
 
 1. From your Stock2Shop console, go to Products > Export.
 2. Select the fields you wish to export.
@@ -122,25 +120,16 @@ To manually add an image to a product:
 5. Click Select a file.
 6. Click Upload Image.
 
-To bulk import multiple images for multiple products:
+To bulk import multiple images for multiple products you need to ensure that your image file name matches up to a product field on Stock2Shop:
 
 1. From your Stock2Shop console, go to Products > Import Images.
 2. Select the [source](/help/guides/source "What is a Stock2Shop source").
-3. Select the filed to be used as the identifier.
+3. Select the product field to be used as the identifier.
 4. Click Select Files.
-5. Click Upload All.
+5. Use find and replace to remove any additional file naming convention that does not match the product field being used as the identifier.
+6. Click Upload All.
 
-Note: ensure that your image names are identical to the identifier field, else your import may not work.
-
-1. using find and replace to remove text from image name.
-
-```
-- Manually add product images
-- Image size and aspect ratio (nothing > 2mb)
-- Image file types that are accepted
-- Bulk import product images
-- Bulk import multiple
-```
+Note: ensure that your image names are identical to the identifier field in Stock2Shop, else your import may not work.
 
 ---
 
@@ -157,7 +146,7 @@ To manually delete a single product:
 
 To delete multiple products:
 
-1. Export (link to export) your products on Stock2Shop.
+1. [Export]((#export-products)) your products on Stock2Shop.
 2. Open the export in a spreadsheet application (Google Sheets / Microsoft Excel).
 3. Remove any products from the spreadsheet that you do not want to delete.
 4. Keep the following columns:
@@ -166,7 +155,7 @@ To delete multiple products:
     - active
 5. Set the active filed on all products to FALSE.
 6. Save the file on your computer.
-7. Import the file into Stock2Shop.
+7. [Import](#import-products) the file into Stock2Shop.
 
 By setting the active field as false, you will bulk delete these products.
 
