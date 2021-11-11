@@ -173,7 +173,7 @@ By setting the active field as false, you will bulk delete these products.
 ---
 
 ## View product linked to sales channel(s)
-To confirm if a product is linked to a channel or multiple channels.
+To confirm if a product is linked to a sales channel or multiple sales channels.
 
 1. From your Stock2Shop console, go to Products > View.
 2. Search for the product.

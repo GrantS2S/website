@@ -8,6 +8,8 @@ source: "sap-business-one"
 channel: "shopify"
 image: "/images/sap-shopify.png"
 imageAlt: shopify logo
+sourceImage: "/images/combination-connector-logos/sap-business-one.jpg"
+channelImage: "/images/combination-connector-logos/shopify.jpg"
 tags: []
 aliases:
     - /integrations/sap-shopify/
