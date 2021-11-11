@@ -149,11 +149,11 @@ To delete multiple products:
 1. [Export]((#export-products)) your products on Stock2Shop.
 2. Open the export in a spreadsheet application (Google Sheets / Microsoft Excel).
 3. Remove any products from the spreadsheet that you do not want to delete.
-4. Keep the following columns:
+4. Keep the following fields:
     - source_product_code
     - source_variant_code
     - active
-5. Set the active filed on all products to FALSE.
+5. Set the active field on all products to FALSE.
 6. Save the file on your computer.
 7. [Import](#import-products) the file into Stock2Shop.
 
