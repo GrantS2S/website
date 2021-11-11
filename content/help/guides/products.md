@@ -1,7 +1,7 @@
 ---
 title: "Products"
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Stock2Shop Product walk through."
+seoDescription: "Guide to working with your product data in the Stock2Shop console."
 seoKeyword: [""]
 type: guides
 tags: ["console"]
@@ -91,7 +91,7 @@ To update and or enrich existing products on your Stock2Shop console:
 
 1. [Export](#export-products) your products on Stock2Shop.
 2. Update this export with the enrichment information.
-3. Save as a CSV file
+3. Save as a CSV file.
 4. From your Stock2Shop console, go to Products > Import.
 5. Select the source you will be importing against. 
 
