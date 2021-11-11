@@ -1,13 +1,13 @@
 ---
 title: "Instruction: add_order. Message: apifact/Proxy JSON Error: Syntax error, malformed JSON"
-issue: "Evolution: add_order: Syntax Error: Syntax error, malformed JSON"
+issue: "Evolution: add_order: Syntax error, malformed JSON"
 type: "solution"
-seoTitle: "add_order: Syntax Error: Syntax error, malformed JSON"
+seoTitle: "add_order: Syntax error, malformed JSON"
 seoDescription: "Evolution is replying to our add_order instruction with an unknown / unexpected response."
 source: "sage-200-evolution"
 channel: ""
 fulfillment: ""
-process: "order"
+process: "orders"
 headless: true
 ---
 

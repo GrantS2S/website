@@ -1,6 +1,6 @@
 ---
 title: "Unknown SSL protocol error in connection to {Woo-commerce domain}"
-issue: "WooCommerce: Failed to create variant"
+issue: "WooCommerce: SSL protocol error in connection"
 type: "solution"
 seoTitle: "Unknown SSL protocol error in connection"
 seoDescription: "The Woo-commerce website SLL is not replying correctly."
