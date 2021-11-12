@@ -88,6 +88,25 @@
 
             <div class='accordion {{ if in .Params.tags "console" }}is-active{{ end }}'>
                 <div class="accordion__head">
+                    <h4>B2B Trade Store</h4>
+                </div><!-- /.accordion__head -->
+
+                <div class="accordion__body" {{ if in .Params.tags "b2b" }}style="display:block;"{{ end }}>
+                <ul>
+                    {{ range where .Site.Pages "Params.tags" "intersect" (slice "b2b") }}
+                    {{ $url := index (last 1 (split (delimit (split .Page.Permalink "/") "," "") ",")) 0 }}
+                    <li>
+                        <a href="{{ .Permalink }}"
+                           title="{{ .Params.seoTitle }}"
+                           class="{{ if eq $curURL $url }}is-active{{ end }}">{{ .Title }} <i class="ico-arrow-right-dark"></i> <i class="ico-arrow-right"></i></a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div><!-- /.accordion__body -->
+            </div><!-- /.accordion -->
+
+            <div class='accordion {{ if in .Params.tags "console" }}is-active{{ end }}'>
+                <div class="accordion__head">
                     <h4>Console</h4>
                 </div><!-- /.accordion__head -->
 
