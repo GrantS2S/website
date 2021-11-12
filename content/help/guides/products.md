@@ -9,10 +9,50 @@ aliases:
     - 
 ---
 
-You can add and update information about your products directly on your Stock2Shop console. 
+You can view, add and update information about your products directly on your Stock2Shop console. 
 If you need to add additional or custom information to your products this can be achieved by adding product attributes.
 
-## Add a product
+- [View Products](#view-products) 
+- [Add a product](#add-product) 
+- [Add product attributes](#add-attributes) 
+- [Edit a product](#edit-product) 
+- [Import products](#import-products) 
+- [Export products](#export-products) 
+- [Add product images](#add-images) 
+- [Delete products](#delete-products) 
+- [View product linked to sales channel(s)](#view-sales-channels) 
+- [View product audit trail](#view-audit) 
+
+## View products {#view-products}
+Once you have product data in Stock2Shop there are a few ways in which you can view, search and filter for products.
+
+To simply view a list of your products:
+
+1. From your Stock2Shop console, go to Products > View.
+2. You can then sort your products by date, sku or title.
+3. You can also set the number of products to display per page, either 10, 20 or 50.
+
+To search for a specific product:
+
+1. From your Stock2Shop console, go to Products > View.
+2. Add the product code, sku or title to the search bar.
+3. Suggested search results will appear that you can then click on.
+
+To filter for a specific product or products:
+
+1. From your Stock2Shop console, go to Products > View.
+2. Click Filters.
+3. Apply filters based on Products:
+    - Linked to a certain channel.
+    - Missing any information.
+    - Added to a certain collection.
+    - Of a certain type.
+    - Belonging to a certain vendor.
+    - Any additional attribute information.
+    
+---
+
+## Add a product {#add-product}
 To add a product manually via your Stock2Shop console:
 
 1. From your Stock2Shop console, go to Products > Add.
@@ -26,7 +66,7 @@ To add a product manually via your Stock2Shop console:
 4. Click Save.
 ---
 
-## Add product attributes
+## Add product attributes {#add-attributes}
 After you have added products to Stock2Shop, you can enrich them by adding any other additional product information that is necessary to your integration using attributes.
 There are two ways in which you can manually add product attributes. To add attributes one at a time:
 
@@ -64,7 +104,7 @@ Now that you have created your product attribute template, you can start adding 
 
 ---
 
-## Edit a product
+## Edit a product {#edit-product}
 After you have added products, you can edit them to change their titles, descriptions, categorisations, prices, warehouses and any other product details.
 To edit or update a product on your Stock2Shop console:
 
@@ -104,11 +144,11 @@ You can export your products to a CSV file where you will be able to work with t
 2. Select the fields you wish to export.
 3. Select if you would like to select all products from a source or only products linked to a certain channel.
 4. Click Export Products.
-5. click Click here to download export file.
+5. Click Click here to download export file.
 
 ---
 
-## Add product images
+## Add product images {#add-images}
 You can manually add an image or images to a product or bulk import images.
 
 To manually add an image to a product:
@@ -133,7 +173,7 @@ Note: ensure that your image names are identical to the identifier field in Stoc
 
 ---
 
-## Delete products
+## Delete products {#delete-products}
 You can manually delete a single product or delete multiple products using the product import feature.
 
 To manually delete a single product:
@@ -154,14 +194,14 @@ To delete multiple products:
     - source_variant_code
     - active
 5. Set the active field on all products to FALSE.
-6. Save the file on your computer.
+6. Save the file in CSV format on your computer.
 7. [Import](#import-products) the file into Stock2Shop.
 
 By setting the active field as false, you will bulk delete these products.
 
 ---
 
-## View product linked to sales channel(s)
+## View product linked to sales channel(s) {#view-sales-channels}
 To confirm if a product is linked to a sales channel or multiple sales channels.
 
 1. From your Stock2Shop console, go to Products > View.
@@ -174,7 +214,7 @@ If there is no channel product code and or channel variant code the product is n
 
 ---
 
-## View product audit trail
+## View product audit trail {#view-audit}
 To view the last 30 days activity of your you product, you can use the product audit feature.
 
 1. From your Stock2Shop console, go to Products > View.
