@@ -5,8 +5,11 @@ seoDescription: ""
 lead: "Example of how to use Markdown"
 image: ""
 imageAlt: ""
+type: "markdown-example"
 draft: false
 ---
+
+# Example Vanilla Bootstrap styles
 
 # H1 Heading 1
 
