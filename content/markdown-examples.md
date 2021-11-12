@@ -5,7 +5,7 @@ seoDescription: ""
 lead: "Example of how to use Markdown"
 image: ""
 imageAlt: ""
-draft: true
+draft: false
 ---
 
 # H1
