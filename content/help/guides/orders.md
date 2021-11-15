@@ -83,7 +83,6 @@ customer_email
 
 ---
 
-
 ## Fetch order {#fetch-order}
 You can fetch orders from your source (ERP / Accounting System) and add it to Stock2Shop. This will only retrieve the order header information and not the order line item information.
 
@@ -122,7 +121,7 @@ You can manually send your order to your source from the Stock2Shop console.
 1. From your Stock2Shop console, go to Orders > View.
 2. Search for the order you would like to send.
 3. Click on the three vertical dots and click edit.
-4. Click Send
+4. Click Send.
 
 ---
 
