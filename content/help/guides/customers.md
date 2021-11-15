@@ -9,7 +9,8 @@ aliases:
     - 
 ---
 
-You can view, edit, reset and export information about your orders directly on your Stock2Shop console. 
+You can view, add and update information about your customers directly on your Stock2Shop console. 
+If you need to add additional or custom information to your products this can be achieved by adding customer attributes.
 
 - [View customers](#view-customers)
 - [Add customer](add-customer)
