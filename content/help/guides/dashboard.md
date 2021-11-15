@@ -5,6 +5,7 @@ seoDescription: "Guide to working with the dashboard in the Stock2Shop console."
 seoKeyword: [""]
 type: guides
 tags: ["console"]
+draft: false
 aliases:
     - 
 ---

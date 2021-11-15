@@ -4,6 +4,7 @@ seoTitle: "Product Fields in Stock2Shop Integration"
 seoDescription: "Product fields that are used by Stock2Shop for your ERP / Accounting Integration"
 type: guides
 tags: ["product"]
+draft: true
 aliases:
     - 
 ---

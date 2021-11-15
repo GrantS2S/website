@@ -5,6 +5,7 @@ seoDescription: "Instructions on how to use the Stock2Shop Import/Export feature
 seoKeyword: ["Product Importing", "Product Exporting"]
 type: guides
 tags: ["product"]
+draft: ture
 aliases:
     - /documentation/product-data/product-export/
 ---

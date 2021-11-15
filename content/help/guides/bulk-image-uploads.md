@@ -4,6 +4,7 @@ seoTitle: "Managing Bulk Image Uploads"
 seoDescription: "Managing Bulk Image Uploads"
 type: guides
 tags: ["product"]
+draft: true
 aliases:
     - /documentation/product-data/product-images/
 ---

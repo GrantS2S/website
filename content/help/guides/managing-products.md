@@ -4,6 +4,7 @@ seoTitle: "Managing your products with Stock2shop"
 seoDescription: "Understanding how to manage your products with Stock2Shop and your connected systems"
 type: guides
 tags: ["product"]
+draft: true
 aliases:
     - 
 ---

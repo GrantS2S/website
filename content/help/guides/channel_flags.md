@@ -4,6 +4,7 @@ seoTitle: "Understanding Stock2Shop sales channel flags"
 seoDescription: "Understanding Stock2Shop sales channel flags"
 type: guides
 tags: ["channel"]
+draft: true
 aliases:
     - /documentation/key-concepts/flags/
 ---

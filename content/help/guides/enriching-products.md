@@ -4,6 +4,7 @@ seoTitle: "Enrich Products with Stock2Shop"
 seoDescription: "Enriching your Product data with your Stock2Shop integration"
 type: guides
 tags: ["product"]
+draft: true
 aliases:
     - 
 ---

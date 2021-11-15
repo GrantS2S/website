@@ -4,6 +4,7 @@ seoTitle: "Bulk ordering on the Stock2Shop B2B Trade Store"
 seoDescription: "The S2S B2B Trade Store gives you the ability to bulk import orders via CSV (Comma-separated values)."
 type: guides
 tags: ["order"]
+draft: true
 aliases:
     - 
 ---

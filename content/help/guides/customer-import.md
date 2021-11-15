@@ -4,6 +4,7 @@ seoTitle: "Importing Customers into Stock2Shop"
 seoDescription: "Instructions on how to use the Stock2Shop to import customers."
 type: guides
 tags: ["customer"]
+draft: true
 aliases:
     - 
 ---

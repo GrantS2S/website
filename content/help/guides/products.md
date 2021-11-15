@@ -5,6 +5,7 @@ seoDescription: "Guide to working with your product data in the Stock2Shop conso
 seoKeyword: [""]
 type: guides
 tags: ["console"]
+draft: false
 aliases:
     - 
 ---

@@ -5,6 +5,7 @@ seoDescription: "Manage which users have access to your Stock2Shop Console as we
 type: guides
 draft: true
 tags: [""]
+draft: true
 aliases:
     - /documentation/getting-started/manage-users/
 ---

@@ -4,6 +4,7 @@ seoTitle: "Understanding Stock2Shop sales channel rules"
 seoDescription: "Understanding Stock2Shop sales channel rules"
 type: guides
 tags: ["channel"]
+draft: true
 aliases:
     - 
 ---
