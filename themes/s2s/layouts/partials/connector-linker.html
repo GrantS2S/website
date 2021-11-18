@@ -11,7 +11,7 @@
                                 <option>Select your ERP</option>
                                 {{ $q1 := where .Site.Pages "Type" "source" }}
                                 {{ range $q1.ByParam "Title" }}
-                                <option value="{{ .Params.source }}" title="{{ .Title }}">{{ .Title }}</option>
+                                <option value="{{ .Params.source }}">{{ .Title }}</option>
                                 {{ end }}
                             </select>
                         </div><!-- /.select -->
@@ -27,7 +27,7 @@
                                 <option>Select Your Website</option>
                                 {{ $q1 := where .Site.Pages "Type" "channel" }}
                                 {{ range $q1.ByParam "Title" }}
-                                <option value="{{ .Params.channel }}" title="{{ .Title }}">{{ .Title }}</option>
+                                <option value="{{ .Params.channel }}">{{ .Title }}</option>
                                 {{ end }}
                             </select>
                         </div><!-- /.select -->
