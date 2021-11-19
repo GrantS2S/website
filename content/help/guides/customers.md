@@ -18,7 +18,7 @@ If you need to add additional or custom information to your products this can be
 - [Add customer attributes](#add-attributes) 
 - [Add segment](#add-segment)
 - [Edit a customer](#edit-customer)
-- [Import customers](import-customer)
+- [Import customers](#import-customers)
 - [Agent B2B login](#agent-login)
 
 ## View customers {#view-customers}
@@ -110,7 +110,7 @@ After you have added customers, you can edit them to change their titles, descri
 
 ---
 
-## Import customers {#import-customer}
+## Import customers {#import-customers}
 Importing of customers can be used to bulk add customers to your Stock2Shop console. To add new customers to your Stock2Shop console:
 
 Preparing the customer data to import into Stock2Shop:

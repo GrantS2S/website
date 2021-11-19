@@ -55,7 +55,7 @@ the minimum required fields are:
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from IQ Retail to Stock2Shop. 
 At this point in time there are no plans to build out this functionality. 
-If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/guides/customer-import/ "Manually import customers into Stock2Shop").
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/guides/customers/ "Manually import customers into Stock2Shop").
 
 ## Syncing Orders to IQ Retail {#raise-orders}
 By default, Stock2Shop raises orders to IQ Retail with the following order details:
