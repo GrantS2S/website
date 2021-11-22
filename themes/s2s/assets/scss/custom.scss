@@ -13,6 +13,11 @@ $small-desktop : 1199px;
 $tablet        : 1023px;
 $mobile        : 767px;
 
+$bs-body-font-size : 1rem;
+$bs-body-font-weight : 400;
+$bs-body-line-height : 1.5;
+$bs-body-color : #212529;
+
 /* ------------------------------------------------------------ *\
 	Components
 \* ------------------------------------------------------------ */
@@ -6962,5 +6967,152 @@ ul {
 		.slick-arrow {
 			display: none !important; 
 		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Inner Markdown
+\* ------------------------------------------------------------ */
+
+.inner_markdown {
+	font-size: $bs-body-font-size; 
+	font-weight: $bs-body-font-weight; 
+	line-height: $bs-body-line-height; 
+	color: $bs-body-color; 
+
+	.h1, 
+	.h2, 
+	.h3, 
+	.h4, 
+	.h5, 
+	.h6, 
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6 {
+	    margin-top: 0;
+	    margin-bottom: 0.5rem;
+	    font-weight: 500;
+	    line-height: 1.2;
+	}
+
+
+	.h1, 
+	h1 {
+	    font-size: calc(1.375rem + 1.5vw);
+
+		@media(min-width: 1200px){
+			font-size: 2.5rem;
+		}
+	}
+
+	.h2,
+	h2 {
+		font-size: calc(1.325rem + .9vw);
+
+		@media(min-width: 1200px){
+			font-size: 2rem;
+		}
+	}
+
+	.h3,
+	h3 {
+		font-size: calc(1.3rem + .6vw);
+
+		@media(min-width: 1200px){
+			font-size: 1.75rem;
+		}
+	}
+
+	.h4,
+	h4 {
+		font-size: calc(1.275rem + .3vw);
+
+		@media(min-width: 1200px){
+			font-size: 1.5rem;
+		}
+	}
+
+	p {
+		margin-top: 0; 
+		margin-bottom: 1rem; 
+	}
+
+	blockquote {
+		margin: 0 0 1rem; 
+	}
+
+	dl, 
+	ol, 
+	ul {
+	    margin-top: 0;
+	    margin-bottom: 1rem;
+	}
+
+	ol, 
+	ul {
+	    padding-left: 2rem;
+	}
+
+	dt {
+	    font-weight: 700;
+	}
+
+	dd {
+	    margin-bottom: 0.5rem;
+	    margin-left: 0;
+	}
+
+	code, 
+	kbd, 
+	pre, 
+	samp {
+	    font-size: 1em;
+	    direction: ltr;
+	    unicode-bidi: bidi-override;
+	}
+
+	pre {
+	    display: block;
+	    margin-top: 0;
+	    margin-bottom: 1rem;
+	    overflow: auto;
+	    font-size: .875em;
+
+	    code {
+	    	font-size: inherit;
+	    	color: inherit;
+	    	word-break: normal;
+	    }
+	}
+
+	table {
+	    caption-side: bottom;
+	    border-collapse: collapse;
+	}
+
+	tbody, 
+	td, 
+	tfoot, 
+	th, 
+	thead, 
+	tr {
+	    border-color: inherit;
+	    border-style: solid;
+	    border-width: 0;
+	}
+
+	hr {
+	    margin: 1rem 0;
+	    color: inherit;
+	    background-color: currentColor;
+	    border: 0;
+	    opacity: .25;
+	}
+
+	hr:not([size]) {
+	    height: 1px;
 	}
 }
