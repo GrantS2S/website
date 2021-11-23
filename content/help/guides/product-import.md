@@ -2,7 +2,6 @@
 title: "Importing and Exporting Product Data"
 seoTitle: "Importing and Exporting Product Data with Stock2Shop"
 seoDescription: "Instructions on how to use the Stock2Shop Import/Export features for Product data."
-seoKeyword: ["Product Importing", "Product Exporting"]
 type: guides
 tags: ["product"]
 draft: ture

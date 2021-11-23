@@ -2,7 +2,6 @@
 title: "Orders"
 seoTitle: "Stock2Shop Orders walk through."
 seoDescription: "Guide to working with orders in the Stock2Shop console."
-seoKeyword: [""]
 type: guides
 tags: ["console"]
 draft: false

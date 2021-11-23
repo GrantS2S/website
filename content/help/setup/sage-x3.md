@@ -6,8 +6,6 @@ type: setup
 source: "sage-x3"
 channel: ""
 fulfillment: ""
-aliases:
-    - 
 ---
 
 ## Sage X3

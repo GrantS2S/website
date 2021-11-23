@@ -2,7 +2,6 @@
 title: "Queue"
 seoTitle: ""
 seoDescription: ""
-seoKeyword: [""]
 type: guides
 tags: ["key-concept"]
 draft: false

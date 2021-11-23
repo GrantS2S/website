@@ -6,8 +6,6 @@ type: setup
 source: ""
 channel: "b2b-trade-store"
 fulfillment: ""
-aliases:
-    - 
 ---
 
 ## B2B Trade Store

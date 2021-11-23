@@ -2,7 +2,6 @@
 title: "Settings"
 seoTitle: "Stock2Shop Settings walk through."
 seoDescription: "Guide to working with settings in the Stock2Shop console."
-seoKeyword: ["Console Settings"]
 type: guides
 tags: ["console"]
 draft: false

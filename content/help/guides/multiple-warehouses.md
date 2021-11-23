@@ -2,7 +2,6 @@
 title: "Understanding multiple warehouses"
 seoTitle: "Understanding multiple warehouses"
 seoDescription: "If your accounting or ERP system has multiple warehouse functionality, the Stock2Shop integration can handle the concept in a variety of ways. Let us help you tailor the perfect solution for your business. Find out more!"
-seoKeyword: ["Multiple Warehouses"]
 type: guides
 source: ""
 tags: ["product"]

@@ -2,7 +2,6 @@
 title: "Dashboard"
 seoTitle: "Stock2Shop console dashboard walk through."
 seoDescription: "Guide to working with the dashboard in the Stock2Shop console."
-seoKeyword: [""]
 type: guides
 tags: ["console"]
 draft: false

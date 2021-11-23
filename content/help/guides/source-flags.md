@@ -2,7 +2,6 @@
 title: "Source Flags"
 seoTitle: "Understanding the concept of Source Flags"
 seoDescription: "Understanding the concept of Source Flags"
-seoKeyword: ["Source Flags"]
 type: guides
 tags: ["source"]
 draft: true

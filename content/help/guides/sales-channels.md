@@ -2,7 +2,6 @@
 title: "Sales Channels"
 seoTitle: "Stock2Shop sales channels"
 seoDescription: "Stock2Shop sales channels"
-seoKeyword: ["Sales Channels"]
 type: guides
 tags: ["channel"]
 draft: true

@@ -2,7 +2,6 @@
 title: "Segments"
 seoTitle: "Managing Bulk Image Uploads"
 seoDescription: "Managing Bulk Image Uploads"
-seoKeyword: ["Bulk Image Uploads"]
 type: guides
 source: ""
 tags: ["key-concept"]
@@ -10,6 +9,8 @@ draft: false
 aliases:
     - 
 ---
+
+[example link](/url/ "This is a tile for a link")
 
 The segments feature gives Stock2Shop clients the ability to create filters (rules) for console users as well as B2B Trade Store customers.
 As the client you will be able to determine which customers your sales reps have access to on your console. 

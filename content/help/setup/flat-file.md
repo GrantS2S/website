@@ -6,8 +6,6 @@ type: setup
 source: "flat-file"
 channel: ""
 fulfillment: ""
-aliases:
-    - 
 ---
 
 ## Flat File

@@ -2,7 +2,6 @@
 title: "Linked Sources"
 seoTitle: "Understanding the concept of Linked sources"
 seoDescription: "Understanding the concept of Linked sources"
-seoKeyword: ["Linked Sources"]
 type: guides
 tags: ["source"]
 draft: true

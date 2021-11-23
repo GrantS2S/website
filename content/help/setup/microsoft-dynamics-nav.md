@@ -6,8 +6,6 @@ type: setup
 source: "microsoft-dynamics-nav"
 channel: ""
 fulfillment: ""
-aliases:
-    - 
 ---
 
 ## Microsoft Dynamics NAV

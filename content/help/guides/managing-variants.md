@@ -2,7 +2,6 @@
 title: "Managing Variants"
 seoTitle: "Managing variants with Stock2shop"
 seoDescription: "Understanding how to manage your variants with Stock2Shop and your connected systems"
-seoKeyword: ["Managing Variants"]
 type: guides
 tags: ["product"]
 draft: true

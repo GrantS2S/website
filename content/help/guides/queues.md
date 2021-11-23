@@ -2,7 +2,6 @@
 title: "Queues"
 seoTitle: "Stock2Shop queue walk through."
 seoDescription: "Guide to working with queues in the Stock2Shop console."
-seoKeyword: [""]
 type: guides
 tags: ["console"]
 draft: false

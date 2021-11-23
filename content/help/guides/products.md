@@ -2,7 +2,6 @@
 title: "Products"
 seoTitle: "Stock2Shop Product walk through."
 seoDescription: "Guide to working with your product data in the Stock2Shop console."
-seoKeyword: [""]
 type: guides
 tags: ["console"]
 draft: false

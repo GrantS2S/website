@@ -6,8 +6,6 @@ type: setup
 source: ""
 channel: "takealot"
 fulfillment: ""
-aliases:
-    - 
 ---
 
 ## Takealot
