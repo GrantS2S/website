@@ -12,7 +12,13 @@ aliases:
 The queue is the backbone of Stock2Shop. The key function of the queue is to help transfer data between your various applications. 
 It connects your ERP / Accounting System (otherwise know as your source) and your ecommerce platform (your sales channel).
 
-## What is the Queue? 
+- [What is the Queue?](#what-are-flags)
+- [Blocking vs Non-blocking queues](#blocking-vs-non-blocking)
+- [Blocking queue items](#blocking-queue-items)
+- [Non-blocking queue items](#non-blocking-queue-items)
+
+
+## What is the Queue? {#what-is-the-queue}
 The queue is simply a list of instructions for the Stock2Shop system to perform. 
 Each instruction is called a “queue item” and can perform very different tasks, such as:
 
@@ -23,12 +29,12 @@ Each instruction is called a “queue item” and can perform very different tas
 
 ---
 
-## Blocking vs Non-blocking queues
+## Blocking vs Non-blocking queues {#blocking-vs-non-blocking}
 Stock2Shop has two different queue types: “blocking” and “non-blocking”. 
 Queue items that may depend on other queue items having successfully run are placed in the “blocking” queue. 
 Queue items that have no dependencies on other queue items will be placed in the “non-blocking” queue.
 
-### Blocking queue items
+### Blocking queue items {#blocking-queue-items}
 The blocking queue follows the principle of “first in first out”. If there is a failure on one of the queue items, the queue will be blocked (stopped). 
 The queue will remain stopped until the issue has been resolved and the queue can be started again. 
 
@@ -40,7 +46,7 @@ This can all be done on the Stock2Shop web console, which you will have access t
 - Add, edit or delete a product / image on Stock2Shop
 - Fetch images from a source
 
-### Non-blocking queue items
+### Non-blocking queue items {#non-blocking-queue-items}
 The non-blocking queue consists of queue items that will not stop future queue items from running if they fail. 
 When a non-blocking queue item fails, you will receive a notification via email which will contain information about why the queue item failed. You will then need to resolve the issue, whatever that may be. 
 Once you have resolved the issue, you can login to our web console and try the queue item again or skip it. A list of non-blocking queue items are:
