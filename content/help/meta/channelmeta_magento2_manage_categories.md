@@ -10,4 +10,5 @@ tags: [channelmeta,magento2,magento-2]
 type: "meta"
 process: "products"
 headless: true
+draft: false
 ---
