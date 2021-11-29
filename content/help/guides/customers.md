@@ -17,6 +17,7 @@ If you need to add additional or custom information to your products this can be
 - [Add customer attributes](#add-attributes) 
 - [Add segment](#add-segment)
 - [Edit a customer](#edit-customer)
+- [Export customers](#export-customers)
 - [Import customers](#import-customers)
 - [Agent B2B login](#agent-login)
 
@@ -106,6 +107,17 @@ After you have added customers, you can edit them to change their titles, descri
 4. Modify the [customer](/help/guides/customer/ "Understanding customers in Stock2Shop") details.
 5. Click Save.
 
+
+---
+
+## Export customers {#export-customers}
+You can export your customers to a CSV file where you will be able to work with the data outside of Stock2Shop.
+
+1. From your Stock2Shop console, go to Customers > Export.
+2. Select which channel customers you are wanting to export.
+3. Click Export Customers.
+
+Note, You can use the csv export format to import customers back into Stock2Shop.
 
 ---
 
